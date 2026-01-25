@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "sessionId": "4887eda7-ddcf-4d15-8e8e-12deaf7b5f2f",
+      "fullPath": "/home/gastown/gt/.claude/projects/-home-gastown-gt-Conducktor-rig/4887eda7-ddcf-4d15-8e8e-12deaf7b5f2f.jsonl",
+      "fileMtime": 1769299816213,
+      "firstPrompt": "📬 You have new mail from Conducktor_rig/witness. Subject: HEALTH_CHECK_RESPONSE: Witness OK. Run 'gt mail inbox' to read.",
+      "summary": "Witness Health Check Response Notification",
+      "messageCount": 2,
+      "created": "2026-01-24T20:56:44.787Z",
+      "modified": "2026-01-24T20:56:50.763Z",
+      "gitBranch": "",
+      "projectPath": "/home/gastown/gt/Conducktor_rig",
+      "isSidechain": false
+    },
+    {
+      "sessionId": "f0eede26-a89f-4832-b74d-06b124c3bf07",
+      "fullPath": "/home/gastown/gt/.claude/projects/-home-gastown-gt-Conducktor-rig/f0eede26-a89f-4832-b74d-06b124c3bf07.jsonl",
+      "fileMtime": 1769300203033,
+      "firstPrompt": "📬 You have new mail from Conducktor_rig/witness. Subject: HEALTH_CHECK_RESPONSE: Witness OK. Run 'gt mail inbox' to read.",
+      "summary": "Gas Town CLI health check diagnosis and fixes",
+      "messageCount": 8,
+      "created": "2026-01-25T00:10:15.755Z",
+      "modified": "2026-01-25T00:14:27.359Z",
+      "gitBranch": "",
+      "projectPath": "/home/gastown/gt/Conducktor_rig",
+      "isSidechain": false
+    },
+    {
+      "sessionId": "2aad0149-977a-4949-b815-4f358792e04f",
+      "fullPath": "/home/gastown/gt/.claude/projects/-home-gastown-gt-Conducktor-rig/2aad0149-977a-4949-b815-4f358792e04f.jsonl",
+      "fileMtime": 1769369047415,
+      "firstPrompt": "gt mayor start",
+      "summary": "GT Mayor Startup and Diagnostics",
+      "messageCount": 11,
+      "created": "2026-01-25T00:16:42.421Z",
+      "modified": "2026-01-25T00:24:58.278Z",
+      "gitBranch": "",
+      "projectPath": "/home/gastown/gt/Conducktor_rig",
+      "isSidechain": false
+    },
+    {
+      "sessionId": "cd990e02-4c64-4d6a-a89a-147ece51937f",
+      "fullPath": "/home/gastown/gt/.claude/projects/-home-gastown-gt-Conducktor-rig/cd990e02-4c64-4d6a-a89a-147ece51937f.jsonl",
+      "fileMtime": 1769370446326,
+      "firstPrompt": "gt doctor",
+      "summary": "Git repo ownership issue troubleshooting resolved",
+      "messageCount": 27,
+      "created": "2026-01-25T19:24:06.925Z",
+      "modified": "2026-01-25T19:40:13.819Z",
+      "gitBranch": "",
+      "projectPath": "/home/gastown/gt/Conducktor_rig",
+      "isSidechain": false
+    },
+    {
+      "sessionId": "0debb430-d193-4874-b958-d489092460c5",
+      "fullPath": "/home/gastown/gt/.claude/projects/-home-gastown-gt-Conducktor-rig/0debb430-d193-4874-b958-d489092460c5.jsonl",
+      "fileMtime": 1769371370888,
+      "firstPrompt": "gt doctor --fix",
+      "summary": "Initialize git repo and setup remote GitHub",
+      "messageCount": 19,
+      "created": "2026-01-25T19:47:26.036Z",
+      "modified": "2026-01-25T19:59:16.263Z",
+      "gitBranch": "",
+      "projectPath": "/home/gastown/gt/Conducktor_rig",
+      "isSidechain": false
+    },
+    {
+      "sessionId": "869ba7cc-df11-43a0-84fb-2f18a3e96d6d",
+      "fullPath": "/home/gastown/gt/.claude/projects/-home-gastown-gt-Conducktor-rig/869ba7cc-df11-43a0-84fb-2f18a3e96d6d.jsonl",
+      "fileMtime": 1769373765173,
+      "firstPrompt": "gt doctor",
+      "summary": "GT Doctor Command Execution Help",
+      "messageCount": 2,
+      "created": "2026-01-25T20:02:50.340Z",
+      "modified": "2026-01-25T20:03:04.022Z",
+      "gitBranch": "",
+      "projectPath": "/home/gastown/gt/Conducktor_rig",
+      "isSidechain": false
+    }
+  ],
+  "originalPath": "/home/gastown/gt/Conducktor_rig"
+}

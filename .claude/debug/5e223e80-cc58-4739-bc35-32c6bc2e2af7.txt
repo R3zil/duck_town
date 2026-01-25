@@ -1,0 +1,25 @@
+2026-01-23T16:46:29.314Z [DEBUG] [init] configureGlobalMTLS starting
+2026-01-23T16:46:29.315Z [DEBUG] [init] configureGlobalMTLS complete
+2026-01-23T16:46:29.315Z [DEBUG] [init] configureGlobalAgents starting
+2026-01-23T16:46:29.315Z [DEBUG] [init] configureGlobalAgents complete
+2026-01-23T16:46:29.398Z [DEBUG] [render] initYoga starting
+2026-01-23T16:46:29.597Z [DEBUG] [render] initYoga complete
+2026-01-23T16:46:29.603Z [DEBUG] [render] first ink render: 2711ms since process start
+2026-01-23T16:46:29.931Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-01-23T16:46:29.969Z [DEBUG] Total plugin commands loaded: 0
+2026-01-23T16:46:30.167Z [DEBUG] [claudeai-mcp] Checking gate (cached)...
+2026-01-23T16:46:30.182Z [DEBUG] [claudeai-mcp] Gate returned: false
+2026-01-23T16:46:30.183Z [DEBUG] [claudeai-mcp] Disabled via gate
+2026-01-23T16:46:30.183Z [DEBUG] Total plugin agents loaded: 0
+2026-01-23T16:46:30.184Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-01-23T16:46:30.187Z [DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+2026-01-23T16:46:30.187Z [DEBUG] Watching for changes in skill/command directories: /home/gastown/gt/.claude/commands, /home/gastown/.claude/commands...
+2026-01-23T16:46:30.402Z [DEBUG] Remote settings: No settings found (404)
+2026-01-23T16:46:30.402Z [DEBUG] Programmatic settings change notification for policySettings
+2026-01-23T16:46:30.411Z [DEBUG] Settings changed from policySettings, updating AppState
+2026-01-23T16:46:30.430Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/.claude.json.tmp.69230.1769186790430
+2026-01-23T16:46:30.431Z [DEBUG] Preserving file permissions: 100600
+2026-01-23T16:46:30.431Z [DEBUG] Temp file written successfully, size: 3251 bytes
+2026-01-23T16:46:30.431Z [DEBUG] Applied original permissions to temp file
+2026-01-23T16:46:30.431Z [DEBUG] Renaming /home/gastown/gt/.claude/.claude.json.tmp.69230.1769186790430 to /home/gastown/gt/.claude/.claude.json
+2026-01-23T16:46:30.465Z [DEBUG] File /home/gastown/gt/.claude/.claude.json written atomically

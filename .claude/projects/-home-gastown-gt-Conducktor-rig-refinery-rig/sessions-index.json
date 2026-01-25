@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "sessionId": "7b9b350d-35e1-44c2-a178-78db90c036f1",
+      "fullPath": "/home/gastown/gt/.claude/projects/-home-gastown-gt-Conducktor-rig-refinery-rig/7b9b350d-35e1-44c2-a178-78db90c036f1.jsonl",
+      "fileMtime": 1769368594399,
+      "firstPrompt": "[from deacon] HEALTH_CHECK from deacon",
+      "summary": "Claude Code Health Check Status",
+      "messageCount": 2,
+      "created": "2026-01-25T01:54:24.258Z",
+      "modified": "2026-01-25T01:54:28.743Z",
+      "gitBranch": "main",
+      "projectPath": "/home/gastown/gt/Conducktor_rig/refinery/rig",
+      "isSidechain": false
+    },
+    {
+      "sessionId": "abdc0b09-0269-4cdf-a8b3-edd6c74af78f",
+      "fullPath": "/home/gastown/gt/.claude/projects/-home-gastown-gt-Conducktor-rig-refinery-rig/abdc0b09-0269-4cdf-a8b3-edd6c74af78f.jsonl",
+      "fileMtime": 1769370760049,
+      "firstPrompt": "[from deacon] HEALTH_CHECK from deacon",
+      "summary": "System Health Check Verification",
+      "messageCount": 2,
+      "created": "2026-01-25T19:16:34.192Z",
+      "modified": "2026-01-25T19:16:38.121Z",
+      "gitBranch": "main",
+      "projectPath": "/home/gastown/gt/Conducktor_rig/refinery/rig",
+      "isSidechain": false
+    },
+    {
+      "sessionId": "a7ec8fe5-0cd8-44ae-ae41-758db974a660",
+      "fullPath": "/home/gastown/gt/.claude/projects/-home-gastown-gt-Conducktor-rig-refinery-rig/a7ec8fe5-0cd8-44ae-ae41-758db974a660.jsonl",
+      "fileMtime": 1769372076117,
+      "firstPrompt": "[from deacon] HEALTH_CHECK from deacon",
+      "summary": "Claude Code Health Check - System Status Verification",
+      "messageCount": 2,
+      "created": "2026-01-25T19:52:39.616Z",
+      "modified": "2026-01-25T19:52:46.020Z",
+      "gitBranch": "main",
+      "projectPath": "/home/gastown/gt/Conducktor_rig/refinery/rig",
+      "isSidechain": false
+    },
+    {
+      "sessionId": "ed2b5fbc-6df2-4d13-8037-870b635013ec",
+      "fullPath": "/home/gastown/gt/.claude/projects/-home-gastown-gt-Conducktor-rig-refinery-rig/ed2b5fbc-6df2-4d13-8037-870b635013ec.jsonl",
+      "fileMtime": 1769374854242,
+      "firstPrompt": "[from deacon] HEALTH_CHECK from deacon",
+      "summary": "Deacon Health Check System Operational",
+      "messageCount": 2,
+      "created": "2026-01-25T20:14:35.641Z",
+      "modified": "2026-01-25T20:14:41.833Z",
+      "gitBranch": "main",
+      "projectPath": "/home/gastown/gt/Conducktor_rig/refinery/rig",
+      "isSidechain": false
+    }
+  ],
+  "originalPath": "/home/gastown/gt/Conducktor_rig/refinery/rig"
+}

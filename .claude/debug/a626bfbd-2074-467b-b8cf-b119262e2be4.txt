@@ -1,0 +1,85 @@
+2026-01-23T19:40:14.577Z [DEBUG] [init] configureGlobalMTLS starting
+2026-01-23T19:40:14.578Z [DEBUG] [init] configureGlobalMTLS complete
+2026-01-23T19:40:14.578Z [DEBUG] [init] configureGlobalAgents starting
+2026-01-23T19:40:14.578Z [DEBUG] [init] configureGlobalAgents complete
+2026-01-23T19:40:14.694Z [DEBUG] [STARTUP] Loading MCP configs...
+2026-01-23T19:40:14.721Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-23T19:40:14.725Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-23T19:40:14.726Z [DEBUG] [STARTUP] Running setup()...
+2026-01-23T19:40:14.727Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-01-23T19:40:14.732Z [DEBUG] Loading skills from: managed=/etc/claude-code/.claude/skills, user=/home/gastown/gt/.claude/skills, project=[]
+2026-01-23T19:40:14.736Z [ERROR] Error: Error: ENOENT: no such file or directory, scandir '/etc/claude-code/.claude/skills'
+    at Module.readdirSync (node:fs:1507:26)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:9:1766
+    at fX (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:34782)
+    at Object.readdirSync (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:9:1736)
+    at C01 (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:1537:369)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:1537:4279
+    at q (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:6807)
+    at Ih2 (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:4842:4362)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:4842:6961
+    at q (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:6807)
+2026-01-23T19:40:14.736Z [ERROR] Error: Error: ENOENT: no such file or directory, scandir '/home/gastown/gt/.claude/skills'
+    at Module.readdirSync (node:fs:1507:26)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:9:1766
+    at fX (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:34782)
+    at Object.readdirSync (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:9:1736)
+    at C01 (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:1537:369)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:1537:4322
+    at q (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:6807)
+    at Ih2 (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:4842:4362)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:4842:6961
+    at q (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:6807)
+2026-01-23T19:40:14.802Z [DEBUG] Error log sink initialized
+2026-01-23T19:40:14.812Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2026-01-23T19:40:14.812Z [DEBUG] Total plugin skills loaded: 0
+2026-01-23T19:40:14.812Z [DEBUG] Total plugin commands loaded: 0
+2026-01-23T19:40:14.812Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-01-23T19:40:14.912Z [DEBUG] [STARTUP] setup() completed in 186ms
+2026-01-23T19:40:14.912Z [DEBUG] [STARTUP] Loading commands and agents...
+2026-01-23T19:40:15.117Z [DEBUG] Total plugin agents loaded: 0
+2026-01-23T19:40:15.180Z [DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/usr/local/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/x64-linux/rg)
+2026-01-23T19:40:15.273Z [DEBUG] Watching for changes in skill/command directories: /home/gastown/gt/.claude/commands...
+2026-01-23T19:40:15.322Z [DEBUG] [Claude in Chrome] Extension not found in any browser
+2026-01-23T19:40:15.327Z [DEBUG] Loaded 1 unique skills (managed: 0, user: 0, project: 0, legacy commands: 1)
+2026-01-23T19:40:15.328Z [DEBUG] getSkills returning: 1 skill dir commands, 0 plugin skills, 0 bundled skills
+2026-01-23T19:40:15.333Z [DEBUG] [STARTUP] Commands and agents loaded in 421ms
+2026-01-23T19:40:15.333Z [DEBUG] [STARTUP] Running showSetupScreens()...
+2026-01-23T19:40:15.341Z [DEBUG] [render] initYoga starting
+2026-01-23T19:40:15.515Z [DEBUG] Git remote URL: null
+2026-01-23T19:40:15.515Z [DEBUG] No git remote URL found
+2026-01-23T19:40:15.515Z [DEBUG] Not in a GitHub repository, skipping path mapping update
+2026-01-23T19:40:15.562Z [DEBUG] Remote settings: No settings found (404)
+2026-01-23T19:40:15.563Z [DEBUG] Programmatic settings change notification for policySettings
+2026-01-23T19:40:15.563Z [DEBUG] Plugin hooks: reloading due to policySettings change
+2026-01-23T19:40:15.565Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-01-23T19:40:15.568Z [DEBUG] [Perfetto] initializePerfettoTracing called, env value: undefined
+2026-01-23T19:40:15.580Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-01-23T19:40:15.617Z [DEBUG] [render] initYoga complete
+2026-01-23T19:40:15.625Z [DEBUG] [render] first ink render: 6297ms since process start
+2026-01-23T19:40:15.757Z [DEBUG] [keybindings] KeybindingSetup initialized with 87 bindings, 0 warnings
+2026-01-23T19:40:16.491Z [DEBUG] [keybindings] Skipping file watcher - user customization disabled
+2026-01-23T20:40:15.725Z [DEBUG] Remote settings: No settings found (404)
+2026-01-23T21:40:15.872Z [DEBUG] Remote settings: No settings found (404)
+2026-01-23T22:40:15.724Z [DEBUG] Remote settings: No settings found (404)
+2026-01-23T23:40:15.761Z [DEBUG] Remote settings: No settings found (404)
+2026-01-24T00:40:15.753Z [DEBUG] Remote settings: No settings found (404)
+2026-01-24T01:40:15.736Z [DEBUG] Remote settings: No settings found (404)
+2026-01-24T02:40:15.756Z [DEBUG] Remote settings: No settings found (404)
+2026-01-24T03:40:15.780Z [DEBUG] Remote settings: No settings found (404)
+2026-01-24T04:40:15.754Z [DEBUG] Remote settings: No settings found (404)
+2026-01-24T05:40:15.769Z [DEBUG] Remote settings: No settings found (404)
+2026-01-24T06:40:15.762Z [DEBUG] Remote settings: No settings found (404)
+2026-01-24T07:40:15.810Z [DEBUG] Remote settings: No settings found (404)
+2026-01-24T08:40:15.791Z [DEBUG] Remote settings: No settings found (404)
+2026-01-24T09:40:15.768Z [DEBUG] Remote settings: No settings found (404)
+2026-01-24T10:40:15.797Z [DEBUG] Remote settings: No settings found (404)
+2026-01-24T11:40:15.808Z [DEBUG] Remote settings: No settings found (404)
+2026-01-24T12:40:15.789Z [DEBUG] Remote settings: No settings found (404)
+2026-01-24T13:40:15.808Z [DEBUG] Remote settings: No settings found (404)
+2026-01-24T14:40:15.788Z [DEBUG] Remote settings: No settings found (404)
+2026-01-24T15:40:15.835Z [DEBUG] Remote settings: No settings found (404)
+2026-01-24T16:40:15.822Z [DEBUG] Remote settings: No settings found (404)
+2026-01-24T17:40:15.823Z [DEBUG] Remote settings: No settings found (404)
+2026-01-24T18:40:15.824Z [DEBUG] Remote settings: No settings found (404)
+2026-01-24T19:13:51.552Z [DEBUG] Skipping SessionEnd:other hook execution - workspace trust not accepted

@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "sessionId": "572075b0-37c7-41c8-ba07-1cf30b1311d7",
+      "fullPath": "/home/gastown/gt/.claude/projects/-home-gastown/572075b0-37c7-41c8-ba07-1cf30b1311d7.jsonl",
+      "fileMtime": 1769279091973,
+      "firstPrompt": "No prompt",
+      "summary": "Login Process Interrupted During Authentication Attempt",
+      "messageCount": 2,
+      "created": "2026-01-23T16:46:12.862Z",
+      "modified": "2026-01-23T16:46:12.861Z",
+      "gitBranch": "",
+      "projectPath": "/home/gastown",
+      "isSidechain": false
+    },
+    {
+      "sessionId": "485831a3-4877-4a36-be33-b91d86f9126a",
+      "fullPath": "/home/gastown/gt/.claude/projects/-home-gastown/485831a3-4877-4a36-be33-b91d86f9126a.jsonl",
+      "fileMtime": 1769279748609,
+      "firstPrompt": "]11;rgb:1e1e/1e1e/1e1e\u001b",
+      "summary": "Exploring GT Gas Town CLI Commands",
+      "messageCount": 11,
+      "created": "2026-01-24T18:24:51.014Z",
+      "modified": "2026-01-24T18:31:30.205Z",
+      "gitBranch": "",
+      "projectPath": "/home/gastown",
+      "isSidechain": false
+    },
+    {
+      "sessionId": "3b0f485a-2136-47ee-80af-1cab69be8bb7",
+      "fullPath": "/home/gastown/gt/.claude/projects/-home-gastown/3b0f485a-2136-47ee-80af-1cab69be8bb7.jsonl",
+      "fileMtime": 1769280075217,
+      "firstPrompt": "start mayor",
+      "summary": "Starting Mayor Service and Tmux Attachment",
+      "messageCount": 10,
+      "created": "2026-01-24T18:35:46.747Z",
+      "modified": "2026-01-24T18:38:35.659Z",
+      "gitBranch": "",
+      "projectPath": "/home/gastown",
+      "isSidechain": false
+    }
+  ],
+  "originalPath": "/home/gastown"
+}

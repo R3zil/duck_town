@@ -1,0 +1,132 @@
+2026-01-24T23:26:33.929Z [DEBUG] [init] configureGlobalMTLS starting
+2026-01-24T23:26:33.929Z [DEBUG] [init] configureGlobalMTLS complete
+2026-01-24T23:26:33.929Z [DEBUG] [init] configureGlobalAgents starting
+2026-01-24T23:26:33.930Z [DEBUG] [init] configureGlobalAgents complete
+2026-01-24T23:26:33.974Z [DEBUG] [STARTUP] Loading MCP configs...
+2026-01-24T23:26:33.979Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-24T23:26:33.980Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-24T23:26:33.980Z [DEBUG] [STARTUP] Running setup()...
+2026-01-24T23:26:33.981Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-01-24T23:26:34.013Z [DEBUG] Loading skills from: managed=/etc/claude-code/.claude/skills, user=/home/gastown/gt/.claude/skills, project=[]
+2026-01-24T23:26:34.026Z [ERROR] Error: Error: ENOENT: no such file or directory, scandir '/etc/claude-code/.claude/skills'
+    at readdirSync (unknown)
+    at <anonymous> (/$bunfs/root/claude:12:1903)
+    at pJ (/$bunfs/root/claude:11:35427)
+    at readdirSync (/$bunfs/root/claude:12:1864)
+    at XY$ (/$bunfs/root/claude:2213:380)
+    at XY$ (/$bunfs/root/claude:2213:1350)
+    at <anonymous> (/$bunfs/root/claude:2213:4440)
+    at <anonymous> (/$bunfs/root/claude:2213:5171)
+    at A (/$bunfs/root/claude:11:7251)
+    at Z71 (/$bunfs/root/claude:4860:4342)
+2026-01-24T23:26:34.026Z [ERROR] Error: Error: ENOENT: no such file or directory, scandir '/home/gastown/gt/.claude/skills'
+    at readdirSync (unknown)
+    at <anonymous> (/$bunfs/root/claude:12:1903)
+    at pJ (/$bunfs/root/claude:11:35427)
+    at readdirSync (/$bunfs/root/claude:12:1864)
+    at XY$ (/$bunfs/root/claude:2213:380)
+    at XY$ (/$bunfs/root/claude:2213:1350)
+    at <anonymous> (/$bunfs/root/claude:2213:4483)
+    at <anonymous> (/$bunfs/root/claude:2213:5171)
+    at A (/$bunfs/root/claude:11:7251)
+    at Z71 (/$bunfs/root/claude:4860:4342)
+2026-01-24T23:26:34.026Z [DEBUG] Error log sink initialized
+2026-01-24T23:26:34.068Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2026-01-24T23:26:34.068Z [DEBUG] Total plugin skills loaded: 0
+2026-01-24T23:26:34.068Z [DEBUG] Total plugin commands loaded: 0
+2026-01-24T23:26:34.068Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-01-24T23:26:34.070Z [DEBUG] [STARTUP] setup() completed in 90ms
+2026-01-24T23:26:34.070Z [DEBUG] [STARTUP] Loading commands and agents...
+2026-01-24T23:26:34.076Z [DEBUG] Total plugin agents loaded: 0
+2026-01-24T23:26:34.110Z [DEBUG] Acquired PID lock for 2.1.19 (PID 1966)
+2026-01-24T23:26:34.110Z [DEBUG] Acquired PID lock on running version: /home/gastown/.local/share/claude/versions/2.1.19
+2026-01-24T23:26:34.273Z [DEBUG] Watching for changes in skill/command directories: /home/gastown/gt/.claude/commands...
+2026-01-24T23:26:34.324Z [DEBUG] Skipping duplicate file '/home/gastown/gt/.claude/commands/handoff.md' from projectSettings (same inode already loaded from userSettings)
+2026-01-24T23:26:34.324Z [DEBUG] Deduplicated 1 files in commands (same inode via symlinks or hard links)
+2026-01-24T23:26:34.326Z [DEBUG] Loaded 1 unique skills (managed: 0, user: 0, project: 0, legacy commands: 1)
+2026-01-24T23:26:34.326Z [DEBUG] getSkills returning: 1 skill dir commands, 0 plugin skills, 0 bundled skills
+2026-01-24T23:26:34.329Z [DEBUG] [STARTUP] Commands and agents loaded in 259ms
+2026-01-24T23:26:34.330Z [DEBUG] [STARTUP] Running showSetupScreens()...
+2026-01-24T23:26:34.332Z [DEBUG] [render] initYoga starting
+2026-01-24T23:26:34.340Z [DEBUG] [Claude in Chrome] Extension not found in any browser
+2026-01-24T23:26:34.344Z [DEBUG] Remote settings: No settings found (404)
+2026-01-24T23:26:34.344Z [DEBUG] Programmatic settings change notification for policySettings
+2026-01-24T23:26:34.344Z [DEBUG] Plugin hooks: reloading due to policySettings change
+2026-01-24T23:26:34.346Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-01-24T23:26:34.346Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-01-24T23:26:34.364Z [DEBUG] [render] initYoga complete
+2026-01-24T23:26:34.369Z [DEBUG] [render] first ink render: 2357ms since process start
+2026-01-24T23:26:34.380Z [DEBUG] [keybindings] KeybindingSetup initialized with 99 bindings, 0 warnings
+2026-01-24T23:26:34.465Z [DEBUG] [Perfetto] initializePerfettoTracing called, env value: undefined
+2026-01-24T23:26:34.470Z [DEBUG] [STARTUP] showSetupScreens() completed in 140ms
+2026-01-24T23:26:34.471Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2026-01-24T23:26:34.471Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2026-01-24T23:26:34.471Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2026-01-24T23:26:34.473Z [DEBUG] Total LSP servers loaded: 0
+2026-01-24T23:26:34.473Z [DEBUG] [STARTUP] MCP configs loaded in 499ms
+2026-01-24T23:26:34.477Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-24T23:26:34.478Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-24T23:26:34.483Z [DEBUG] [Reconnection] computeInitialTeamContext: No teammate context set (not a teammate)
+2026-01-24T23:26:34.513Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/.claude.json.tmp.1966.1769297194513
+2026-01-24T23:26:34.513Z [DEBUG] Preserving file permissions: 100600
+2026-01-24T23:26:34.516Z [DEBUG] Temp file written successfully, size: 7440 bytes
+2026-01-24T23:26:34.516Z [DEBUG] Applied original permissions to temp file
+2026-01-24T23:26:34.516Z [DEBUG] Renaming /home/gastown/gt/.claude/.claude.json.tmp.1966.1769297194513 to /home/gastown/gt/.claude/.claude.json
+2026-01-24T23:26:34.517Z [DEBUG] File /home/gastown/gt/.claude/.claude.json written atomically
+2026-01-24T23:26:34.525Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2026-01-24T23:26:34.525Z [DEBUG] LSP manager initialized with 0 servers
+2026-01-24T23:26:34.526Z [DEBUG] Loaded 0 installed plugins from /home/gastown/gt/.claude/plugins/installed_plugins.json
+2026-01-24T23:26:34.527Z [DEBUG] Initialized versioned plugins system with 0 plugins
+2026-01-24T23:26:34.528Z [DEBUG] Getting matching hook commands for SessionStart with query: startup
+2026-01-24T23:26:34.528Z [DEBUG] Found 0 hook matchers in settings
+2026-01-24T23:26:34.528Z [DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+2026-01-24T23:26:34.528Z [DEBUG] LSP server manager initialized successfully
+2026-01-24T23:26:34.528Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2026-01-24T23:26:34.532Z [DEBUG] [render] initYoga starting
+2026-01-24T23:26:34.533Z [DEBUG] [render] initYoga complete
+2026-01-24T23:26:34.534Z [DEBUG] [render] first ink render: 2521ms since process start
+2026-01-24T23:26:34.715Z [DEBUG] [keybindings] Skipping file watcher - user customization disabled
+2026-01-24T23:26:34.723Z [DEBUG] Git remote URL: null
+2026-01-24T23:26:34.723Z [DEBUG] No git remote URL found
+2026-01-24T23:26:34.723Z [DEBUG] Not in a GitHub repository, skipping path mapping update
+2026-01-24T23:26:34.976Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-24T23:26:34.976Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-24T23:26:35.033Z [DEBUG] [keybindings] KeybindingSetup initialized with 99 bindings, 0 warnings
+2026-01-24T23:26:35.779Z [DEBUG] Slow render: 55.6ms, screen: 17x80, damage: 80x16 at (0,1), changes: 2810
+2026-01-24T23:26:35.872Z [DEBUG] [keybindings] Skipping file watcher - user customization disabled
+2026-01-24T23:26:35.872Z [DEBUG] [REPL:mount] REPL mounted, disabled=false
+2026-01-24T23:26:35.879Z [DEBUG] Official marketplace auto-install skipped: already_attempted
+2026-01-24T23:26:35.880Z [DEBUG] performStartupChecks called
+2026-01-24T23:26:35.880Z [DEBUG] Starting background plugin installations
+2026-01-24T23:26:35.880Z [DEBUG] performBackgroundPluginInstallations called
+2026-01-24T23:26:35.921Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-24T23:26:35.921Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-24T23:26:35.922Z [DEBUG] AutoUpdaterWrapper: Installation type: native
+2026-01-24T23:26:35.971Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-24T23:26:35.974Z [DEBUG] [claudeai-mcp] Checking gate (cached)...
+2026-01-24T23:26:35.974Z [DEBUG] [claudeai-mcp] Gate returned: false
+2026-01-24T23:26:35.974Z [DEBUG] [claudeai-mcp] Disabled via gate
+2026-01-24T23:26:36.010Z [DEBUG] Setting installation status: 0 marketplaces, 0 installable plugins, 0 uninstallable plugins
+2026-01-24T23:26:36.014Z [DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+2026-01-24T23:26:36.655Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/.claude.json.tmp.1966.1769297196655
+2026-01-24T23:26:36.655Z [DEBUG] Preserving file permissions: 100600
+2026-01-24T23:26:36.658Z [DEBUG] Temp file written successfully, size: 7440 bytes
+2026-01-24T23:26:36.658Z [DEBUG] Applied original permissions to temp file
+2026-01-24T23:26:36.658Z [DEBUG] Renaming /home/gastown/gt/.claude/.claude.json.tmp.1966.1769297196655 to /home/gastown/gt/.claude/.claude.json
+2026-01-24T23:26:36.658Z [DEBUG] File /home/gastown/gt/.claude/.claude.json written atomically
+2026-01-24T23:26:36.879Z [DEBUG] Checking for native installer update to version 2.1.19
+2026-01-24T23:26:37.054Z [DEBUG] Found 2.1.19 at /home/gastown/.local/bin/claude, skipping install
+2026-01-24T23:26:37.572Z [DEBUG] rg error (signal=undefined, code=ABORT_ERR, stderr: ), 0 results
+2026-01-24T23:26:37.572Z [ERROR] AbortError: AbortError: The operation was aborted.
+    at unknown
+    at abortChildProcess (node:child_process:935:42)
+    at onAbortListener2 (node:child_process:35:24)
+    at abort (unknown)
+    at <anonymous> (/$bunfs/root/claude:6108:13406)
+2026-01-24T23:26:37.573Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-24T23:26:37.573Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-24T23:26:37.672Z [DEBUG] Skills and commands included in Skill tool: handoff
+2026-01-24T23:26:37.676Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-24T23:26:37.676Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-24T23:26:37.676Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-24T23:26:38.634Z [DEBUG] Ripgrep first use test: FAILED (mode=builtin, path=/home/gastown/.local/share/claude/versions/2.1.19)

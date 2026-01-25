@@ -1,0 +1,12 @@
+{
+  "prefix": "gt",
+  "default_database": "/home/gastown/gt/.beads/issues.db",
+  "sync": {
+    "auto_sync": false,
+    "remote": null
+  },
+  "display": {
+    "date_format": "relative",
+    "show_ids": true
+  }
+}

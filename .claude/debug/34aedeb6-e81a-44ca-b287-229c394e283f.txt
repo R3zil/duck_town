@@ -1,0 +1,401 @@
+2026-01-25T00:14:07.167Z [DEBUG] [init] configureGlobalMTLS starting
+2026-01-25T00:14:07.169Z [DEBUG] [init] configureGlobalMTLS complete
+2026-01-25T00:14:07.169Z [DEBUG] [init] configureGlobalAgents starting
+2026-01-25T00:14:07.170Z [DEBUG] [init] configureGlobalAgents complete
+2026-01-25T00:14:07.255Z [DEBUG] [STARTUP] Loading MCP configs...
+2026-01-25T00:14:07.266Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:07.270Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:07.270Z [DEBUG] [STARTUP] Running setup()...
+2026-01-25T00:14:07.271Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-01-25T00:14:07.310Z [DEBUG] Loading skills from: managed=/etc/claude-code/.claude/skills, user=/home/gastown/gt/.claude/skills, project=[]
+2026-01-25T00:14:07.314Z [ERROR] Error: Error: ENOENT: no such file or directory, scandir '/etc/claude-code/.claude/skills'
+    at readdirSync (unknown)
+    at <anonymous> (/$bunfs/root/claude:12:1903)
+    at pJ (/$bunfs/root/claude:11:35427)
+    at readdirSync (/$bunfs/root/claude:12:1864)
+    at XY$ (/$bunfs/root/claude:2213:380)
+    at XY$ (/$bunfs/root/claude:2213:1350)
+    at <anonymous> (/$bunfs/root/claude:2213:4440)
+    at <anonymous> (/$bunfs/root/claude:2213:5171)
+    at A (/$bunfs/root/claude:11:7251)
+    at Z71 (/$bunfs/root/claude:4860:4342)
+2026-01-25T00:14:07.314Z [ERROR] Error: Error: ENOENT: no such file or directory, scandir '/home/gastown/gt/.claude/skills'
+    at readdirSync (unknown)
+    at <anonymous> (/$bunfs/root/claude:12:1903)
+    at pJ (/$bunfs/root/claude:11:35427)
+    at readdirSync (/$bunfs/root/claude:12:1864)
+    at XY$ (/$bunfs/root/claude:2213:380)
+    at XY$ (/$bunfs/root/claude:2213:1350)
+    at <anonymous> (/$bunfs/root/claude:2213:4483)
+    at <anonymous> (/$bunfs/root/claude:2213:5171)
+    at A (/$bunfs/root/claude:11:7251)
+    at Z71 (/$bunfs/root/claude:4860:4342)
+2026-01-25T00:14:07.314Z [DEBUG] Error log sink initialized
+2026-01-25T00:14:07.369Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2026-01-25T00:14:07.369Z [DEBUG] Total plugin skills loaded: 0
+2026-01-25T00:14:07.369Z [DEBUG] Total plugin commands loaded: 0
+2026-01-25T00:14:07.369Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-01-25T00:14:07.372Z [DEBUG] [STARTUP] setup() completed in 102ms
+2026-01-25T00:14:07.372Z [DEBUG] [STARTUP] Loading commands and agents...
+2026-01-25T00:14:07.409Z [DEBUG] Total plugin agents loaded: 0
+2026-01-25T00:14:07.459Z [DEBUG] Cannot acquire lock for 2.1.19 - held by PID 1985
+2026-01-25T00:14:07.460Z [ERROR] Error: Error: NON-FATAL: Lock acquisition failed for /home/gastown/.local/share/claude/versions/2.1.19 (expected in multi-process scenarios)
+    at $N$ (/$bunfs/root/claude:4001:2091)
+    at VjA (/$bunfs/root/claude:4001:1202)
+    at processTicksAndRejections (native:7:39)
+2026-01-25T00:14:07.529Z [DEBUG] Watching for changes in skill/command directories: /home/gastown/gt/.claude/commands...
+2026-01-25T00:14:07.567Z [DEBUG] Remote settings: No settings found (404)
+2026-01-25T00:14:07.567Z [DEBUG] Programmatic settings change notification for policySettings
+2026-01-25T00:14:07.569Z [DEBUG] Plugin hooks: reloading due to policySettings change
+2026-01-25T00:14:07.572Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-01-25T00:14:07.574Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-01-25T00:14:07.574Z [DEBUG] Skipping duplicate file '/home/gastown/gt/.claude/commands/handoff.md' from projectSettings (same inode already loaded from userSettings)
+2026-01-25T00:14:07.574Z [DEBUG] Deduplicated 1 files in commands (same inode via symlinks or hard links)
+2026-01-25T00:14:07.604Z [DEBUG] Loaded 1 unique skills (managed: 0, user: 0, project: 0, legacy commands: 1)
+2026-01-25T00:14:07.605Z [DEBUG] getSkills returning: 1 skill dir commands, 0 plugin skills, 0 bundled skills
+2026-01-25T00:14:07.611Z [DEBUG] [STARTUP] Commands and agents loaded in 239ms
+2026-01-25T00:14:07.611Z [DEBUG] [STARTUP] Running showSetupScreens()...
+2026-01-25T00:14:07.659Z [DEBUG] [Perfetto] initializePerfettoTracing called, env value: undefined
+2026-01-25T00:14:07.668Z [DEBUG] [STARTUP] showSetupScreens() completed in 57ms
+2026-01-25T00:14:07.669Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2026-01-25T00:14:07.669Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2026-01-25T00:14:07.669Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2026-01-25T00:14:07.710Z [DEBUG] Total LSP servers loaded: 0
+2026-01-25T00:14:07.710Z [DEBUG] [STARTUP] MCP configs loaded in 455ms
+2026-01-25T00:14:07.711Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2026-01-25T00:14:07.711Z [DEBUG] LSP manager initialized with 0 servers
+2026-01-25T00:14:07.712Z [DEBUG] LSP server manager initialized successfully
+2026-01-25T00:14:07.713Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2026-01-25T00:14:07.721Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:07.722Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:07.762Z [DEBUG] [Reconnection] computeInitialTeamContext: No teammate context set (not a teammate)
+2026-01-25T00:14:07.770Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/.claude.json.tmp.14160.1769300047770
+2026-01-25T00:14:07.770Z [DEBUG] Preserving file permissions: 100660
+2026-01-25T00:14:07.774Z [DEBUG] Temp file written successfully, size: 7509 bytes
+2026-01-25T00:14:07.774Z [DEBUG] Applied original permissions to temp file
+2026-01-25T00:14:07.774Z [DEBUG] Renaming /home/gastown/gt/.claude/.claude.json.tmp.14160.1769300047770 to /home/gastown/gt/.claude/.claude.json
+2026-01-25T00:14:07.802Z [DEBUG] File /home/gastown/gt/.claude/.claude.json written atomically
+2026-01-25T00:14:07.819Z [DEBUG] Loaded 0 installed plugins from /home/gastown/gt/.claude/plugins/installed_plugins.json
+2026-01-25T00:14:07.821Z [DEBUG] Initialized versioned plugins system with 0 plugins
+2026-01-25T00:14:07.851Z [DEBUG] Getting matching hook commands for SessionStart with query: startup
+2026-01-25T00:14:07.851Z [DEBUG] Found 0 hook matchers in settings
+2026-01-25T00:14:07.851Z [DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+2026-01-25T00:14:07.861Z [DEBUG] [render] initYoga starting
+2026-01-25T00:14:07.929Z [DEBUG] [render] initYoga complete
+2026-01-25T00:14:07.955Z [DEBUG] [render] first ink render: 3590ms since process start
+2026-01-25T00:14:08.127Z [DEBUG] [Claude in Chrome] Extension not found in any browser
+2026-01-25T00:14:08.861Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/.claude.json.tmp.14160.1769300048861
+2026-01-25T00:14:08.861Z [DEBUG] Preserving file permissions: 100660
+2026-01-25T00:14:08.871Z [DEBUG] Temp file written successfully, size: 7509 bytes
+2026-01-25T00:14:08.871Z [DEBUG] Applied original permissions to temp file
+2026-01-25T00:14:08.871Z [DEBUG] Renaming /home/gastown/gt/.claude/.claude.json.tmp.14160.1769300048861 to /home/gastown/gt/.claude/.claude.json
+2026-01-25T00:14:08.871Z [DEBUG] File /home/gastown/gt/.claude/.claude.json written atomically
+2026-01-25T00:14:08.922Z [DEBUG] Git remote URL: https://github.com/R3zil/B2MPC-playground
+2026-01-25T00:14:08.924Z [DEBUG] Parsed repository: R3zil/B2MPC-playground from https://github.com/R3zil/B2MPC-playground
+2026-01-25T00:14:08.924Z [DEBUG] Parsed repository: R3zil/B2MPC-playground from URL: https://github.com/R3zil/B2MPC-playground
+2026-01-25T00:14:08.925Z [DEBUG] Path /home/gastown/gt/deacon/dogs/boot already tracked for repo r3zil/b2mpc-playground
+2026-01-25T00:14:09.768Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:09.769Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:09.857Z [DEBUG] [keybindings] KeybindingSetup initialized with 99 bindings, 0 warnings
+2026-01-25T00:14:10.364Z [DEBUG] High write ratio: blit=0, write=1255 (100.0% writes), screen=17x212
+2026-01-25T00:14:10.555Z [DEBUG] Slow render: 189.7ms, screen: 17x212, damage: 212x16 at (0,1), changes: 7299
+2026-01-25T00:14:10.868Z [DEBUG] [keybindings] Skipping file watcher - user customization disabled
+2026-01-25T00:14:10.868Z [DEBUG] [REPL:mount] REPL mounted, disabled=false
+2026-01-25T00:14:10.882Z [DEBUG] Official marketplace auto-install skipped: already_attempted
+2026-01-25T00:14:10.883Z [DEBUG] performStartupChecks called
+2026-01-25T00:14:10.883Z [DEBUG] Starting background plugin installations
+2026-01-25T00:14:10.883Z [DEBUG] performBackgroundPluginInstallations called
+2026-01-25T00:14:10.899Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-25T00:14:10.899Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-25T00:14:10.972Z [DEBUG] AutoUpdaterWrapper: Installation type: native
+2026-01-25T00:14:11.051Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-25T00:14:11.062Z [DEBUG] [claudeai-mcp] Checking gate (cached)...
+2026-01-25T00:14:11.063Z [DEBUG] [claudeai-mcp] Gate returned: false
+2026-01-25T00:14:11.063Z [DEBUG] [claudeai-mcp] Disabled via gate
+2026-01-25T00:14:11.073Z [DEBUG] Setting installation status: 0 marketplaces, 0 installable plugins, 0 uninstallable plugins
+2026-01-25T00:14:11.074Z [DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+2026-01-25T00:14:11.253Z [DEBUG] rg error (signal=undefined, code=ABORT_ERR, stderr: ), 0 results
+2026-01-25T00:14:11.253Z [ERROR] AbortError: AbortError: The operation was aborted.
+    at unknown
+    at abortChildProcess (node:child_process:935:42)
+    at onAbortListener2 (node:child_process:35:24)
+    at abort (unknown)
+    at <anonymous> (/$bunfs/root/claude:6108:13406)
+2026-01-25T00:14:11.258Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:11.260Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:11.451Z [DEBUG] Skills and commands included in Skill tool: handoff
+2026-01-25T00:14:11.452Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-25T00:14:11.452Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-25T00:14:11.452Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-25T00:14:11.591Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/.claude.json.tmp.14160.1769300051591
+2026-01-25T00:14:11.591Z [DEBUG] Preserving file permissions: 100660
+2026-01-25T00:14:11.596Z [DEBUG] Temp file written successfully, size: 7509 bytes
+2026-01-25T00:14:11.596Z [DEBUG] Applied original permissions to temp file
+2026-01-25T00:14:11.596Z [DEBUG] Renaming /home/gastown/gt/.claude/.claude.json.tmp.14160.1769300051591 to /home/gastown/gt/.claude/.claude.json
+2026-01-25T00:14:11.596Z [DEBUG] File /home/gastown/gt/.claude/.claude.json written atomically
+2026-01-25T00:14:11.666Z [DEBUG] FileHistory: Added snapshot for d5418154-3f56-455b-802d-23920fd91abf, tracking 0 files
+2026-01-25T00:14:11.669Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:11.669Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:12.173Z [DEBUG] High write ratio: blit=0, write=1264 (100.0% writes), screen=21x212
+2026-01-25T00:14:12.258Z [DEBUG] Slow render: 84.9ms, screen: 21x212, damage: 212x20 at (0,1), changes: 3397
+2026-01-25T00:14:12.615Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-01-25T00:14:12.616Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:12.617Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.19.f52; cc_entrypoint=cli
+2026-01-25T00:14:12.703Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-25T00:14:12.703Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-25T00:14:12.704Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-25T00:14:12.951Z [DEBUG] Stats cache is up to date
+2026-01-25T00:14:13.005Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/todos/34aedeb6-e81a-44ca-b287-229c394e283f-agent-34aedeb6-e81a-44ca-b287-229c394e283f.json.tmp.14160.1769300053005
+2026-01-25T00:14:13.010Z [DEBUG] Temp file written successfully, size: 2 bytes
+2026-01-25T00:14:13.010Z [DEBUG] Renaming /home/gastown/gt/.claude/todos/34aedeb6-e81a-44ca-b287-229c394e283f-agent-34aedeb6-e81a-44ca-b287-229c394e283f.json.tmp.14160.1769300053005 to /home/gastown/gt/.claude/todos/34aedeb6-e81a-44ca-b287-229c394e283f-agent-34aedeb6-e81a-44ca-b287-229c394e283f.json
+2026-01-25T00:14:13.010Z [DEBUG] File /home/gastown/gt/.claude/todos/34aedeb6-e81a-44ca-b287-229c394e283f-agent-34aedeb6-e81a-44ca-b287-229c394e283f.json written atomically
+2026-01-25T00:14:13.140Z [DEBUG] Summarizing all 82 messages (~21965 tokens)
+2026-01-25T00:14:13.143Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-01-25T00:14:13.144Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:13.145Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.19.cab; cc_entrypoint=cli
+2026-01-25T00:14:13.205Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-25T00:14:13.205Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-25T00:14:13.207Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-25T00:14:13.445Z [DEBUG] Stream started - received first chunk
+2026-01-25T00:14:13.516Z [DEBUG] Checking for native installer update to version 2.1.19
+2026-01-25T00:14:13.523Z [DEBUG] Metrics opt-out API response: enabled=true, vcsLinking=false
+2026-01-25T00:14:13.556Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:13.556Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:13.730Z [DEBUG] High write ratio: blit=0, write=1264 (100.0% writes), screen=21x212
+2026-01-25T00:14:13.747Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-01-25T00:14:13.747Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-01-25T00:14:13.750Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-01-25T00:14:13.750Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-01-25T00:14:13.921Z [DEBUG] Ripgrep first use test: FAILED (mode=builtin, path=/home/gastown/.local/share/claude/versions/2.1.19)
+2026-01-25T00:14:14.027Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:14.028Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:14.222Z [DEBUG] High write ratio: blit=0, write=1264 (100.0% writes), screen=21x212
+2026-01-25T00:14:14.415Z [DEBUG] Successfully refreshed marketplace: claude-plugins-official
+2026-01-25T00:14:14.415Z [DEBUG] Plugin autoupdate: checking installed plugins
+2026-01-25T00:14:14.555Z [DEBUG] Stream started - received first chunk
+2026-01-25T00:14:14.610Z [DEBUG] Generated summary for session b6d42748-39d8-4169-a650-2e2089ebf298: "GT Boot System Triage and Diagnostics"
+2026-01-25T00:14:14.624Z [DEBUG] Session index: added 1, updated 0, removed 0, summaries generated 1 (total: 43)
+2026-01-25T00:14:14.627Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:14.627Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:14.757Z [DEBUG] High write ratio: blit=0, write=1264 (100.0% writes), screen=21x212
+2026-01-25T00:14:14.849Z [DEBUG] Found 2.1.19 at /home/gastown/.local/bin/claude, skipping install
+2026-01-25T00:14:14.857Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:14.858Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:14.953Z [DEBUG] High write ratio: blit=0, write=1264 (100.0% writes), screen=21x212
+2026-01-25T00:14:15.004Z [DEBUG] Slow render: 51.1ms, screen: 21x212, damage: 212x20 at (0,1), changes: 22
+2026-01-25T00:14:15.005Z [DEBUG] Getting matching hook commands for UserPromptSubmit with query: undefined
+2026-01-25T00:14:15.005Z [DEBUG] Found 0 hook matchers in settings
+2026-01-25T00:14:15.005Z [DEBUG] Matched 0 unique hooks for query "no match query" (0 before deduplication)
+2026-01-25T00:14:15.032Z [DEBUG] FileHistory: Making snapshot for message 870dc2a5-1dc4-44a6-95b4-f0e293ec461f
+2026-01-25T00:14:15.032Z [DEBUG] FileHistory: Added snapshot for 870dc2a5-1dc4-44a6-95b4-f0e293ec461f, tracking 0 files
+2026-01-25T00:14:15.134Z [DEBUG] High write ratio: blit=0, write=1264 (100.0% writes), screen=21x212
+2026-01-25T00:14:15.209Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-01-25T00:14:15.210Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:15.210Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:15.214Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.19.191; cc_entrypoint=cli
+2026-01-25T00:14:15.214Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-25T00:14:15.214Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-25T00:14:15.218Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-25T00:14:15.219Z [DEBUG] Total plugin output styles loaded: 0
+2026-01-25T00:14:15.417Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:15.417Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:15.517Z [DEBUG] High write ratio: blit=424, write=1247 (74.6% writes), screen=21x212
+2026-01-25T00:14:15.523Z [DEBUG] Auto tool search disabled: 0 tokens (threshold: 20000, 10% of context) [source: query]
+2026-01-25T00:14:15.550Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:15.550Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:15.624Z [DEBUG] High write ratio: blit=424, write=1247 (74.6% writes), screen=21x212
+2026-01-25T00:14:15.628Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:15.632Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.19.191; cc_entrypoint=cli
+2026-01-25T00:14:15.633Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-25T00:14:15.633Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-25T00:14:15.633Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-25T00:14:15.659Z [DEBUG] Stream started - received first chunk
+2026-01-25T00:14:15.803Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:15.804Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:15.834Z [DEBUG] High write ratio: blit=424, write=1247 (74.6% writes), screen=21x212
+2026-01-25T00:14:16.923Z [DEBUG] Stream started - received first chunk
+2026-01-25T00:14:19.752Z [DEBUG] High write ratio: blit=424, write=1258 (74.8% writes), screen=21x212
+2026-01-25T00:14:20.316Z [DEBUG] High write ratio: blit=424, write=1386 (76.6% writes), screen=23x212
+2026-01-25T00:14:20.904Z [DEBUG] High write ratio: blit=848, write=1290 (60.3% writes), screen=26x212
+2026-01-25T00:14:21.603Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:21.603Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:21.750Z [DEBUG] High write ratio: blit=848, write=1313 (60.8% writes), screen=29x212
+2026-01-25T00:14:21.765Z [DEBUG] executePreToolHooks called for tool: Bash
+2026-01-25T00:14:21.774Z [DEBUG] executePreToolHooks called for tool: Bash
+2026-01-25T00:14:21.912Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:21.913Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:21.968Z [DEBUG] High write ratio: blit=848, write=1313 (60.8% writes), screen=29x212
+2026-01-25T00:14:21.969Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2026-01-25T00:14:21.969Z [DEBUG] Found 0 hook matchers in settings
+2026-01-25T00:14:21.969Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2026-01-25T00:14:21.969Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2026-01-25T00:14:21.969Z [DEBUG] Found 0 hook matchers in settings
+2026-01-25T00:14:21.969Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2026-01-25T00:14:22.021Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:22.021Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:22.205Z [DEBUG] High write ratio: blit=848, write=1313 (60.8% writes), screen=29x212
+2026-01-25T00:14:22.259Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:22.259Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:22.402Z [DEBUG] High write ratio: blit=848, write=1313 (60.8% writes), screen=29x212
+2026-01-25T00:14:22.765Z [DEBUG] tree-sitter: loaded from embedded
+2026-01-25T00:14:22.915Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:22.915Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:23.231Z [DEBUG] High write ratio: blit=848, write=1313 (60.8% writes), screen=29x212
+2026-01-25T00:14:23.266Z [DEBUG] Creating shell snapshot for bash (/bin/bash)
+2026-01-25T00:14:23.267Z [DEBUG] Looking for shell config file: /home/gastown/.bashrc
+2026-01-25T00:14:23.268Z [DEBUG] Snapshots directory: /home/gastown/gt/.claude/shell-snapshots
+2026-01-25T00:14:23.306Z [DEBUG] Creating snapshot at: /home/gastown/gt/.claude/shell-snapshots/snapshot-bash-1769300063268-sks5yx.sh
+2026-01-25T00:14:23.307Z [DEBUG] Shell binary exists: true
+2026-01-25T00:14:23.307Z [DEBUG] Execution timeout: 10000ms
+2026-01-25T00:14:23.428Z [DEBUG] Shell snapshot created successfully (1750 bytes)
+2026-01-25T00:14:23.450Z [DEBUG] No session environment scripts found
+2026-01-25T00:14:23.470Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:23.470Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:23.623Z [DEBUG] High write ratio: blit=848, write=1313 (60.8% writes), screen=29x212
+2026-01-25T00:14:23.821Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:23.821Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:23.917Z [DEBUG] High write ratio: blit=848, write=1296 (60.4% writes), screen=29x212
+2026-01-25T00:14:23.925Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-01-25T00:14:23.926Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:23.927Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.19.984; cc_entrypoint=cli
+2026-01-25T00:14:23.927Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-25T00:14:23.927Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-25T00:14:23.928Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-25T00:14:24.027Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:24.029Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:24.106Z [DEBUG] High write ratio: blit=848, write=1296 (60.4% writes), screen=29x212
+2026-01-25T00:14:24.114Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-01-25T00:14:24.115Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:24.115Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.19.2e6; cc_entrypoint=cli
+2026-01-25T00:14:24.116Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-25T00:14:24.116Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-25T00:14:24.118Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-25T00:14:24.228Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:24.229Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:24.326Z [DEBUG] High write ratio: blit=848, write=1313 (60.8% writes), screen=29x212
+2026-01-25T00:14:24.351Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2026-01-25T00:14:24.351Z [DEBUG] Found 3 hook matchers in settings
+2026-01-25T00:14:24.352Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2026-01-25T00:14:24.354Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:24.404Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:24.469Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:24.603Z [DEBUG] High write ratio: blit=848, write=1522 (64.2% writes), screen=33x212
+2026-01-25T00:14:24.618Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2026-01-25T00:14:24.618Z [DEBUG] Found 3 hook matchers in settings
+2026-01-25T00:14:24.618Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2026-01-25T00:14:24.619Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:24.712Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:24.712Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:24.822Z [DEBUG] High write ratio: blit=848, write=1591 (65.2% writes), screen=34x212
+2026-01-25T00:14:24.829Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-01-25T00:14:24.829Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-01-25T00:14:24.829Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-01-25T00:14:24.829Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-01-25T00:14:24.864Z [DEBUG] Stream started - received first chunk
+2026-01-25T00:14:24.917Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:24.917Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:25.022Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:25.022Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:25.106Z [DEBUG] Auto tool search disabled: 0 tokens (threshold: 20000, 10% of context) [source: query]
+2026-01-25T00:14:25.171Z [DEBUG] Stream started - received first chunk
+2026-01-25T00:14:25.208Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:25.208Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:25.250Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:25.250Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:25.250Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:25.251Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:25.252Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:25.252Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:25.252Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:25.253Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.19.191; cc_entrypoint=cli
+2026-01-25T00:14:25.254Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-25T00:14:25.254Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-25T00:14:25.254Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-25T00:14:25.264Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:25.265Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:26.463Z [DEBUG] Stream started - received first chunk
+2026-01-25T00:14:31.418Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:31.418Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:31.514Z [DEBUG] executePreToolHooks called for tool: Bash
+2026-01-25T00:14:31.558Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:31.558Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:31.621Z [DEBUG] Getting matching hook commands for PreToolUse with query: Bash
+2026-01-25T00:14:31.621Z [DEBUG] Found 0 hook matchers in settings
+2026-01-25T00:14:31.621Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2026-01-25T00:14:31.621Z [DEBUG] executePreToolHooks called for tool: Read
+2026-01-25T00:14:31.622Z [DEBUG] executePreToolHooks called for tool: Read
+2026-01-25T00:14:31.636Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:31.636Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:31.708Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2026-01-25T00:14:31.708Z [DEBUG] Found 0 hook matchers in settings
+2026-01-25T00:14:31.708Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-25T00:14:31.708Z [DEBUG] Getting matching hook commands for PreToolUse with query: Read
+2026-01-25T00:14:31.708Z [DEBUG] Found 0 hook matchers in settings
+2026-01-25T00:14:31.708Z [DEBUG] Matched 0 unique hooks for query "Read" (0 before deduplication)
+2026-01-25T00:14:31.724Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:31.724Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:31.813Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:31.831Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:31.937Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:31.938Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:32.117Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:32.118Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:32.230Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:32.230Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:32.323Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2026-01-25T00:14:32.323Z [DEBUG] Found 3 hook matchers in settings
+2026-01-25T00:14:32.324Z [DEBUG] Matched 1 unique hooks for query "Read" (1 before deduplication)
+2026-01-25T00:14:32.325Z [DEBUG] Getting matching hook commands for PostToolUse with query: Read
+2026-01-25T00:14:32.325Z [DEBUG] Found 3 hook matchers in settings
+2026-01-25T00:14:32.325Z [DEBUG] Matched 1 unique hooks for query "Read" (1 before deduplication)
+2026-01-25T00:14:32.331Z [DEBUG] Tool search disabled for model 'claude-haiku-4-5-20251001': model does not support tool_reference blocks. This feature is only available on Claude Sonnet 4+, Opus 4+, and newer models.
+2026-01-25T00:14:32.334Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:32.334Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.19.a17; cc_entrypoint=cli
+2026-01-25T00:14:32.335Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-25T00:14:32.335Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-25T00:14:32.354Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-25T00:14:32.417Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:32.418Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:32.430Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:32.431Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:32.729Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:32.729Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:32.824Z [DEBUG] Getting matching hook commands for PostToolUse with query: Bash
+2026-01-25T00:14:32.824Z [DEBUG] Found 3 hook matchers in settings
+2026-01-25T00:14:32.824Z [DEBUG] Matched 0 unique hooks for query "Bash" (0 before deduplication)
+2026-01-25T00:14:32.824Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:32.850Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:32.850Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:33.022Z [DEBUG] LSP Diagnostics: getLSPDiagnosticAttachments called
+2026-01-25T00:14:33.022Z [DEBUG] LSP Diagnostics: Checking registry - 0 pending
+2026-01-25T00:14:33.022Z [DEBUG] Hooks: Found 0 total hooks in registry
+2026-01-25T00:14:33.022Z [DEBUG] Hooks: checkForNewResponses returning 0 responses
+2026-01-25T00:14:33.051Z [DEBUG] Stream started - received first chunk
+2026-01-25T00:14:33.133Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:33.133Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:33.334Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:33.334Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:33.503Z [DEBUG] Auto tool search disabled: 0 tokens (threshold: 20000, 10% of context) [source: query]
+2026-01-25T00:14:33.614Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:33.614Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:33.663Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:33.663Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:33.663Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:33.663Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:33.663Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:33.663Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:33.663Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:33.663Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:33.663Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:33.663Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:33.663Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:33.663Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:33.663Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:33.663Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:33.664Z [DEBUG] attribution header x-anthropic-billing-header: cc_version=2.1.19.191; cc_entrypoint=cli
+2026-01-25T00:14:33.664Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-25T00:14:33.664Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-25T00:14:33.664Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-25T00:14:33.805Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:33.805Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-25T00:14:35.163Z [DEBUG] Stream started - received first chunk

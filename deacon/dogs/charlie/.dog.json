@@ -1,0 +1,10 @@
+{
+  "name": "charlie",
+  "state": "idle",
+  "last_active": "2026-01-25T18:57:31.623672398Z",
+  "worktrees": {
+    "Conducktor_rig": "/home/gastown/gt/deacon/dogs/charlie/Conducktor_rig"
+  },
+  "created_at": "2026-01-25T18:57:31.623672398Z",
+  "updated_at": "2026-01-25T18:57:31.623672398Z"
+}

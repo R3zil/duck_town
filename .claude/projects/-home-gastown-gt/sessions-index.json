@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "sessionId": "09dd6a06-0981-4c7a-85c6-72e3d4211e80",
+      "fullPath": "/home/gastown/gt/.claude/projects/-home-gastown-gt/09dd6a06-0981-4c7a-85c6-72e3d4211e80.jsonl",
+      "fileMtime": 1769285945858,
+      "firstPrompt": "[GAS TOWN] mayor <- human • 2026-01-24T20:04 • cold-start  Check your hook and mail, then act on the hook if present: 1. `gt hook` - shows hooked work (if any) 2. `gt mail inbox` - check for messages…",
+      "summary": "GAS TOWN Doctor Fix: Prefix Config & Beads",
+      "messageCount": 32,
+      "created": "2026-01-24T20:05:01.773Z",
+      "modified": "2026-01-24T20:17:48.312Z",
+      "gitBranch": "",
+      "projectPath": "/home/gastown/gt",
+      "isSidechain": false
+    },
+    {
+      "sessionId": "a24cdc0c-d07f-4791-9a10-ab7d6737f5d2",
+      "fullPath": "/home/gastown/gt/.claude/projects/-home-gastown-gt/a24cdc0c-d07f-4791-9a10-ab7d6737f5d2.jsonl",
+      "fileMtime": 1769370029371,
+      "firstPrompt": "[GAS TOWN] mayor <- human • 2026-01-24T20:18 • cold-start  Check your hook and mail, then act on the hook if present: 1. `gt hook` - shows hooked work (if any) 2. `gt mail inbox` - check for messages…",
+      "summary": "Gas Town Mayor CLI Initialization and Status Check",
+      "messageCount": 3,
+      "created": "2026-01-24T20:19:04.727Z",
+      "modified": "2026-01-24T20:19:27.678Z",
+      "gitBranch": "",
+      "projectPath": "/home/gastown/gt",
+      "isSidechain": false
+    }
+  ],
+  "originalPath": "/home/gastown/gt"
+}

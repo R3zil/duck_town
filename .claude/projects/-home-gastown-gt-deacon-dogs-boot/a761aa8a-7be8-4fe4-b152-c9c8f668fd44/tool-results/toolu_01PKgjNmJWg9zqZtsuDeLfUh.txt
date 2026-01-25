@@ -1,0 +1,2848 @@
+/home/gastown/gt/deacon/dogs:
+total 8
+drwxrwsr-x    3 gastown  gastown       4096 Jan 25 00:11 alpha
+drwxrwsr-x    2 gastown  gastown       4096 Jan 24 20:12 boot
+
+/home/gastown/gt/deacon/dogs/alpha:
+total 4
+drwxrwsr-x   15 gastown  gastown       4096 Jan 25 00:11 Conducktor_rig
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig:
+total 1440
+-rw-rw-r--    1 gastown  gastown       1327 Jan 25 00:11 AGENTS.md
+-rw-rw-r--    1 gastown  gastown      15101 Jan 25 00:11 CONTRIBUTING.md
+-rw-rw-r--    1 gastown  gastown       5585 Jan 25 00:11 GIT_COMMIT_MESSAGE.txt
+-rw-rw-r--    1 gastown  gastown      19574 Jan 25 00:11 INTELLIGENCE_MODULARIZATION_FINAL_REPORT.md
+-rw-rw-r--    1 gastown  gastown       6255 Jan 25 00:11 INTELLIGENCE_MODULARIZATION_SUMMARY.md
+drwxrwsr-x   11 gastown  gastown       4096 Jan 25 00:27 backend
+drwxrwsr-x    3 gastown  gastown       4096 Jan 25 00:11 cdktr-internal-admin
+-rw-rw-r--    1 gastown  gastown       2080 Jan 25 00:11 deploy-internal-admin.ps1
+-rw-rw-r--    1 gastown  gastown       1045 Jan 25 00:11 docker-compose.yml
+drwxrwsr-x   14 gastown  gastown       4096 Jan 25 00:11 docs
+drwxrwsr-x   11 gastown  gastown       4096 Jan 25 00:11 frontend
+drwxrwsr-x    4 gastown  gastown       4096 Jan 25 00:11 gt-mcp-server
+-rw-rw-r--    1 gastown  gastown       3746 Jan 25 00:11 hpa-backup.yaml
+drwxrwsr-x    6 gastown  gastown       4096 Jan 25 00:11 infra
+drwxrwsr-x    3 gastown  gastown       4096 Jan 25 00:11 integrations
+-rw-rw-r--    1 gastown  gastown    1329090 Jan 25 00:11 overview.json
+-rw-rw-r--    1 gastown  gastown       2278 Jan 25 00:11 package-lock.json
+-rw-rw-r--    1 gastown  gastown        119 Jan 25 00:11 package.json
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 plugins
+-rw-rw-r--    1 gastown  gastown       2942 Jan 25 00:11 run-backend.ps1
+-rw-rw-r--    1 gastown  gastown       2943 Jan 25 00:11 run-frontend.ps1
+-rw-rw-r--    1 gastown  gastown       3005 Jan 25 00:11 run.ps1
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 scripts
+drwxrwsr-x    4 gastown  gastown       4096 Jan 25 00:11 sdk
+-rw-rw-r--    1 gastown  gastown       3116 Jan 25 00:11 test_e2e_isolated.py
+-rw-rw-r--    1 gastown  gastown       2156 Jan 25 00:11 tools.json
+-rw-rw-r--    1 gastown  gastown         22 Jan 25 00:11 variants.json
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend:
+total 328
+-rw-rw-r--    1 gastown  gastown      12825 Jan 25 00:11 API_CONSOLIDATION_PROGRESS.md
+-rw-rw-r--    1 gastown  gastown       9716 Jan 25 00:11 CONFIGURATION.md
+-rw-rw-r--    1 gastown  gastown       6863 Jan 25 00:11 CONSOLIDATION_SUMMARY.md
+-rw-rw-r--    1 gastown  gastown       1916 Jan 25 00:11 Dockerfile
+-rw-rw-r--    1 gastown  gastown        494 Jan 25 00:11 README.md
+-rw-rw-r--    1 gastown  gastown       9886 Jan 25 00:11 ab_test_post_fix.json
+-rw-rw-r--    1 gastown  gastown       5155 Jan 25 00:11 ab_test_results.json
+-rw-rw-r--    1 gastown  gastown        528 Jan 25 00:11 alembic.ini
+drwxrwsr-x   17 gastown  gastown       4096 Jan 25 00:11 app
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 cli
+-rw-rw-r--    1 gastown  gastown      12288 Jan 25 00:11 conducktr.db
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 config
+-rw-rw-r--    1 gastown  gastown       6562 Jan 25 00:11 generate_agent_package.py
+-rw-rw-r--    1 gastown  gastown      18294 Jan 25 00:11 live_test_results.json
+drwxrwsr-x    3 gastown  gastown       4096 Jan 25 00:11 migrations
+-rw-rw-r--    1 gastown  gastown      22583 Jan 25 00:11 package-lock.json
+-rw-rw-r--    1 gastown  gastown        163 Jan 25 00:11 package.json
+-rw-rw-r--    1 gastown  gastown         33 Jan 25 00:11 poetry.toml
+-rw-rw-r--    1 gastown  gastown       3265 Jan 25 00:11 pyproject.toml
+-rw-rw-r--    1 gastown  gastown        484 Jan 25 00:11 pyrightconfig.json
+drwxrwsr-x    3 gastown  gastown       4096 Jan 25 00:11 reference
+-rw-rw-r--    1 gastown  gastown      35462 Jan 25 00:11 results_26_accuracy.json
+-rw-rw-r--    1 gastown  gastown      19694 Jan 25 00:11 results_50_post_fix.json
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 scripts
+-rw-rw-r--    1 gastown  gastown       1320 Jan 25 00:11 start-dev.ps1
+-rwxrwxr-x    1 gastown  gastown        435 Jan 25 00:11 start.sh
+-rw-rw-r--    1 gastown  gastown       2964 Jan 25 00:11 test-connector.ps1
+-rw-rw-r--    1 gastown  gastown      49185 Jan 25 00:11 test_results_100.json
+-rw-rw-r--    1 gastown  gastown       8824 Jan 25 00:11 test_results_15.json
+-rw-rw-r--    1 gastown  gastown      11060 Jan 25 00:11 test_results_20.json
+drwxrwsr-x    5 gastown  gastown       4096 Jan 25 00:11 tests
+drwxrwsr-x    3 gastown  gastown       4096 Jan 25 00:11 tool_catalog_output
+-rw-rw-r--    1 gastown  gastown       3515 Jan 25 00:11 vibe_test_results.json
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app:
+total 112
+-rw-rw-r--    1 gastown  gastown          0 Jan 25 00:11 __init__.py
+drwxrwsr-x    4 gastown  gastown       4096 Jan 25 00:11 api
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 catalog
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 core
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 db
+drwxrwsr-x    4 gastown  gastown       4096 Jan 25 00:11 domain
+-rw-rw-r--    1 gastown  gastown       4503 Jan 25 00:11 exceptions.py
+drwxrwsr-x    3 gastown  gastown       4096 Jan 25 00:11 infrastructure
+-rw-rw-r--    1 gastown  gastown      43922 Jan 25 00:11 main.py
+drwxrwsr-x   10 gastown  gastown       4096 Jan 25 00:11 mcp
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 middleware
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 models
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 policies
+drwxrwsr-x    5 gastown  gastown       4096 Jan 25 00:11 pte
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 schemas
+drwxrwsr-x    3 gastown  gastown       4096 Jan 25 00:11 scripts
+drwxrwsr-x    4 gastown  gastown       4096 Jan 25 00:11 semantic
+drwxrwsr-x   34 gastown  gastown       4096 Jan 25 00:11 services
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/api:
+total 24
+-rw-rw-r--    1 gastown  gastown         26 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      11449 Jan 25 00:11 deps.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 helpers
+drwxrwsr-x    6 gastown  gastown       4096 Jan 25 00:11 routes
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/api/helpers:
+total 28
+-rw-rw-r--    1 gastown  gastown       2538 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown       7763 Jan 25 00:11 error_handling.py
+-rw-rw-r--    1 gastown  gastown       4764 Jan 25 00:11 responses.py
+-rw-rw-r--    1 gastown  gastown       7190 Jan 25 00:11 validation.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/api/routes:
+total 1216
+-rw-rw-r--    1 gastown  gastown          0 Jan 25 00:11 __init__.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 admin
+-rw-rw-r--    1 gastown  gastown      11400 Jan 25 00:11 agent.py
+-rw-rw-r--    1 gastown  gastown       5565 Jan 25 00:11 analytics.py
+-rw-rw-r--    1 gastown  gastown      59417 Jan 25 00:11 api_bridge.py
+-rw-rw-r--    1 gastown  gastown       8654 Jan 25 00:11 api_bridge_mcp.py
+-rw-rw-r--    1 gastown  gastown      12484 Jan 25 00:11 approvals.py
+-rw-rw-r--    1 gastown  gastown       9884 Jan 25 00:11 assets.py
+-rw-rw-r--    1 gastown  gastown       9992 Jan 25 00:11 audit_logs.py
+-rw-rw-r--    1 gastown  gastown      26801 Jan 25 00:11 auth.py
+-rw-rw-r--    1 gastown  gastown      11793 Jan 25 00:11 billing.py
+-rw-rw-r--    1 gastown  gastown      18421 Jan 25 00:11 billing_analytics.py
+-rw-rw-r--    1 gastown  gastown       6527 Jan 25 00:11 blueprints.py
+-rw-rw-r--    1 gastown  gastown      21871 Jan 25 00:11 catalog.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 cdktr_admin
+-rw-rw-r--    1 gastown  gastown      51117 Jan 25 00:11 chat.py
+-rw-rw-r--    1 gastown  gastown      16621 Jan 25 00:11 chat_session_memory.py
+-rw-rw-r--    1 gastown  gastown      53478 Jan 25 00:11 commerce.py
+-rw-rw-r--    1 gastown  gastown      27515 Jan 25 00:11 commerce_v2.py
+-rw-rw-r--    1 gastown  gastown      25116 Jan 25 00:11 commerce_v3.py
+-rw-rw-r--    1 gastown  gastown      57928 Jan 25 00:11 commerce_v4.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 connections
+-rw-rw-r--    1 gastown  gastown       7708 Jan 25 00:11 feature_flags.py
+-rw-rw-r--    1 gastown  gastown      12464 Jan 25 00:11 health.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 integrations
+-rw-rw-r--    1 gastown  gastown      15493 Jan 25 00:11 intelligence.py
+-rw-rw-r--    1 gastown  gastown      15658 Jan 25 00:11 managed_mcp.py
+-rw-rw-r--    1 gastown  gastown      44810 Jan 25 00:11 marketplace.py
+-rw-rw-r--    1 gastown  gastown      17800 Jan 25 00:11 mcp_client_features.py
+-rw-rw-r--    1 gastown  gastown      29825 Jan 25 00:11 mcp_conducktor.py
+-rw-rw-r--    1 gastown  gastown       7733 Jan 25 00:11 mcp_conducktor_auth.py
+-rw-rw-r--    1 gastown  gastown      27732 Jan 25 00:11 mcp_conducktor_handlers.py
+-rw-rw-r--    1 gastown  gastown        666 Jan 25 00:11 mcp_conducktor_schemas.py
+-rw-rw-r--    1 gastown  gastown       6765 Jan 25 00:11 mcp_conducktor_sse.py
+-rw-rw-r--    1 gastown  gastown      10846 Jan 25 00:11 mcp_probe.py
+-rw-rw-r--    1 gastown  gastown       8034 Jan 25 00:11 mcp_registry.py
+-rw-rw-r--    1 gastown  gastown      25136 Jan 25 00:11 mcp_server.py
+-rw-rw-r--    1 gastown  gastown      26857 Jan 25 00:11 oauth.py
+-rw-rw-r--    1 gastown  gastown      26367 Jan 25 00:11 oauth_advanced.py
+-rw-rw-r--    1 gastown  gastown      44666 Jan 25 00:11 oauth_callbacks.py
+-rw-rw-r--    1 gastown  gastown       6271 Jan 25 00:11 oauth_client_crud.py
+-rw-rw-r--    1 gastown  gastown       2704 Jan 25 00:11 oauth_discovery.py
+-rw-rw-r--    1 gastown  gastown       5094 Jan 25 00:11 oauth_helpers.py
+-rw-rw-r--    1 gastown  gastown       2762 Jan 25 00:11 oauth_models.py
+-rw-rw-r--    1 gastown  gastown      12652 Jan 25 00:11 oauth_popup.py
+-rw-rw-r--    1 gastown  gastown      16436 Jan 25 00:11 onboarding.py
+-rw-rw-r--    1 gastown  gastown      20684 Jan 25 00:11 overview.py
+-rw-rw-r--    1 gastown  gastown        931 Jan 25 00:11 policy_templates.py
+-rw-rw-r--    1 gastown  gastown       3002 Jan 25 00:11 policy_yaml.py
+-rw-rw-r--    1 gastown  gastown       1974 Jan 25 00:11 recommendations.py
+-rw-rw-r--    1 gastown  gastown       6445 Jan 25 00:11 rest_api_config.py
+-rw-rw-r--    1 gastown  gastown       8689 Jan 25 00:11 routing_metrics.py
+-rw-rw-r--    1 gastown  gastown      36367 Jan 25 00:11 semantic.py
+-rw-rw-r--    1 gastown  gastown      10330 Jan 25 00:11 session.py
+-rw-rw-r--    1 gastown  gastown      19718 Jan 25 00:11 social_auth.py
+-rw-rw-r--    1 gastown  gastown      23214 Jan 25 00:11 stacks.py
+-rw-rw-r--    1 gastown  gastown      18630 Jan 25 00:11 stdio.py
+-rw-rw-r--    1 gastown  gastown       3149 Jan 25 00:11 telemetry.py
+-rw-rw-r--    1 gastown  gastown       5185 Jan 25 00:11 tenants.py
+-rw-rw-r--    1 gastown  gastown       3343 Jan 25 00:11 validation.py
+-rw-rw-r--    1 gastown  gastown      25460 Jan 25 00:11 vault.py
+-rw-rw-r--    1 gastown  gastown      23296 Jan 25 00:11 webhooks.py
+-rw-rw-r--    1 gastown  gastown       5422 Jan 25 00:11 websockets.py
+-rw-rw-r--    1 gastown  gastown      16570 Jan 25 00:11 widgets.py
+-rw-rw-r--    1 gastown  gastown      30563 Jan 25 00:11 workflows.py
+-rw-rw-r--    1 gastown  gastown      25299 Jan 25 00:11 workspaces.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/api/routes/admin:
+total 144
+-rw-rw-r--    1 gastown  gastown        539 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      39562 Jan 25 00:11 connector_management.py
+-rw-rw-r--    1 gastown  gastown      72993 Jan 25 00:11 connector_validation.py
+-rw-rw-r--    1 gastown  gastown      25485 Jan 25 00:11 protocol_monitoring.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/api/routes/cdktr_admin:
+total 540
+-rw-rw-r--    1 gastown  gastown       5443 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      19166 Jan 25 00:11 ab_testing.py
+-rw-rw-r--    1 gastown  gastown      22643 Jan 25 00:11 chatbot.py
+-rw-rw-r--    1 gastown  gastown      58061 Jan 25 00:11 commerce.py
+-rw-rw-r--    1 gastown  gastown      69527 Jan 25 00:11 connectors.py
+-rw-rw-r--    1 gastown  gastown      71147 Jan 25 00:11 dashboard.py
+-rw-rw-r--    1 gastown  gastown       7611 Jan 25 00:11 demo.py
+-rw-rw-r--    1 gastown  gastown      29588 Jan 25 00:11 feature_flags.py
+-rw-rw-r--    1 gastown  gastown      17717 Jan 25 00:11 feedback_loop.py
+-rw-rw-r--    1 gastown  gastown      17810 Jan 25 00:11 incorporation.py
+-rw-rw-r--    1 gastown  gastown      18809 Jan 25 00:11 mcp_sessions.py
+-rw-rw-r--    1 gastown  gastown      10931 Jan 25 00:11 pattern_seeding.py
+-rw-rw-r--    1 gastown  gastown      24896 Jan 25 00:11 routing_config.py
+-rw-rw-r--    1 gastown  gastown      30211 Jan 25 00:11 scope_policies.py
+-rw-rw-r--    1 gastown  gastown       9033 Jan 25 00:11 security.py
+-rw-rw-r--    1 gastown  gastown      16160 Jan 25 00:11 semantic.py
+-rw-rw-r--    1 gastown  gastown      89607 Jan 25 00:11 variants.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/api/routes/connections:
+total 432
+-rw-rw-r--    1 gastown  gastown       1944 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      37391 Jan 25 00:11 crud.py
+-rw-rw-r--    1 gastown  gastown      14889 Jan 25 00:11 discovery.py
+-rw-rw-r--    1 gastown  gastown      23732 Jan 25 00:11 health.py
+-rw-rw-r--    1 gastown  gastown      16906 Jan 25 00:11 helpers.py
+-rw-rw-r--    1 gastown  gastown       4501 Jan 25 00:11 icon.py
+-rw-rw-r--    1 gastown  gastown      13123 Jan 25 00:11 metadata_builder.py
+-rw-rw-r--    1 gastown  gastown     117676 Jan 25 00:11 oauth.py
+-rw-rw-r--    1 gastown  gastown      20101 Jan 25 00:11 policies.py
+-rw-rw-r--    1 gastown  gastown     136918 Jan 25 00:11 quick_deploy.py
+-rw-rw-r--    1 gastown  gastown       4963 Jan 25 00:11 shared.py
+-rw-rw-r--    1 gastown  gastown      10549 Jan 25 00:11 tools.py
+-rw-rw-r--    1 gastown  gastown      12218 Jan 25 00:11 webhooks.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/api/routes/integrations:
+total 16
+-rw-rw-r--    1 gastown  gastown        473 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown       1892 Jan 25 00:11 router.py
+-rw-rw-r--    1 gastown  gastown       7129 Jan 25 00:11 slack_handler.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/catalog:
+total 16
+-rw-rw-r--    1 gastown  gastown       7414 Jan 25 00:11 community_feed.py
+-rw-rw-r--    1 gastown  gastown       6499 Jan 25 00:11 prefill.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/core:
+total 260
+-rw-rw-r--    1 gastown  gastown          0 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      28676 Jan 25 00:11 config.py
+-rw-rw-r--    1 gastown  gastown       9109 Jan 25 00:11 connection_constants.py
+-rw-rw-r--    1 gastown  gastown      16698 Jan 25 00:11 constants.py
+-rw-rw-r--    1 gastown  gastown      19578 Jan 25 00:11 errors.py
+-rw-rw-r--    1 gastown  gastown      14264 Jan 25 00:11 http_client.py
+-rw-rw-r--    1 gastown  gastown      15299 Jan 25 00:11 lifecycle.py
+-rw-rw-r--    1 gastown  gastown      10522 Jan 25 00:11 observability.py
+-rw-rw-r--    1 gastown  gastown      14582 Jan 25 00:11 pagination.py
+-rw-rw-r--    1 gastown  gastown      18444 Jan 25 00:11 scheduler.py
+-rw-rw-r--    1 gastown  gastown      14764 Jan 25 00:11 scopes.py
+-rw-rw-r--    1 gastown  gastown       5873 Jan 25 00:11 security.py
+-rw-rw-r--    1 gastown  gastown      10634 Jan 25 00:11 sse_counter.py
+-rw-rw-r--    1 gastown  gastown      11232 Jan 25 00:11 telemetry_otel.py
+-rw-rw-r--    1 gastown  gastown      11764 Jan 25 00:11 timeouts.py
+-rw-rw-r--    1 gastown  gastown      10298 Jan 25 00:11 validation.py
+-rw-rw-r--    1 gastown  gastown      24038 Jan 25 00:11 vault_keys.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/db:
+total 60
+-rw-rw-r--    1 gastown  gastown          0 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown        183 Jan 25 00:11 base.py
+-rw-rw-r--    1 gastown  gastown      19880 Jan 25 00:11 seed_demo.py
+-rw-rw-r--    1 gastown  gastown      31886 Jan 25 00:11 seed_demo_account.py
+-rw-rw-r--    1 gastown  gastown       1213 Jan 25 00:11 session.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/domain:
+total 12
+-rw-rw-r--    1 gastown  gastown       2519 Jan 25 00:11 __init__.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 auth
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 connections
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/domain/auth:
+total 24
+-rw-rw-r--    1 gastown  gastown       1034 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown       8595 Jan 25 00:11 oauth.py
+-rw-rw-r--    1 gastown  gastown       6187 Jan 25 00:11 pkce.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/domain/connections:
+total 24
+-rw-rw-r--    1 gastown  gastown        945 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      10870 Jan 25 00:11 health.py
+-rw-rw-r--    1 gastown  gastown       7565 Jan 25 00:11 lifecycle.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/infrastructure:
+total 8
+-rw-rw-r--    1 gastown  gastown       1135 Jan 25 00:11 __init__.py
+drwxrwsr-x    3 gastown  gastown       4096 Jan 25 00:11 database
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/infrastructure/database:
+total 8
+-rw-rw-r--    1 gastown  gastown        449 Jan 25 00:11 __init__.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 repositories
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/infrastructure/database/repositories:
+total 64
+-rw-rw-r--    1 gastown  gastown       1483 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown       6075 Jan 25 00:11 base.py
+-rw-rw-r--    1 gastown  gastown      14662 Jan 25 00:11 connection_repo.py
+-rw-rw-r--    1 gastown  gastown       2263 Jan 25 00:11 factory.py
+-rw-rw-r--    1 gastown  gastown       4319 Jan 25 00:11 policy_repo.py
+-rw-rw-r--    1 gastown  gastown       4248 Jan 25 00:11 user_repo.py
+-rw-rw-r--    1 gastown  gastown       4547 Jan 25 00:11 workflow_repo.py
+-rw-rw-r--    1 gastown  gastown       4722 Jan 25 00:11 workspace_repo.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/mcp:
+total 112
+-rw-rw-r--    1 gastown  gastown       9078 Jan 25 00:11 __init__.py
+drwxrwsr-x    3 gastown  gastown       4096 Jan 25 00:11 client
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 common
+-rw-rw-r--    1 gastown  gastown      11067 Jan 25 00:11 exceptions.py
+drwxrwsr-x    3 gastown  gastown       4096 Jan 25 00:11 handlers
+drwxrwsr-x    5 gastown  gastown       4096 Jan 25 00:11 intelligence
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 middleware
+drwxrwsr-x    4 gastown  gastown       4096 Jan 25 00:11 semantic
+drwxrwsr-x    7 gastown  gastown       4096 Jan 25 00:11 server
+-rw-rw-r--    1 gastown  gastown      56166 Jan 25 00:11 tool_discovery.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 transports
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/mcp/client:
+total 68
+-rw-rw-r--    1 gastown  gastown       2693 Jan 25 00:11 __init__.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 auth
+-rw-rw-r--    1 gastown  gastown      14974 Jan 25 00:11 callbacks.py
+-rw-rw-r--    1 gastown  gastown      17223 Jan 25 00:11 session_health.py
+-rw-rw-r--    1 gastown  gastown      23999 Jan 25 00:11 session_manager.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/mcp/client/auth:
+total 156
+-rw-rw-r--    1 gastown  gastown       2253 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      12129 Jan 25 00:11 handlers.py
+-rw-rw-r--    1 gastown  gastown      13655 Jan 25 00:11 provider.py
+-rw-rw-r--    1 gastown  gastown      72552 Jan 25 00:11 sdk_wrapper.py
+-rw-rw-r--    1 gastown  gastown      50989 Jan 25 00:11 storage.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/mcp/common:
+total 16
+-rw-rw-r--    1 gastown  gastown        414 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown       8624 Jan 25 00:11 types.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/mcp/handlers:
+total 176
+-rw-rw-r--    1 gastown  gastown        970 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      17435 Jan 25 00:11 api_handler.py
+-rw-rw-r--    1 gastown  gastown      29402 Jan 25 00:11 base.py
+-rw-rw-r--    1 gastown  gastown      83185 Jan 25 00:11 mcp_handler.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 microsoft
+-rw-rw-r--    1 gastown  gastown       8834 Jan 25 00:11 rss_handler.py
+-rw-rw-r--    1 gastown  gastown      19626 Jan 25 00:11 stdio_handler.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/mcp/handlers/microsoft:
+total 68
+-rw-rw-r--    1 gastown  gastown        465 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      17064 Jan 25 00:11 files_handler.py
+-rw-rw-r--    1 gastown  gastown      16328 Jan 25 00:11 outlook_handler.py
+-rw-rw-r--    1 gastown  gastown      10777 Jan 25 00:11 teams_handler.py
+-rw-rw-r--    1 gastown  gastown      12298 Jan 25 00:11 token_manager.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/mcp/intelligence:
+total 736
+-rw-rw-r--    1 gastown  gastown      14308 Jan 25 00:11 CONSOLIDATION_SUMMARY.md
+-rw-rw-r--    1 gastown  gastown      20480 Jan 25 00:11 ROUTING_DECISION_TREE.md
+-rw-rw-r--    1 gastown  gastown      15120 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      43940 Jan 25 00:11 auto_discovery.py
+-rw-rw-r--    1 gastown  gastown      17974 Jan 25 00:11 capability_detector.py
+-rw-rw-r--    1 gastown  gastown      45319 Jan 25 00:11 capability_router.py
+-rw-rw-r--    1 gastown  gastown      15142 Jan 25 00:11 circuit_breaker.py
+-rw-rw-r--    1 gastown  gastown       3165 Jan 25 00:11 compat.py
+-rw-rw-r--    1 gastown  gastown      17961 Jan 25 00:11 compensation_engine.py
+-rw-rw-r--    1 gastown  gastown      29547 Jan 25 00:11 contract_registry.py
+-rw-rw-r--    1 gastown  gastown      28515 Jan 25 00:11 domain_mappings.py
+-rw-rw-r--    1 gastown  gastown      17059 Jan 25 00:11 dynamic_tool_loader.py
+-rw-rw-r--    1 gastown  gastown      31263 Jan 25 00:11 execution_orchestrator.py
+-rw-rw-r--    1 gastown  gastown      20830 Jan 25 00:11 health_predictor.py
+-rw-rw-r--    1 gastown  gastown      23337 Jan 25 00:11 htn_expander.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 intent
+-rw-rw-r--    1 gastown  gastown      26793 Jan 25 00:11 intent_planner.py
+-rw-rw-r--    1 gastown  gastown       1801 Jan 25 00:11 intent_resolver.py
+-rw-rw-r--    1 gastown  gastown      27395 Jan 25 00:11 keyword_index.py
+-rw-rw-r--    1 gastown  gastown      16362 Jan 25 00:11 parallel_executor.py
+-rw-rw-r--    1 gastown  gastown       2279 Jan 25 00:11 plan_compiler.py
+-rw-rw-r--    1 gastown  gastown      42715 Jan 25 00:11 plan_executor.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 planning
+-rw-rw-r--    1 gastown  gastown      23226 Jan 25 00:11 policy_engine.py
+-rw-rw-r--    1 gastown  gastown      18063 Jan 25 00:11 rag_router.py
+-rw-rw-r--    1 gastown  gastown      21813 Jan 25 00:11 recommender.py
+-rw-rw-r--    1 gastown  gastown      15711 Jan 25 00:11 retry_engine.py
+-rw-rw-r--    1 gastown  gastown      12255 Jan 25 00:11 routing_config.py
+-rw-rw-r--    1 gastown  gastown      10889 Jan 25 00:11 scoring_engine.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 semantic
+-rw-rw-r--    1 gastown  gastown       1361 Jan 25 00:11 semantic_index.py
+-rw-rw-r--    1 gastown  gastown      21749 Jan 25 00:11 service.py
+-rw-rw-r--    1 gastown  gastown      26853 Jan 25 00:11 smart_router.py
+-rw-rw-r--    1 gastown  gastown      10687 Jan 25 00:11 strategy_selector.py
+-rw-rw-r--    1 gastown  gastown      15060 Jan 25 00:11 tool_importance.py
+-rw-rw-r--    1 gastown  gastown       6342 Jan 25 00:11 tool_naming.py
+-rw-rw-r--    1 gastown  gastown      36301 Jan 25 00:11 unified_router.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/mcp/intelligence/intent:
+total 72
+-rw-rw-r--    1 gastown  gastown        843 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      13308 Jan 25 00:11 platform_detection.py
+-rw-rw-r--    1 gastown  gastown       2573 Jan 25 00:11 prompts.py
+-rw-rw-r--    1 gastown  gastown      36362 Jan 25 00:11 resolver.py
+-rw-rw-r--    1 gastown  gastown       8780 Jan 25 00:11 types.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/mcp/intelligence/planning:
+total 64
+-rw-rw-r--    1 gastown  gastown       1968 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      38885 Jan 25 00:11 compiler.py
+-rw-rw-r--    1 gastown  gastown       4398 Jan 25 00:11 dag_validator.py
+-rw-rw-r--    1 gastown  gastown       3750 Jan 25 00:11 errors.py
+-rw-rw-r--    1 gastown  gastown       3632 Jan 25 00:11 references.py
+-rw-rw-r--    1 gastown  gastown       3396 Jan 25 00:11 risk_analyzer.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/mcp/intelligence/semantic:
+total 60
+-rw-rw-r--    1 gastown  gastown       2867 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown       4551 Jan 25 00:11 embeddings.py
+-rw-rw-r--    1 gastown  gastown      13814 Jan 25 00:11 index.py
+-rw-rw-r--    1 gastown  gastown       6088 Jan 25 00:11 scoring.py
+-rw-rw-r--    1 gastown  gastown       5803 Jan 25 00:11 text_processing.py
+-rw-rw-r--    1 gastown  gastown       5191 Jan 25 00:11 tfidf.py
+-rw-rw-r--    1 gastown  gastown       7986 Jan 25 00:11 types.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/mcp/middleware:
+total 84
+-rw-rw-r--    1 gastown  gastown       1626 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown       8641 Jan 25 00:11 auth.py
+-rw-rw-r--    1 gastown  gastown      13355 Jan 25 00:11 auto_host.py
+-rw-rw-r--    1 gastown  gastown       6507 Jan 25 00:11 base.py
+-rw-rw-r--    1 gastown  gastown      12186 Jan 25 00:11 commerce.py
+-rw-rw-r--    1 gastown  gastown       6727 Jan 25 00:11 error.py
+-rw-rw-r--    1 gastown  gastown      11039 Jan 25 00:11 policy.py
+-rw-rw-r--    1 gastown  gastown      11577 Jan 25 00:11 telemetry.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/mcp/semantic:
+total 40
+-rw-rw-r--    1 gastown  gastown        702 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown         86 Jan 25 00:11 categories.py
+-rw-rw-r--    1 gastown  gastown         90 Jan 25 00:11 category_loader.py
+-rw-rw-r--    1 gastown  gastown         80 Jan 25 00:11 enums.py
+-rw-rw-r--    1 gastown  gastown         82 Jan 25 00:11 helpers.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 mappings
+-rw-rw-r--    1 gastown  gastown         85 Jan 25 00:11 operations.py
+-rw-rw-r--    1 gastown  gastown         84 Jan 25 00:11 providers.py
+-rw-rw-r--    1 gastown  gastown         81 Jan 25 00:11 router.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 schemas
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/mcp/semantic/mappings:
+total 72
+-rw-rw-r--    1 gastown  gastown        566 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown         89 Jan 25 00:11 asana.py
+-rw-rw-r--    1 gastown  gastown         90 Jan 25 00:11 github.py
+-rw-rw-r--    1 gastown  gastown         90 Jan 25 00:11 gitlab.py
+-rw-rw-r--    1 gastown  gastown         89 Jan 25 00:11 gmail.py
+-rw-rw-r--    1 gastown  gastown         99 Jan 25 00:11 google_calendar.py
+-rw-rw-r--    1 gastown  gastown         91 Jan 25 00:11 hubspot.py
+-rw-rw-r--    1 gastown  gastown         88 Jan 25 00:11 jira.py
+-rw-rw-r--    1 gastown  gastown         90 Jan 25 00:11 linear.py
+-rw-rw-r--    1 gastown  gastown         90 Jan 25 00:11 monday.py
+-rw-rw-r--    1 gastown  gastown         90 Jan 25 00:11 notion.py
+-rw-rw-r--    1 gastown  gastown         90 Jan 25 00:11 openai.py
+-rw-rw-r--    1 gastown  gastown         87 Jan 25 00:11 rss.py
+-rw-rw-r--    1 gastown  gastown         94 Jan 25 00:11 salesforce.py
+-rw-rw-r--    1 gastown  gastown         89 Jan 25 00:11 slack.py
+-rw-rw-r--    1 gastown  gastown         90 Jan 25 00:11 stripe.py
+-rw-rw-r--    1 gastown  gastown         89 Jan 25 00:11 teams.py
+-rw-rw-r--    1 gastown  gastown         90 Jan 25 00:11 trello.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/mcp/semantic/schemas:
+total 4
+-rw-rw-r--    1 gastown  gastown        566 Jan 25 00:11 __init__.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/mcp/server:
+total 516
+-rw-rw-r--    1 gastown  gastown       5656 Jan 25 00:11 __init__.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 auth
+-rw-rw-r--    1 gastown  gastown      22348 Jan 25 00:11 client_features.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 conducktor
+-rw-rw-r--    1 gastown  gastown       1544 Jan 25 00:11 conducktor.py
+drwxrwsr-x    3 gastown  gastown       4096 Jan 25 00:11 conducktr
+-rw-rw-r--    1 gastown  gastown     312510 Jan 25 00:11 conducktr.py
+-rw-rw-r--    1 gastown  gastown      99751 Jan 25 00:11 gateway.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 handlers
+-rw-rw-r--    1 gastown  gastown      14955 Jan 25 00:11 protocol.py
+-rw-rw-r--    1 gastown  gastown      17031 Jan 25 00:11 redis_state.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 tools
+-rw-rw-r--    1 gastown  gastown      13106 Jan 25 00:11 utilities.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/mcp/server/auth:
+total 20
+-rw-rw-r--    1 gastown  gastown       1683 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown       2410 Jan 25 00:11 access_control.py
+-rw-rw-r--    1 gastown  gastown       6168 Jan 25 00:11 pii_consent.py
+-rw-rw-r--    1 gastown  gastown       2616 Jan 25 00:11 validation.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/mcp/server/conducktor:
+total 108
+-rw-rw-r--    1 gastown  gastown       8854 Jan 25 00:11 README.md
+-rw-rw-r--    1 gastown  gastown       4299 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown        568 Jan 25 00:11 access_control.py
+-rw-rw-r--    1 gastown  gastown        767 Jan 25 00:11 consent.py
+-rw-rw-r--    1 gastown  gastown      60913 Jan 25 00:11 constants.py
+-rw-rw-r--    1 gastown  gastown      17886 Jan 25 00:11 state.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/mcp/server/conducktr:
+total 108
+-rw-rw-r--    1 gastown  gastown       8816 Jan 25 00:11 README.md
+-rw-rw-r--    1 gastown  gastown       3916 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown        568 Jan 25 00:11 access_control.py
+-rw-rw-r--    1 gastown  gastown        767 Jan 25 00:11 consent.py
+-rw-rw-r--    1 gastown  gastown      59796 Jan 25 00:11 constants.py
+-rw-rw-r--    1 gastown  gastown      17885 Jan 25 00:11 state.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 tools
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/mcp/server/conducktr/tools:
+total 96
+-rw-rw-r--    1 gastown  gastown       1996 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown       4058 Jan 25 00:11 approval.py
+-rw-rw-r--    1 gastown  gastown       4583 Jan 25 00:11 asset.py
+-rw-rw-r--    1 gastown  gastown       1642 Jan 25 00:11 base.py
+-rw-rw-r--    1 gastown  gastown      19331 Jan 25 00:11 connection.py
+-rw-rw-r--    1 gastown  gastown      12432 Jan 25 00:11 guide.py
+-rw-rw-r--    1 gastown  gastown       3074 Jan 25 00:11 policy.py
+-rw-rw-r--    1 gastown  gastown      20274 Jan 25 00:11 system.py
+-rw-rw-r--    1 gastown  gastown       7283 Jan 25 00:11 usage.py
+-rw-rw-r--    1 gastown  gastown       7356 Jan 25 00:11 workflow.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/mcp/server/handlers:
+total 32
+-rw-rw-r--    1 gastown  gastown        958 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown       6093 Jan 25 00:11 initialize_handler.py
+-rw-rw-r--    1 gastown  gastown       3338 Jan 25 00:11 prompt_handler.py
+-rw-rw-r--    1 gastown  gastown       3353 Jan 25 00:11 resource_handler.py
+-rw-rw-r--    1 gastown  gastown      12028 Jan 25 00:11 tool_handler.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/mcp/server/tools:
+total 72
+-rw-rw-r--    1 gastown  gastown       1610 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown       3548 Jan 25 00:11 approval_tools.py
+-rw-rw-r--    1 gastown  gastown       4044 Jan 25 00:11 asset_tools.py
+-rw-rw-r--    1 gastown  gastown      17292 Jan 25 00:11 connection_tools.py
+-rw-rw-r--    1 gastown  gastown        706 Jan 25 00:11 guide_tools.py
+-rw-rw-r--    1 gastown  gastown       2695 Jan 25 00:11 policy_tools.py
+-rw-rw-r--    1 gastown  gastown      17708 Jan 25 00:11 system_tools.py
+-rw-rw-r--    1 gastown  gastown       2703 Jan 25 00:11 usage_tools.py
+-rw-rw-r--    1 gastown  gastown       6795 Jan 25 00:11 workflow_tools.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/mcp/transports:
+total 24
+-rw-rw-r--    1 gastown  gastown        596 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      17738 Jan 25 00:11 stdio_bridge.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/middleware:
+total 40
+-rw-rw-r--    1 gastown  gastown      16251 Jan 25 00:11 csrf.py
+-rw-rw-r--    1 gastown  gastown      20987 Jan 25 00:11 rate_limit.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/models:
+total 536
+-rw-rw-r--    1 gastown  gastown      11793 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown       6467 Jan 25 00:11 api_bridge.py
+-rw-rw-r--    1 gastown  gastown       2644 Jan 25 00:11 asset.py
+-rw-rw-r--    1 gastown  gastown       6095 Jan 25 00:11 audit.py
+-rw-rw-r--    1 gastown  gastown      11569 Jan 25 00:11 auth.py
+-rw-rw-r--    1 gastown  gastown      12374 Jan 25 00:11 catalog.py
+-rw-rw-r--    1 gastown  gastown      60518 Jan 25 00:11 catalog_variants.py
+-rw-rw-r--    1 gastown  gastown       4911 Jan 25 00:11 chat_session_memory.py
+-rw-rw-r--    1 gastown  gastown      33209 Jan 25 00:11 commerce.py
+-rw-rw-r--    1 gastown  gastown      35868 Jan 25 00:11 commerce_v2.py
+-rw-rw-r--    1 gastown  gastown      30968 Jan 25 00:11 commerce_v3.py
+-rw-rw-r--    1 gastown  gastown      52761 Jan 25 00:11 commerce_v4.py
+-rw-rw-r--    1 gastown  gastown      24348 Jan 25 00:11 connection.py
+-rw-rw-r--    1 gastown  gastown      24918 Jan 25 00:11 connection_config.py
+-rw-rw-r--    1 gastown  gastown      14774 Jan 25 00:11 conversation.py
+-rw-rw-r--    1 gastown  gastown       4612 Jan 25 00:11 feature_flag.py
+-rw-rw-r--    1 gastown  gastown       5803 Jan 25 00:11 intent_policy.py
+-rw-rw-r--    1 gastown  gastown      16352 Jan 25 00:11 intent_run.py
+-rw-rw-r--    1 gastown  gastown      23444 Jan 25 00:11 managed_mcp.py
+-rw-rw-r--    1 gastown  gastown       7896 Jan 25 00:11 marketplace.py
+-rw-rw-r--    1 gastown  gastown        808 Jan 25 00:11 policy_template.py
+-rw-rw-r--    1 gastown  gastown       4885 Jan 25 00:11 routing_config.py
+-rw-rw-r--    1 gastown  gastown       4862 Jan 25 00:11 routing_feedback.py
+-rw-rw-r--    1 gastown  gastown       4176 Jan 25 00:11 semantic_preferences.py
+-rw-rw-r--    1 gastown  gastown      12084 Jan 25 00:11 stacks.py
+-rw-rw-r--    1 gastown  gastown       9047 Jan 25 00:11 subscription.py
+-rw-rw-r--    1 gastown  gastown       3903 Jan 25 00:11 telemetry.py
+-rw-rw-r--    1 gastown  gastown      14365 Jan 25 00:11 tenant.py
+-rw-rw-r--    1 gastown  gastown      15771 Jan 25 00:11 terminology.py
+-rw-rw-r--    1 gastown  gastown       4385 Jan 25 00:11 user_credential.py
+-rw-rw-r--    1 gastown  gastown        846 Jan 25 00:11 vault_secret.py
+-rw-rw-r--    1 gastown  gastown      17181 Jan 25 00:11 workflow.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/policies:
+total 8
+-rw-rw-r--    1 gastown  gastown       4519 Jan 25 00:11 templates.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/pte:
+total 48
+-rw-rw-r--    1 gastown  gastown        507 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown       8986 Jan 25 00:11 cache.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 executors
+-rw-rw-r--    1 gastown  gastown       6103 Jan 25 00:11 models.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 parsers
+drwxrwsr-x    8 gastown  gastown       4096 Jan 25 00:11 plugins
+-rw-rw-r--    1 gastown  gastown      10895 Jan 25 00:11 router.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/pte/executors:
+total 168
+-rw-rw-r--    1 gastown  gastown       1469 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown       2496 Jan 25 00:11 base.py
+-rw-rw-r--    1 gastown  gastown       6781 Jan 25 00:11 mcp_executor.py
+-rw-rw-r--    1 gastown  gastown      27686 Jan 25 00:11 rest_executor.py
+-rw-rw-r--    1 gastown  gastown      33204 Jan 25 00:11 rss_executor.py
+-rw-rw-r--    1 gastown  gastown      22744 Jan 25 00:11 soap_executor.py
+-rw-rw-r--    1 gastown  gastown      13773 Jan 25 00:11 stdio_executor.py
+-rw-rw-r--    1 gastown  gastown      29503 Jan 25 00:11 websocket_executor.py
+-rw-rw-r--    1 gastown  gastown      14894 Jan 25 00:11 ws_security.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/pte/parsers:
+total 44
+-rw-rw-r--    1 gastown  gastown       1043 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown       3361 Jan 25 00:11 base.py
+-rw-rw-r--    1 gastown  gastown       3819 Jan 25 00:11 mcp_parser.py
+-rw-rw-r--    1 gastown  gastown       3546 Jan 25 00:11 rest_parser.py
+-rw-rw-r--    1 gastown  gastown      24667 Jan 25 00:11 wsdl_parser.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/pte/plugins:
+total 52
+-rw-rw-r--    1 gastown  gastown      12116 Jan 25 00:11 README.md
+-rw-rw-r--    1 gastown  gastown        439 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown       3512 Jan 25 00:11 base.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 mcp
+-rw-rw-r--    1 gastown  gastown       7214 Jan 25 00:11 registry.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 rest
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 rss
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 soap
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 stdio
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 websocket
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/pte/plugins/mcp:
+total 20
+-rw-rw-r--    1 gastown  gastown        290 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown       6781 Jan 25 00:11 executor.py
+-rw-rw-r--    1 gastown  gastown       3819 Jan 25 00:11 parser.py
+-rw-rw-r--    1 gastown  gastown       1825 Jan 25 00:11 plugin.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/pte/plugins/rest:
+total 40
+-rw-rw-r--    1 gastown  gastown        300 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      27680 Jan 25 00:11 executor.py
+-rw-rw-r--    1 gastown  gastown       3546 Jan 25 00:11 parser.py
+-rw-rw-r--    1 gastown  gastown       2470 Jan 25 00:11 plugin.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/pte/plugins/rss:
+total 44
+-rw-rw-r--    1 gastown  gastown        269 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      33204 Jan 25 00:11 executor.py
+-rw-rw-r--    1 gastown  gastown       2185 Jan 25 00:11 plugin.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/pte/plugins/soap:
+total 76
+-rw-rw-r--    1 gastown  gastown        366 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      22744 Jan 25 00:11 executor.py
+-rw-rw-r--    1 gastown  gastown      24667 Jan 25 00:11 parser.py
+-rw-rw-r--    1 gastown  gastown       2371 Jan 25 00:11 plugin.py
+-rw-rw-r--    1 gastown  gastown      14894 Jan 25 00:11 ws_security.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/pte/plugins/stdio:
+total 24
+-rw-rw-r--    1 gastown  gastown        240 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      13773 Jan 25 00:11 executor.py
+-rw-rw-r--    1 gastown  gastown       1906 Jan 25 00:11 plugin.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/pte/plugins/websocket:
+total 40
+-rw-rw-r--    1 gastown  gastown        268 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      29503 Jan 25 00:11 executor.py
+-rw-rw-r--    1 gastown  gastown       2215 Jan 25 00:11 plugin.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/schemas:
+total 332
+-rw-rw-r--    1 gastown  gastown          0 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown       5654 Jan 25 00:11 audit.py
+-rw-rw-r--    1 gastown  gastown       8491 Jan 25 00:11 auth.py
+-rw-rw-r--    1 gastown  gastown      10029 Jan 25 00:11 base.py
+-rw-rw-r--    1 gastown  gastown       2519 Jan 25 00:11 billing.py
+-rw-rw-r--    1 gastown  gastown       1821 Jan 25 00:11 blueprint.py
+-rw-rw-r--    1 gastown  gastown       4594 Jan 25 00:11 catalog.py
+-rw-rw-r--    1 gastown  gastown      54495 Jan 25 00:11 catalog_variants.py
+-rw-rw-r--    1 gastown  gastown       9041 Jan 25 00:11 cdktr_admin.py
+-rw-rw-r--    1 gastown  gastown      25093 Jan 25 00:11 chat.py
+-rw-rw-r--    1 gastown  gastown      20475 Jan 25 00:11 commerce.py
+-rw-rw-r--    1 gastown  gastown        604 Jan 25 00:11 common.py
+-rw-rw-r--    1 gastown  gastown      28330 Jan 25 00:11 connection.py
+-rw-rw-r--    1 gastown  gastown      16828 Jan 25 00:11 connection_config.py
+-rw-rw-r--    1 gastown  gastown       4895 Jan 25 00:11 environment.py
+-rw-rw-r--    1 gastown  gastown      19662 Jan 25 00:11 managed_mcp.py
+-rw-rw-r--    1 gastown  gastown       7627 Jan 25 00:11 marketplace.py
+-rw-rw-r--    1 gastown  gastown       2179 Jan 25 00:11 mcp_registry.py
+-rw-rw-r--    1 gastown  gastown       3381 Jan 25 00:11 overview.py
+-rw-rw-r--    1 gastown  gastown        292 Jan 25 00:11 policy_template.py
+-rw-rw-r--    1 gastown  gastown       3064 Jan 25 00:11 policy_yaml.py
+-rw-rw-r--    1 gastown  gastown       8899 Jan 25 00:11 scope_governance.py
+-rw-rw-r--    1 gastown  gastown       1353 Jan 25 00:11 session.py
+-rw-rw-r--    1 gastown  gastown      12891 Jan 25 00:11 stacks.py
+-rw-rw-r--    1 gastown  gastown       2927 Jan 25 00:11 team_activity.py
+-rw-rw-r--    1 gastown  gastown       4294 Jan 25 00:11 telemetry.py
+-rw-rw-r--    1 gastown  gastown       1388 Jan 25 00:11 tenant.py
+-rw-rw-r--    1 gastown  gastown      10002 Jan 25 00:11 workflow.py
+-rw-rw-r--    1 gastown  gastown       2473 Jan 25 00:11 workspace_bundle.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/scripts:
+total 20
+-rw-rw-r--    1 gastown  gastown       4474 Jan 25 00:11 README.md
+-rw-rw-r--    1 gastown  gastown        163 Jan 25 00:11 __init__.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 connector_tester
+-rw-rw-r--    1 gastown  gastown       4016 Jan 25 00:11 validate_vault_refs.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/scripts/connector_tester:
+total 144
+-rw-rw-r--    1 gastown  gastown       7067 Jan 25 00:11 README.md
+-rw-rw-r--    1 gastown  gastown       1716 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown        222 Jan 25 00:11 __main__.py
+-rw-rw-r--    1 gastown  gastown      42443 Jan 25 00:11 cli.py
+-rw-rw-r--    1 gastown  gastown       7025 Jan 25 00:11 fixtures.py
+-rw-rw-r--    1 gastown  gastown      42452 Jan 25 00:11 runner.py
+-rw-rw-r--    1 gastown  gastown      10132 Jan 25 00:11 templates.py
+-rw-rw-r--    1 gastown  gastown      17486 Jan 25 00:11 validators.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/semantic:
+total 252
+-rw-rw-r--    1 gastown  gastown       4799 Jan 25 00:11 MIGRATION_PLAN.md
+-rw-rw-r--    1 gastown  gastown      20954 Jan 25 00:11 REFACTORING_SUMMARY.md
+-rw-rw-r--    1 gastown  gastown       7066 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown       1898 Jan 25 00:11 categories.py
+-rw-rw-r--    1 gastown  gastown       8642 Jan 25 00:11 category_loader.py
+-rw-rw-r--    1 gastown  gastown      13654 Jan 25 00:11 classifier.py
+-rw-rw-r--    1 gastown  gastown      14288 Jan 25 00:11 db_resolver.py
+-rw-rw-r--    1 gastown  gastown      13915 Jan 25 00:11 discovery.py
+-rw-rw-r--    1 gastown  gastown      10062 Jan 25 00:11 enums.py
+-rw-rw-r--    1 gastown  gastown       9768 Jan 25 00:11 helpers.py
+drwxrwsr-x    3 gastown  gastown       4096 Jan 25 00:11 mappings
+-rw-rw-r--    1 gastown  gastown      15058 Jan 25 00:11 operations.py
+-rw-rw-r--    1 gastown  gastown      14988 Jan 25 00:11 patterns.py
+-rw-rw-r--    1 gastown  gastown      35555 Jan 25 00:11 providers.py
+-rw-rw-r--    1 gastown  gastown      40473 Jan 25 00:11 router.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 schemas
+-rw-rw-r--    1 gastown  gastown       6306 Jan 25 00:11 sync_categories.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/semantic/mappings:
+total 424
+-rw-rw-r--    1 gastown  gastown       9341 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      11604 Jan 25 00:11 asana.py
+-rw-rw-r--    1 gastown  gastown      18375 Jan 25 00:11 common_transforms.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 config
+-rw-rw-r--    1 gastown  gastown       5895 Jan 25 00:11 declarative.py
+-rw-rw-r--    1 gastown  gastown      17724 Jan 25 00:11 github.py
+-rw-rw-r--    1 gastown  gastown      16886 Jan 25 00:11 gitlab.py
+-rw-rw-r--    1 gastown  gastown      13717 Jan 25 00:11 gmail.py
+-rw-rw-r--    1 gastown  gastown       9514 Jan 25 00:11 google_bigquery.py
+-rw-rw-r--    1 gastown  gastown      17593 Jan 25 00:11 google_calendar.py
+-rw-rw-r--    1 gastown  gastown      10786 Jan 25 00:11 google_drive.py
+-rw-rw-r--    1 gastown  gastown      12887 Jan 25 00:11 hubspot.py
+-rw-rw-r--    1 gastown  gastown      15451 Jan 25 00:11 jira.py
+-rw-rw-r--    1 gastown  gastown       8778 Jan 25 00:11 linear.py
+-rw-rw-r--    1 gastown  gastown      12262 Jan 25 00:11 mailchimp.py
+-rw-rw-r--    1 gastown  gastown       9277 Jan 25 00:11 migrate_to_common_transforms.py
+-rw-rw-r--    1 gastown  gastown      19443 Jan 25 00:11 monday.py
+-rw-rw-r--    1 gastown  gastown      12158 Jan 25 00:11 notion.py
+-rw-rw-r--    1 gastown  gastown      13655 Jan 25 00:11 office365.py
+-rw-rw-r--    1 gastown  gastown       7056 Jan 25 00:11 onedrive.py
+-rw-rw-r--    1 gastown  gastown      10410 Jan 25 00:11 openai.py
+-rw-rw-r--    1 gastown  gastown      10822 Jan 25 00:11 outlook.py
+-rw-rw-r--    1 gastown  gastown      10000 Jan 25 00:11 paypal.py
+-rw-rw-r--    1 gastown  gastown       5944 Jan 25 00:11 rss.py
+-rw-rw-r--    1 gastown  gastown      11451 Jan 25 00:11 rss_feeds.py
+-rw-rw-r--    1 gastown  gastown      15770 Jan 25 00:11 salesforce.py
+-rw-rw-r--    1 gastown  gastown       8041 Jan 25 00:11 sharepoint.py
+-rw-rw-r--    1 gastown  gastown       8246 Jan 25 00:11 slack.py
+-rw-rw-r--    1 gastown  gastown      20580 Jan 25 00:11 stripe.py
+-rw-rw-r--    1 gastown  gastown      13458 Jan 25 00:11 teams.py
+-rw-rw-r--    1 gastown  gastown      11233 Jan 25 00:11 trello.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/semantic/mappings/config:
+total 12
+-rw-rw-r--    1 gastown  gastown       1724 Jan 25 00:11 README.md
+-rw-rw-r--    1 gastown  gastown       1456 Jan 25 00:11 onedrive.yaml
+-rw-rw-r--    1 gastown  gastown       1483 Jan 25 00:11 sharepoint.yaml
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/semantic/schemas:
+total 48
+-rw-rw-r--    1 gastown  gastown      47505 Jan 25 00:11 __init__.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/services:
+total 152
+-rw-rw-r--    1 gastown  gastown       7763 Jan 25 00:11 REORGANIZATION_SUMMARY.md
+-rw-rw-r--    1 gastown  gastown       7544 Jan 25 00:11 __init__.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 agents
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 ai
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 analytics
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 approvals
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 auth
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 auth_providers
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 catalog
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 chat
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 commerce
+drwxrwsr-x    3 gastown  gastown       4096 Jan 25 00:11 connection
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 connections
+drwxrwsr-x    3 gastown  gastown       4096 Jan 25 00:11 connectors
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 core
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 data
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 health
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 intents
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 marketplace
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 mcp
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 microsoft
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 oauth
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 patterns
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 policy
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 protocol
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 routing
+-rw-rw-r--    1 gastown  gastown       4822 Jan 25 00:11 telemetry.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 token
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 token_lifecycle
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 tools
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 usage
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 variants
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 vault
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 workflows
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 workspaces
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/services/agents:
+total 168
+-rw-rw-r--    1 gastown  gastown       5260 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      33917 Jan 25 00:11 agent_collective.py
+-rw-rw-r--    1 gastown  gastown      28876 Jan 25 00:11 agent_evolution.py
+-rw-rw-r--    1 gastown  gastown      29702 Jan 25 00:11 agent_executor.py
+-rw-rw-r--    1 gastown  gastown      13959 Jan 25 00:11 agent_gen4_hooks.py
+-rw-rw-r--    1 gastown  gastown      26851 Jan 25 00:11 agent_negotiation.py
+-rw-rw-r--    1 gastown  gastown      12580 Jan 25 00:11 ai_judge.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/services/ai:
+total 60
+-rw-rw-r--    1 gastown  gastown       4327 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      21762 Jan 25 00:11 feedback_loop.py
+-rw-rw-r--    1 gastown  gastown      18944 Jan 25 00:11 openai_abstractions.py
+-rw-rw-r--    1 gastown  gastown       4832 Jan 25 00:11 orchestrator.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/services/analytics:
+total 32
+-rw-rw-r--    1 gastown  gastown       1502 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      26018 Jan 25 00:11 ab_testing.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/services/approvals:
+total 28
+-rw-rw-r--    1 gastown  gastown       2228 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown       7615 Jan 25 00:11 approval_escalation.py
+-rw-rw-r--    1 gastown  gastown      16157 Jan 25 00:11 approval_expiry.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/services/auth:
+total 80
+-rw-rw-r--    1 gastown  gastown       3138 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown       8151 Jan 25 00:11 base.py
+-rw-rw-r--    1 gastown  gastown       8968 Jan 25 00:11 credentials.py
+-rw-rw-r--    1 gastown  gastown      15587 Jan 25 00:11 entra.py
+-rw-rw-r--    1 gastown  gastown       6168 Jan 25 00:11 factory.py
+-rw-rw-r--    1 gastown  gastown      10163 Jan 25 00:11 github.py
+-rw-rw-r--    1 gastown  gastown      19899 Jan 25 00:11 oauth_handler.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/services/auth_providers:
+total 52
+-rw-rw-r--    1 gastown  gastown       2025 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      24345 Jan 25 00:11 authlib_provider.py
+-rw-rw-r--    1 gastown  gastown       8730 Jan 25 00:11 credential_validator.py
+-rw-rw-r--    1 gastown  gastown      11466 Jan 25 00:11 entra.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/services/catalog:
+total 84
+-rw-rw-r--    1 gastown  gastown       2914 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      17835 Jan 25 00:11 catalog.py
+-rw-rw-r--    1 gastown  gastown      39643 Jan 25 00:11 catalog_sync.py
+-rw-rw-r--    1 gastown  gastown      18559 Jan 25 00:11 catalog_tool_sync.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/services/chat:
+total 200
+-rw-rw-r--    1 gastown  gastown       7503 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      66348 Jan 25 00:11 chat_service.py
+-rw-rw-r--    1 gastown  gastown       4094 Jan 25 00:11 client_manager.py
+-rw-rw-r--    1 gastown  gastown       9721 Jan 25 00:11 constants.py
+-rw-rw-r--    1 gastown  gastown       6028 Jan 25 00:11 context_manager.py
+-rw-rw-r--    1 gastown  gastown      24474 Jan 25 00:11 helpers.py
+-rw-rw-r--    1 gastown  gastown       7140 Jan 25 00:11 message_formatter.py
+-rw-rw-r--    1 gastown  gastown      65266 Jan 25 00:11 streaming.py
+-rw-rw-r--    1 gastown  gastown       2662 Jan 25 00:11 types.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/services/commerce:
+total 152
+-rw-rw-r--    1 gastown  gastown       5751 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown       7914 Jan 25 00:11 commerce_logging.py
+-rw-rw-r--    1 gastown  gastown      14691 Jan 25 00:11 enhanced_billing.py
+-rw-rw-r--    1 gastown  gastown      27337 Jan 25 00:11 financial_instruments.py
+-rw-rw-r--    1 gastown  gastown        981 Jan 25 00:11 free_tier_reset.py
+-rw-rw-r--    1 gastown  gastown      11141 Jan 25 00:11 marketplace_billing.py
+-rw-rw-r--    1 gastown  gastown      20254 Jan 25 00:11 marketplace_repository.py
+-rw-rw-r--    1 gastown  gastown       9934 Jan 25 00:11 pricing_engine.py
+-rw-rw-r--    1 gastown  gastown      16571 Jan 25 00:11 streaming_payments.py
+-rw-rw-r--    1 gastown  gastown      20922 Jan 25 00:11 stripe_service.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/services/connection:
+total 72
+-rw-rw-r--    1 gastown  gastown       2350 Jan 25 00:11 __init__.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 authentication
+-rw-rw-r--    1 gastown  gastown      10770 Jan 25 00:11 base.py
+-rw-rw-r--    1 gastown  gastown       8108 Jan 25 00:11 health.py
+-rw-rw-r--    1 gastown  gastown      14643 Jan 25 00:11 lifecycle.py
+-rw-rw-r--    1 gastown  gastown      27424 Jan 25 00:11 manager.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/services/connection/authentication:
+total 32
+-rw-rw-r--    1 gastown  gastown        372 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      27029 Jan 25 00:11 entra_service.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/services/connections:
+total 48
+-rw-rw-r--    1 gastown  gastown       2283 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown       6103 Jan 25 00:11 default_connection.py
+-rw-rw-r--    1 gastown  gastown      25182 Jan 25 00:11 federation_service.py
+-rw-rw-r--    1 gastown  gastown       6272 Jan 25 00:11 starter_connections.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/services/connectors:
+total 128
+-rw-rw-r--    1 gastown  gastown       6579 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      24640 Jan 25 00:11 connector_guides.py
+-rw-rw-r--    1 gastown  gastown      35783 Jan 25 00:11 connector_incorporation.py
+-rw-rw-r--    1 gastown  gastown       9126 Jan 25 00:11 connector_recommendations.py
+-rw-rw-r--    1 gastown  gastown      33176 Jan 25 00:11 connector_registry.py
+-rw-rw-r--    1 gastown  gastown       1787 Jan 25 00:11 connector_validator.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 validation
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/services/connectors/validation:
+total 56
+-rw-rw-r--    1 gastown  gastown       3512 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      27055 Jan 25 00:11 checks.py
+-rw-rw-r--    1 gastown  gastown       1737 Jan 25 00:11 constants.py
+-rw-rw-r--    1 gastown  gastown       3426 Jan 25 00:11 types.py
+-rw-rw-r--    1 gastown  gastown      13286 Jan 25 00:11 validator.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/services/core:
+total 188
+-rw-rw-r--    1 gastown  gastown      10186 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      15013 Jan 25 00:11 audit_service.py
+-rw-rw-r--    1 gastown  gastown      12570 Jan 25 00:11 distributed_lock.py
+-rw-rw-r--    1 gastown  gastown      15018 Jan 25 00:11 email_service.py
+-rw-rw-r--    1 gastown  gastown      11790 Jan 25 00:11 feature_flags.py
+-rw-rw-r--    1 gastown  gastown      25695 Jan 25 00:11 health_monitor.py
+-rw-rw-r--    1 gastown  gastown       2836 Jan 25 00:11 health_validation.py
+-rw-rw-r--    1 gastown  gastown       7469 Jan 25 00:11 idempotency_cache.py
+-rw-rw-r--    1 gastown  gastown       8099 Jan 25 00:11 notifier.py
+-rw-rw-r--    1 gastown  gastown       5957 Jan 25 00:11 refresh_token_keepalive.py
+-rw-rw-r--    1 gastown  gastown      14847 Jan 25 00:11 scheduled_task_executor.py
+-rw-rw-r--    1 gastown  gastown       8975 Jan 25 00:11 schema_validator.py
+-rw-rw-r--    1 gastown  gastown      20580 Jan 25 00:11 sse_pubsub.py
+-rw-rw-r--    1 gastown  gastown       7010 Jan 25 00:11 websocket_manager.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/services/data:
+total 92
+-rw-rw-r--    1 gastown  gastown       2747 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      31569 Jan 25 00:11 conversation_store.py
+-rw-rw-r--    1 gastown  gastown      18697 Jan 25 00:11 embedding_sync.py
+-rw-rw-r--    1 gastown  gastown      35720 Jan 25 00:11 vector_store.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/services/health:
+total 128
+-rw-rw-r--    1 gastown  gastown       4088 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      47141 Jan 25 00:11 testers.py
+-rw-rw-r--    1 gastown  gastown      14941 Jan 25 00:11 token_refresh.py
+-rw-rw-r--    1 gastown  gastown       2487 Jan 25 00:11 types.py
+-rw-rw-r--    1 gastown  gastown      17032 Jan 25 00:11 utils.py
+-rw-rw-r--    1 gastown  gastown      33081 Jan 25 00:11 validator.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/services/intents:
+total 92
+-rw-rw-r--    1 gastown  gastown       3370 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      46027 Jan 25 00:11 intent_router.py
+-rw-rw-r--    1 gastown  gastown      27037 Jan 25 00:11 intent_run_service.py
+-rw-rw-r--    1 gastown  gastown      10577 Jan 25 00:11 semantic_preferences.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/services/marketplace:
+total 44
+-rw-rw-r--    1 gastown  gastown       3115 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      19252 Jan 25 00:11 capability_sync.py
+-rw-rw-r--    1 gastown  gastown      17411 Jan 25 00:11 reputation_service.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/services/mcp:
+total 80
+-rw-rw-r--    1 gastown  gastown       1907 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      11674 Jan 25 00:11 api_bridge.py
+-rw-rw-r--    1 gastown  gastown      10751 Jan 25 00:11 api_proxy_executor.py
+-rw-rw-r--    1 gastown  gastown      40623 Jan 25 00:11 managed_mcp_service.py
+-rw-rw-r--    1 gastown  gastown       9218 Jan 25 00:11 mcp_client_session_manager.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/services/microsoft:
+total 52
+-rw-rw-r--    1 gastown  gastown       1489 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      31862 Jan 25 00:11 graph_client.py
+-rw-rw-r--    1 gastown  gastown      13485 Jan 25 00:11 scopes.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/services/oauth:
+total 200
+-rw-rw-r--    1 gastown  gastown      10310 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      26961 Jan 25 00:11 oauth_cleanup.py
+-rw-rw-r--    1 gastown  gastown      36218 Jan 25 00:11 oauth_completion_handler.py
+-rw-rw-r--    1 gastown  gastown      19341 Jan 25 00:11 oauth_config_loader.py
+-rw-rw-r--    1 gastown  gastown       9782 Jan 25 00:11 oauth_discovery.py
+-rw-rw-r--    1 gastown  gastown       5760 Jan 25 00:11 oauth_popup.py
+-rw-rw-r--    1 gastown  gastown      25318 Jan 25 00:11 oauth_provider_validator.py
+-rw-rw-r--    1 gastown  gastown      15072 Jan 25 00:11 oauth_state_store.py
+-rw-rw-r--    1 gastown  gastown      15647 Jan 25 00:11 oauth_token_store.py
+-rw-rw-r--    1 gastown  gastown      22398 Jan 25 00:11 oauth_utils.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/services/patterns:
+total 72
+-rw-rw-r--    1 gastown  gastown       2883 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      21561 Jan 25 00:11 pattern_learning.py
+-rw-rw-r--    1 gastown  gastown      23135 Jan 25 00:11 pattern_learning_service.py
+-rw-rw-r--    1 gastown  gastown      18308 Jan 25 00:11 pattern_seeding.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/services/policy:
+total 48
+-rw-rw-r--    1 gastown  gastown       2259 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown       1869 Jan 25 00:11 policy.py
+-rw-rw-r--    1 gastown  gastown       1449 Jan 25 00:11 policy_template.py
+-rw-rw-r--    1 gastown  gastown       7323 Jan 25 00:11 policy_yaml.py
+-rw-rw-r--    1 gastown  gastown      26479 Jan 25 00:11 scope_governance.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/services/protocol:
+total 24
+-rw-rw-r--    1 gastown  gastown        794 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown       2846 Jan 25 00:11 mcp.py
+-rw-rw-r--    1 gastown  gastown       5708 Jan 25 00:11 rest.py
+-rw-rw-r--    1 gastown  gastown       6205 Jan 25 00:11 stdio.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/services/routing:
+total 36
+-rw-rw-r--    1 gastown  gastown       2826 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown       6610 Jan 25 00:11 routing_data_cleanup.py
+-rw-rw-r--    1 gastown  gastown      23785 Jan 25 00:11 routing_metrics.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/services/token:
+total 16
+-rw-rw-r--    1 gastown  gastown        345 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      10379 Jan 25 00:11 storage.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/services/token_lifecycle:
+total 60
+-rw-rw-r--    1 gastown  gastown       3216 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      20557 Jan 25 00:11 manager.py
+-rw-rw-r--    1 gastown  gastown      20068 Jan 25 00:11 parser.py
+-rw-rw-r--    1 gastown  gastown       8267 Jan 25 00:11 types.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/services/tools:
+total 44
+-rw-rw-r--    1 gastown  gastown       2088 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      12000 Jan 25 00:11 rest_manifest_generator.py
+-rw-rw-r--    1 gastown  gastown      11500 Jan 25 00:11 tool_cache.py
+-rw-rw-r--    1 gastown  gastown      13614 Jan 25 00:11 tool_enhancer.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/services/usage:
+total 28
+-rw-rw-r--    1 gastown  gastown        996 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      10513 Jan 25 00:11 usage_analytics.py
+-rw-rw-r--    1 gastown  gastown       8344 Jan 25 00:11 usage_tracking.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/services/variants:
+total 48
+-rw-rw-r--    1 gastown  gastown       1013 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      32329 Jan 25 00:11 normalized_variant_service.py
+-rw-rw-r--    1 gastown  gastown      10580 Jan 25 00:11 variant_service.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/services/vault:
+total 36
+-rw-rw-r--    1 gastown  gastown       2211 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      14861 Jan 25 00:11 vault.py
+-rw-rw-r--    1 gastown  gastown      14409 Jan 25 00:11 vault_key_manager.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/services/workflows:
+total 100
+-rw-rw-r--    1 gastown  gastown       4100 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      28441 Jan 25 00:11 ai_workflow_generator.py
+-rw-rw-r--    1 gastown  gastown      16313 Jan 25 00:11 workflow_blueprint.py
+-rw-rw-r--    1 gastown  gastown       7371 Jan 25 00:11 workflow_exceptions.py
+-rw-rw-r--    1 gastown  gastown      40697 Jan 25 00:11 workflow_executor.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/app/services/workspaces:
+total 60
+-rw-rw-r--    1 gastown  gastown       1923 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      31817 Jan 25 00:11 resource_futures.py
+-rw-rw-r--    1 gastown  gastown      16018 Jan 25 00:11 undo_service.py
+-rw-rw-r--    1 gastown  gastown       7872 Jan 25 00:11 workspace_bundle.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/cli:
+total 16
+-rw-rw-r--    1 gastown  gastown         77 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown       8417 Jan 25 00:11 conducktor.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/config:
+total 24
+-rw-rw-r--    1 gastown  gastown      13982 Jan 25 00:11 AI_PIPELINE_BLUEPRINT_README.md
+-rw-rw-r--    1 gastown  gastown       1607 Jan 25 00:11 ai_pipeline_blueprint_config.json
+-rw-rw-r--    1 gastown  gastown       1611 Jan 25 00:11 ai_pipeline_blueprint_config_monday.json
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/migrations:
+total 28
+-rw-rw-r--    1 gastown  gastown       3210 Jan 25 00:11 catalog_data_guard.py
+-rw-rw-r--    1 gastown  gastown       1803 Jan 25 00:11 env.py
+-rw-rw-r--    1 gastown  gastown        510 Jan 25 00:11 script.py.mako
+drwxrwsr-x    2 gastown  gastown      12288 Jan 25 00:11 versions
+-rw-rw-r--    1 gastown  gastown       3171 Jan 25 00:11 workflow_exec_direct.sql
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/migrations/versions:
+total 1052
+-rw-rw-r--    1 gastown  gastown      13349 Jan 25 00:11 0001_initial.py
+-rw-rw-r--    1 gastown  gastown        444 Jan 25 00:11 0002_add_security_telemetry_type.py
+-rw-rw-r--    1 gastown  gastown        547 Jan 25 00:11 0003_add_policy_template_column.py
+-rw-rw-r--    1 gastown  gastown        659 Jan 25 00:11 0004_add_catalog_defaults.py
+-rw-rw-r--    1 gastown  gastown        675 Jan 25 00:11 0005_membership_persona_setup.py
+-rw-rw-r--    1 gastown  gastown       4051 Jan 25 00:11 0006_account_category_and_invites.py
+-rw-rw-r--    1 gastown  gastown       2323 Jan 25 00:11 0007_workflow_blueprints.py
+-rw-rw-r--    1 gastown  gastown       2757 Jan 25 00:11 0008_mcp_registry_sync.py
+-rw-rw-r--    1 gastown  gastown        828 Jan 25 00:11 0009_workflow_blueprint_prov.py
+-rw-rw-r--    1 gastown  gastown       7955 Jan 25 00:11 0010_add_subscription_tables.py
+-rw-rw-r--    1 gastown  gastown       1054 Jan 25 00:11 0011_onboarding_states.py
+-rw-rw-r--    1 gastown  gastown       1234 Jan 25 00:11 0012_oauth_codes_table.py
+-rw-rw-r--    1 gastown  gastown      19560 Jan 25 00:11 0013_add_audit_logs_table.py
+-rw-rw-r--    1 gastown  gastown       5578 Jan 25 00:11 0014_add_workspace_environment_columns.py
+-rw-rw-r--    1 gastown  gastown       1237 Jan 25 00:11 0015_update_connector_source_classification.py
+-rw-rw-r--    1 gastown  gastown        882 Jan 25 00:11 0016_add_setup_telemetry_events.py
+-rw-rw-r--    1 gastown  gastown       1346 Jan 25 00:11 0017_add_catalog_scaling_fields.py
+-rw-rw-r--    1 gastown  gastown        307 Jan 25 00:11 0018_merge_heads.py
+-rw-rw-r--    1 gastown  gastown       1007 Jan 25 00:11 0019_add_oauth_config_to_catalog.py
+-rw-rw-r--    1 gastown  gastown       2498 Jan 25 00:11 0020_add_user_verification_fields.py
+-rw-rw-r--    1 gastown  gastown       3528 Jan 25 00:11 0021_create_oauth_clients_table.py
+-rw-rw-r--    1 gastown  gastown       1220 Jan 25 00:11 0022_make_client_secret_nullable.py
+-rw-rw-r--    1 gastown  gastown       3018 Jan 25 00:11 0023_add_connection_catalog_fk.py
+-rw-rw-r--    1 gastown  gastown       1577 Jan 25 00:11 0024_add_oauth_authorization_codes_table.py
+-rw-rw-r--    1 gastown  gastown       1222 Jan 25 00:11 0025_add_vault_storage.py
+-rw-rw-r--    1 gastown  gastown       5208 Jan 25 00:11 0026_add_feature_flags_tables.py
+-rw-rw-r--    1 gastown  gastown        810 Jan 25 00:11 0027_add_variants_to_catalog.py
+-rw-rw-r--    1 gastown  gastown       1282 Jan 25 00:11 0028_add_5_category_fields.py
+-rw-rw-r--    1 gastown  gastown       6674 Jan 25 00:11 0029_add_workflow_nodes_tables.py
+-rw-rw-r--    1 gastown  gastown       2306 Jan 25 00:11 0030_enhance_oauth_config_structure.py
+-rw-rw-r--    1 gastown  gastown       6982 Jan 25 00:11 0031_add_mcp_lifecycle_fields.py
+-rw-rw-r--    1 gastown  gastown        640 Jan 25 00:11 0032_add_workflow_active_column.py
+-rw-rw-r--    1 gastown  gastown        953 Jan 25 00:11 0033_add_degraded_status.py
+-rw-rw-r--    1 gastown  gastown        903 Jan 25 00:11 0034_add_user_status_fields.py
+-rw-rw-r--    1 gastown  gastown       1080 Jan 25 00:11 0035_add_auth_type_to_catalog.py
+-rw-rw-r--    1 gastown  gastown       9547 Jan 25 00:11 0036_add_stack_marketplace.py
+-rw-rw-r--    1 gastown  gastown       2374 Jan 25 00:11 0037_add_oauth_tokens_table.py
+-rw-rw-r--    1 gastown  gastown       1857 Jan 25 00:11 0038_add_assets_table.py
+-rw-rw-r--    1 gastown  gastown      21911 Jan 25 00:11 0039_add_commerce_tables.py
+-rw-rw-r--    1 gastown  gastown       5270 Jan 25 00:11 0040_add_semantic_preferences.py
+-rw-rw-r--    1 gastown  gastown      15880 Jan 25 00:11 0041_add_commerce_v2_agent_economy.py
+-rw-rw-r--    1 gastown  gastown      23304 Jan 25 00:11 0042_add_commerce_v3_federation.py
+-rw-rw-r--    1 gastown  gastown       6485 Jan 25 00:11 0043_add_commerce_v2_v3_feature_flags.py
+-rw-rw-r--    1 gastown  gastown      27486 Jan 25 00:11 0044_add_commerce_v4_agent_civilization.py
+-rw-rw-r--    1 gastown  gastown       5728 Jan 25 00:11 0045_add_commerce_v4_feature_flags.py
+-rw-rw-r--    1 gastown  gastown       2865 Jan 25 00:11 0046_add_commerce_v1_feature_flags.py
+-rw-rw-r--    1 gastown  gastown      11361 Jan 25 00:11 0047_fix_connection_protocols.py
+-rw-rw-r--    1 gastown  gastown       1302 Jan 25 00:11 0048_add_password_reset_tokens.py
+-rw-rw-r--    1 gastown  gastown       1067 Jan 25 00:11 0049_add_tos_privacy_acceptance.py
+-rw-rw-r--    1 gastown  gastown       1374 Jan 25 00:11 0050_add_tos_audit_fields.py
+-rw-rw-r--    1 gastown  gastown       4053 Jan 25 00:11 0054_scope_governance.py
+-rw-rw-r--    1 gastown  gastown       5050 Jan 25 00:11 0055_catalog_default_scopes.py
+-rw-rw-r--    1 gastown  gastown       2183 Jan 25 00:11 0056_add_connection_type.py
+-rw-rw-r--    1 gastown  gastown       2574 Jan 25 00:11 0058_fix_hubspot_variants.py
+-rw-rw-r--    1 gastown  gastown       1009 Jan 25 00:11 0059_rename_source_category_to_semantic.py
+-rw-rw-r--    1 gastown  gastown       4228 Jan 25 00:11 0060_add_catalog_connection_type.py
+-rw-rw-r--    1 gastown  gastown       5240 Jan 25 00:11 0061_move_oauth_config_to_variants.py
+-rw-rw-r--    1 gastown  gastown       5460 Jan 25 00:11 0062_add_feature_flag_categories.py
+-rw-rw-r--    1 gastown  gastown      11858 Jan 25 00:11 0064_standardize_connector_slugs.py
+-rw-rw-r--    1 gastown  gastown      23202 Jan 25 00:11 0065_add_microsoft_managed_mcp_servers.py
+-rw-rw-r--    1 gastown  gastown       3443 Jan 25 00:11 0066_add_uids_to_azure_mcp_variants.py
+-rw-rw-r--    1 gastown  gastown       1596 Jan 25 00:11 0067_enhance_setup_wizard.py
+-rw-rw-r--    1 gastown  gastown       2742 Jan 25 00:11 0069_add_missing_fk_indexes.py
+-rw-rw-r--    1 gastown  gastown       3599 Jan 25 00:11 0074_update_conducktr_connector.py
+-rw-rw-r--    1 gastown  gastown       7258 Jan 25 00:11 0076_fix_stdio_connectors.py
+-rw-rw-r--    1 gastown  gastown       4005 Jan 25 00:11 0077_add_handler_type_field.py
+-rw-rw-r--    1 gastown  gastown       3630 Jan 25 00:11 0078_split_connectivity_to_transport_api_style.py
+-rw-rw-r--    1 gastown  gastown       5091 Jan 25 00:11 0079_add_microsoft_oauth_endpoints.py
+-rw-rw-r--    1 gastown  gastown       3461 Jan 25 00:11 0080_add_oauth_device_codes_and_states.py
+-rw-rw-r--    1 gastown  gastown      13049 Jan 25 00:11 0082_create_managed_mcp_platform.py
+-rw-rw-r--    1 gastown  gastown       9936 Jan 25 00:11 0083_comprehensive_feature_flags.py
+-rw-rw-r--    1 gastown  gastown       3551 Jan 25 00:11 0084_add_vault_credentials.py
+-rw-rw-r--    1 gastown  gastown        855 Jan 25 00:11 0085_add_vault_last_used_at.py
+-rw-rw-r--    1 gastown  gastown       6668 Jan 25 00:11 0086_copy_server_url_to_variants.py
+-rw-rw-r--    1 gastown  gastown       4829 Jan 25 00:11 0087_create_variants_for_variantless_connectors.py
+-rw-rw-r--    1 gastown  gastown       6832 Jan 25 00:11 0088_create_catalog_connector_variants.py
+-rw-rw-r--    1 gastown  gastown       6909 Jan 25 00:11 0089_create_catalog_variant_oauth_configs.py
+-rw-rw-r--    1 gastown  gastown       6548 Jan 25 00:11 0090_create_catalog_variant_capabilities.py
+-rw-rw-r--    1 gastown  gastown      10721 Jan 25 00:11 0091_create_catalog_auth_input_schemas.py
+-rw-rw-r--    1 gastown  gastown      14392 Jan 25 00:11 0092_create_catalog_connector_templates.py
+-rw-rw-r--    1 gastown  gastown       7772 Jan 25 00:11 0093_create_credential_lifecycle_tables.py
+-rw-rw-r--    1 gastown  gastown      10789 Jan 25 00:11 0094_create_usage_metering_tables.py
+-rw-rw-r--    1 gastown  gastown      14911 Jan 25 00:11 0095_migrate_jsonb_variants_to_tables.py
+-rw-rw-r--    1 gastown  gastown       4269 Jan 25 00:11 0096_add_variant_id_to_connections.py
+-rw-rw-r--    1 gastown  gastown       2280 Jan 25 00:11 0097_fix_catalog_fk_and_indexes.py
+-rw-rw-r--    1 gastown  gastown       9297 Jan 25 00:11 0098_create_workspace_connectors.py
+-rw-rw-r--    1 gastown  gastown       3369 Jan 25 00:11 0099_update_variant_names.py
+-rw-rw-r--    1 gastown  gastown       2932 Jan 25 00:11 0100_add_variant_endpoint_fields.py
+-rw-rw-r--    1 gastown  gastown       1383 Jan 25 00:11 0101_add_oauth_platform_provider.py
+-rw-rw-r--    1 gastown  gastown       5484 Jan 25 00:11 0102_endpoint_to_variant.py
+-rw-rw-r--    1 gastown  gastown       1876 Jan 25 00:11 0103_add_oauth_audience_mode.py
+-rw-rw-r--    1 gastown  gastown       5715 Jan 25 00:11 0104_add_variant_handler_type.py
+-rw-rw-r--    1 gastown  gastown       1463 Jan 25 00:11 0105_add_openapi_spec_columns.py
+-rw-rw-r--    1 gastown  gastown       3794 Jan 25 00:11 0107_add_ai_agent_node_type.py
+-rw-rw-r--    1 gastown  gastown       1769 Jan 25 00:11 0108_add_ai_agent_feature_flag.py
+-rw-rw-r--    1 gastown  gastown       4170 Jan 25 00:11 0109_remove_deprecated_base_url_column.py
+-rw-rw-r--    1 gastown  gastown       8569 Jan 25 00:11 0110_consolidate_url_columns_to_endpoint_url.py
+-rw-rw-r--    1 gastown  gastown        924 Jan 25 00:11 0111_add_workflow_description.py
+-rw-rw-r--    1 gastown  gastown       2700 Jan 25 00:11 0112_vault_personal_scope.py
+-rw-rw-r--    1 gastown  gastown      12043 Jan 25 00:11 0113_move_technical_fields_to_variants.py
+-rw-rw-r--    1 gastown  gastown       3479 Jan 25 00:11 0114_backfill_connection_variant_id.py
+-rw-rw-r--    1 gastown  gastown       6561 Jan 25 00:11 0115_marketplace_extensions.py
+-rw-rw-r--    1 gastown  gastown       4008 Jan 25 00:11 0116_create_marketplace_listings.py
+-rw-rw-r--    1 gastown  gastown       3041 Jan 25 00:11 0117_create_marketplace_reviews.py
+-rw-rw-r--    1 gastown  gastown       1595 Jan 25 00:11 0118_add_stripe_connect_status_fields.py
+-rw-rw-r--    1 gastown  gastown       1392 Jan 25 00:11 0119_add_user_id_to_agent_wallets.py
+-rw-rw-r--    1 gastown  gastown       4742 Jan 25 00:11 0120_acp_phase3_enhanced_billing.py
+-rw-rw-r--    1 gastown  gastown       5922 Jan 25 00:11 0121_add_commerce_enum_types.py
+-rw-rw-r--    1 gastown  gastown       5298 Jan 25 00:11 0122_add_missing_commerce_enums.py
+-rw-rw-r--    1 gastown  gastown       6437 Jan 25 00:11 0123_fix_commerce_enum_values.py
+-rw-rw-r--    1 gastown  gastown       1514 Jan 25 00:11 0124_add_semantic_categories_array.py
+-rw-rw-r--    1 gastown  gastown      27869 Jan 25 00:11 0125_seed_microsoft_rss_tools.py
+-rw-rw-r--    1 gastown  gastown       1299 Jan 25 00:11 0126_add_oauth_discovery_metadata.py
+-rw-rw-r--    1 gastown  gastown       1283 Jan 25 00:11 0127_make_oauth_endpoints_nullable.py
+-rw-rw-r--    1 gastown  gastown       2402 Jan 25 00:11 0128_add_oauth_response_mapping.py
+-rw-rw-r--    1 gastown  gastown       4100 Jan 25 00:11 0129_microsoft_entra_delegated.py
+-rw-rw-r--    1 gastown  gastown       4716 Jan 25 00:11 0130_update_asana_dcr_endpoint.py
+-rw-rw-r--    1 gastown  gastown       4103 Jan 25 00:11 0131_fix_dcr_misconfigurations.py
+-rw-rw-r--    1 gastown  gastown       5293 Jan 25 00:11 0132_add_platform_credential_refs.py
+-rw-rw-r--    1 gastown  gastown       4302 Jan 25 00:11 0133_add_semantic_mapping_fields.py
+-rw-rw-r--    1 gastown  gastown       1116 Jan 25 00:11 0134_add_refresh_token_never_expires.py
+-rw-rw-r--    1 gastown  gastown       3190 Jan 25 00:11 0135_add_config_locked_column.py
+-rw-rw-r--    1 gastown  gastown      16115 Jan 25 00:11 0136_add_chat_tables.py
+-rw-rw-r--    1 gastown  gastown       7172 Jan 25 00:11 0137_add_chatbot_feature_flags.py
+-rw-rw-r--    1 gastown  gastown        968 Jan 25 00:11 0138_extend_tool_call_id_column_length.py
+-rw-rw-r--    1 gastown  gastown       4328 Jan 25 00:11 0139_add_chat_session_memory.py
+-rw-rw-r--    1 gastown  gastown      14159 Jan 25 00:11 0140_add_durable_run_state_tables.py
+-rw-rw-r--    1 gastown  gastown       4461 Jan 25 00:11 0141_add_intent_policies_compound_actions.py
+-rw-rw-r--    1 gastown  gastown       6632 Jan 25 00:11 0142_add_workspace_variant_fields.py
+-rw-rw-r--    1 gastown  gastown       1042 Jan 25 00:11 0143_workspace_variant_semantic_categories.py
+-rw-rw-r--    1 gastown  gastown       1137 Jan 25 00:11 0144_workspace_variant_semantic_tool_mappings.py
+-rw-rw-r--    1 gastown  gastown       1227 Jan 25 00:11 0145_add_conversation_pending_action.py
+-rw-rw-r--    1 gastown  gastown       3493 Jan 25 00:11 0146_add_incorporation_feature_flags.py
+-rw-rw-r--    1 gastown  gastown        795 Jan 25 00:11 0147_add_telemetry_call_error_enum_values.py
+-rw-rw-r--    1 gastown  gastown       1622 Jan 25 00:11 0148_add_identity_config_fields.py
+-rw-rw-r--    1 gastown  gastown       5602 Jan 25 00:11 0149_add_workspace_variant_oauth_config.py
+-rw-rw-r--    1 gastown  gastown       7252 Jan 25 00:11 0150_migrate_vault_keys_v2.py
+-rw-rw-r--    1 gastown  gastown       2283 Jan 25 00:11 0151_add_missing_fk_indexes.py
+-rw-rw-r--    1 gastown  gastown       1845 Jan 25 00:11 0152_add_ai_command_telemetry_enum_values.py
+-rw-rw-r--    1 gastown  gastown        845 Jan 25 00:11 0153_add_platform_api_key_ref.py
+-rw-rw-r--    1 gastown  gastown        957 Jan 25 00:11 0154_add_workspace_connector_semantic_categories.py
+-rw-rw-r--    1 gastown  gastown       5080 Jan 25 00:11 0155_add_routing_feedback_table.py
+-rw-rw-r--    1 gastown  gastown      11651 Jan 25 00:11 0156_add_pgvector_embeddings.py
+-rw-rw-r--    1 gastown  gastown       2972 Jan 25 00:11 0157_add_routing_config_table.py
+-rw-rw-r--    1 gastown  gastown       5066 Jan 25 00:11 0158_add_query_patterns_table.py
+-rw-rw-r--    1 gastown  gastown       4928 Jan 25 00:11 0159_add_ab_testing_tables.py
+-rw-rw-r--    1 gastown  gastown       1471 Jan 25 00:11 0160_add_disambiguation_min_confidence.py
+-rw-rw-r--    1 gastown  gastown       1753 Jan 25 00:11 0161_add_query_text_to_patterns.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/reference:
+total 120
+-rw-rw-r--    1 gastown  gastown      16642 Jan 25 00:11 AGENT_INSTRUCTIONS.md
+-rw-rw-r--    1 gastown  gastown      12725 Jan 25 00:11 EXECUTION_PROMPT.txt
+-rw-rw-r--    1 gastown  gastown       4918 Jan 25 00:11 README.md
+-rw-rw-r--    1 gastown  gastown       1106 Jan 25 00:11 SYSTEM_OVERVIEW.md
+-rw-rw-r--    1 gastown  gastown      68733 Jan 25 00:11 generate.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 system
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/reference/system:
+total 1300
+-rw-rw-r--    1 gastown  gastown      58877 Jan 25 00:11 api_routes.json
+-rw-rw-r--    1 gastown  gastown      18437 Jan 25 00:11 architecture.json
+-rw-rw-r--    1 gastown  gastown       9797 Jan 25 00:11 autonomy.json
+-rw-rw-r--    1 gastown  gastown       3412 Jan 25 00:11 capabilities.json
+-rw-rw-r--    1 gastown  gastown      20730 Jan 25 00:11 checklist.json
+-rw-rw-r--    1 gastown  gastown      28613 Jan 25 00:11 connectors.json
+-rw-rw-r--    1 gastown  gastown     409164 Jan 25 00:11 database_schema.json
+-rw-rw-r--    1 gastown  gastown      17453 Jan 25 00:11 do_not_invent.json
+-rw-rw-r--    1 gastown  gastown      12248 Jan 25 00:11 errors.json
+-rw-rw-r--    1 gastown  gastown      11326 Jan 25 00:11 governance.json
+-rw-rw-r--    1 gastown  gastown      18553 Jan 25 00:11 index.json
+-rw-rw-r--    1 gastown  gastown      17428 Jan 25 00:11 invariants.json
+-rw-rw-r--    1 gastown  gastown      22981 Jan 25 00:11 module_map.json
+-rw-rw-r--    1 gastown  gastown      14834 Jan 25 00:11 modules.json
+-rw-rw-r--    1 gastown  gastown      34947 Jan 25 00:11 patterns.json
+-rw-rw-r--    1 gastown  gastown      10714 Jan 25 00:11 performance.json
+-rw-rw-r--    1 gastown  gastown      11406 Jan 25 00:11 refactor_rules.json
+-rw-rw-r--    1 gastown  gastown       7142 Jan 25 00:11 retrieval_contract.json
+-rw-rw-r--    1 gastown  gastown      18134 Jan 25 00:11 security.json
+-rw-rw-r--    1 gastown  gastown      38502 Jan 25 00:11 semantic_tools.json
+-rw-rw-r--    1 gastown  gastown       6570 Jan 25 00:11 session_context.json
+-rw-rw-r--    1 gastown  gastown      10005 Jan 25 00:11 taxonomy.json
+-rw-rw-r--    1 gastown  gastown      12617 Jan 25 00:11 testing_contract.json
+-rw-rw-r--    1 gastown  gastown     472798 Jan 25 00:11 tools.json
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/scripts:
+total 32
+-rw-rw-r--    1 gastown  gastown        646 Jan 25 00:11 README.md
+-rw-rw-r--    1 gastown  gastown       7910 Jan 25 00:11 backfill_context_tags.py
+-rw-rw-r--    1 gastown  gastown       5478 Jan 25 00:11 check_migration_catalog_data.py
+-rw-rw-r--    1 gastown  gastown       8350 Jan 25 00:11 discover_tools.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/tests:
+total 48
+-rw-rw-r--    1 gastown  gastown       4424 Jan 25 00:11 README_DATABASE_TESTS.md
+-rw-rw-r--    1 gastown  gastown          0 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      17741 Jan 25 00:11 conftest.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 fixtures
+drwxrwsr-x    7 gastown  gastown       4096 Jan 25 00:11 integration
+-rw-rw-r--    1 gastown  gastown       5804 Jan 25 00:11 test_multi_intent_data_flow.py
+drwxrwsr-x   12 gastown  gastown       4096 Jan 25 00:11 unit
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/tests/fixtures:
+total 16
+-rw-rw-r--    1 gastown  gastown        937 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      11177 Jan 25 00:11 http_mocks.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/tests/integration:
+total 272
+-rw-rw-r--    1 gastown  gastown         50 Jan 25 00:11 __init__.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 api
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 connectors
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 mcp
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 migrations
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 services
+-rw-rw-r--    1 gastown  gastown      11912 Jan 25 00:11 test_handler_type_routing.py
+-rw-rw-r--    1 gastown  gastown      51665 Jan 25 00:11 test_intelligence_e2e.py
+-rw-rw-r--    1 gastown  gastown      55944 Jan 25 00:11 test_mcp_inspector_integration.py
+-rw-rw-r--    1 gastown  gastown      17863 Jan 25 00:11 test_multi_intent_flow.py
+-rw-rw-r--    1 gastown  gastown      12608 Jan 25 00:11 test_oauth_database_persistence.py
+-rw-rw-r--    1 gastown  gastown      38630 Jan 25 00:11 test_oauth_flows.py
+-rw-rw-r--    1 gastown  gastown      23681 Jan 25 00:11 test_oauth_regressions.py
+-rw-rw-r--    1 gastown  gastown      16900 Jan 25 00:11 test_schema_regressions.py
+-rw-rw-r--    1 gastown  gastown       6992 Jan 25 00:11 test_schema_validation.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/tests/integration/api:
+total 48
+-rw-rw-r--    1 gastown  gastown         43 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      18785 Jan 25 00:11 test_chatbot_admin.py
+-rw-rw-r--    1 gastown  gastown      11816 Jan 25 00:11 test_connection_catalog_enrichment.py
+-rw-rw-r--    1 gastown  gastown      11860 Jan 25 00:11 test_routing_metrics_api.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/tests/integration/connectors:
+total 40
+-rw-rw-r--    1 gastown  gastown         49 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      11142 Jan 25 00:11 test_azure_mcp_connectors.py
+-rw-rw-r--    1 gastown  gastown      22530 Jan 25 00:11 test_chatgpt_connector.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/tests/integration/mcp:
+total 40
+-rw-rw-r--    1 gastown  gastown          0 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      15756 Jan 25 00:11 test_mcp_sdk_integration.py
+-rw-rw-r--    1 gastown  gastown      23263 Jan 25 00:11 test_mcp_sdk_real_servers.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/tests/integration/migrations:
+total 20
+-rw-rw-r--    1 gastown  gastown          0 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      16968 Jan 25 00:11 test_connector_slug_migration.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/tests/integration/services:
+total 100
+-rw-rw-r--    1 gastown  gastown         38 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      30660 Jan 25 00:11 test_connector_incorporation.py
+-rw-rw-r--    1 gastown  gastown      27076 Jan 25 00:11 test_oauth_flows.py
+-rw-rw-r--    1 gastown  gastown      12076 Jan 25 00:11 test_oauth_handler_factory.py
+-rw-rw-r--    1 gastown  gastown       5720 Jan 25 00:11 test_service_integration.py
+-rw-rw-r--    1 gastown  gastown      14882 Jan 25 00:11 test_workspace_isolation.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/tests/unit:
+total 96
+-rw-rw-r--    1 gastown  gastown         26 Jan 25 00:11 __init__.py
+drwxrwsr-x    4 gastown  gastown       4096 Jan 25 00:11 api
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 auth
+drwxrwsr-x    3 gastown  gastown       4096 Jan 25 00:11 domain
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 intelligence
+drwxrwsr-x    3 gastown  gastown       4096 Jan 25 00:11 mcp
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 middleware
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 migrations
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 models
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 semantic
+drwxrwsr-x    5 gastown  gastown       4096 Jan 25 00:11 services
+-rw-rw-r--    1 gastown  gastown      17905 Jan 25 00:11 test_mcp_client_features.py
+-rw-rw-r--    1 gastown  gastown      11865 Jan 25 00:11 test_mcp_utilities.py
+-rw-rw-r--    1 gastown  gastown      18291 Jan 25 00:11 test_oauth_advanced.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/tests/unit/api:
+total 128
+-rw-rw-r--    1 gastown  gastown         33 Jan 25 00:11 __init__.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 cdktr_admin
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 connections
+-rw-rw-r--    1 gastown  gastown       6434 Jan 25 00:11 test_api_error_handling.py
+-rw-rw-r--    1 gastown  gastown      18883 Jan 25 00:11 test_billing_analytics.py
+-rw-rw-r--    1 gastown  gastown      15793 Jan 25 00:11 test_connection_helpers.py
+-rw-rw-r--    1 gastown  gastown      16998 Jan 25 00:11 test_connection_type_requirements.py
+-rw-rw-r--    1 gastown  gastown       2162 Jan 25 00:11 test_connections_api.py
+-rw-rw-r--    1 gastown  gastown        457 Jan 25 00:11 test_health.py
+-rw-rw-r--    1 gastown  gastown       2787 Jan 25 00:11 test_policy_api.py
+-rw-rw-r--    1 gastown  gastown      19170 Jan 25 00:11 test_quick_deploy_stdio.py
+-rw-rw-r--    1 gastown  gastown      18987 Jan 25 00:11 test_workflow_api.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/tests/unit/api/cdktr_admin:
+total 32
+-rw-rw-r--    1 gastown  gastown         20 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      17032 Jan 25 00:11 test_chatbot.py
+-rw-rw-r--    1 gastown  gastown       6546 Jan 25 00:11 test_connectors.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/tests/unit/api/connections:
+total 16
+-rw-rw-r--    1 gastown  gastown      15961 Jan 25 00:11 test_metadata_builder.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/tests/unit/auth:
+total 36
+-rw-rw-r--    1 gastown  gastown         55 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown       3661 Jan 25 00:11 test_auth_routes.py
+-rw-rw-r--    1 gastown  gastown       7064 Jan 25 00:11 test_oauth_flow.py
+-rw-rw-r--    1 gastown  gastown       9600 Jan 25 00:11 test_oauth_public_clients.py
+-rw-rw-r--    1 gastown  gastown       6308 Jan 25 00:11 test_oauth_registration.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/tests/unit/domain:
+total 8
+-rw-rw-r--    1 gastown  gastown         31 Jan 25 00:11 __init__.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 auth
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/tests/unit/domain/auth:
+total 16
+-rw-rw-r--    1 gastown  gastown         36 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      11352 Jan 25 00:11 test_pkce.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/tests/unit/intelligence:
+total 412
+-rw-rw-r--    1 gastown  gastown          0 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      36805 Jan 25 00:11 test_capability_router.py
+-rw-rw-r--    1 gastown  gastown      16927 Jan 25 00:11 test_compensation_engine.py
+-rw-rw-r--    1 gastown  gastown      25011 Jan 25 00:11 test_contract_registry.py
+-rw-rw-r--    1 gastown  gastown      18587 Jan 25 00:11 test_domain_mappings.py
+-rw-rw-r--    1 gastown  gastown      17401 Jan 25 00:11 test_htn_expander.py
+-rw-rw-r--    1 gastown  gastown      16182 Jan 25 00:11 test_intent_adaptive_routing.py
+-rw-rw-r--    1 gastown  gastown      35784 Jan 25 00:11 test_intent_planner.py
+-rw-rw-r--    1 gastown  gastown      18356 Jan 25 00:11 test_keyword_index.py
+-rw-rw-r--    1 gastown  gastown      14108 Jan 25 00:11 test_parallel_executor.py
+-rw-rw-r--    1 gastown  gastown      54528 Jan 25 00:11 test_plan_compiler.py
+-rw-rw-r--    1 gastown  gastown      44657 Jan 25 00:11 test_plan_executor.py
+-rw-rw-r--    1 gastown  gastown      14524 Jan 25 00:11 test_policy_engine.py
+-rw-rw-r--    1 gastown  gastown      22016 Jan 25 00:11 test_rag_router.py
+-rw-rw-r--    1 gastown  gastown       7787 Jan 25 00:11 test_routing_config.py
+-rw-rw-r--    1 gastown  gastown      30799 Jan 25 00:11 test_semantic_index.py
+-rw-rw-r--    1 gastown  gastown      18378 Jan 25 00:11 test_unified_router.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/tests/unit/mcp:
+total 428
+-rw-rw-r--    1 gastown  gastown         46 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      11022 Jan 25 00:11 conftest.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 handlers
+-rw-rw-r--    1 gastown  gastown      15281 Jan 25 00:11 test_admin_connector_fixes.py
+-rw-rw-r--    1 gastown  gastown      19350 Jan 25 00:11 test_bug_regressions.py
+-rw-rw-r--    1 gastown  gastown       5480 Jan 25 00:11 test_conducktor_protocol.py
+-rw-rw-r--    1 gastown  gastown      15425 Jan 25 00:11 test_gateway.py
+-rw-rw-r--    1 gastown  gastown       4073 Jan 25 00:11 test_gateway_routing_integration.py
+-rw-rw-r--    1 gastown  gastown       4036 Jan 25 00:11 test_mcp_registry.py
+-rw-rw-r--    1 gastown  gastown      30092 Jan 25 00:11 test_microsoft_entra_handlers.py
+-rw-rw-r--    1 gastown  gastown      20917 Jan 25 00:11 test_microsoft_graph_client.py
+-rw-rw-r--    1 gastown  gastown      12375 Jan 25 00:11 test_monday_tools_list.py
+-rw-rw-r--    1 gastown  gastown      29028 Jan 25 00:11 test_oauth_compliance.py
+-rw-rw-r--    1 gastown  gastown      13401 Jan 25 00:11 test_oauth_discovery.py
+-rw-rw-r--    1 gastown  gastown      19585 Jan 25 00:11 test_protocol_compliance.py
+-rw-rw-r--    1 gastown  gastown      32478 Jan 25 00:11 test_semantic_layer.py
+-rw-rw-r--    1 gastown  gastown      21238 Jan 25 00:11 test_semantic_new_mappings.py
+-rw-rw-r--    1 gastown  gastown      41094 Jan 25 00:11 test_server_managed_oauth.py
+-rw-rw-r--    1 gastown  gastown      22089 Jan 25 00:11 test_sse_monday.py
+-rw-rw-r--    1 gastown  gastown       7267 Jan 25 00:11 test_stack_marketplace.py
+-rw-rw-r--    1 gastown  gastown      21349 Jan 25 00:11 test_transport_compliance.py
+-rw-rw-r--    1 gastown  gastown      22433 Jan 25 00:11 test_variant_tool_loading.py
+-rw-rw-r--    1 gastown  gastown      20278 Jan 25 00:11 test_vault_token_storage.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/tests/unit/mcp/handlers:
+total 12
+-rw-rw-r--    1 gastown  gastown         33 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown       8087 Jan 25 00:11 test_stdio_handler.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/tests/unit/middleware:
+total 24
+-rw-rw-r--    1 gastown  gastown         48 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      17807 Jan 25 00:11 test_routing_telemetry.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/tests/unit/migrations:
+total 16
+-rw-rw-r--    1 gastown  gastown      15401 Jan 25 00:11 test_chatbot_feature_flags.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/tests/unit/models:
+total 100
+-rw-rw-r--    1 gastown  gastown         24 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      12780 Jan 25 00:11 test_catalog_computed_properties.py
+-rw-rw-r--    1 gastown  gastown      29929 Jan 25 00:11 test_intent_run.py
+-rw-rw-r--    1 gastown  gastown      12466 Jan 25 00:11 test_terminology.py
+-rw-rw-r--    1 gastown  gastown      30179 Jan 25 00:11 test_workspace_connector_variant.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/tests/unit/semantic:
+total 40
+-rw-rw-r--    1 gastown  gastown      11770 Jan 25 00:11 test_classifier.py
+-rw-rw-r--    1 gastown  gastown      11995 Jan 25 00:11 test_db_resolver.py
+-rw-rw-r--    1 gastown  gastown      15817 Jan 25 00:11 test_discovery.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/tests/unit/services:
+total 644
+-rw-rw-r--    1 gastown  gastown         36 Jan 25 00:11 __init__.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 auth
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 connection
+-rw-rw-r--    1 gastown  gastown      14519 Jan 25 00:11 test_ab_testing.py
+-rw-rw-r--    1 gastown  gastown      20063 Jan 25 00:11 test_agent_executor.py
+-rw-rw-r--    1 gastown  gastown      13648 Jan 25 00:11 test_agent_gen4_hooks.py
+-rw-rw-r--    1 gastown  gastown      24472 Jan 25 00:11 test_ai_workflow_generator.py
+-rw-rw-r--    1 gastown  gastown      13979 Jan 25 00:11 test_approval_escalation.py
+-rw-rw-r--    1 gastown  gastown      14066 Jan 25 00:11 test_authlib_mcp_wrapper.py
+-rw-rw-r--    1 gastown  gastown       7682 Jan 25 00:11 test_chat_service.py
+-rw-rw-r--    1 gastown  gastown       8412 Jan 25 00:11 test_conducktor_connector_migration.py
+-rw-rw-r--    1 gastown  gastown      17781 Jan 25 00:11 test_connection_manager.py
+-rw-rw-r--    1 gastown  gastown      38316 Jan 25 00:11 test_connector_incorporation.py
+-rw-rw-r--    1 gastown  gastown       4702 Jan 25 00:11 test_connector_recommendations.py
+-rw-rw-r--    1 gastown  gastown      18481 Jan 25 00:11 test_embedding_sync.py
+-rw-rw-r--    1 gastown  gastown      12667 Jan 25 00:11 test_enhanced_billing.py
+-rw-rw-r--    1 gastown  gastown      13832 Jan 25 00:11 test_entra_service.py
+-rw-rw-r--    1 gastown  gastown      13025 Jan 25 00:11 test_feedback_loop.py
+-rw-rw-r--    1 gastown  gastown      15747 Jan 25 00:11 test_follow_up_suggestions.py
+-rw-rw-r--    1 gastown  gastown      17059 Jan 25 00:11 test_health_validation.py
+-rw-rw-r--    1 gastown  gastown      45133 Jan 25 00:11 test_intent_router.py
+-rw-rw-r--    1 gastown  gastown      17735 Jan 25 00:11 test_oauth_token_store.py
+-rw-rw-r--    1 gastown  gastown      10941 Jan 25 00:11 test_oauth_utils.py
+-rw-rw-r--    1 gastown  gastown      13004 Jan 25 00:11 test_pattern_learning.py
+-rw-rw-r--    1 gastown  gastown      16240 Jan 25 00:11 test_pattern_learning_service.py
+-rw-rw-r--    1 gastown  gastown      12539 Jan 25 00:11 test_pattern_seeding.py
+-rw-rw-r--    1 gastown  gastown      23343 Jan 25 00:11 test_redis_state.py
+-rw-rw-r--    1 gastown  gastown       6169 Jan 25 00:11 test_rest_manifest_generator.py
+-rw-rw-r--    1 gastown  gastown       7262 Jan 25 00:11 test_routing_data_cleanup.py
+-rw-rw-r--    1 gastown  gastown      19914 Jan 25 00:11 test_routing_metrics.py
+-rw-rw-r--    1 gastown  gastown      31124 Jan 25 00:11 test_scope_governance.py
+-rw-rw-r--    1 gastown  gastown      12378 Jan 25 00:11 test_stripe_service.py
+-rw-rw-r--    1 gastown  gastown      13052 Jan 25 00:11 test_undo_service.py
+-rw-rw-r--    1 gastown  gastown      12573 Jan 25 00:11 test_variant_service.py
+-rw-rw-r--    1 gastown  gastown      13933 Jan 25 00:11 test_vault.py
+-rw-rw-r--    1 gastown  gastown      21280 Jan 25 00:11 test_vector_store.py
+-rw-rw-r--    1 gastown  gastown      17708 Jan 25 00:11 test_workflow_schema.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 token_lifecycle
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/tests/unit/services/auth:
+total 48
+-rw-rw-r--    1 gastown  gastown         41 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      14666 Jan 25 00:11 test_factory.py
+-rw-rw-r--    1 gastown  gastown      13581 Jan 25 00:11 test_oauth_handler.py
+-rw-rw-r--    1 gastown  gastown       9546 Jan 25 00:11 test_providers.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/tests/unit/services/connection:
+total 48
+-rw-rw-r--    1 gastown  gastown         48 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      21557 Jan 25 00:11 test_health.py
+-rw-rw-r--    1 gastown  gastown      17387 Jan 25 00:11 test_lifecycle.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/tests/unit/services/token_lifecycle:
+total 40
+-rw-rw-r--    1 gastown  gastown         41 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      16151 Jan 25 00:11 test_manager.py
+-rw-rw-r--    1 gastown  gastown      20460 Jan 25 00:11 test_parser.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/tool_catalog_output:
+total 968
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 connectors
+-rw-rw-r--    1 gastown  gastown     622569 Jan 25 00:11 tool_catalog.json
+-rw-rw-r--    1 gastown  gastown     363723 Jan 25 00:11 tool_catalog.md
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/backend/tool_catalog_output/connectors:
+total 396
+-rw-rw-r--    1 gastown  gastown       1921 Jan 25 00:11 2Slides_tools.md
+-rw-rw-r--    1 gastown  gastown      11907 Jan 25 00:11 Asana_tools.md
+-rw-rw-r--    1 gastown  gastown      28849 Jan 25 00:11 Calendar_tools.md
+-rw-rw-r--    1 gastown  gastown      12943 Jan 25 00:11 ChatGPT_tools.md
+-rw-rw-r--    1 gastown  gastown      22452 Jan 25 00:11 Copilot_tools.md
+-rw-rw-r--    1 gastown  gastown      46517 Jan 25 00:11 Drive_tools.md
+-rw-rw-r--    1 gastown  gastown      22410 Jan 25 00:11 GitHub_tools.md
+-rw-rw-r--    1 gastown  gastown      43052 Jan 25 00:11 Gmail_tools.md
+-rw-rw-r--    1 gastown  gastown       1342 Jan 25 00:11 Hacker_News_tools.md
+-rw-rw-r--    1 gastown  gastown      12781 Jan 25 00:11 HubSpot_tools.md
+-rw-rw-r--    1 gastown  gastown       2586 Jan 25 00:11 Hugging_Face_tools.md
+-rw-rw-r--    1 gastown  gastown      11305 Jan 25 00:11 Linear_tools.md
+-rw-rw-r--    1 gastown  gastown       1614 Jan 25 00:11 MARKETS_FEED_tools.md
+-rw-rw-r--    1 gastown  gastown      18875 Jan 25 00:11 Mailchimp_tools.md
+-rw-rw-r--    1 gastown  gastown       8680 Jan 25 00:11 Maps_Lite_tools.md
+-rw-rw-r--    1 gastown  gastown       5847 Jan 25 00:11 Massive_tools.md
+-rw-rw-r--    1 gastown  gastown      35506 Jan 25 00:11 Monday_tools.md
+-rw-rw-r--    1 gastown  gastown       1838 Jan 25 00:11 Netlify_tools.md
+-rw-rw-r--    1 gastown  gastown      18739 Jan 25 00:11 Notion_tools.md
+-rw-rw-r--    1 gastown  gastown       4037 Jan 25 00:11 Office_365_tools.md
+-rw-rw-r--    1 gastown  gastown        527 Jan 25 00:11 OneDrive_tools.md
+-rw-rw-r--    1 gastown  gastown        982 Jan 25 00:11 Outlook_tools.md
+-rw-rw-r--    1 gastown  gastown       1731 Jan 25 00:11 SharePoint_tools.md
+-rw-rw-r--    1 gastown  gastown      22930 Jan 25 00:11 Stripe_tools.md
+-rw-rw-r--    1 gastown  gastown        907 Jan 25 00:11 Teams_tools.md
+-rw-rw-r--    1 gastown  gastown       1334 Jan 25 00:11 TechCrunch_tools.md
+-rw-rw-r--    1 gastown  gastown       1030 Jan 25 00:11 crypto_com_tools.md
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/cdktr-internal-admin:
+total 236
+-rw-rw-r--    1 gastown  gastown       2083 Jan 25 00:11 Dockerfile
+-rw-rw-r--    1 gastown  gastown       7214 Jan 25 00:11 README.md
+-rw-rw-r--    1 gastown  gastown      12183 Jan 25 00:11 REFACTORING_STRATEGY.md
+-rw-rw-r--    1 gastown  gastown       6527 Jan 25 00:11 TESTING_AND_UX_IMPROVEMENTS.md
+-rw-rw-r--    1 gastown  gastown       2507 Jan 25 00:11 index.html
+-rw-rw-r--    1 gastown  gastown       1330 Jan 25 00:11 nginx.conf
+-rw-rw-r--    1 gastown  gastown     173664 Jan 25 00:11 package-lock.json
+-rw-rw-r--    1 gastown  gastown       1230 Jan 25 00:11 package.json
+drwxrwsr-x    8 gastown  gastown       4096 Jan 25 00:11 src
+-rw-rw-r--    1 gastown  gastown        605 Jan 25 00:11 tsconfig.json
+-rw-rw-r--    1 gastown  gastown        213 Jan 25 00:11 tsconfig.node.json
+-rw-rw-r--    1 gastown  gastown        853 Jan 25 00:11 vite.config.ts
+-rw-rw-r--    1 gastown  gastown        329 Jan 25 00:11 vitest.config.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/cdktr-internal-admin/src:
+total 148
+-rw-rw-r--    1 gastown  gastown      94922 Jan 25 00:11 CdktrAdminPage.tsx
+drwxrwsr-x    7 gastown  gastown       4096 Jan 25 00:11 admin
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 api
+drwxrwsr-x    3 gastown  gastown       4096 Jan 25 00:11 components
+-rw-rw-r--    1 gastown  gastown      20762 Jan 25 00:11 main.tsx
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 test
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 types
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 utils
+-rw-rw-r--    1 gastown  gastown        190 Jan 25 00:11 vite-env.d.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/cdktr-internal-admin/src/admin:
+total 284
+-rw-rw-r--    1 gastown  gastown      27546 Jan 25 00:11 AdminNavigation.tsx
+-rw-rw-r--    1 gastown  gastown      42779 Jan 25 00:11 ChatbotAdminTab.tsx
+-rw-rw-r--    1 gastown  gastown      22040 Jan 25 00:11 ConnectorEditDialog.tsx
+-rw-rw-r--    1 gastown  gastown      11824 Jan 25 00:11 ErrorLogsTab.tsx
+-rw-rw-r--    1 gastown  gastown      17587 Jan 25 00:11 FeatureFlagsTab.tsx
+-rw-rw-r--    1 gastown  gastown      18504 Jan 25 00:11 InfrastructureTab.tsx
+-rw-rw-r--    1 gastown  gastown      17721 Jan 25 00:11 McpSessionsTab.tsx
+-rw-rw-r--    1 gastown  gastown      12482 Jan 25 00:11 RoutingConfigTab.tsx
+-rw-rw-r--    1 gastown  gastown      10005 Jan 25 00:11 ScopePoliciesTab.tsx
+-rw-rw-r--    1 gastown  gastown       2233 Jan 25 00:11 TenantsTab.tsx
+-rw-rw-r--    1 gastown  gastown      25679 Jan 25 00:11 UsersTab.tsx
+-rw-rw-r--    1 gastown  gastown      14542 Jan 25 00:11 WorkspacesTab.tsx
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 __tests__
+drwxrwsr-x    7 gastown  gastown       4096 Jan 25 00:11 connectors
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 feature-flags
+-rw-rw-r--    1 gastown  gastown       9991 Jan 25 00:11 hooks.ts
+-rw-rw-r--    1 gastown  gastown       1907 Jan 25 00:11 index.ts
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 routing-config
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 scope-policies
+-rw-rw-r--    1 gastown  gastown        977 Jan 25 00:11 types.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/cdktr-internal-admin/src/admin/__tests__:
+total 76
+-rw-rw-r--    1 gastown  gastown      13473 Jan 25 00:11 AdminNavigation.test.tsx
+-rw-rw-r--    1 gastown  gastown      17306 Jan 25 00:11 ChatbotAdminTab.test.tsx
+-rw-rw-r--    1 gastown  gastown      10755 Jan 25 00:11 FeatureFlagsTab.test.tsx
+-rw-rw-r--    1 gastown  gastown      12242 Jan 25 00:11 RoutingConfigTab.test.tsx
+-rw-rw-r--    1 gastown  gastown      12764 Jan 25 00:11 ScopePoliciesTab.test.tsx
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/cdktr-internal-admin/src/admin/connectors:
+total 84
+-rw-rw-r--    1 gastown  gastown       2909 Jan 25 00:11 ConnectorStatsCards.tsx
+-rw-rw-r--    1 gastown  gastown      10237 Jan 25 00:11 ConnectorTable.tsx
+-rw-rw-r--    1 gastown  gastown      29477 Jan 25 00:11 ConnectorsTab.tsx
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 __tests__
+drwxrwsr-x    3 gastown  gastown       4096 Jan 25 00:11 components
+-rw-rw-r--    1 gastown  gastown      10834 Jan 25 00:11 connectorEditTypes.ts
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 dialogs
+drwxrwsr-x    3 gastown  gastown       4096 Jan 25 00:11 hooks
+-rw-rw-r--    1 gastown  gastown       2383 Jan 25 00:11 index.ts
+drwxrwsr-x    4 gastown  gastown       4096 Jan 25 00:11 utils
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/cdktr-internal-admin/src/admin/connectors/__tests__:
+total 4
+-rw-rw-r--    1 gastown  gastown       2754 Jan 25 00:11 ConnectorStatsCards.test.tsx
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/cdktr-internal-admin/src/admin/connectors/components:
+total 24
+-rw-rw-r--    1 gastown  gastown       2940 Jan 25 00:11 ConnectorPreviewCard.tsx
+-rw-rw-r--    1 gastown  gastown      11439 Jan 25 00:11 DiscoveredFieldIndicator.tsx
+-rw-rw-r--    1 gastown  gastown       1402 Jan 25 00:11 TabPanel.tsx
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 tabs
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/cdktr-internal-admin/src/admin/connectors/components/tabs:
+total 80
+-rw-rw-r--    1 gastown  gastown       5008 Jan 25 00:11 AdvancedTab.tsx
+-rw-rw-r--    1 gastown  gastown      24553 Jan 25 00:11 AuthTab.tsx
+-rw-rw-r--    1 gastown  gastown      18406 Jan 25 00:11 BasicInfoTab.tsx
+-rw-rw-r--    1 gastown  gastown       9350 Jan 25 00:11 CapabilitiesTab.tsx
+-rw-rw-r--    1 gastown  gastown       4254 Jan 25 00:11 HostingTab.tsx
+-rw-rw-r--    1 gastown  gastown       6306 Jan 25 00:11 ProtocolTab.tsx
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/cdktr-internal-admin/src/admin/connectors/dialogs:
+total 40
+-rw-rw-r--    1 gastown  gastown      10687 Jan 25 00:11 BruteForceDialog.tsx
+-rw-rw-r--    1 gastown  gastown       1662 Jan 25 00:11 DeleteDialog.tsx
+-rw-rw-r--    1 gastown  gastown      10079 Jan 25 00:11 TestSuiteDialog.tsx
+-rw-rw-r--    1 gastown  gastown       6881 Jan 25 00:11 ValidationDialog.tsx
+-rw-rw-r--    1 gastown  gastown        619 Jan 25 00:11 index.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/cdktr-internal-admin/src/admin/connectors/hooks:
+total 24
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 __tests__
+-rw-rw-r--    1 gastown  gastown        160 Jan 25 00:11 index.ts
+-rw-rw-r--    1 gastown  gastown       9686 Jan 25 00:11 useConnectorMutations.ts
+-rw-rw-r--    1 gastown  gastown       1898 Jan 25 00:11 useConnectorQueries.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/cdktr-internal-admin/src/admin/connectors/hooks/__tests__:
+total 8
+-rw-rw-r--    1 gastown  gastown       5813 Jan 25 00:11 useConnectorQueries.test.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/cdktr-internal-admin/src/admin/connectors/utils:
+total 36
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 __tests__
+-rw-rw-r--    1 gastown  gastown       5212 Jan 25 00:11 authTypeMapping.ts
+-rw-rw-r--    1 gastown  gastown       9216 Jan 25 00:11 connectorEditUtils.ts
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 formConversion
+-rw-rw-r--    1 gastown  gastown       1665 Jan 25 00:11 formConversion.ts
+-rw-rw-r--    1 gastown  gastown        153 Jan 25 00:11 index.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/cdktr-internal-admin/src/admin/connectors/utils/__tests__:
+total 40
+-rw-rw-r--    1 gastown  gastown       8233 Jan 25 00:11 authTypeMapping.test.ts
+-rw-rw-r--    1 gastown  gastown      25178 Jan 25 00:11 formConversion.test.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/cdktr-internal-admin/src/admin/connectors/utils/formConversion:
+total 68
+-rw-rw-r--    1 gastown  gastown       5637 Jan 25 00:11 constants.ts
+-rw-rw-r--    1 gastown  gastown       6038 Jan 25 00:11 fromBackend.ts
+-rw-rw-r--    1 gastown  gastown        982 Jan 25 00:11 index.ts
+-rw-rw-r--    1 gastown  gastown      12694 Jan 25 00:11 oauthConfig.ts
+-rw-rw-r--    1 gastown  gastown       6265 Jan 25 00:11 toBackendConnector.ts
+-rw-rw-r--    1 gastown  gastown       5048 Jan 25 00:11 toBackendLegacy.ts
+-rw-rw-r--    1 gastown  gastown      10307 Jan 25 00:11 toBackendVariant.ts
+-rw-rw-r--    1 gastown  gastown       3135 Jan 25 00:11 types.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/cdktr-internal-admin/src/admin/feature-flags:
+total 72
+-rw-rw-r--    1 gastown  gastown       1527 Jan 25 00:11 CategoryBulkActionsMenu.tsx
+-rw-rw-r--    1 gastown  gastown       4865 Jan 25 00:11 CategoryTierDialog.tsx
+-rw-rw-r--    1 gastown  gastown       5925 Jan 25 00:11 CreateFlagDialog.tsx
+-rw-rw-r--    1 gastown  gastown       1584 Jan 25 00:11 DeleteConfirmDialog.tsx
+-rw-rw-r--    1 gastown  gastown       3801 Jan 25 00:11 EditFlagDialog.tsx
+-rw-rw-r--    1 gastown  gastown       7714 Jan 25 00:11 FeatureFlagCategoryAccordion.tsx
+-rw-rw-r--    1 gastown  gastown       7930 Jan 25 00:11 FlagDetailDialog.tsx
+-rw-rw-r--    1 gastown  gastown        906 Jan 25 00:11 MetricCard.tsx
+-rw-rw-r--    1 gastown  gastown       5602 Jan 25 00:11 OverrideDialog.tsx
+-rw-rw-r--    1 gastown  gastown       2913 Jan 25 00:11 api.ts
+-rw-rw-r--    1 gastown  gastown       2582 Jan 25 00:11 constants.tsx
+-rw-rw-r--    1 gastown  gastown       1222 Jan 25 00:11 index.ts
+-rw-rw-r--    1 gastown  gastown       1198 Jan 25 00:11 types.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/cdktr-internal-admin/src/admin/routing-config:
+total 76
+-rw-rw-r--    1 gastown  gastown       2599 Jan 25 00:11 AverageWeightsCard.tsx
+-rw-rw-r--    1 gastown  gastown       5441 Jan 25 00:11 ConfigTable.tsx
+-rw-rw-r--    1 gastown  gastown      15418 Jan 25 00:11 CreateConfigDialog.tsx
+-rw-rw-r--    1 gastown  gastown       1615 Jan 25 00:11 DeleteConfirmDialog.tsx
+-rw-rw-r--    1 gastown  gastown      14885 Jan 25 00:11 EditConfigDialog.tsx
+-rw-rw-r--    1 gastown  gastown       1042 Jan 25 00:11 MetricCard.tsx
+-rw-rw-r--    1 gastown  gastown       2593 Jan 25 00:11 WeightDistribution.tsx
+-rw-rw-r--    1 gastown  gastown       1209 Jan 25 00:11 WeightSlider.tsx
+-rw-rw-r--    1 gastown  gastown       1838 Jan 25 00:11 api.ts
+-rw-rw-r--    1 gastown  gastown        786 Jan 25 00:11 constants.ts
+-rw-rw-r--    1 gastown  gastown        927 Jan 25 00:11 index.ts
+-rw-rw-r--    1 gastown  gastown       1295 Jan 25 00:11 types.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/cdktr-internal-admin/src/admin/scope-policies:
+total 56
+-rw-rw-r--    1 gastown  gastown       1201 Jan 25 00:11 DeleteConfirmDialog.tsx
+-rw-rw-r--    1 gastown  gastown       7110 Jan 25 00:11 PoliciesTable.tsx
+-rw-rw-r--    1 gastown  gastown       2632 Jan 25 00:11 PolicyFilters.tsx
+-rw-rw-r--    1 gastown  gastown       9810 Jan 25 00:11 PolicyFormDialog.tsx
+-rw-rw-r--    1 gastown  gastown       2210 Jan 25 00:11 SummaryCards.tsx
+-rw-rw-r--    1 gastown  gastown       5913 Jan 25 00:11 ViewPolicyDialog.tsx
+-rw-rw-r--    1 gastown  gastown       2864 Jan 25 00:11 api.ts
+-rw-rw-r--    1 gastown  gastown       1236 Jan 25 00:11 constants.tsx
+-rw-rw-r--    1 gastown  gastown        704 Jan 25 00:11 index.ts
+-rw-rw-r--    1 gastown  gastown       1299 Jan 25 00:11 types.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/cdktr-internal-admin/src/api:
+total 48
+-rw-rw-r--    1 gastown  gastown      22645 Jan 25 00:11 cdktrAdmin.ts
+-rw-rw-r--    1 gastown  gastown        393 Jan 25 00:11 index.ts
+-rw-rw-r--    1 gastown  gastown      18433 Jan 25 00:11 types.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/cdktr-internal-admin/src/components:
+total 92
+-rw-rw-r--    1 gastown  gastown       5686 Jan 25 00:11 ErrorBoundary.tsx
+-rw-rw-r--    1 gastown  gastown      27539 Jan 25 00:11 ProtocolFields.tsx
+-rw-rw-r--    1 gastown  gastown      35770 Jan 25 00:11 ProtocolMonitoringTab.tsx
+-rw-rw-r--    1 gastown  gastown      12337 Jan 25 00:11 VaultKeyPicker.tsx
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 commerce
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/cdktr-internal-admin/src/components/commerce:
+total 64
+-rw-rw-r--    1 gastown  gastown       6042 Jan 25 00:11 CommerceErrorBoundary.tsx
+-rw-rw-r--    1 gastown  gastown      27350 Jan 25 00:11 CommerceTab.tsx
+-rw-rw-r--    1 gastown  gastown       7548 Jan 25 00:11 api.ts
+-rw-rw-r--    1 gastown  gastown        456 Jan 25 00:11 index.ts
+-rw-rw-r--    1 gastown  gastown       4110 Jan 25 00:11 types.ts
+-rw-rw-r--    1 gastown  gastown       7053 Jan 25 00:11 utils.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/cdktr-internal-admin/src/test:
+total 4
+-rw-rw-r--    1 gastown  gastown        528 Jan 25 00:11 setup.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/cdktr-internal-admin/src/types:
+total 60
+-rw-rw-r--    1 gastown  gastown      27267 Jan 25 00:11 connectionTypes.ts
+-rw-rw-r--    1 gastown  gastown      30650 Jan 25 00:11 variants.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/cdktr-internal-admin/src/utils:
+total 8
+-rw-rw-r--    1 gastown  gastown       4456 Jan 25 00:11 iconResolver.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/docs:
+total 168
+-rw-rw-r--    1 gastown  gastown      13373 Jan 25 00:11 README.md
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 architecture
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 assets
+-rw-rw-r--    1 gastown  gastown      20910 Jan 25 00:11 audit-tool-selection-path.md
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 authentication
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 deployment
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 development
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 features
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 guides
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 plans
+drwxrwsr-x    6 gastown  gastown       4096 Jan 25 00:11 product-management
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 prompts
+drwxrwsr-x    3 gastown  gastown       4096 Jan 25 00:11 public-docs
+-rw-rw-r--    1 gastown  gastown      62684 Jan 25 00:11 routing-architecture-diagram.md
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 specs
+-rw-rw-r--    1 gastown  gastown       4232 Jan 25 00:11 visual-regression-testing-evaluation.md
+-rw-rw-r--    1 gastown  gastown       7636 Jan 25 00:11 visual-regression-testing-guide.md
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/docs/architecture:
+total 392
+-rw-rw-r--    1 gastown  gastown      16817 Jan 25 00:11 ADMIN_PANEL_SECURITY.md
+-rw-rw-r--    1 gastown  gastown      54453 Jan 25 00:11 AI_AGENT_COMMERCE_FRAMEWORK.md
+-rw-rw-r--    1 gastown  gastown      33012 Jan 25 00:11 ARCHITECTURE.md
+-rw-rw-r--    1 gastown  gastown      16740 Jan 25 00:11 ARCHITECTURE_AUDIT_2026.md
+-rw-rw-r--    1 gastown  gastown      10551 Jan 25 00:11 CONDUCKTR_TOOL_NAMING.md
+-rw-rw-r--    1 gastown  gastown      32296 Jan 25 00:11 DATA_FLOW_ARCHITECTURE.md
+-rw-rw-r--    1 gastown  gastown      20825 Jan 25 00:11 INTELLIGENCE_ARCHITECTURE.md
+-rw-rw-r--    1 gastown  gastown      16009 Jan 25 00:11 MCP_LIFECYCLE_MAPPING.md
+-rw-rw-r--    1 gastown  gastown      43512 Jan 25 00:11 MCP_SERVER_COMPREHENSIVE_GUIDE.md
+-rw-rw-r--    1 gastown  gastown      10354 Jan 25 00:11 MCP_SPEC_COMPLIANCE.md
+-rw-rw-r--    1 gastown  gastown      11042 Jan 25 00:11 OAUTH_FLOW_STANDARDIZATION.md
+-rw-rw-r--    1 gastown  gastown      13880 Jan 25 00:11 OAUTH_MODULAR_ARCHITECTURE.md
+-rw-rw-r--    1 gastown  gastown      46917 Jan 25 00:11 PROTOCOL_TRANSLATION_ENGINE.md
+-rw-rw-r--    1 gastown  gastown      24429 Jan 25 00:11 SEMANTIC_TOOL_LAYER.md
+-rw-rw-r--    1 gastown  gastown       2902 Jan 25 00:11 TOOL_SELECTION_PATHS.md
+-rw-rw-r--    1 gastown  gastown      15344 Jan 25 00:11 UNIFIED_GATEWAY.md
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/docs/assets:
+total 1492
+-rw-rw-r--    1 gastown  gastown    1526178 Jan 25 00:11 ConDUCKTr Logo.png
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/docs/authentication:
+total 188
+-rw-rw-r--    1 gastown  gastown      16546 Jan 25 00:11 AUTHENTICATION_METHODS.md
+-rw-rw-r--    1 gastown  gastown      12507 Jan 25 00:11 AUTHLIB_OAUTH_QUICK_START.md
+-rw-rw-r--    1 gastown  gastown      11732 Jan 25 00:11 OAUTH_AUDIT_DEC2025.md
+-rw-rw-r--    1 gastown  gastown      63183 Jan 25 00:11 OAUTH_COMPLETE_GUIDE.md
+-rw-rw-r--    1 gastown  gastown      29499 Jan 25 00:11 OAUTH_FLOWS_REFERENCE.md
+-rw-rw-r--    1 gastown  gastown      42428 Jan 25 00:11 OAUTH_PROVIDER_REGISTRY.md
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/docs/deployment:
+total 112
+-rw-rw-r--    1 gastown  gastown       4337 Jan 25 00:11 CHATGPT_INSTRUCTIONS.md
+-rw-rw-r--    1 gastown  gastown       9798 Jan 25 00:11 CHATGPT_MIGRATION.md
+-rw-rw-r--    1 gastown  gastown      17157 Jan 25 00:11 CHATGPT_SETUP.md
+-rw-rw-r--    1 gastown  gastown      12094 Jan 25 00:11 CLAUDE_DESKTOP_SETUP.md
+-rw-rw-r--    1 gastown  gastown      12212 Jan 25 00:11 OAUTH_PRODUCTION_CONFIG.md
+-rw-rw-r--    1 gastown  gastown      30970 Jan 25 00:11 PRODUCTION_CHECKLIST.md
+-rw-rw-r--    1 gastown  gastown      14373 Jan 25 00:11 PRODUCTION_CONFIG.md
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/docs/development:
+total 276
+-rw-rw-r--    1 gastown  gastown      67656 Jan 25 00:11 CHATBOT_DEVELOPMENT_PLAN.md
+-rw-rw-r--    1 gastown  gastown      54189 Jan 25 00:11 CONNECTOR_INTEGRATION_PROCESS.md
+-rw-rw-r--    1 gastown  gastown      11545 Jan 25 00:11 CONNECTOR_VALIDATION.md
+-rw-rw-r--    1 gastown  gastown      25862 Jan 25 00:11 CONNECTOR_VARIANT_FIELD_REFERENCE.md
+-rw-rw-r--    1 gastown  gastown      16029 Jan 25 00:11 DATABASE_VAULT_IMPLEMENTATION.md
+-rw-rw-r--    1 gastown  gastown       8813 Jan 25 00:11 MCP_SDK_QUICK_REFERENCE.md
+-rw-rw-r--    1 gastown  gastown      23697 Jan 25 00:11 OAUTH_ARCHITECTURE_REFACTOR_PLAN.md
+-rw-rw-r--    1 gastown  gastown      16224 Jan 25 00:11 TEST_COVERAGE.md
+-rw-rw-r--    1 gastown  gastown      14850 Jan 25 00:11 TEST_ORGANIZATION.md
+-rw-rw-r--    1 gastown  gastown       5940 Jan 25 00:11 TEST_QUICK_REFERENCE.md
+-rw-rw-r--    1 gastown  gastown      17128 Jan 25 00:11 TEST_SUITE_CLEANUP_STRATEGY.md
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/docs/features:
+total 316
+-rw-rw-r--    1 gastown  gastown      15824 Jan 25 00:11 AI_AGENT_MODE.md
+-rw-rw-r--    1 gastown  gastown      43506 Jan 25 00:11 AI_WORKFLOW_BUILDER.md
+-rw-rw-r--    1 gastown  gastown      12749 Jan 25 00:11 API_BRIDGE.md
+-rw-rw-r--    1 gastown  gastown     179020 Jan 25 00:11 CHATBOT_MCP_INTEGRATION.md
+-rw-rw-r--    1 gastown  gastown      10918 Jan 25 00:11 FEATURE_INTEGRATION_MATRIX.md
+-rw-rw-r--    1 gastown  gastown       9459 Jan 25 00:11 POLICY_FEATURES_IMPLEMENTATION.md
+-rw-rw-r--    1 gastown  gastown       4281 Jan 25 00:11 QUICK_REFERENCE_USE_CASES.md
+-rw-rw-r--    1 gastown  gastown       9492 Jan 25 00:11 SUBSCRIPTION_SYSTEM.md
+-rw-rw-r--    1 gastown  gastown      16989 Jan 25 00:11 WORKFLOW_ORCHESTRATION_SPEC.md
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/docs/guides:
+total 60
+-rw-rw-r--    1 gastown  gastown      14071 Jan 25 00:11 AGENT_INTEGRATION_GUIDE.md
+-rw-rw-r--    1 gastown  gastown      44512 Jan 25 00:11 INTERNAL_ADMIN_CONNECTOR_SETUP.md
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/docs/plans:
+total 132
+-rw-rw-r--    1 gastown  gastown      45653 Jan 25 00:11 AI_AGENT_MODE_IMPLEMENTATION.md
+-rw-rw-r--    1 gastown  gastown       4125 Jan 25 00:11 GRPC_TRANSPORT_ROADMAP.md
+-rw-rw-r--    1 gastown  gastown      10797 Jan 25 00:11 INTELLIGENCE_MODULARIZATION_PLAN.md
+-rw-rw-r--    1 gastown  gastown       9963 Jan 25 00:11 INTELLIGENCE_MODULARIZATION_PROGRESS.md
+-rw-rw-r--    1 gastown  gastown      18848 Jan 25 00:11 MULTI_INTENT_V2_ROADMAP.md
+-rw-rw-r--    1 gastown  gastown      11592 Jan 25 00:11 PR_143_VALIDATION_PLAN.md
+-rw-rw-r--    1 gastown  gastown      16971 Jan 25 00:11 SEMANTIC_TO_INTELLIGENCE_MIGRATION.md
+-rw-rw-r--    1 gastown  gastown          0 Jan 25 00:11 SERVER_URL_TO_ENDPOINT_URL_MIGRATION.md
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/docs/product-management:
+total 28
+-rw-rw-r--    1 gastown  gastown      12107 Jan 25 00:11 README.md
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 backlog
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 features
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 roadmap
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 value-drivers
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/docs/product-management/backlog:
+total 12
+-rw-rw-r--    1 gastown  gastown       4753 Jan 25 00:11 OAUTH_REAUTH_AUTO_RESUME.md
+-rw-rw-r--    1 gastown  gastown       2868 Jan 25 00:11 PER_USER_TOKEN_ISOLATION.md
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/docs/product-management/features:
+total 84
+-rw-rw-r--    1 gastown  gastown      46949 Jan 25 00:11 cognitive-enterprise-workflows.md
+-rw-rw-r--    1 gastown  gastown      34777 Jan 25 00:11 workflow-blueprints-top-5.md
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/docs/product-management/roadmap:
+total 120
+-rw-rw-r--    1 gastown  gastown      15106 Jan 25 00:11 ADVANCED_FEATURES_EXECUTIVE_SUMMARY.md
+-rw-rw-r--    1 gastown  gastown      13150 Jan 25 00:11 AI_TOOL_MARKETPLACE_STRATEGY.md
+-rw-rw-r--    1 gastown  gastown      15451 Jan 25 00:11 CHAT_OS_ROADMAP.md
+-rw-rw-r--    1 gastown  gastown      22446 Jan 25 00:11 HIGH_PRIORITY_ROADMAP.md
+-rw-rw-r--    1 gastown  gastown      46682 Jan 25 00:11 ROADMAP.md
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/docs/product-management/value-drivers:
+total 28
+-rw-rw-r--    1 gastown  gastown      14639 Jan 25 00:11 ECOSYSTEM_NETWORK_EFFECTS.md
+-rw-rw-r--    1 gastown  gastown      10618 Jan 25 00:11 INTELLIGENT_AUTONOMY.md
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/docs/prompts:
+total 136
+-rw-rw-r--    1 gastown  gastown      23673 Jan 25 00:11 Backend.md
+-rw-rw-r--    1 gastown  gastown       3042 Jan 25 00:11 CompliancePrivacy.md
+-rw-rw-r--    1 gastown  gastown       7232 Jan 25 00:11 DevOps.md
+-rw-rw-r--    1 gastown  gastown       7891 Jan 25 00:11 DocumentRegister.md
+-rw-rw-r--    1 gastown  gastown      11287 Jan 25 00:11 Frontend.md
+-rw-rw-r--    1 gastown  gastown      32464 Jan 25 00:11 MCP_SPECIFICATION_2025-11-25.md
+-rw-rw-r--    1 gastown  gastown       5429 Jan 25 00:11 ProductManagement.md
+-rw-rw-r--    1 gastown  gastown       2662 Jan 25 00:11 README.md
+-rw-rw-r--    1 gastown  gastown       6344 Jan 25 00:11 SecurityGovernance.md
+-rw-rw-r--    1 gastown  gastown       2657 Jan 25 00:11 SupportCS.md
+-rw-rw-r--    1 gastown  gastown       9447 Jan 25 00:11 SystemsArchitecture.md
+-rw-rw-r--    1 gastown  gastown       5395 Jan 25 00:11 UIUX.md
+-rw-rw-r--    1 gastown  gastown       3916 Jan 25 00:11 UserGuide.md
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/docs/public-docs:
+total 48
+-rw-rw-r--    1 gastown  gastown       4104 Jan 25 00:11 FAQ_CONSUMERS.md
+-rw-rw-r--    1 gastown  gastown       2749 Jan 25 00:11 LICENSE
+-rw-rw-r--    1 gastown  gastown      10276 Jan 25 00:11 PRIVACY.md
+-rw-rw-r--    1 gastown  gastown      10432 Jan 25 00:11 README.md
+-rw-rw-r--    1 gastown  gastown       7378 Jan 25 00:11 SECURITY.md
+drwxrwsr-x    4 gastown  gastown       4096 Jan 25 00:11 docs
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/docs/public-docs/docs:
+total 8
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 authentication
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 integrations
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/docs/public-docs/docs/authentication:
+total 24
+-rw-rw-r--    1 gastown  gastown      21251 Jan 25 00:11 OAUTH_GUIDE.md
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/docs/public-docs/docs/integrations:
+total 32
+-rw-rw-r--    1 gastown  gastown      12286 Jan 25 00:11 CHATGPT.md
+-rw-rw-r--    1 gastown  gastown      11533 Jan 25 00:11 LINEAR.md
+-rw-rw-r--    1 gastown  gastown       5248 Jan 25 00:11 REDIS.md
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/docs/specs:
+total 196
+-rw-rw-r--    1 gastown  gastown      44572 Jan 25 00:11 ACP_INTEGRATION_SPEC.md
+-rw-rw-r--    1 gastown  gastown      35661 Jan 25 00:11 ACP_INTEGRATION_SPECIFICATION.md
+-rw-rw-r--    1 gastown  gastown      49621 Jan 25 00:11 GEN2_AI_AGENT_MODE_SPECIFICATION.md
+-rw-rw-r--    1 gastown  gastown      64631 Jan 25 00:11 TOKEN_LIFECYCLE_SERVICE_SPECIFICATION.md
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend:
+total 440
+-rw-rw-r--    1 gastown  gastown       1265 Jan 25 00:11 Dockerfile
+-rw-rw-r--    1 gastown  gastown       4818 Jan 25 00:11 IMAGE_OPTIMIZATION_IMPLEMENTATION.md
+-rw-rw-r--    1 gastown  gastown       1342 Jan 25 00:11 README.md
+-rw-rw-r--    1 gastown  gastown       4320 Jan 25 00:11 STORYBOOK.md
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 docs
+drwxrwsr-x    3 gastown  gastown       4096 Jan 25 00:11 e2e
+-rw-rw-r--    1 gastown  gastown       1435 Jan 25 00:11 index.html
+-rw-rw-r--    1 gastown  gastown       2171 Jan 25 00:11 nginx.conf
+-rw-rw-r--    1 gastown  gastown     363918 Jan 25 00:11 package-lock.json
+-rw-rw-r--    1 gastown  gastown       2231 Jan 25 00:11 package.json
+drwxrwsr-x    3 gastown  gastown       4096 Jan 25 00:11 playwright-report
+-rw-rw-r--    1 gastown  gastown       2961 Jan 25 00:11 playwright.config.ts
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 public
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 scripts
+drwxrwsr-x   16 gastown  gastown       4096 Jan 25 00:11 src
+drwxrwsr-x    8 gastown  gastown       4096 Jan 25 00:11 test-results
+-rw-rw-r--    1 gastown  gastown        269 Jan 25 00:11 tsconfig.json
+-rw-rw-r--    1 gastown  gastown        312 Jan 25 00:11 tsconfig.node.json
+-rw-rw-r--    1 gastown  gastown       1422 Jan 25 00:11 vite.config.ts
+-rw-rw-r--    1 gastown  gastown       1302 Jan 25 00:11 vitest.config.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/docs:
+total 8
+-rw-rw-r--    1 gastown  gastown       6124 Jan 25 00:11 IMAGE_OPTIMIZATION.md
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/e2e:
+total 32
+-rw-rw-r--    1 gastown  gastown       2773 Jan 25 00:11 README.md
+-rw-rw-r--    1 gastown  gastown       2631 Jan 25 00:11 auth.spec.ts
+-rw-rw-r--    1 gastown  gastown       4201 Jan 25 00:11 connections.spec.ts
+-rw-rw-r--    1 gastown  gastown        285 Jan 25 00:11 tsconfig.json
+-rw-rw-r--    1 gastown  gastown       5075 Jan 25 00:11 visual-regression.spec.ts
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 visual-regression.spec.ts-snapshots
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/e2e/visual-regression.spec.ts-snapshots:
+total 384
+-rw-rw-r--    1 gastown  gastown       3559 Jan 25 00:11 catalog-page-Mobile-Chrome-win32.png
+-rw-rw-r--    1 gastown  gastown       5461 Jan 25 00:11 catalog-page-chromium-win32.png
+-rw-rw-r--    1 gastown  gastown      19284 Jan 25 00:11 catalog-page-firefox-win32.png
+-rw-rw-r--    1 gastown  gastown       6835 Jan 25 00:11 catalog-page-webkit-win32.png
+-rw-rw-r--    1 gastown  gastown       3559 Jan 25 00:11 chat-page-Mobile-Chrome-win32.png
+-rw-rw-r--    1 gastown  gastown       5461 Jan 25 00:11 chat-page-chromium-win32.png
+-rw-rw-r--    1 gastown  gastown      19284 Jan 25 00:11 chat-page-firefox-win32.png
+-rw-rw-r--    1 gastown  gastown       6835 Jan 25 00:11 chat-page-webkit-win32.png
+-rw-rw-r--    1 gastown  gastown       3559 Jan 25 00:11 connections-page-Mobile-Chrome-win32.png
+-rw-rw-r--    1 gastown  gastown       5461 Jan 25 00:11 connections-page-chromium-win32.png
+-rw-rw-r--    1 gastown  gastown      19284 Jan 25 00:11 connections-page-firefox-win32.png
+-rw-rw-r--    1 gastown  gastown       6835 Jan 25 00:11 connections-page-webkit-win32.png
+-rw-rw-r--    1 gastown  gastown       3559 Jan 25 00:11 dashboard-error-state-Mobile-Chrome-win32.png
+-rw-rw-r--    1 gastown  gastown       5461 Jan 25 00:11 dashboard-error-state-chromium-win32.png
+-rw-rw-r--    1 gastown  gastown      19284 Jan 25 00:11 dashboard-error-state-firefox-win32.png
+-rw-rw-r--    1 gastown  gastown       6835 Jan 25 00:11 dashboard-error-state-webkit-win32.png
+-rw-rw-r--    1 gastown  gastown       3559 Jan 25 00:11 dashboard-loading-state-Mobile-Chrome-win32.png
+-rw-rw-r--    1 gastown  gastown       5461 Jan 25 00:11 dashboard-loading-state-chromium-win32.png
+-rw-rw-r--    1 gastown  gastown      19284 Jan 25 00:11 dashboard-loading-state-firefox-win32.png
+-rw-rw-r--    1 gastown  gastown       6835 Jan 25 00:11 dashboard-loading-state-webkit-win32.png
+-rw-rw-r--    1 gastown  gastown       3260 Jan 25 00:11 dashboard-mobile-Mobile-Chrome-win32.png
+-rw-rw-r--    1 gastown  gastown       3260 Jan 25 00:11 dashboard-mobile-chromium-win32.png
+-rw-rw-r--    1 gastown  gastown       7962 Jan 25 00:11 dashboard-mobile-firefox-win32.png
+-rw-rw-r--    1 gastown  gastown       3908 Jan 25 00:11 dashboard-mobile-webkit-win32.png
+-rw-rw-r--    1 gastown  gastown       3559 Jan 25 00:11 dashboard-page-Mobile-Chrome-win32.png
+-rw-rw-r--    1 gastown  gastown       5461 Jan 25 00:11 dashboard-page-chromium-win32.png
+-rw-rw-r--    1 gastown  gastown      19284 Jan 25 00:11 dashboard-page-firefox-win32.png
+-rw-rw-r--    1 gastown  gastown       6835 Jan 25 00:11 dashboard-page-webkit-win32.png
+-rw-rw-r--    1 gastown  gastown       5716 Jan 25 00:11 dashboard-tablet-Mobile-Chrome-win32.png
+-rw-rw-r--    1 gastown  gastown       5716 Jan 25 00:11 dashboard-tablet-chromium-win32.png
+-rw-rw-r--    1 gastown  gastown      18518 Jan 25 00:11 dashboard-tablet-firefox-win32.png
+-rw-rw-r--    1 gastown  gastown       6857 Jan 25 00:11 dashboard-tablet-webkit-win32.png
+-rw-rw-r--    1 gastown  gastown       3559 Jan 25 00:11 policies-page-Mobile-Chrome-win32.png
+-rw-rw-r--    1 gastown  gastown       5461 Jan 25 00:11 policies-page-chromium-win32.png
+-rw-rw-r--    1 gastown  gastown      19284 Jan 25 00:11 policies-page-firefox-win32.png
+-rw-rw-r--    1 gastown  gastown       6835 Jan 25 00:11 policies-page-webkit-win32.png
+-rw-rw-r--    1 gastown  gastown       3559 Jan 25 00:11 workflows-page-Mobile-Chrome-win32.png
+-rw-rw-r--    1 gastown  gastown       5461 Jan 25 00:11 workflows-page-chromium-win32.png
+-rw-rw-r--    1 gastown  gastown      19284 Jan 25 00:11 workflows-page-firefox-win32.png
+-rw-rw-r--    1 gastown  gastown       6835 Jan 25 00:11 workflows-page-webkit-win32.png
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/playwright-report:
+total 516
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 data
+-rw-rw-r--    1 gastown  gastown     521835 Jan 25 00:11 index.html
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/playwright-report/data:
+total 8
+-rw-rw-r--    1 gastown  gastown       5461 Jan 25 00:11 0adb695b6fe2b21bb07bb9600917d7a9558ceb5e.png
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/public:
+total 1972
+-rw-rw-r--    1 gastown  gastown        271 Jan 25 00:11 anthropic-logo.svg
+-rw-rw-r--    1 gastown  gastown    1526178 Jan 25 00:11 conducktr-logo.png
+-rw-rw-r--    1 gastown  gastown     459351 Jan 25 00:11 conducktr-logo_notext.png
+-rw-rw-r--    1 gastown  gastown        672 Jan 25 00:11 gemini-logo.svg
+-rw-rw-r--    1 gastown  gastown        318 Jan 25 00:11 microsoft-logo.svg
+-rw-rw-r--    1 gastown  gastown        253 Jan 25 00:11 openai-logo.svg
+-rw-rw-r--    1 gastown  gastown       8692 Jan 25 00:11 service-worker.js
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/scripts:
+total 4
+-rwxrwxr-x    1 gastown  gastown       2252 Jan 25 00:11 analyze-images.sh
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src:
+total 68
+drwxrwsr-x    4 gastown  gastown       4096 Jan 25 00:11 assets
+drwxrwsr-x   10 gastown  gastown       4096 Jan 25 00:11 components
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 context
+drwxrwsr-x    3 gastown  gastown       4096 Jan 25 00:11 hooks
+-rw-rw-r--    1 gastown  gastown       5618 Jan 25 00:11 main.tsx
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 mocks
+drwxrwsr-x    4 gastown  gastown       4096 Jan 25 00:11 pages
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 routes
+drwxrwsr-x    3 gastown  gastown       4096 Jan 25 00:11 services
+drwxrwsr-x    3 gastown  gastown       4096 Jan 25 00:11 stories
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 test
+drwxrwsr-x    3 gastown  gastown       4096 Jan 25 00:11 theme
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 types
+drwxrwsr-x    3 gastown  gastown       4096 Jan 25 00:11 utils
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 validation
+-rw-rw-r--    1 gastown  gastown         38 Jan 25 00:11 vite-env.d.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/assets:
+total 8048
+-rw-rw-r--    1 gastown  gastown    1558132 Jan 25 00:11 Casual Persona.png
+-rw-rw-r--    1 gastown  gastown    1558260 Jan 25 00:11 Developer Persona.png
+-rw-rw-r--    1 gastown  gastown    1564488 Jan 25 00:11 Enterprise Persona.png
+-rw-rw-r--    1 gastown  gastown    1553016 Jan 25 00:11 Personal Persona.png
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 UI Screenshots
+-rw-rw-r--    1 gastown  gastown    1526178 Jan 25 00:11 conducktr-logo.png
+-rw-rw-r--    1 gastown  gastown     459351 Jan 25 00:11 conducktr-logo_notext.png
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 connectors
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/assets/UI Screenshots:
+total 700
+-rw-rw-r--    1 gastown  gastown     129866 Jan 25 00:11 Catalog.png
+-rw-rw-r--    1 gastown  gastown     353422 Jan 25 00:11 My Stack.png
+-rw-rw-r--    1 gastown  gastown     225310 Jan 25 00:11 Workflow Builder.png
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/assets/connectors:
+total 2068
+-rw-rw-r--    1 gastown  gastown      14257 Jan 25 00:11 AKS.png
+-rw-rw-r--    1 gastown  gastown       8573 Jan 25 00:11 adobe-marketo.jpg
+-rw-rw-r--    1 gastown  gastown        321 Jan 25 00:11 aks.svg
+-rw-rw-r--    1 gastown  gastown       9885 Jan 25 00:11 amazon-eks.png
+-rw-rw-r--    1 gastown  gastown       3815 Jan 25 00:11 amplitude.jpg
+-rw-rw-r--    1 gastown  gastown      13660 Jan 25 00:11 anthropic.jpg
+-rw-rw-r--    1 gastown  gastown      22043 Jan 25 00:11 atlassian.png
+-rw-rw-r--    1 gastown  gastown       6742 Jan 25 00:11 aws-cloudwatch.png
+-rw-rw-r--    1 gastown  gastown      16174 Jan 25 00:11 azure-ai-foundry-logo-p.jpg
+-rw-rw-r--    1 gastown  gastown      85496 Jan 25 00:11 azure-devops.png
+-rw-rw-r--    1 gastown  gastown      85496 Jan 25 00:11 azure.png
+-rw-rw-r--    1 gastown  gastown      62075 Jan 25 00:11 browser-stack.jpg
+-rw-rw-r--    1 gastown  gastown        694 Jan 25 00:11 calendly.svg
+-rw-rw-r--    1 gastown  gastown       1738 Jan 25 00:11 chatgpt.svg
+-rw-rw-r--    1 gastown  gastown      23376 Jan 25 00:11 cloudflare.png
+-rw-rw-r--    1 gastown  gastown     459351 Jan 25 00:11 conducktor.png
+-rw-rw-r--    1 gastown  gastown       8066 Jan 25 00:11 databricks.png
+-rw-rw-r--    1 gastown  gastown      64353 Jan 25 00:11 datadog.avif
+-rw-rw-r--    1 gastown  gastown        613 Jan 25 00:11 docusign.svg
+-rw-rw-r--    1 gastown  gastown       4701 Jan 25 00:11 fabric.jpg
+-rw-rw-r--    1 gastown  gastown     232679 Jan 25 00:11 figma.png
+-rw-rw-r--    1 gastown  gastown        287 Jan 25 00:11 generic.svg
+-rw-rw-r--    1 gastown  gastown       3328 Jan 25 00:11 github.png
+-rw-rw-r--    1 gastown  gastown      48928 Jan 25 00:11 gitlab.png
+-rw-rw-r--    1 gastown  gastown        663 Jan 25 00:11 gmail.svg
+-rw-rw-r--    1 gastown  gastown       3323 Jan 25 00:11 google-bigquery.png
+-rw-rw-r--    1 gastown  gastown      10443 Jan 25 00:11 google-drive.png
+-rw-rw-r--    1 gastown  gastown       8303 Jan 25 00:11 grafana.jpg
+-rw-rw-r--    1 gastown  gastown       8484 Jan 25 00:11 hubspot.png
+-rw-rw-r--    1 gastown  gastown       5055 Jan 25 00:11 huggingface.png
+-rw-rw-r--    1 gastown  gastown      14477 Jan 25 00:11 linear-app.png
+-rw-rw-r--    1 gastown  gastown      37936 Jan 25 00:11 logo-microsoft-clarity.jpg
+-rw-rw-r--    1 gastown  gastown       6739 Jan 25 00:11 looker.png
+-rw-rw-r--    1 gastown  gastown       6470 Jan 25 00:11 m365-agents.jpg
+-rw-rw-r--    1 gastown  gastown        740 Jan 25 00:11 mailchimp.svg
+-rw-rw-r--    1 gastown  gastown       2179 Jan 25 00:11 massive.png
+-rw-rw-r--    1 gastown  gastown      37071 Jan 25 00:11 microsoft-dataverse.jpg
+-rw-rw-r--    1 gastown  gastown      57634 Jan 25 00:11 microsoft-learn.png
+-rw-rw-r--    1 gastown  gastown       8177 Jan 25 00:11 monday.png
+-rw-rw-r--    1 gastown  gastown     172668 Jan 25 00:11 netlify.png
+-rw-rw-r--    1 gastown  gastown       1422 Jan 25 00:11 newrelic.png
+-rw-rw-r--    1 gastown  gastown      11406 Jan 25 00:11 notion.png
+-rw-rw-r--    1 gastown  gastown      66579 Jan 25 00:11 okta.png
+-rw-rw-r--    1 gastown  gastown       1738 Jan 25 00:11 openai.svg
+-rw-rw-r--    1 gastown  gastown      75066 Jan 25 00:11 outlook.png
+-rw-rw-r--    1 gastown  gastown       6452 Jan 25 00:11 pagerduty.png
+-rw-rw-r--    1 gastown  gastown       1368 Jan 25 00:11 postman.svg
+-rw-rw-r--    1 gastown  gastown        429 Jan 25 00:11 quickbooks.svg
+-rw-rw-r--    1 gastown  gastown       1053 Jan 25 00:11 railway.svg
+-rw-rw-r--    1 gastown  gastown       2898 Jan 25 00:11 redis.svg
+-rw-rw-r--    1 gastown  gastown       2203 Jan 25 00:11 render.jpg
+-rw-rw-r--    1 gastown  gastown      44617 Jan 25 00:11 salesforce.png
+-rw-rw-r--    1 gastown  gastown       8836 Jan 25 00:11 servicenow.png
+-rw-rw-r--    1 gastown  gastown        487 Jan 25 00:11 shopify.svg
+-rw-rw-r--    1 gastown  gastown      19235 Jan 25 00:11 slack.png
+-rw-rw-r--    1 gastown  gastown      55683 Jan 25 00:11 snowflake.png
+-rw-rw-r--    1 gastown  gastown      38045 Jan 25 00:11 sql.jpg
+-rw-rw-r--    1 gastown  gastown       1663 Jan 25 00:11 stripe.png
+-rw-rw-r--    1 gastown  gastown      12898 Jan 25 00:11 supabase.png
+-rw-rw-r--    1 gastown  gastown      37980 Jan 25 00:11 tableau.jpg
+-rw-rw-r--    1 gastown  gastown        826 Jan 25 00:11 trello.png
+-rw-rw-r--    1 gastown  gastown       1581 Jan 25 00:11 twilio.svg
+-rw-rw-r--    1 gastown  gastown        947 Jan 25 00:11 vercel.png
+-rw-rw-r--    1 gastown  gastown        411 Jan 25 00:11 xero.svg
+-rw-rw-r--    1 gastown  gastown       8267 Jan 25 00:11 zendesk.png
+-rw-rw-r--    1 gastown  gastown        260 Jan 25 00:11 zoom.svg
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/components:
+total 640
+-rw-rw-r--    1 gastown  gastown      18110 Jan 25 00:11 AdvancedProtocolConfig.tsx
+-rw-rw-r--    1 gastown  gastown      16201 Jan 25 00:11 ApiAuthConfigModal.tsx
+-rw-rw-r--    1 gastown  gastown      11574 Jan 25 00:11 ApiToolExecuteModal.tsx
+-rw-rw-r--    1 gastown  gastown       6088 Jan 25 00:11 AppErrorBoundary.tsx
+-rw-rw-r--    1 gastown  gastown       2424 Jan 25 00:11 AutoFixPanel.tsx
+-rw-rw-r--    1 gastown  gastown       8403 Jan 25 00:11 AutoRemediationDemoModal.tsx
+-rw-rw-r--    1 gastown  gastown       7830 Jan 25 00:11 BudgetBurnRateCard.tsx
+-rw-rw-r--    1 gastown  gastown      16399 Jan 25 00:11 ConnectionEditDialog.tsx
+-rw-rw-r--    1 gastown  gastown     134857 Jan 25 00:11 ConnectionWizard.tsx
+-rw-rw-r--    1 gastown  gastown      25225 Jan 25 00:11 DashboardLayout.tsx
+-rw-rw-r--    1 gastown  gastown       1594 Jan 25 00:11 EmptyState.tsx
+-rw-rw-r--    1 gastown  gastown       8823 Jan 25 00:11 EntraStatusCard.tsx
+-rw-rw-r--    1 gastown  gastown       1716 Jan 25 00:11 ErrorState.tsx
+-rw-rw-r--    1 gastown  gastown      15278 Jan 25 00:11 HealthDashboardCard.tsx
+-rw-rw-r--    1 gastown  gastown       2221 Jan 25 00:11 HealthStatusBadge.tsx
+-rw-rw-r--    1 gastown  gastown       7441 Jan 25 00:11 InstallModal.test.tsx
+-rw-rw-r--    1 gastown  gastown      55556 Jan 25 00:11 InstallModal.tsx
+-rw-rw-r--    1 gastown  gastown      15209 Jan 25 00:11 IntentOnboarding.tsx
+-rw-rw-r--    1 gastown  gastown       9055 Jan 25 00:11 InviteTeammates.tsx
+-rw-rw-r--    1 gastown  gastown        587 Jan 25 00:11 LoadingBlock.tsx
+-rw-rw-r--    1 gastown  gastown       5854 Jan 25 00:11 LoadingSkeleton.tsx
+-rw-rw-r--    1 gastown  gastown      16830 Jan 25 00:11 OAuthDialog.tsx
+-rw-rw-r--    1 gastown  gastown       2719 Jan 25 00:11 OfflineIndicator.tsx
+-rw-rw-r--    1 gastown  gastown       5865 Jan 25 00:11 OptimizedImage.tsx
+-rw-rw-r--    1 gastown  gastown       7599 Jan 25 00:11 PageErrorBoundary.tsx
+-rw-rw-r--    1 gastown  gastown      14438 Jan 25 00:11 PolicyYamlDialog.tsx
+-rw-rw-r--    1 gastown  gastown      15317 Jan 25 00:11 PromoteWorkspaceDialog.tsx
+-rw-rw-r--    1 gastown  gastown       8429 Jan 25 00:11 SetupFunnelCard.tsx
+-rw-rw-r--    1 gastown  gastown      63458 Jan 25 00:11 SetupWizard.tsx
+-rw-rw-r--    1 gastown  gastown       2335 Jan 25 00:11 StatusBadge.tsx
+-rw-rw-r--    1 gastown  gastown      15092 Jan 25 00:11 TeamActivityFeed.tsx
+-rw-rw-r--    1 gastown  gastown      14201 Jan 25 00:11 VaultKeyPicker.tsx
+-rw-rw-r--    1 gastown  gastown      20156 Jan 25 00:11 WorkflowChatBuilder.tsx
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 aurora
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 billing
+drwxrwsr-x    3 gastown  gastown       4096 Jan 25 00:11 chat
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 commerce
+drwxrwsr-x    6 gastown  gastown       4096 Jan 25 00:11 conducktor-wizard
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 semantic
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 widgets
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 workflow
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/components/aurora:
+total 36
+-rw-rw-r--    1 gastown  gastown       5476 Jan 25 00:11 AuroraBackground.tsx
+-rw-rw-r--    1 gastown  gastown       4512 Jan 25 00:11 GlassCard.stories.tsx
+-rw-rw-r--    1 gastown  gastown       3895 Jan 25 00:11 GlassCard.tsx
+-rw-rw-r--    1 gastown  gastown       2201 Jan 25 00:11 GlassInput.stories.tsx
+-rw-rw-r--    1 gastown  gastown       1771 Jan 25 00:11 GlassInput.tsx
+-rw-rw-r--    1 gastown  gastown       2798 Jan 25 00:11 GlassPanel.tsx
+-rw-rw-r--    1 gastown  gastown        464 Jan 25 00:11 index.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/components/billing:
+total 24
+-rw-rw-r--    1 gastown  gastown       8519 Jan 25 00:11 InvoicesHistory.tsx
+-rw-rw-r--    1 gastown  gastown       7823 Jan 25 00:11 PaymentMethods.tsx
+-rw-rw-r--    1 gastown  gastown        126 Jan 25 00:11 index.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/components/chat:
+total 336
+-rw-rw-r--    1 gastown  gastown      15923 Jan 25 00:11 ArtifactActions.tsx
+-rw-rw-r--    1 gastown  gastown      10973 Jan 25 00:11 ArtifactPanel.tsx
+-rw-rw-r--    1 gastown  gastown      14982 Jan 25 00:11 ChatInput.tsx
+-rw-rw-r--    1 gastown  gastown      13432 Jan 25 00:11 ChatSettingsPanel.tsx
+-rw-rw-r--    1 gastown  gastown      14552 Jan 25 00:11 CommandPalette.tsx
+-rw-rw-r--    1 gastown  gastown       8350 Jan 25 00:11 ContextualSuggestions.tsx
+-rw-rw-r--    1 gastown  gastown      12550 Jan 25 00:11 ConversationSidebar.tsx
+-rw-rw-r--    1 gastown  gastown       8359 Jan 25 00:11 ConversationsRail.tsx
+-rw-rw-r--    1 gastown  gastown       4864 Jan 25 00:11 ErrorBoundary.tsx
+-rw-rw-r--    1 gastown  gastown       7457 Jan 25 00:11 ErrorMessage.tsx
+-rw-rw-r--    1 gastown  gastown      11166 Jan 25 00:11 GoalProgressIndicator.tsx
+-rw-rw-r--    1 gastown  gastown      17122 Jan 25 00:11 MessageBubble.tsx
+-rw-rw-r--    1 gastown  gastown      13908 Jan 25 00:11 MessageList.tsx
+-rw-rw-r--    1 gastown  gastown      10512 Jan 25 00:11 ModelSelector.tsx
+-rw-rw-r--    1 gastown  gastown      18264 Jan 25 00:11 RightSidebar.tsx
+-rw-rw-r--    1 gastown  gastown      13476 Jan 25 00:11 ScheduledTasksPanel.tsx
+-rw-rw-r--    1 gastown  gastown      20886 Jan 25 00:11 SmartSuggestions.tsx
+-rw-rw-r--    1 gastown  gastown      12533 Jan 25 00:11 SuggestionsPanel.tsx
+-rw-rw-r--    1 gastown  gastown      13931 Jan 25 00:11 TimelinePanel.tsx
+-rw-rw-r--    1 gastown  gastown      11761 Jan 25 00:11 ToolExecutionCard.tsx
+-rw-rw-r--    1 gastown  gastown      21846 Jan 25 00:11 ToolsPanel.tsx
+-rw-rw-r--    1 gastown  gastown       7013 Jan 25 00:11 ToolsRail.tsx
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 __tests__
+-rw-rw-r--    1 gastown  gastown       1398 Jan 25 00:11 index.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/components/chat/__tests__:
+total 76
+-rw-rw-r--    1 gastown  gastown      13122 Jan 25 00:11 ArtifactActions.test.tsx
+-rw-rw-r--    1 gastown  gastown       5734 Jan 25 00:11 MessageBubble.test.tsx
+-rw-rw-r--    1 gastown  gastown      11801 Jan 25 00:11 RightSidebar.test.tsx
+-rw-rw-r--    1 gastown  gastown      15467 Jan 25 00:11 SuggestionsPanel.test.tsx
+-rw-rw-r--    1 gastown  gastown      11113 Jan 25 00:11 TimelinePanel.test.tsx
+-rw-rw-r--    1 gastown  gastown      10275 Jan 25 00:11 ToolExecutionCard.test.tsx
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/components/commerce:
+total 72
+-rw-rw-r--    1 gastown  gastown      26235 Jan 25 00:11 CommerceDialogs.tsx
+-rw-rw-r--    1 gastown  gastown       4745 Jan 25 00:11 CommerceErrorBoundary.tsx
+-rw-rw-r--    1 gastown  gastown      12150 Jan 25 00:11 api.ts
+-rw-rw-r--    1 gastown  gastown        529 Jan 25 00:11 index.ts
+-rw-rw-r--    1 gastown  gastown       9214 Jan 25 00:11 types.ts
+-rw-rw-r--    1 gastown  gastown       7895 Jan 25 00:11 utils.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/components/conducktor-wizard:
+total 56
+-rw-rw-r--    1 gastown  gastown      16944 Jan 25 00:11 ConducktorWizard.tsx
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 __tests__
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 hooks
+-rw-rw-r--    1 gastown  gastown        328 Jan 25 00:11 index.ts
+drwxrwsr-x    4 gastown  gastown       4096 Jan 25 00:11 steps
+-rw-rw-r--    1 gastown  gastown       7610 Jan 25 00:11 types.ts
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 utils
+-rw-rw-r--    1 gastown  gastown       4432 Jan 25 00:11 validation.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/components/conducktor-wizard/__tests__:
+total 8
+-rw-rw-r--    1 gastown  gastown       5733 Jan 25 00:11 ConducktorWizard.test.tsx
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/components/conducktor-wizard/hooks:
+total 28
+-rw-rw-r--    1 gastown  gastown        229 Jan 25 00:11 index.ts
+-rw-rw-r--    1 gastown  gastown      12798 Jan 25 00:11 useConnectionTest.ts
+-rw-rw-r--    1 gastown  gastown       5927 Jan 25 00:11 useWizardState.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/components/conducktor-wizard/steps:
+total 152
+-rw-rw-r--    1 gastown  gastown      14955 Jan 25 00:11 ApiSpecStep.tsx
+-rw-rw-r--    1 gastown  gastown      19290 Jan 25 00:11 AuthStep.tsx
+-rw-rw-r--    1 gastown  gastown      15025 Jan 25 00:11 ConfirmStep.tsx
+-rw-rw-r--    1 gastown  gastown      14020 Jan 25 00:11 DataSourceStep.tsx
+-rw-rw-r--    1 gastown  gastown      13977 Jan 25 00:11 DatabaseStep.tsx
+-rw-rw-r--    1 gastown  gastown      24387 Jan 25 00:11 MCPStep.tsx
+-rw-rw-r--    1 gastown  gastown      11373 Jan 25 00:11 ProtocolStep.tsx
+-rw-rw-r--    1 gastown  gastown       5230 Jan 25 00:11 SourceStep.tsx
+-rw-rw-r--    1 gastown  gastown      10029 Jan 25 00:11 TestStep.tsx
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 database-forms
+-rw-rw-r--    1 gastown  gastown        534 Jan 25 00:11 index.ts
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 protocol-forms
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/components/conducktor-wizard/steps/database-forms:
+total 16
+-rw-rw-r--    1 gastown  gastown       1084 Jan 25 00:11 MongoConfigForm.tsx
+-rw-rw-r--    1 gastown  gastown        775 Jan 25 00:11 MySQLConfigForm.tsx
+-rw-rw-r--    1 gastown  gastown       1415 Jan 25 00:11 PostgresConfigForm.tsx
+-rw-rw-r--    1 gastown  gastown        276 Jan 25 00:11 index.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/components/conducktor-wizard/steps/protocol-forms:
+total 32
+-rw-rw-r--    1 gastown  gastown       2514 Jan 25 00:11 FTPConfigForm.tsx
+-rw-rw-r--    1 gastown  gastown        846 Jan 25 00:11 GraphQLConfigForm.tsx
+-rw-rw-r--    1 gastown  gastown       2648 Jan 25 00:11 MCPConfigForm.tsx
+-rw-rw-r--    1 gastown  gastown       3203 Jan 25 00:11 RSSConfigForm.tsx
+-rw-rw-r--    1 gastown  gastown       1839 Jan 25 00:11 RestConfigForm.tsx
+-rw-rw-r--    1 gastown  gastown       1904 Jan 25 00:11 SOAPConfigForm.tsx
+-rw-rw-r--    1 gastown  gastown       2243 Jan 25 00:11 WebSocketConfigForm.tsx
+-rw-rw-r--    1 gastown  gastown        478 Jan 25 00:11 index.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/components/conducktor-wizard/utils:
+total 16
+-rw-rw-r--    1 gastown  gastown         87 Jan 25 00:11 index.ts
+-rw-rw-r--    1 gastown  gastown       9067 Jan 25 00:11 urlParser.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/components/semantic:
+total 68
+-rw-rw-r--    1 gastown  gastown       8673 Jan 25 00:11 ProviderSelector.tsx
+-rw-rw-r--    1 gastown  gastown      10207 Jan 25 00:11 SemanticPreferencesPanel.tsx
+-rw-rw-r--    1 gastown  gastown      11732 Jan 25 00:11 SemanticToolProvider.tsx
+-rw-rw-r--    1 gastown  gastown       6885 Jan 25 00:11 ValidationConfirmDialog.tsx
+-rw-rw-r--    1 gastown  gastown        774 Jan 25 00:11 index.ts
+-rw-rw-r--    1 gastown  gastown       7537 Jan 25 00:11 types.ts
+-rw-rw-r--    1 gastown  gastown       9711 Jan 25 00:11 useSemanticTool.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/components/widgets:
+total 64
+-rw-rw-r--    1 gastown  gastown       1827 Jan 25 00:11 AddWidgetCard.tsx
+-rw-rw-r--    1 gastown  gastown       6933 Jan 25 00:11 CalendarWidget.tsx
+-rw-rw-r--    1 gastown  gastown       7079 Jan 25 00:11 ConducktorFeedWidget.tsx
+-rw-rw-r--    1 gastown  gastown       8627 Jan 25 00:11 EmailWidget.tsx
+-rw-rw-r--    1 gastown  gastown       7947 Jan 25 00:11 FilesWidget.tsx
+-rw-rw-r--    1 gastown  gastown       7384 Jan 25 00:11 NewsWidget.tsx
+-rw-rw-r--    1 gastown  gastown      10151 Jan 25 00:11 TasksWidget.tsx
+-rw-rw-r--    1 gastown  gastown        229 Jan 25 00:11 index.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/components/workflow:
+total 44
+-rw-rw-r--    1 gastown  gastown      11539 Jan 25 00:11 CustomNodes.tsx
+-rw-rw-r--    1 gastown  gastown      18278 Jan 25 00:11 NodeConfigPanel.tsx
+-rw-rw-r--    1 gastown  gastown       8931 Jan 25 00:11 NodePalette.tsx
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/context:
+total 44
+-rw-rw-r--    1 gastown  gastown      17416 Jan 25 00:11 AdaptiveUIContext.tsx
+-rw-rw-r--    1 gastown  gastown       7677 Jan 25 00:11 AlertNotificationContext.tsx
+-rw-rw-r--    1 gastown  gastown       3862 Jan 25 00:11 AuthContext.tsx
+-rw-rw-r--    1 gastown  gastown       1765 Jan 25 00:11 LayoutContext.tsx
+-rw-rw-r--    1 gastown  gastown       2634 Jan 25 00:11 PersonaContext.tsx
+-rw-rw-r--    1 gastown  gastown        791 Jan 25 00:11 ThemeContext.tsx
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/hooks:
+total 136
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 __tests__
+-rw-rw-r--    1 gastown  gastown        771 Jan 25 00:11 index.ts
+-rw-rw-r--    1 gastown  gastown      11076 Jan 25 00:11 useAdaptiveUI.ts
+-rw-rw-r--    1 gastown  gastown       9391 Jan 25 00:11 useChatStream.ts
+-rw-rw-r--    1 gastown  gastown      11038 Jan 25 00:11 useConnectionMutations.ts
+-rw-rw-r--    1 gastown  gastown       2451 Jan 25 00:11 useCopyToClipboard.ts
+-rw-rw-r--    1 gastown  gastown       6097 Jan 25 00:11 useErrorHandler.ts
+-rw-rw-r--    1 gastown  gastown       5786 Jan 25 00:11 useErrorRecovery.ts
+-rw-rw-r--    1 gastown  gastown       4193 Jan 25 00:11 useLocalStorage.ts
+-rw-rw-r--    1 gastown  gastown      11245 Jan 25 00:11 useOAuthPopup.ts
+-rw-rw-r--    1 gastown  gastown       2620 Jan 25 00:11 useOfflineQueue.ts
+-rw-rw-r--    1 gastown  gastown       1739 Jan 25 00:11 useSuggestedPrompts.ts
+-rw-rw-r--    1 gastown  gastown       7744 Jan 25 00:11 useWebSocket.ts
+-rw-rw-r--    1 gastown  gastown      25992 Jan 25 00:11 useWidgetData.ts
+-rw-rw-r--    1 gastown  gastown       8148 Jan 25 00:11 useWorkflowMutations.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/hooks/__tests__:
+total 8
+-rw-rw-r--    1 gastown  gastown       5376 Jan 25 00:11 useErrorRecovery.test.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/mocks:
+total 12
+-rw-rw-r--    1 gastown  gastown       8708 Jan 25 00:11 chatData.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/pages:
+total 1244
+-rw-rw-r--    1 gastown  gastown       8822 Jan 25 00:11 AboutPage.tsx
+-rw-rw-r--    1 gastown  gastown      28839 Jan 25 00:11 AccountPage.tsx
+-rw-rw-r--    1 gastown  gastown     114317 Jan 25 00:11 AdminPanelPage.tsx
+-rw-rw-r--    1 gastown  gastown      36953 Jan 25 00:11 ApiBridgePage.tsx
+-rw-rw-r--    1 gastown  gastown      17828 Jan 25 00:11 ApprovalsPage.tsx
+-rw-rw-r--    1 gastown  gastown      12519 Jan 25 00:11 AuditLogPage.tsx
+-rw-rw-r--    1 gastown  gastown       5002 Jan 25 00:11 AuthCallbackPage.tsx
+-rw-rw-r--    1 gastown  gastown      16235 Jan 25 00:11 BillingPage.tsx
+-rw-rw-r--    1 gastown  gastown      12271 Jan 25 00:11 BlueprintGalleryPage.tsx
+-rw-rw-r--    1 gastown  gastown      20293 Jan 25 00:11 CatalogDocsPage.tsx
+-rw-rw-r--    1 gastown  gastown      50401 Jan 25 00:11 CatalogPage.tsx
+-rw-rw-r--    1 gastown  gastown      43798 Jan 25 00:11 ChatPage.tsx
+-rw-rw-r--    1 gastown  gastown       4550 Jan 25 00:11 CheckoutResultPage.tsx
+-rw-rw-r--    1 gastown  gastown      85861 Jan 25 00:11 CommercePage.tsx
+-rw-rw-r--    1 gastown  gastown       7558 Jan 25 00:11 CompliancePage.tsx
+-rw-rw-r--    1 gastown  gastown      89806 Jan 25 00:11 ConnectionsPage.tsx
+-rw-rw-r--    1 gastown  gastown      35269 Jan 25 00:11 ConsumerLandingPage.tsx
+-rw-rw-r--    1 gastown  gastown      45394 Jan 25 00:11 DashboardPage.tsx
+-rw-rw-r--    1 gastown  gastown      14081 Jan 25 00:11 DeviceAuthPage.tsx
+-rw-rw-r--    1 gastown  gastown      11488 Jan 25 00:11 EmailVerificationPage.tsx
+-rw-rw-r--    1 gastown  gastown      12911 Jan 25 00:11 FeaturesPage.tsx
+-rw-rw-r--    1 gastown  gastown       5479 Jan 25 00:11 ForgotPasswordPage.tsx
+-rw-rw-r--    1 gastown  gastown      42859 Jan 25 00:11 LandingPage.tsx
+-rw-rw-r--    1 gastown  gastown      19627 Jan 25 00:11 LoginPage.tsx
+-rw-rw-r--    1 gastown  gastown      48736 Jan 25 00:11 MCPCloudPage.tsx
+-rw-rw-r--    1 gastown  gastown      82432 Jan 25 00:11 MarketplacePage.tsx
+-rw-rw-r--    1 gastown  gastown        330 Jan 25 00:11 NewConducktorPage.tsx
+-rw-rw-r--    1 gastown  gastown       5848 Jan 25 00:11 OAuthCallbackPage.tsx
+-rw-rw-r--    1 gastown  gastown      10352 Jan 25 00:11 OAuthConsentPage.tsx
+-rw-rw-r--    1 gastown  gastown       3958 Jan 25 00:11 OAuthTriggerPage.tsx
+-rw-rw-r--    1 gastown  gastown      18084 Jan 25 00:11 PricingPage.tsx
+-rw-rw-r--    1 gastown  gastown      10778 Jan 25 00:11 PrivacyPage.tsx
+-rw-rw-r--    1 gastown  gastown       3017 Jan 25 00:11 ReauthorizePage.tsx
+-rw-rw-r--    1 gastown  gastown      30686 Jan 25 00:11 RegisterPage.tsx
+-rw-rw-r--    1 gastown  gastown       6708 Jan 25 00:11 ResetPasswordPage.tsx
+-rw-rw-r--    1 gastown  gastown      51848 Jan 25 00:11 ReviewPoliciesPage.tsx
+-rw-rw-r--    1 gastown  gastown       2842 Jan 25 00:11 RunViewerPage.tsx
+-rw-rw-r--    1 gastown  gastown       6271 Jan 25 00:11 SecurityPage.tsx
+-rw-rw-r--    1 gastown  gastown        472 Jan 25 00:11 SilentCallbackPage.tsx
+-rw-rw-r--    1 gastown  gastown       8475 Jan 25 00:11 SupportPage.tsx
+-rw-rw-r--    1 gastown  gastown        966 Jan 25 00:11 TeamPage.tsx
+-rw-rw-r--    1 gastown  gastown      11970 Jan 25 00:11 TermsPage.tsx
+-rw-rw-r--    1 gastown  gastown      42752 Jan 25 00:11 VaultPage.tsx
+-rw-rw-r--    1 gastown  gastown      20290 Jan 25 00:11 WaitlistPage.tsx
+-rw-rw-r--    1 gastown  gastown      15649 Jan 25 00:11 WorkflowBuilderPage.tsx
+-rw-rw-r--    1 gastown  gastown      29935 Jan 25 00:11 WorkflowOrchestrationDocsPage.tsx
+-rw-rw-r--    1 gastown  gastown      19951 Jan 25 00:11 WorkflowsPage.tsx
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 __tests__
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 commerce
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/pages/__tests__:
+total 12
+-rw-rw-r--    1 gastown  gastown       8464 Jan 25 00:11 LoginPage.test.tsx
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/pages/commerce:
+total 56
+-rw-rw-r--    1 gastown  gastown      15486 Jan 25 00:11 hooks.test.ts
+-rw-rw-r--    1 gastown  gastown      19158 Jan 25 00:11 hooks.ts
+-rw-rw-r--    1 gastown  gastown       3004 Jan 25 00:11 index.ts
+-rw-rw-r--    1 gastown  gastown       4822 Jan 25 00:11 types.ts
+-rw-rw-r--    1 gastown  gastown       7979 Jan 25 00:11 utils.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/routes:
+total 20
+-rw-rw-r--    1 gastown  gastown      18260 Jan 25 00:11 App.tsx
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/services:
+total 128
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 __tests__
+-rw-rw-r--    1 gastown  gastown      46357 Jan 25 00:11 adaptiveIntelligence.ts
+-rw-rw-r--    1 gastown  gastown      19613 Jan 25 00:11 api.test.ts
+-rw-rw-r--    1 gastown  gastown      40622 Jan 25 00:11 api.ts
+-rw-rw-r--    1 gastown  gastown        770 Jan 25 00:11 index.ts
+-rw-rw-r--    1 gastown  gastown       6682 Jan 25 00:11 oidcService.ts
+-rw-rw-r--    1 gastown  gastown       3943 Jan 25 00:11 setupTelemetry.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/services/__tests__:
+total 20
+-rw-rw-r--    1 gastown  gastown      18140 Jan 25 00:11 adaptiveIntelligence.test.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/stories:
+total 64
+-rw-rw-r--    1 gastown  gastown       1450 Jan 25 00:11 Button.stories.ts
+-rw-rw-r--    1 gastown  gastown        888 Jan 25 00:11 Button.tsx
+-rw-rw-r--    1 gastown  gastown      11525 Jan 25 00:11 Configure.mdx
+-rw-rw-r--    1 gastown  gastown      10311 Jan 25 00:11 DesignTokens.stories.tsx
+-rw-rw-r--    1 gastown  gastown        793 Jan 25 00:11 Header.stories.ts
+-rw-rw-r--    1 gastown  gastown       1525 Jan 25 00:11 Header.tsx
+-rw-rw-r--    1 gastown  gastown       1079 Jan 25 00:11 Page.stories.ts
+-rw-rw-r--    1 gastown  gastown       2592 Jan 25 00:11 Page.tsx
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 assets
+-rw-rw-r--    1 gastown  gastown        642 Jan 25 00:11 button.css
+-rw-rw-r--    1 gastown  gastown        623 Jan 25 00:11 header.css
+-rw-rw-r--    1 gastown  gastown       1125 Jan 25 00:11 page.css
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/stories/assets:
+total 756
+-rw-rw-r--    1 gastown  gastown      42336 Jan 25 00:11 accessibility.png
+-rw-rw-r--    1 gastown  gastown       1541 Jan 25 00:11 accessibility.svg
+-rw-rw-r--    1 gastown  gastown     467366 Jan 25 00:11 addon-library.png
+-rw-rw-r--    1 gastown  gastown       3899 Jan 25 00:11 assets.png
+-rw-rw-r--    1 gastown  gastown        829 Jan 25 00:11 avif-test-image.avif
+-rw-rw-r--    1 gastown  gastown       6119 Jan 25 00:11 context.png
+-rw-rw-r--    1 gastown  gastown       2392 Jan 25 00:11 discord.svg
+-rw-rw-r--    1 gastown  gastown      27875 Jan 25 00:11 docs.png
+-rw-rw-r--    1 gastown  gastown      44246 Jan 25 00:11 figma-plugin.png
+-rw-rw-r--    1 gastown  gastown       2720 Jan 25 00:11 github.svg
+-rw-rw-r--    1 gastown  gastown      40767 Jan 25 00:11 share.png
+-rw-rw-r--    1 gastown  gastown       7237 Jan 25 00:11 styling.png
+-rw-rw-r--    1 gastown  gastown      49313 Jan 25 00:11 testing.png
+-rw-rw-r--    1 gastown  gastown      44374 Jan 25 00:11 theming.png
+-rw-rw-r--    1 gastown  gastown       1258 Jan 25 00:11 tutorials.svg
+-rw-rw-r--    1 gastown  gastown        716 Jan 25 00:11 youtube.svg
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/test:
+total 156
+-rw-rw-r--    1 gastown  gastown       6021 Jan 25 00:11 CatalogPage.test.tsx
+-rw-rw-r--    1 gastown  gastown      11280 Jan 25 00:11 ConnectionEditDialog.test.tsx
+-rw-rw-r--    1 gastown  gastown      18673 Jan 25 00:11 ConnectionWizard.test.tsx
+-rw-rw-r--    1 gastown  gastown      24265 Jan 25 00:11 ConnectionsPage.test.tsx
+-rw-rw-r--    1 gastown  gastown        416 Jan 25 00:11 DashboardPage.test.tsx
+-rw-rw-r--    1 gastown  gastown      22287 Jan 25 00:11 OAuthDialog.test.tsx
+-rw-rw-r--    1 gastown  gastown      11582 Jan 25 00:11 ReviewPoliciesPage.test.tsx
+-rw-rw-r--    1 gastown  gastown      13556 Jan 25 00:11 SetupWizard.test.tsx
+-rw-rw-r--    1 gastown  gastown      19305 Jan 25 00:11 WorkflowChatBuilder.test.tsx
+-rw-rw-r--    1 gastown  gastown       7807 Jan 25 00:11 image-imports.test.ts
+-rw-rw-r--    1 gastown  gastown       1895 Jan 25 00:11 setup.ts
+-rw-rw-r--    1 gastown  gastown       1655 Jan 25 00:11 test-utils.tsx
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/theme:
+total 28
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 aurora
+-rw-rw-r--    1 gastown  gastown       2099 Jan 25 00:11 colors.ts
+-rw-rw-r--    1 gastown  gastown       4048 Jan 25 00:11 responsive.ts
+-rw-rw-r--    1 gastown  gastown      13693 Jan 25 00:11 theme.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/theme/aurora:
+total 12
+-rw-rw-r--    1 gastown  gastown       1999 Jan 25 00:11 animations.ts
+-rw-rw-r--    1 gastown  gastown       4481 Jan 25 00:11 index.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/types:
+total 4
+-rw-rw-r--    1 gastown  gastown       2578 Jan 25 00:11 chat.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/utils:
+total 160
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 __tests__
+-rw-rw-r--    1 gastown  gastown       6001 Jan 25 00:11 animations.ts
+-rw-rw-r--    1 gastown  gastown       5594 Jan 25 00:11 categoryConfig.ts
+-rw-rw-r--    1 gastown  gastown       8754 Jan 25 00:11 connectorIconMap.ts
+-rw-rw-r--    1 gastown  gastown      14801 Jan 25 00:11 connectorIcons.ts
+-rw-rw-r--    1 gastown  gastown       1618 Jan 25 00:11 dateUtils.ts
+-rw-rw-r--    1 gastown  gastown       9511 Jan 25 00:11 errorClassification.ts
+-rw-rw-r--    1 gastown  gastown       8112 Jan 25 00:11 gracefulDegradation.ts
+-rw-rw-r--    1 gastown  gastown      19057 Jan 25 00:11 intentDetection.ts
+-rw-rw-r--    1 gastown  gastown       7424 Jan 25 00:11 logger.test.ts
+-rw-rw-r--    1 gastown  gastown       5737 Jan 25 00:11 logger.ts
+-rw-rw-r--    1 gastown  gastown       6788 Jan 25 00:11 microInteractions.ts
+-rw-rw-r--    1 gastown  gastown       2011 Jan 25 00:11 navigation.ts
+-rw-rw-r--    1 gastown  gastown       2885 Jan 25 00:11 offlineInterceptor.ts
+-rw-rw-r--    1 gastown  gastown       7966 Jan 25 00:11 offlineQueue.ts
+-rw-rw-r--    1 gastown  gastown      16937 Jan 25 00:11 semanticCategories.ts
+-rw-rw-r--    1 gastown  gastown       4889 Jan 25 00:11 serviceWorkerRegistration.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/utils/__tests__:
+total 8
+-rw-rw-r--    1 gastown  gastown       6213 Jan 25 00:11 intentDetection.test.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/src/validation:
+total 16
+-rw-rw-r--    1 gastown  gastown       2534 Jan 25 00:11 conducktorWizardSchema.ts
+-rw-rw-r--    1 gastown  gastown        299 Jan 25 00:11 loginSchema.ts
+-rw-rw-r--    1 gastown  gastown       1524 Jan 25 00:11 registerSchema.ts
+-rw-rw-r--    1 gastown  gastown        350 Jan 25 00:11 setupWizardSchema.ts
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/test-results:
+total 24
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 visual-regression-Visual-R-2eeb8-licies-page-visual-snapshot-chromium
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 visual-regression-Visual-R-a1e48-kflows-page-visual-snapshot-chromium
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 visual-regression-Visual-R-cb467-atalog-page-visual-snapshot-chromium
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 visual-regression-Visual-R-e9069-ctions-page-visual-snapshot-chromium
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 visual-regression-Visual-R-ebf68-s-Chat-page-visual-snapshot-chromium
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 visual-regression-Visual-R-f7306-hboard-page-visual-snapshot-chromium
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/test-results/visual-regression-Visual-R-2eeb8-licies-page-visual-snapshot-chromium:
+total 8
+-rw-rw-r--    1 gastown  gastown       5461 Jan 25 00:11 policies-page-actual.png
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/test-results/visual-regression-Visual-R-a1e48-kflows-page-visual-snapshot-chromium:
+total 8
+-rw-rw-r--    1 gastown  gastown       5461 Jan 25 00:11 workflows-page-actual.png
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/test-results/visual-regression-Visual-R-cb467-atalog-page-visual-snapshot-chromium:
+total 8
+-rw-rw-r--    1 gastown  gastown       5461 Jan 25 00:11 catalog-page-actual.png
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/test-results/visual-regression-Visual-R-e9069-ctions-page-visual-snapshot-chromium:
+total 8
+-rw-rw-r--    1 gastown  gastown       5461 Jan 25 00:11 connections-page-actual.png
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/test-results/visual-regression-Visual-R-ebf68-s-Chat-page-visual-snapshot-chromium:
+total 8
+-rw-rw-r--    1 gastown  gastown       5461 Jan 25 00:11 chat-page-actual.png
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/frontend/test-results/visual-regression-Visual-R-f7306-hboard-page-visual-snapshot-chromium:
+total 8
+-rw-rw-r--    1 gastown  gastown       5461 Jan 25 00:11 dashboard-page-actual.png
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/gt-mcp-server:
+total 32
+-rw-rw-r--    1 gastown  gastown       6067 Jan 25 00:11 CHANGELOG.md
+-rw-rw-r--    1 gastown  gastown       1070 Jan 25 00:11 LICENSE
+-rw-rw-r--    1 gastown  gastown       6298 Jan 25 00:11 README.md
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 gt_mcp_server
+-rw-rw-r--    1 gastown  gastown        860 Jan 25 00:11 pyproject.toml
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 tests
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/gt-mcp-server/gt_mcp_server:
+total 80
+-rw-rw-r--    1 gastown  gastown         94 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown       2232 Jan 25 00:11 cache.py
+-rw-rw-r--    1 gastown  gastown      18898 Jan 25 00:11 cli.py
+-rw-rw-r--    1 gastown  gastown       5445 Jan 25 00:11 config.py
+-rw-rw-r--    1 gastown  gastown      14722 Jan 25 00:11 schemas.py
+-rw-rw-r--    1 gastown  gastown      14819 Jan 25 00:11 server.py
+-rw-rw-r--    1 gastown  gastown      10130 Jan 25 00:11 validation.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/gt-mcp-server/tests:
+total 72
+-rw-rw-r--    1 gastown  gastown         31 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown       3571 Jan 25 00:11 test_cache.py
+-rw-rw-r--    1 gastown  gastown      13285 Jan 25 00:11 test_cli.py
+-rw-rw-r--    1 gastown  gastown       7680 Jan 25 00:11 test_config.py
+-rw-rw-r--    1 gastown  gastown       3981 Jan 25 00:11 test_schemas.py
+-rw-rw-r--    1 gastown  gastown      19125 Jan 25 00:11 test_server.py
+-rw-rw-r--    1 gastown  gastown      14050 Jan 25 00:11 test_validation.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/infra:
+total 20
+-rw-rw-r--    1 gastown  gastown        638 Jan 25 00:11 README.md
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 azure
+drwxrwsr-x    5 gastown  gastown       4096 Jan 25 00:11 k8s
+-rw-rw-r--    1 gastown  gastown          0 Jan 25 00:11 kubectl
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 oauth-proxy
+drwxrwsr-x    4 gastown  gastown       4096 Jan 25 00:11 terraform
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/infra/azure:
+total 4
+-rw-rw-r--    1 gastown  gastown       2865 Jan 25 00:11 conducktor-app-manifest.json
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/infra/k8s:
+total 72
+-rw-rw-r--    1 gastown  gastown        375 Jan 25 00:11 backend-hpa.yaml
+-rw-rw-r--    1 gastown  gastown       9192 Jan 25 00:11 backend.yaml
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 backup
+-rw-rw-r--    1 gastown  gastown       2715 Jan 25 00:11 domain-redirect.yaml
+-rw-rw-r--    1 gastown  gastown        377 Jan 25 00:11 frontend-hpa.yaml
+-rw-rw-r--    1 gastown  gastown       2702 Jan 25 00:11 frontend.yaml
+-rw-rw-r--    1 gastown  gastown       1600 Jan 25 00:11 ingress.yaml
+-rw-rw-r--    1 gastown  gastown       2835 Jan 25 00:11 internal-admin.yaml
+-rw-rw-r--    1 gastown  gastown        293 Jan 25 00:11 managed-cert.yaml
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 monitoring
+-rw-rw-r--    1 gastown  gastown       6659 Jan 25 00:11 network-policies.yaml
+-rw-rw-r--    1 gastown  gastown       1099 Jan 25 00:11 pod-disruption-budgets.yaml
+-rw-rw-r--    1 gastown  gastown        444 Jan 25 00:11 pod-reader-rbac.yaml
+-rw-rw-r--    1 gastown  gastown       1950 Jan 25 00:11 redis.yaml
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 stdio-bridge
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/infra/k8s/backup:
+total 20
+-rw-rw-r--    1 gastown  gastown       3697 Jan 25 00:11 README.md
+-rw-rw-r--    1 gastown  gastown       1185 Jan 25 00:11 cert-manager-rbac.yaml
+-rw-rw-r--    1 gastown  gastown        487 Jan 25 00:11 cluster-issuer.yaml
+-rw-rw-r--    1 gastown  gastown       6225 Jan 25 00:11 db-backup-cronjob.yaml
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/infra/k8s/monitoring:
+total 48
+-rw-rw-r--    1 gastown  gastown        410 Jan 25 00:11 alertmanager-config.yaml
+-rw-rw-r--    1 gastown  gastown       1313 Jan 25 00:11 alertmanager-deployment.yaml
+-rw-rw-r--    1 gastown  gastown        191 Jan 25 00:11 alertmanager-service.yaml
+-rw-rw-r--    1 gastown  gastown        316 Jan 25 00:11 grafana-datasource.yaml
+-rw-rw-r--    1 gastown  gastown       1396 Jan 25 00:11 grafana-deployment.yaml
+-rw-rw-r--    1 gastown  gastown        184 Jan 25 00:11 grafana-service.yaml
+-rw-rw-r--    1 gastown  gastown         60 Jan 25 00:11 namespace.yaml
+-rw-rw-r--    1 gastown  gastown       1781 Jan 25 00:11 network-policy.yaml
+-rw-rw-r--    1 gastown  gastown        686 Jan 25 00:11 prometheus-config.yaml
+-rw-rw-r--    1 gastown  gastown       1501 Jan 25 00:11 prometheus-deployment.yaml
+-rw-rw-r--    1 gastown  gastown       2055 Jan 25 00:11 prometheus-rules.yaml
+-rw-rw-r--    1 gastown  gastown        187 Jan 25 00:11 prometheus-service.yaml
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/infra/k8s/stdio-bridge:
+total 52
+-rw-rw-r--    1 gastown  gastown       2054 Jan 25 00:11 Dockerfile
+-rw-rw-r--    1 gastown  gastown       7441 Jan 25 00:11 README.md
+-rw-rw-r--    1 gastown  gastown      16667 Jan 25 00:11 connectors.sql
+-rw-rw-r--    1 gastown  gastown       2272 Jan 25 00:11 deploy-bridge.ps1
+-rw-rw-r--    1 gastown  gastown       5126 Jan 25 00:11 deployment.yaml
+-rw-rw-r--    1 gastown  gastown       1037 Jan 25 00:11 network-policy.yaml
+-rw-rw-r--    1 gastown  gastown        894 Jan 25 00:11 servers.json
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/infra/oauth-proxy:
+total 24
+-rw-rw-r--    1 gastown  gastown        409 Jan 25 00:11 Dockerfile
+-rw-rw-r--    1 gastown  gastown       2681 Jan 25 00:11 README.md
+-rw-rw-r--    1 gastown  gastown       3115 Jan 25 00:11 k8s.yaml
+-rw-rw-r--    1 gastown  gastown      10292 Jan 25 00:11 main.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/infra/terraform:
+total 16
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 bin
+-rw-rw-r--    1 gastown  gastown       1302 Jan 25 00:11 main.tf
+drwxrwsr-x    5 gastown  gastown       4096 Jan 25 00:11 modules
+-rw-rw-r--    1 gastown  gastown        202 Jan 25 00:11 variables.tf
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/infra/terraform/bin:
+total 80908
+-rw-rw-r--    1 gastown  gastown   82848432 Jan 25 00:11 terraform.exe
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/infra/terraform/modules:
+total 12
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 kubernetes
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 network
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 postgres
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/infra/terraform/modules/kubernetes:
+total 12
+-rw-rw-r--    1 gastown  gastown       1586 Jan 25 00:11 main.tf
+-rw-rw-r--    1 gastown  gastown        235 Jan 25 00:11 outputs.tf
+-rw-rw-r--    1 gastown  gastown        874 Jan 25 00:11 variables.tf
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/infra/terraform/modules/network:
+total 12
+-rw-rw-r--    1 gastown  gastown        982 Jan 25 00:11 main.tf
+-rw-rw-r--    1 gastown  gastown        252 Jan 25 00:11 outputs.tf
+-rw-rw-r--    1 gastown  gastown        966 Jan 25 00:11 variables.tf
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/infra/terraform/modules/postgres:
+total 12
+-rw-rw-r--    1 gastown  gastown       1778 Jan 25 00:11 main.tf
+-rw-rw-r--    1 gastown  gastown        520 Jan 25 00:11 outputs.tf
+-rw-rw-r--    1 gastown  gastown        900 Jan 25 00:11 variables.tf
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/integrations:
+total 4
+drwxrwsr-x    3 gastown  gastown       4096 Jan 25 00:11 hubspot-app
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/integrations/hubspot-app:
+total 8
+-rw-rw-r--    1 gastown  gastown         76 Jan 25 00:11 hsproject.json
+drwxrwsr-x    3 gastown  gastown       4096 Jan 25 00:11 src
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/integrations/hubspot-app/src:
+total 4
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 app
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/integrations/hubspot-app/src/app:
+total 4
+-rw-rw-r--    1 gastown  gastown       2603 Jan 25 00:11 app-hsmeta.json
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/plugins:
+total 4
+-rw-rw-r--    1 gastown  gastown        445 Jan 25 00:11 README.md
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/scripts:
+total 12
+-rw-rw-r--    1 gastown  gastown       9937 Jan 25 00:11 create_stdio_bridge_connectors.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/sdk:
+total 16
+-rw-rw-r--    1 gastown  gastown       3992 Jan 25 00:11 README.md
+drwxrwsr-x    5 gastown  gastown       4096 Jan 25 00:11 conducktor_commerce
+-rw-rw-r--    1 gastown  gastown       2003 Jan 25 00:11 pyproject.toml
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 tests
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/sdk/conducktor_commerce:
+total 20
+-rw-rw-r--    1 gastown  gastown       5757 Jan 25 00:11 __init__.py
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 buyer
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 core
+-rw-rw-r--    1 gastown  gastown          0 Jan 25 00:11 py.typed
+drwxrwsr-x    2 gastown  gastown       4096 Jan 25 00:11 seller
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/sdk/conducktor_commerce/buyer:
+total 24
+-rw-rw-r--    1 gastown  gastown       1239 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      18112 Jan 25 00:11 client.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/sdk/conducktor_commerce/core:
+total 88
+-rw-rw-r--    1 gastown  gastown       1809 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      33155 Jan 25 00:11 exceptions.py
+-rw-rw-r--    1 gastown  gastown      47225 Jan 25 00:11 types.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/sdk/conducktor_commerce/seller:
+total 40
+-rw-rw-r--    1 gastown  gastown       1882 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      16063 Jan 25 00:11 client.py
+-rw-rw-r--    1 gastown  gastown       6323 Jan 25 00:11 decorators.py
+-rw-rw-r--    1 gastown  gastown      10826 Jan 25 00:11 webhooks.py
+
+/home/gastown/gt/deacon/dogs/alpha/Conducktor_rig/sdk/tests:
+total 40
+-rw-rw-r--    1 gastown  gastown         46 Jan 25 00:11 __init__.py
+-rw-rw-r--    1 gastown  gastown      15086 Jan 25 00:11 test_exceptions.py
+-rw-rw-r--    1 gastown  gastown      17816 Jan 25 00:11 test_types.py
+
+/home/gastown/gt/deacon/dogs/boot:
+total 0

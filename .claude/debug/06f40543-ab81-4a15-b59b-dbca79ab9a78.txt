@@ -1,0 +1,128 @@
+2026-01-24T23:36:21.248Z [DEBUG] [init] configureGlobalMTLS starting
+2026-01-24T23:36:21.248Z [DEBUG] [init] configureGlobalMTLS complete
+2026-01-24T23:36:21.248Z [DEBUG] [init] configureGlobalAgents starting
+2026-01-24T23:36:21.249Z [DEBUG] [init] configureGlobalAgents complete
+2026-01-24T23:36:21.412Z [DEBUG] [STARTUP] Loading MCP configs...
+2026-01-24T23:36:21.429Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-24T23:36:21.433Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-24T23:36:21.433Z [DEBUG] [STARTUP] Running setup()...
+2026-01-24T23:36:21.437Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-01-24T23:36:21.442Z [DEBUG] Loading skills from: managed=/etc/claude-code/.claude/skills, user=/home/gastown/gt/.claude/skills, project=[]
+2026-01-24T23:36:21.515Z [ERROR] Error: Error: ENOENT: no such file or directory, scandir '/etc/claude-code/.claude/skills'
+    at readdirSync (unknown)
+    at <anonymous> (/$bunfs/root/claude:12:1903)
+    at pJ (/$bunfs/root/claude:11:35427)
+    at readdirSync (/$bunfs/root/claude:12:1864)
+    at XY$ (/$bunfs/root/claude:2213:380)
+    at XY$ (/$bunfs/root/claude:2213:1350)
+    at <anonymous> (/$bunfs/root/claude:2213:4440)
+    at <anonymous> (/$bunfs/root/claude:2213:5171)
+    at A (/$bunfs/root/claude:11:7251)
+    at Z71 (/$bunfs/root/claude:4860:4342)
+2026-01-24T23:36:21.516Z [ERROR] Error: Error: ENOENT: no such file or directory, scandir '/home/gastown/gt/.claude/skills'
+    at readdirSync (unknown)
+    at <anonymous> (/$bunfs/root/claude:12:1903)
+    at pJ (/$bunfs/root/claude:11:35427)
+    at readdirSync (/$bunfs/root/claude:12:1864)
+    at XY$ (/$bunfs/root/claude:2213:380)
+    at XY$ (/$bunfs/root/claude:2213:1350)
+    at <anonymous> (/$bunfs/root/claude:2213:4483)
+    at <anonymous> (/$bunfs/root/claude:2213:5171)
+    at A (/$bunfs/root/claude:11:7251)
+    at Z71 (/$bunfs/root/claude:4860:4342)
+2026-01-24T23:36:21.516Z [DEBUG] Error log sink initialized
+2026-01-24T23:36:21.529Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2026-01-24T23:36:21.529Z [DEBUG] Total plugin skills loaded: 0
+2026-01-24T23:36:21.529Z [DEBUG] Total plugin commands loaded: 0
+2026-01-24T23:36:21.530Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-01-24T23:36:21.733Z [DEBUG] [STARTUP] setup() completed in 300ms
+2026-01-24T23:36:21.733Z [DEBUG] [STARTUP] Loading commands and agents...
+2026-01-24T23:36:21.760Z [DEBUG] Total plugin agents loaded: 0
+2026-01-24T23:36:21.911Z [DEBUG] Cannot acquire lock for 2.1.19 - held by PID 62
+2026-01-24T23:36:21.912Z [ERROR] Error: Error: NON-FATAL: Lock acquisition failed for /home/gastown/.local/share/claude/versions/2.1.19 (expected in multi-process scenarios)
+    at $N$ (/$bunfs/root/claude:4001:2091)
+    at VjA (/$bunfs/root/claude:4001:1202)
+    at processTicksAndRejections (native:7:39)
+2026-01-24T23:36:22.033Z [DEBUG] Remote settings: No settings found (404)
+2026-01-24T23:36:22.033Z [DEBUG] Programmatic settings change notification for policySettings
+2026-01-24T23:36:22.034Z [DEBUG] Plugin hooks: reloading due to policySettings change
+2026-01-24T23:36:22.038Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-01-24T23:36:22.039Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-01-24T23:36:22.039Z [DEBUG] Watching for changes in skill/command directories: /home/gastown/gt/.claude/commands...
+2026-01-24T23:36:22.048Z [DEBUG] Loaded 1 unique skills (managed: 0, user: 0, project: 0, legacy commands: 1)
+2026-01-24T23:36:22.053Z [DEBUG] getSkills returning: 1 skill dir commands, 0 plugin skills, 0 bundled skills
+2026-01-24T23:36:22.060Z [DEBUG] [STARTUP] Commands and agents loaded in 327ms
+2026-01-24T23:36:22.061Z [DEBUG] [STARTUP] Running showSetupScreens()...
+2026-01-24T23:36:22.134Z [DEBUG] [Perfetto] initializePerfettoTracing called, env value: undefined
+2026-01-24T23:36:22.141Z [DEBUG] [STARTUP] showSetupScreens() completed in 80ms
+2026-01-24T23:36:22.141Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2026-01-24T23:36:22.141Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2026-01-24T23:36:22.141Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2026-01-24T23:36:22.150Z [DEBUG] Total LSP servers loaded: 0
+2026-01-24T23:36:22.150Z [DEBUG] [STARTUP] MCP configs loaded in 738ms
+2026-01-24T23:36:22.210Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-24T23:36:22.211Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-24T23:36:22.318Z [DEBUG] [Reconnection] computeInitialTeamContext: No teammate context set (not a teammate)
+2026-01-24T23:36:22.336Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/.claude.json.tmp.338.1769297782336
+2026-01-24T23:36:22.336Z [DEBUG] Preserving file permissions: 100600
+2026-01-24T23:36:22.340Z [DEBUG] Temp file written successfully, size: 7440 bytes
+2026-01-24T23:36:22.340Z [DEBUG] Applied original permissions to temp file
+2026-01-24T23:36:22.340Z [DEBUG] Renaming /home/gastown/gt/.claude/.claude.json.tmp.338.1769297782336 to /home/gastown/gt/.claude/.claude.json
+2026-01-24T23:36:22.340Z [DEBUG] File /home/gastown/gt/.claude/.claude.json written atomically
+2026-01-24T23:36:22.358Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2026-01-24T23:36:22.358Z [DEBUG] LSP manager initialized with 0 servers
+2026-01-24T23:36:22.361Z [DEBUG] Loaded 0 installed plugins from /home/gastown/gt/.claude/plugins/installed_plugins.json
+2026-01-24T23:36:22.361Z [DEBUG] Initialized versioned plugins system with 0 plugins
+2026-01-24T23:36:22.417Z [DEBUG] Getting matching hook commands for SessionStart with query: startup
+2026-01-24T23:36:22.417Z [DEBUG] Found 0 hook matchers in settings
+2026-01-24T23:36:22.418Z [DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+2026-01-24T23:36:22.418Z [DEBUG] LSP server manager initialized successfully
+2026-01-24T23:36:22.419Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2026-01-24T23:36:22.424Z [DEBUG] [render] initYoga starting
+2026-01-24T23:36:22.513Z [DEBUG] [Claude in Chrome] Extension not found in any browser
+2026-01-24T23:36:22.547Z [DEBUG] [render] initYoga complete
+2026-01-24T23:36:22.558Z [DEBUG] [render] first ink render: 61198ms since process start
+2026-01-24T23:36:23.514Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-24T23:36:23.514Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-24T23:36:23.960Z [DEBUG] [keybindings] KeybindingSetup initialized with 99 bindings, 0 warnings
+2026-01-24T23:36:25.019Z [DEBUG] Git remote URL: https://github.com/R3zil/B2MPC-playground
+2026-01-24T23:36:25.019Z [DEBUG] Parsed repository: R3zil/B2MPC-playground from https://github.com/R3zil/B2MPC-playground
+2026-01-24T23:36:25.019Z [DEBUG] Parsed repository: R3zil/B2MPC-playground from URL: https://github.com/R3zil/B2MPC-playground
+2026-01-24T23:36:25.019Z [DEBUG] Path /home/gastown/gt/Conducktor_rig/refinery/rig already tracked for repo r3zil/b2mpc-playground
+2026-01-24T23:36:25.645Z [DEBUG] [keybindings] Skipping file watcher - user customization disabled
+2026-01-24T23:36:25.645Z [DEBUG] [REPL:mount] REPL mounted, disabled=false
+2026-01-24T23:36:25.711Z [DEBUG] Official marketplace auto-install skipped: already_attempted
+2026-01-24T23:36:25.714Z [DEBUG] performStartupChecks called
+2026-01-24T23:36:25.715Z [DEBUG] Starting background plugin installations
+2026-01-24T23:36:25.717Z [DEBUG] performBackgroundPluginInstallations called
+2026-01-24T23:36:25.729Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-24T23:36:25.729Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-24T23:36:25.733Z [DEBUG] AutoUpdaterWrapper: Installation type: native
+2026-01-24T23:36:25.760Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-24T23:36:25.763Z [DEBUG] [claudeai-mcp] Checking gate (cached)...
+2026-01-24T23:36:25.763Z [DEBUG] [claudeai-mcp] Gate returned: false
+2026-01-24T23:36:25.763Z [DEBUG] [claudeai-mcp] Disabled via gate
+2026-01-24T23:36:25.765Z [DEBUG] Setting installation status: 0 marketplaces, 0 installable plugins, 0 uninstallable plugins
+2026-01-24T23:36:25.766Z [DEBUG] Loaded plugins - Enabled: 0, Disabled: 0, Commands: 0, Agents: 0, Errors: 0
+2026-01-24T23:36:26.019Z [DEBUG] rg error (signal=undefined, code=ABORT_ERR, stderr: ), 0 results
+2026-01-24T23:36:26.019Z [ERROR] AbortError: AbortError: The operation was aborted.
+    at unknown
+    at abortChildProcess (node:child_process:935:42)
+    at onAbortListener2 (node:child_process:35:24)
+    at abort (unknown)
+    at <anonymous> (/$bunfs/root/claude:6108:13406)
+2026-01-24T23:36:26.021Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-24T23:36:26.022Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-24T23:36:26.140Z [DEBUG] Skills and commands included in Skill tool: handoff
+2026-01-24T23:36:26.142Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-24T23:36:26.142Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-24T23:36:26.142Z [DEBUG] [API:auth] OAuth token check complete
+2026-01-24T23:36:26.835Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/.claude.json.tmp.338.1769297786835
+2026-01-24T23:36:26.835Z [DEBUG] Preserving file permissions: 100600
+2026-01-24T23:36:26.839Z [DEBUG] Temp file written successfully, size: 7440 bytes
+2026-01-24T23:36:26.839Z [DEBUG] Applied original permissions to temp file
+2026-01-24T23:36:26.839Z [DEBUG] Renaming /home/gastown/gt/.claude/.claude.json.tmp.338.1769297786835 to /home/gastown/gt/.claude/.claude.json
+2026-01-24T23:36:26.839Z [DEBUG] File /home/gastown/gt/.claude/.claude.json written atomically
+2026-01-24T23:36:27.220Z [DEBUG] Checking for native installer update to version 2.1.19
+2026-01-24T23:36:27.248Z [DEBUG] Found 2.1.19 at /home/gastown/.local/bin/claude, skipping install
+2026-01-24T23:36:27.812Z [DEBUG] Ripgrep first use test: FAILED (mode=builtin, path=/home/gastown/.local/share/claude/versions/2.1.19)

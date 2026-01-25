@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "sessionId": "825ec0e9-5ae6-4399-83c2-f45b1eca4c2f",
+      "fullPath": "/home/gastown/gt/.claude/projects/-home-gastown-gt-mayor/825ec0e9-5ae6-4399-83c2-f45b1eca4c2f.jsonl",
+      "fileMtime": 1769193713811,
+      "firstPrompt": "gt doctor",
+      "summary": "Gas Town Diagnostic: Git Ownership and Config Issues",
+      "messageCount": 7,
+      "created": "2026-01-23T17:24:10.819Z",
+      "modified": "2026-01-23T17:28:41.251Z",
+      "gitBranch": "",
+      "projectPath": "/home/gastown/gt/mayor",
+      "isSidechain": false
+    },
+    {
+      "sessionId": "ebd9a5db-7bff-4cd3-b6bc-db76d2c98e32",
+      "fullPath": "/home/gastown/gt/.claude/projects/-home-gastown-gt-mayor/ebd9a5db-7bff-4cd3-b6bc-db76d2c98e32.jsonl",
+      "fileMtime": 1769197173976,
+      "firstPrompt": "gt doctor",
+      "summary": "GT System Diagnostics and Environment Configuration Issues",
+      "messageCount": 4,
+      "created": "2026-01-23T18:41:14.720Z",
+      "modified": "2026-01-23T18:43:48.193Z",
+      "gitBranch": "",
+      "projectPath": "/home/gastown/gt/mayor",
+      "isSidechain": false
+    },
+    {
+      "sessionId": "aee3fdbd-13b5-4ef8-9ca1-e9d88973ba67",
+      "fullPath": "/home/gastown/gt/.claude/projects/-home-gastown-gt-mayor/aee3fdbd-13b5-4ef8-9ca1-e9d88973ba67.jsonl",
+      "fileMtime": 1769281939438,
+      "firstPrompt": "gt doctor --fix",
+      "summary": "Fixing Gas Town daemon startup and environment issues",
+      "messageCount": 9,
+      "created": "2026-01-23T19:38:32.705Z",
+      "modified": "2026-01-23T19:41:48.583Z",
+      "gitBranch": "",
+      "projectPath": "/home/gastown/gt/mayor",
+      "isSidechain": false
+    },
+    {
+      "sessionId": "769c455e-2cc6-45ee-bb32-0a96a8d1629c",
+      "fullPath": "/home/gastown/gt/.claude/projects/-home-gastown-gt-mayor/769c455e-2cc6-45ee-bb32-0a96a8d1629c.jsonl",
+      "fileMtime": 1769284917663,
+      "firstPrompt": "tmux ls",
+      "summary": "Tmux Session Check and Status Report",
+      "messageCount": 6,
+      "created": "2026-01-24T19:11:23.000Z",
+      "modified": "2026-01-24T19:13:06.652Z",
+      "gitBranch": "",
+      "projectPath": "/home/gastown/gt/mayor",
+      "isSidechain": false
+    },
+    {
+      "sessionId": "4dcac32b-80b0-4234-b057-02311ea944ed",
+      "fullPath": "/home/gastown/gt/.claude/projects/-home-gastown-gt-mayor/4dcac32b-80b0-4234-b057-02311ea944ed.jsonl",
+      "fileMtime": 1769300140537,
+      "firstPrompt": "Can you add the missing agent beads",
+      "summary": "Missing Agent Beads Addition Request",
+      "messageCount": 2,
+      "created": "2026-01-24T20:01:33.437Z",
+      "modified": "2026-01-24T20:02:14.897Z",
+      "gitBranch": "",
+      "projectPath": "/home/gastown/gt/mayor",
+      "isSidechain": false
+    }
+  ],
+  "originalPath": "/home/gastown/gt/mayor"
+}

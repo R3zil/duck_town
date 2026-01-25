@@ -1,0 +1,1496 @@
+🚫 Blocked issues (498):
+
+[● P2] hq-wisp-06jz: Evaluate pending async gates
+  Blocked by 1 open dependencies: [hq-wisp-ju4g]
+
+[● P2] hq-wisp-076t: Check for stuck dogs
+  Blocked by 1 open dependencies: [hq-wisp-nj4c]
+
+[● P2] hq-wisp-07a8: Rotate logs and prune state
+  Blocked by 1 open dependencies: [hq-wisp-dopv]
+
+[● P2] hq-wisp-07z: Resolve external dependencies
+  Blocked by 1 open dependencies: [hq-wisp-8l5]
+
+[● P2] hq-wisp-08v: Aggregate daily patrol digests
+  Blocked by 1 open dependencies: [hq-wisp-1ve]
+
+[● P2] hq-wisp-09c: Maintain dog pool
+  Blocked by 1 open dependencies: [hq-wisp-q2f]
+
+[● P2] hq-wisp-0dj3: Aggregate daily costs [DISABLED]
+  Blocked by 1 open dependencies: [hq-wisp-5lu2]
+
+[● P2] hq-wisp-0e69: Nudge newly spawned polecats
+  Blocked by 1 open dependencies: [hq-wisp-4k9o]
+
+[● P2] hq-wisp-0gk9: Execute registered plugins
+  Blocked by 1 open dependencies: [hq-wisp-ndcr]
+
+[● P2] hq-wisp-0iil: Resolve external dependencies
+  Blocked by 1 open dependencies: [hq-wisp-ouay]
+
+[● P2] hq-wisp-0pt9: Burn and respawn or loop
+  Blocked by 1 open dependencies: [hq-wisp-krpc]
+
+[● P2] hq-wisp-0qbe: Rotate logs and prune state
+  Blocked by 1 open dependencies: [hq-wisp-88ko]
+
+[● P2] hq-wisp-0rox: End-of-cycle inbox hygiene
+  Blocked by 1 open dependencies: [hq-wisp-61v5]
+
+[● P2] hq-wisp-0rs3: Check convoy completion
+  Blocked by 1 open dependencies: [hq-wisp-6w65]
+
+[● P2] hq-wisp-0t60: Check convoy completion
+  Blocked by 1 open dependencies: [hq-wisp-uln4]
+
+[● P2] hq-wisp-0wo2: Resolve external dependencies
+  Blocked by 1 open dependencies: [hq-wisp-2nij]
+
+[● P2] hq-wisp-10hb: Aggregate daily patrol digests
+  Blocked by 1 open dependencies: [hq-wisp-du6o]
+
+[● P2] hq-wisp-12m: Evaluate pending async gates
+  Blocked by 1 open dependencies: [hq-wisp-3cq]
+
+[● P2] hq-wisp-12xi: Detect abandoned work
+  Blocked by 1 open dependencies: [hq-wisp-y7x5]
+
+[● P2] hq-wisp-15c: Fire notifications
+  Blocked by 1 open dependencies: [hq-wisp-07z]
+
+[● P2] hq-wisp-16uq: Clean up orphaned claude subagent processes
+  Blocked by 1 open dependencies: [hq-wisp-winz]
+
+[● P2] hq-wisp-1cu2: Check own context limit
+  Blocked by 1 open dependencies: [hq-wisp-0rox]
+
+[● P2] hq-wisp-1jj: Check Witness and Refinery health
+  Blocked by 3 open dependencies: [hq-wisp-juu hq-wisp-k0i hq-wisp-pmu]
+
+[● P2] hq-wisp-1jlp: Loop or exit for respawn
+  Blocked by 1 open dependencies: [hq-wisp-7k5e]
+
+[● P2] hq-wisp-1tl5: Rotate logs and prune state
+  Blocked by 1 open dependencies: [hq-wisp-fieu]
+
+[● P2] hq-wisp-1u90: Check Witness and Refinery health
+  Blocked by 3 open dependencies: [hq-wisp-87xv hq-wisp-9k3a hq-wisp-g7i3]
+
+[● P2] hq-wisp-1vad: Execute registered plugins
+  Blocked by 1 open dependencies: [hq-wisp-4pnw]
+
+[● P2] hq-wisp-1ve: Aggregate daily costs [DISABLED]
+  Blocked by 1 open dependencies: [hq-wisp-c0f]
+
+[● P2] hq-wisp-1wk5: Burn and respawn or loop
+  Blocked by 1 open dependencies: [hq-wisp-d4sb]
+
+[● P2] hq-wisp-1yph: Aggregate daily costs [DISABLED]
+  Blocked by 1 open dependencies: [hq-wisp-zycz]
+
+[● P2] hq-wisp-1z49: Aggregate daily patrol digests
+  Blocked by 1 open dependencies: [hq-wisp-y0l6]
+
+[● P2] hq-wisp-24aq: Clean up orphaned claude subagent processes
+  Blocked by 1 open dependencies: [hq-wisp-k9pz]
+
+[● P2] hq-wisp-25rp: End-of-cycle inbox hygiene
+  Blocked by 1 open dependencies: [hq-wisp-l8ab]
+
+[● P2] hq-wisp-27ok: Detect cleanup needs
+  Blocked by 1 open dependencies: [hq-wisp-jeaj]
+
+[● P2] hq-wisp-2cmm: Fire notifications
+  Blocked by 1 open dependencies: [hq-wisp-zijp]
+
+[● P2] hq-wisp-2m3k: Check Witness and Refinery health
+  Blocked by 1 open dependencies: [hq-wisp-0lxj]
+
+[● P2] hq-wisp-2nij: Check convoy completion
+  Blocked by 1 open dependencies: [hq-wisp-winz]
+
+[● P2] hq-wisp-2qsr: Fire notifications
+  Blocked by 1 open dependencies: [hq-wisp-cbv3]
+
+[● P2] hq-wisp-2tn7: Check for stuck dogs
+  Blocked by 1 open dependencies: [hq-wisp-hq02]
+
+[● P2] hq-wisp-2xts: Check own context limit
+  Blocked by 1 open dependencies: [hq-wisp-brc2]
+
+[● P2] hq-wisp-2yi0: Ping Deacon for health check
+  Blocked by 1 open dependencies: [hq-wisp-gfmn]
+
+[● P2] hq-wisp-31ug: Execute registered plugins
+  Blocked by 1 open dependencies: [hq-wisp-f8yq]
+
+[● P2] hq-wisp-31vs: Evaluate pending async gates
+  Blocked by 1 open dependencies: [hq-wisp-akjq]
+
+[● P2] hq-wisp-37qu: Execute registered plugins
+  Blocked by 1 open dependencies: [hq-wisp-xp2o]
+
+[● P2] hq-wisp-39n2: Clean up orphaned claude subagent processes
+  Blocked by 1 open dependencies: [hq-wisp-llh1]
+
+[● P2] hq-wisp-3blt: Dispatch molecules with resolved gates
+  Blocked by 1 open dependencies: [hq-wisp-06jz]
+
+[● P2] hq-wisp-3d9k: Check Witness and Refinery health
+  Blocked by 3 open dependencies: [hq-wisp-6pmf hq-wisp-eghg hq-wisp-yu4p]
+
+[● P2] hq-wisp-3dzt: Detect abandoned work
+  Blocked by 1 open dependencies: [hq-wisp-lg6c]
+
+[● P2] hq-wisp-3h5n: Aggregate daily patrol digests
+  Blocked by 1 open dependencies: [hq-wisp-z2if]
+
+[● P2] hq-wisp-3l6j: Check convoy completion
+  Blocked by 1 open dependencies: [hq-wisp-gnp5]
+
+[● P2] hq-wisp-3lb4: Aggregate daily costs [DISABLED]
+  Blocked by 1 open dependencies: [hq-wisp-uyav]
+
+[● P2] hq-wisp-3mvg: Aggregate daily patrol digests
+  Blocked by 1 open dependencies: [hq-wisp-hs6t]
+
+[● P2] hq-wisp-3sma: Detect zombie polecats (NO KILL AUTHORITY)
+  Blocked by 1 open dependencies: [hq-wisp-awbo]
+
+[● P2] hq-wisp-3yqc: Execute registered plugins
+  Blocked by 1 open dependencies: [hq-wisp-9e08]
+
+[● P2] hq-wisp-45qa: End-of-cycle inbox hygiene
+  Blocked by 1 open dependencies: [hq-wisp-co3o]
+
+[● P2] hq-wisp-4dgi: Burn and respawn or loop
+  Blocked by 1 open dependencies: [hq-wisp-1cu2]
+
+[● P2] hq-wisp-4dkt: Rotate logs and prune state
+  Blocked by 1 open dependencies: [hq-wisp-d2a3]
+
+[● P2] hq-wisp-4hdy: Dispatch molecules with resolved gates
+  Blocked by 1 open dependencies: [hq-wisp-u0hh]
+
+[● P2] hq-wisp-4k9o: Clean up orphaned claude subagent processes
+  Blocked by 1 open dependencies: [hq-wisp-ju4g]
+
+[● P2] hq-wisp-4pnw: Detect zombie polecats (NO KILL AUTHORITY)
+  Blocked by 1 open dependencies: [hq-wisp-j9os]
+
+[● P2] hq-wisp-4qd: Nudge newly spawned polecats
+  Blocked by 1 open dependencies: [hq-wisp-abs]
+
+[● P2] hq-wisp-4rfp: Check convoy completion
+  Blocked by 1 open dependencies: [hq-wisp-564n]
+
+[● P2] hq-wisp-4s8z: Detect cleanup needs
+  Blocked by 1 open dependencies: [hq-wisp-ayp6]
+
+[● P2] hq-wisp-4tte: Detect zombie polecats (NO KILL AUTHORITY)
+  Blocked by 1 open dependencies: [hq-wisp-ybj5]
+
+[● P2] hq-wisp-4zi9: Clean up orphaned claude subagent processes
+  Blocked by 1 open dependencies: [hq-wisp-uln4]
+
+[● P2] hq-wisp-50is: Dispatch molecules with resolved gates
+  Blocked by 1 open dependencies: [hq-wisp-hai3]
+
+[● P2] hq-wisp-53g: Execute registered plugins
+  Blocked by 1 open dependencies: [hq-wisp-av7]
+
+[● P2] hq-wisp-562n: Detect cleanup needs
+  Blocked by 1 open dependencies: [hq-wisp-bmsq]
+
+[● P2] hq-wisp-583r: Execute registered plugins
+  Blocked by 1 open dependencies: [hq-wisp-4tte]
+
+[● P2] hq-wisp-5cxu: Clean up orphaned claude subagent processes
+  Blocked by 1 open dependencies: [hq-wisp-akjq]
+
+[● P2] hq-wisp-5dfq: Evaluate pending async gates
+  Blocked by 1 open dependencies: [hq-wisp-9mq4]
+
+[● P2] hq-wisp-5dyz: Check convoy completion
+  Blocked by 1 open dependencies: [hq-wisp-2u45]
+
+[● P2] hq-wisp-5flx: Check for stuck dogs
+  Blocked by 1 open dependencies: [hq-wisp-8ba]
+
+[● P2] hq-wisp-5h2v: Dispatch molecules with resolved gates
+  Blocked by 1 open dependencies: [hq-wisp-6aiv]
+
+[● P2] hq-wisp-5lu2: Detect cleanup needs
+  Blocked by 1 open dependencies: [hq-wisp-12xi]
+
+[● P2] hq-wisp-5pic: Check Witness and Refinery health
+  Blocked by 3 open dependencies: [hq-wisp-efg8 hq-wisp-j79j hq-wisp-z6vn]
+
+[● P2] hq-wisp-5thm: Nudge newly spawned polecats
+  Blocked by 1 open dependencies: [hq-wisp-ekld]
+
+[● P2] hq-wisp-61v5: Rotate logs and prune state
+  Blocked by 1 open dependencies: [hq-wisp-ff5j]
+
+[● P2] hq-wisp-62rx: End-of-cycle inbox hygiene
+  Blocked by 1 open dependencies: [hq-wisp-4dkt]
+
+[● P2] hq-wisp-6501: Execute registered plugins
+  Blocked by 1 open dependencies: [hq-wisp-dqr1]
+
+[● P2] hq-wisp-69x0: Detect abandoned work
+  Blocked by 1 open dependencies: [hq-wisp-8jrp]
+
+[● P2] hq-wisp-6aei: Aggregate daily costs [DISABLED]
+  Blocked by 1 open dependencies: [hq-wisp-jvae]
+
+[● P2] hq-wisp-6aiv: Evaluate pending async gates
+  Blocked by 1 open dependencies: [hq-wisp-6w65]
+
+[● P2] hq-wisp-6eii: Detect cleanup needs
+  Blocked by 1 open dependencies: [hq-wisp-3dzt]
+
+[● P2] hq-wisp-6ljz: End-of-cycle inbox hygiene
+  Blocked by 1 open dependencies: [hq-wisp-x042]
+
+[● P2] hq-wisp-6mmt: Fire notifications
+  Blocked by 1 open dependencies: [hq-wisp-c3lq]
+
+[● P2] hq-wisp-6pmf: Dispatch molecules with resolved gates
+  Blocked by 1 open dependencies: [hq-wisp-pm8w]
+
+[● P2] hq-wisp-6qr1: Fire notifications
+  Blocked by 1 open dependencies: [hq-wisp-un9c]
+
+[● P2] hq-wisp-6qux: Dispatch molecules with resolved gates
+  Blocked by 1 open dependencies: [hq-wisp-lh7f]
+
+[● P2] hq-wisp-6rl: Rotate logs and prune state
+  Blocked by 1 open dependencies: [hq-wisp-08v]
+
+[● P2] hq-wisp-6tcc: Burn and respawn or loop
+  Blocked by 1 open dependencies: [hq-wisp-t6f8]
+
+[● P2] hq-wisp-6ts5: Detect abandoned work
+  Blocked by 1 open dependencies: [hq-wisp-lgsh]
+
+[● P2] hq-wisp-6tsc: Fire notifications
+  Blocked by 1 open dependencies: [hq-wisp-rb9r]
+
+[● P2] hq-wisp-6uwm: Aggregate daily costs [DISABLED]
+  Blocked by 1 open dependencies: [hq-wisp-fwa6]
+
+[● P2] hq-wisp-6vyo: Evaluate pending async gates
+  Blocked by 1 open dependencies: [hq-wisp-k9pz]
+
+[● P2] hq-wisp-6xgr: Burn and respawn or loop
+  Blocked by 1 open dependencies: [hq-wisp-mkwg]
+
+[● P2] hq-wisp-6xyz: Resolve external dependencies
+  Blocked by 1 open dependencies: [hq-wisp-gpng]
+
+[● P2] hq-wisp-70on: Burn and respawn or loop
+  Blocked by 1 open dependencies: [hq-wisp-rpfh]
+
+[● P2] hq-wisp-75u0: End-of-cycle inbox hygiene
+  Blocked by 1 open dependencies: [hq-wisp-q5vw]
+
+[● P2] hq-wisp-77ci: Rotate logs and prune state
+  Blocked by 1 open dependencies: [hq-wisp-wnrp]
+
+[● P2] hq-wisp-785: Resolve external dependencies
+  Blocked by 1 open dependencies: [hq-wisp-nn1]
+
+[● P2] hq-wisp-78w: Execute registered plugins
+  Blocked by 1 open dependencies: [hq-wisp-kv9]
+
+[● P2] hq-wisp-79mv: Check for stuck dogs
+  Blocked by 1 open dependencies: [hq-wisp-t8qg]
+
+[● P2] hq-wisp-7k5e: Check own context limit
+  Blocked by 1 open dependencies: [hq-wisp-rpw5]
+
+[● P2] hq-wisp-7qjm: Detect zombie polecats (NO KILL AUTHORITY)
+  Blocked by 1 open dependencies: [hq-wisp-bq46]
+
+[● P2] hq-wisp-7t6: Resolve external dependencies
+  Blocked by 1 open dependencies: [hq-wisp-ylj]
+
+[● P2] hq-wisp-7u64: Rotate logs and prune state
+  Blocked by 1 open dependencies: [hq-wisp-qyiy]
+
+[● P2] hq-wisp-7wqu: Detect cleanup needs
+  Blocked by 1 open dependencies: [hq-wisp-v7dg]
+
+[● P2] hq-wisp-7xo: End-of-cycle inbox hygiene
+  Blocked by 1 open dependencies: [hq-wisp-6rl]
+
+[● P2] hq-wisp-8047: Nudge newly spawned polecats
+  Blocked by 1 open dependencies: [hq-wisp-9kbf]
+
+[● P2] hq-wisp-819o: Burn and respawn or loop
+  Blocked by 1 open dependencies: [hq-wisp-tmbd]
+
+[● P2] hq-wisp-87xv: Dispatch molecules with resolved gates
+  Blocked by 1 open dependencies: [hq-wisp-yn9v]
+
+[● P2] hq-wisp-888t: Burn and respawn or loop
+  Blocked by 1 open dependencies: [hq-wisp-cicz]
+
+[● P2] hq-wisp-88ko: Aggregate daily patrol digests
+  Blocked by 1 open dependencies: [hq-wisp-d1i6]
+
+[● P2] hq-wisp-8akg: Detect abandoned work
+  Blocked by 1 open dependencies: [hq-wisp-l8ds]
+
+[● P2] hq-wisp-8ba: Maintain dog pool
+  Blocked by 1 open dependencies: [hq-wisp-1jj]
+
+[● P2] hq-wisp-8fa9: Burn and respawn or loop
+  Blocked by 1 open dependencies: [hq-wisp-ih0j]
+
+[● P2] hq-wisp-8fnj: Check own context limit
+  Blocked by 1 open dependencies: [hq-wisp-75u0]
+
+[● P2] hq-wisp-8jrp: Check for stuck dogs
+  Blocked by 1 open dependencies: [hq-wisp-iyzj]
+
+[● P2] hq-wisp-8l5: Check convoy completion
+  Blocked by 1 open dependencies: [hq-wisp-q5m]
+
+[● P2] hq-wisp-8t4q: Check own context limit
+  Blocked by 1 open dependencies: [hq-wisp-ds96]
+
+[● P2] hq-wisp-8vba: Execute registered plugins
+  Blocked by 1 open dependencies: [hq-wisp-bpky]
+
+[● P2] hq-wisp-8vnf: Aggregate daily costs [DISABLED]
+  Blocked by 1 open dependencies: [hq-wisp-y1pi]
+
+[● P2] hq-wisp-8xj5: End-of-cycle inbox hygiene
+  Blocked by 1 open dependencies: [hq-wisp-df0q]
+
+[● P2] hq-wisp-911k: Dispatch molecules with resolved gates
+  Blocked by 1 open dependencies: [hq-wisp-swaf]
+
+[● P2] hq-wisp-921b: Detect zombie polecats (NO KILL AUTHORITY)
+  Blocked by 1 open dependencies: [hq-wisp-odgc]
+
+[● P2] hq-wisp-94vp: Fire notifications
+  Blocked by 1 open dependencies: [hq-wisp-oxuz]
+
+[● P2] hq-wisp-95ac: Check Witness and Refinery health
+  Blocked by 3 open dependencies: [hq-wisp-0e69 hq-wisp-3blt hq-wisp-bxuc]
+
+[● P2] hq-wisp-9b3z: Check for stuck dogs
+  Blocked by 1 open dependencies: [hq-wisp-bvi4]
+
+[● P2] hq-wisp-9cgl: End-of-cycle inbox hygiene
+  Blocked by 1 open dependencies: [hq-wisp-1tl5]
+
+[● P2] hq-wisp-9e08: Detect zombie polecats (NO KILL AUTHORITY)
+  Blocked by 1 open dependencies: [hq-wisp-wmm6]
+
+[● P2] hq-wisp-9f2z: Check for stuck dogs
+  Blocked by 1 open dependencies: [hq-wisp-lh8n]
+
+[● P2] hq-wisp-9k3a: Fire notifications
+  Blocked by 1 open dependencies: [hq-wisp-0iil]
+
+[● P2] hq-wisp-9kbf: Clean up orphaned claude subagent processes
+  Blocked by 1 open dependencies: [hq-wisp-2ods]
+
+[● P2] hq-wisp-9o1l: Fire notifications
+  Blocked by 1 open dependencies: [hq-wisp-lp9m]
+
+[● P2] hq-wisp-9qfp: Maintain dog pool
+  Blocked by 1 open dependencies: [hq-wisp-p4px]
+
+[● P2] hq-wisp-9w1y: Nudge newly spawned polecats
+  Blocked by 1 open dependencies: [hq-wisp-n3rc]
+
+[● P2] hq-wisp-9xdd: Detect abandoned work
+  Blocked by 1 open dependencies: [hq-wisp-yv2o]
+
+[● P2] hq-wisp-a7ui: Check if active swarm is complete
+  Blocked by 1 open dependencies: [hq-wisp-ycjm]
+
+[● P2] hq-wisp-a8yz: Detect cleanup needs
+  Blocked by 1 open dependencies: [hq-wisp-pute]
+
+[● P2] hq-wisp-abs: Clean up orphaned claude subagent processes
+  Blocked by 1 open dependencies: [hq-wisp-d8k]
+
+[● P2] hq-wisp-algm: Detect cleanup needs
+  Blocked by 1 open dependencies: [hq-wisp-9xdd]
+
+[● P2] hq-wisp-atyo: Check for stuck dogs
+  Blocked by 1 open dependencies: [hq-wisp-mt7w]
+
+[● P2] hq-wisp-av7: Detect zombie polecats (NO KILL AUTHORITY)
+  Blocked by 1 open dependencies: [hq-wisp-1jj]
+
+[● P2] hq-wisp-ava3: Dispatch molecules with resolved gates
+  Blocked by 1 open dependencies: [hq-wisp-5dfq]
+
+[● P2] hq-wisp-awbo: Check Witness and Refinery health
+  Blocked by 3 open dependencies: [hq-wisp-ava3 hq-wisp-n1ut hq-wisp-x374]
+
+[● P2] hq-wisp-ay7m: Check for stuck dogs
+  Blocked by 1 open dependencies: [hq-wisp-ptbl]
+
+[● P2] hq-wisp-ayp6: Detect abandoned work
+  Blocked by 1 open dependencies: [hq-wisp-2tn7]
+
+[● P2] hq-wisp-bc4r: Nudge newly spawned polecats
+  Blocked by 1 open dependencies: [hq-wisp-5cxu]
+
+[● P2] hq-wisp-bddd: Detect zombie polecats (NO KILL AUTHORITY)
+  Blocked by 1 open dependencies: [hq-wisp-p4px]
+
+[● P2] hq-wisp-bjfy: Aggregate daily patrol digests
+  Blocked by 1 open dependencies: [hq-wisp-v8hi]
+
+[● P2] hq-wisp-bl2: Burn and respawn or loop
+  Blocked by 1 open dependencies: [hq-wisp-j62]
+
+[● P2] hq-wisp-bmsq: Detect abandoned work
+  Blocked by 1 open dependencies: [hq-wisp-79mv]
+
+[● P2] hq-wisp-bmu: Nudge newly spawned polecats
+  Blocked by 1 open dependencies: [hq-wisp-tai]
+
+[● P2] hq-wisp-boq: Check Witness and Refinery health
+  Blocked by 3 open dependencies: [hq-wisp-4qd hq-wisp-cqd hq-wisp-czx]
+
+[● P2] hq-wisp-bpky: Detect zombie polecats (NO KILL AUTHORITY)
+  Blocked by 1 open dependencies: [hq-wisp-h4t1]
+
+[● P2] hq-wisp-bq46: Check Witness and Refinery health
+  Blocked by 3 open dependencies: [hq-wisp-6tsc hq-wisp-8047 hq-wisp-m75k]
+
+[● P2] hq-wisp-brc2: End-of-cycle inbox hygiene
+  Blocked by 1 open dependencies: [hq-wisp-t7nt]
+
+[● P2] hq-wisp-brez: Resolve external dependencies
+  Blocked by 1 open dependencies: [hq-wisp-4rfp]
+
+[● P2] hq-wisp-bu1o: Detect zombie polecats (NO KILL AUTHORITY)
+  Blocked by 1 open dependencies: [hq-wisp-jirz]
+
+[● P2] hq-wisp-bvi4: Maintain dog pool
+  Blocked by 1 open dependencies: [hq-wisp-tdql]
+
+[● P2] hq-wisp-bxuc: Fire notifications
+  Blocked by 1 open dependencies: [hq-wisp-u0ue]
+
+[● P2] hq-wisp-bydf: Clean up orphaned claude subagent processes
+  Blocked by 1 open dependencies: [hq-wisp-6v6q]
+
+[● P2] hq-wisp-c0f: Detect cleanup needs
+  Blocked by 1 open dependencies: [hq-wisp-j4m]
+
+[● P2] hq-wisp-c3lq: Resolve external dependencies
+  Blocked by 1 open dependencies: [hq-wisp-okd5]
+
+[● P2] hq-wisp-c6vm: Clean up orphaned claude subagent processes
+  Blocked by 1 open dependencies: [hq-wisp-uq2t]
+
+[● P2] hq-wisp-c8so: Clean up orphaned claude subagent processes
+  Blocked by 1 open dependencies: [hq-wisp-564n]
+
+[● P2] hq-wisp-cbh7: Check convoy completion
+  Blocked by 1 open dependencies: [hq-wisp-erlq]
+
+[● P2] hq-wisp-cbie: Clean up orphaned claude subagent processes
+  Blocked by 1 open dependencies: [hq-wisp-9mq4]
+
+[● P2] hq-wisp-cbv3: Resolve external dependencies
+  Blocked by 1 open dependencies: [hq-wisp-lyr0]
+
+[● P2] hq-wisp-cicz: Check own context limit
+  Blocked by 1 open dependencies: [hq-wisp-xjyk]
+
+[● P2] hq-wisp-ckqw: Check for stuck dogs
+  Blocked by 1 open dependencies: [hq-wisp-pkgx]
+
+[● P2] hq-wisp-cn6c: Check convoy completion
+  Blocked by 1 open dependencies: [hq-wisp-bymi]
+
+[● P2] hq-wisp-co3o: Rotate logs and prune state
+  Blocked by 1 open dependencies: [hq-wisp-edwb]
+
+[● P2] hq-wisp-cqd: Dispatch molecules with resolved gates
+  Blocked by 1 open dependencies: [hq-wisp-ygr]
+
+[● P2] hq-wisp-crif: Maintain dog pool
+  Blocked by 1 open dependencies: [hq-wisp-odgc]
+
+[● P2] hq-wisp-csy0: Aggregate daily patrol digests
+  Blocked by 1 open dependencies: [hq-wisp-t2v6]
+
+[● P2] hq-wisp-cvue: Check for stuck dogs
+  Blocked by 1 open dependencies: [hq-wisp-dby8]
+
+[● P2] hq-wisp-cw87: Burn and respawn or loop
+  Blocked by 1 open dependencies: [hq-wisp-2xts]
+
+[● P2] hq-wisp-czx: Fire notifications
+  Blocked by 1 open dependencies: [hq-wisp-7t6]
+
+[● P2] hq-wisp-d1i6: Aggregate daily costs [DISABLED]
+  Blocked by 1 open dependencies: [hq-wisp-hl49]
+
+[● P2] hq-wisp-d2a3: Aggregate daily patrol digests
+  Blocked by 1 open dependencies: [hq-wisp-vyax]
+
+[● P2] hq-wisp-d4sb: Check own context limit
+  Blocked by 1 open dependencies: [hq-wisp-dnu0]
+
+[● P2] hq-wisp-d709: Rotate logs and prune state
+  Blocked by 1 open dependencies: [hq-wisp-fauj]
+
+[● P2] hq-wisp-d8j2: Inspect all active polecats
+  Blocked by 1 open dependencies: [hq-wisp-mtrk]
+
+[● P2] hq-wisp-d98: Execute registered plugins
+  Blocked by 1 open dependencies: [hq-wisp-nus]
+
+[● P2] hq-wisp-daui: Check own context limit
+  Blocked by 1 open dependencies: [hq-wisp-jv24]
+
+[● P2] hq-wisp-dbbi: Aggregate daily costs [DISABLED]
+  Blocked by 1 open dependencies: [hq-wisp-rtpv]
+
+[● P2] hq-wisp-dby8: Maintain dog pool
+  Blocked by 1 open dependencies: [hq-wisp-bq46]
+
+[● P2] hq-wisp-dc9d: Nudge newly spawned polecats
+  Blocked by 1 open dependencies: [hq-wisp-c8so]
+
+[● P2] hq-wisp-df0q: Rotate logs and prune state
+  Blocked by 1 open dependencies: [hq-wisp-ncy9]
+
+[● P2] hq-wisp-dfd: Check own context limit
+  Blocked by 1 open dependencies: [hq-wisp-7xo]
+
+[● P2] hq-wisp-dhy8: Check for stuck dogs
+  Blocked by 1 open dependencies: [hq-wisp-ix45]
+
+[● P2] hq-wisp-djlo: Detect zombie polecats (NO KILL AUTHORITY)
+  Blocked by 1 open dependencies: [hq-wisp-pdix]
+
+[● P2] hq-wisp-dkr3: Dispatch molecules with resolved gates
+  Blocked by 1 open dependencies: [hq-wisp-31vs]
+
+[● P2] hq-wisp-dm3o: Fire notifications
+  Blocked by 1 open dependencies: [hq-wisp-k1a1]
+
+[● P2] hq-wisp-dnu0: End-of-cycle inbox hygiene
+  Blocked by 1 open dependencies: [hq-wisp-e8an]
+
+[● P2] hq-wisp-dopv: Aggregate daily patrol digests
+  Blocked by 1 open dependencies: [hq-wisp-3lb4]
+
+[● P2] hq-wisp-dqr1: Detect zombie polecats (NO KILL AUTHORITY)
+  Blocked by 1 open dependencies: [hq-wisp-tdql]
+
+[● P2] hq-wisp-ds96: End-of-cycle inbox hygiene
+  Blocked by 1 open dependencies: [hq-wisp-lksi]
+
+[● P2] hq-wisp-dsxf: Evaluate pending async gates
+  Blocked by 1 open dependencies: [hq-wisp-2u45]
+
+[● P2] hq-wisp-dtwg: Clean up orphaned claude subagent processes
+  Blocked by 1 open dependencies: [hq-wisp-oqd4]
+
+[● P2] hq-wisp-du6o: Aggregate daily costs [DISABLED]
+  Blocked by 1 open dependencies: [hq-wisp-27ok]
+
+[● P2] hq-wisp-e0o: Dispatch molecules with resolved gates
+  Blocked by 1 open dependencies: [hq-wisp-ffd]
+
+[● P2] hq-wisp-e1py: Nudge newly spawned polecats
+  Blocked by 1 open dependencies: [hq-wisp-4zi9]
+
+[● P2] hq-wisp-e3ao: Check for stuck dogs
+  Blocked by 1 open dependencies: [hq-wisp-crif]
+
+[● P2] hq-wisp-e8an: Rotate logs and prune state
+  Blocked by 1 open dependencies: [hq-wisp-f4jn]
+
+[● P2] hq-wisp-ecqu: Aggregate daily costs [DISABLED]
+  Blocked by 1 open dependencies: [hq-wisp-4s8z]
+
+[● P2] hq-wisp-edwb: Aggregate daily patrol digests
+  Blocked by 1 open dependencies: [hq-wisp-l9hg]
+
+[● P2] hq-wisp-efg8: Nudge newly spawned polecats
+  Blocked by 1 open dependencies: [hq-wisp-trlm]
+
+[● P2] hq-wisp-eghg: Nudge newly spawned polecats
+  Blocked by 1 open dependencies: [hq-wisp-dtwg]
+
+[● P2] hq-wisp-eif8: Clean up orphaned claude subagent processes
+  Blocked by 1 open dependencies: [hq-wisp-bymi]
+
+[● P2] hq-wisp-ejz: Aggregate daily costs [DISABLED]
+  Blocked by 1 open dependencies: [hq-wisp-m8x]
+
+[● P2] hq-wisp-ekld: Clean up orphaned claude subagent processes
+  Blocked by 1 open dependencies: [hq-wisp-1r5i]
+
+[● P2] hq-wisp-el23: End-of-cycle inbox hygiene
+  Blocked by 1 open dependencies: [hq-wisp-ev0f]
+
+[● P2] hq-wisp-eo32: Aggregate daily patrol digests
+  Blocked by 1 open dependencies: [hq-wisp-6aei]
+
+[● P2] hq-wisp-ev0f: Rotate logs and prune state
+  Blocked by 1 open dependencies: [hq-wisp-3h5n]
+
+[● P2] hq-wisp-eytb: Detect cleanup needs
+  Blocked by 1 open dependencies: [hq-wisp-n6ks]
+
+[● P2] hq-wisp-f1fw: Detect zombie polecats (NO KILL AUTHORITY)
+  Blocked by 1 open dependencies: [hq-wisp-1u90]
+
+[● P2] hq-wisp-f4jn: Aggregate daily patrol digests
+  Blocked by 1 open dependencies: [hq-wisp-gpow]
+
+[● P2] hq-wisp-f5p0: Detect cleanup needs
+  Blocked by 1 open dependencies: [hq-wisp-vw2q]
+
+[● P2] hq-wisp-f5yr: Detect zombie polecats (NO KILL AUTHORITY)
+  Blocked by 1 open dependencies: [hq-wisp-3d9k]
+
+[● P2] hq-wisp-f8yq: Detect zombie polecats (NO KILL AUTHORITY)
+  Blocked by 1 open dependencies: [hq-wisp-95ac]
+
+[● P2] hq-wisp-fauj: Aggregate daily patrol digests
+  Blocked by 1 open dependencies: [hq-wisp-ecqu]
+
+[● P2] hq-wisp-ff5j: Aggregate daily patrol digests
+  Blocked by 1 open dependencies: [hq-wisp-n8fa]
+
+[● P2] hq-wisp-ffd: Evaluate pending async gates
+  Blocked by 1 open dependencies: [hq-wisp-q5m]
+
+[● P2] hq-wisp-fieu: Aggregate daily patrol digests
+  Blocked by 1 open dependencies: [hq-wisp-shsm]
+
+[● P2] hq-wisp-fpn8: Execute registered plugins
+  Blocked by 1 open dependencies: [hq-wisp-ww8x]
+
+[● P2] hq-wisp-fqem: Evaluate pending async gates
+  Blocked by 1 open dependencies: [hq-wisp-564n]
+
+[● P2] hq-wisp-fqub: End-of-cycle inbox hygiene
+  Blocked by 1 open dependencies: [hq-wisp-vgmz]
+
+[● P2] hq-wisp-fu54: Fire notifications
+  Blocked by 1 open dependencies: [hq-wisp-orim]
+
+[● P2] hq-wisp-fwa6: Detect cleanup needs
+  Blocked by 1 open dependencies: [hq-wisp-6ts5]
+
+[● P2] hq-wisp-fwy9: Check own context limit
+  Blocked by 1 open dependencies: [hq-wisp-62rx]
+
+[● P2] hq-wisp-g7i3: Nudge newly spawned polecats
+  Blocked by 1 open dependencies: [hq-wisp-c6vm]
+
+[● P2] hq-wisp-ge30: Detect abandoned work
+  Blocked by 1 open dependencies: [hq-wisp-wp0e]
+
+[● P2] hq-wisp-gfmn: Check if active swarm is complete
+  Blocked by 1 open dependencies: [hq-wisp-qj29]
+
+[● P2] hq-wisp-giw: Execute registered plugins
+  Blocked by 1 open dependencies: [hq-wisp-pz6]
+
+[● P2] hq-wisp-gmx6: Check for stuck dogs
+  Blocked by 1 open dependencies: [hq-wisp-l2dq]
+
+[● P2] hq-wisp-gn5d: Evaluate pending async gates
+  Blocked by 1 open dependencies: [hq-wisp-gnp5]
+
+[● P2] hq-wisp-gpng: Check convoy completion
+  Blocked by 1 open dependencies: [hq-wisp-oqd4]
+
+[● P2] hq-wisp-gpow: Aggregate daily costs [DISABLED]
+  Blocked by 1 open dependencies: [hq-wisp-a8yz]
+
+[● P2] hq-wisp-gt93: Nudge newly spawned polecats
+  Blocked by 1 open dependencies: [hq-wisp-16uq]
+
+[● P2] hq-wisp-gw88: Check own context limit
+  Blocked by 1 open dependencies: [hq-wisp-l13z]
+
+[● P2] hq-wisp-h10l: Rotate logs and prune state
+  Blocked by 1 open dependencies: [hq-wisp-u1wq]
+
+[● P2] hq-wisp-h4t1: Check Witness and Refinery health
+  Blocked by 3 open dependencies: [hq-wisp-la2v hq-wisp-ofg1 hq-wisp-po4k]
+
+[● P2] hq-wisp-hai3: Evaluate pending async gates
+  Blocked by 1 open dependencies: [hq-wisp-erlq]
+
+[● P2] hq-wisp-hbgr: Check Witness and Refinery health
+  Blocked by 3 open dependencies: [hq-wisp-9o1l hq-wisp-mngh hq-wisp-vj1o]
+
+[● P2] hq-wisp-hl49: Detect cleanup needs
+  Blocked by 1 open dependencies: [hq-wisp-x9yg]
+
+[● P2] hq-wisp-hp1u: Burn and respawn or loop
+  Blocked by 1 open dependencies: [hq-wisp-daui]
+
+[● P2] hq-wisp-hq02: Maintain dog pool
+  Blocked by 1 open dependencies: [hq-wisp-wmm6]
+
+[● P2] hq-wisp-hs6t: Aggregate daily costs [DISABLED]
+  Blocked by 1 open dependencies: [hq-wisp-isv7]
+
+[● P2] hq-wisp-htjr: Burn and respawn or loop
+  Blocked by 1 open dependencies: [hq-wisp-x5ze]
+
+[● P2] hq-wisp-hygb: Evaluate pending async gates
+  Blocked by 1 open dependencies: [hq-wisp-6v6q]
+
+[● P2] hq-wisp-ih0j: Check own context limit
+  Blocked by 1 open dependencies: [hq-wisp-9cgl]
+
+[● P2] hq-wisp-ilee: Fire notifications
+  Blocked by 1 open dependencies: [hq-wisp-v1fq]
+
+[● P2] hq-wisp-iofj: Check convoy completion
+  Blocked by 1 open dependencies: [hq-wisp-akjq]
+
+[● P2] hq-wisp-isv7: Detect cleanup needs
+  Blocked by 1 open dependencies: [hq-wisp-spzo]
+
+[● P2] hq-wisp-ix45: Maintain dog pool
+  Blocked by 1 open dependencies: [hq-wisp-3d9k]
+
+[● P2] hq-wisp-iyzj: Maintain dog pool
+  Blocked by 1 open dependencies: [hq-wisp-5pic]
+
+[● P2] hq-wisp-j4m: Detect abandoned work
+  Blocked by 1 open dependencies: [hq-wisp-n2i]
+
+[● P2] hq-wisp-j62: Check own context limit
+  Blocked by 1 open dependencies: [hq-wisp-ty7]
+
+[● P2] hq-wisp-j79j: Dispatch molecules with resolved gates
+  Blocked by 1 open dependencies: [hq-wisp-gn5d]
+
+[● P2] hq-wisp-j7yz: Burn and respawn or loop
+  Blocked by 1 open dependencies: [hq-wisp-8fnj]
+
+[● P2] hq-wisp-j9os: Check Witness and Refinery health
+  Blocked by 3 open dependencies: [hq-wisp-2qsr hq-wisp-5thm hq-wisp-6qux]
+
+[● P2] hq-wisp-jeaj: Detect abandoned work
+  Blocked by 1 open dependencies: [hq-wisp-4qj1]
+
+[● P2] hq-wisp-jeli: Maintain dog pool
+  Blocked by 1 open dependencies: [hq-wisp-awbo]
+
+[● P2] hq-wisp-jfgv: Maintain dog pool
+  Blocked by 1 open dependencies: [hq-wisp-95ac]
+
+[● P2] hq-wisp-jgsv: Check own context limit
+  Blocked by 1 open dependencies: [hq-wisp-rwxe]
+
+[● P2] hq-wisp-jied: Burn and respawn or loop
+  Blocked by 1 open dependencies: [hq-wisp-gw88]
+
+[● P2] hq-wisp-jirz: Check Witness and Refinery health
+  Blocked by 3 open dependencies: [hq-wisp-dc9d hq-wisp-wfz8 hq-wisp-wi9l]
+
+[● P2] hq-wisp-jo4w: Detect abandoned work
+  Blocked by 1 open dependencies: [hq-wisp-b9tf]
+
+[● P2] hq-wisp-jqov: Resolve external dependencies
+  Blocked by 1 open dependencies: [hq-wisp-3l6j]
+
+[● P2] hq-wisp-juqv: End-of-cycle inbox hygiene
+  Blocked by 1 open dependencies: [hq-wisp-vdn3]
+
+[● P2] hq-wisp-juu: Nudge newly spawned polecats
+  Blocked by 1 open dependencies: [hq-wisp-o0m]
+
+[● P2] hq-wisp-jv24: End-of-cycle inbox hygiene
+  Blocked by 1 open dependencies: [hq-wisp-h10l]
+
+[● P2] hq-wisp-jvae: Detect cleanup needs
+  Blocked by 1 open dependencies: [hq-wisp-net5]
+
+[● P2] hq-wisp-k0i: Fire notifications
+  Blocked by 1 open dependencies: [hq-wisp-785]
+
+[● P2] hq-wisp-k17f: Execute registered plugins
+  Blocked by 1 open dependencies: [hq-wisp-np5i]
+
+[● P2] hq-wisp-k1a1: Resolve external dependencies
+  Blocked by 1 open dependencies: [hq-wisp-cbh7]
+
+[● P2] hq-wisp-kcqi: Check convoy completion
+  Blocked by 1 open dependencies: [hq-wisp-k9pz]
+
+[● P2] hq-wisp-kiih: Check convoy completion
+  Blocked by 1 open dependencies: [hq-wisp-6v6q]
+
+[● P2] hq-wisp-krpc: Check own context limit
+  Blocked by 1 open dependencies: [hq-wisp-el23]
+
+[● P2] hq-wisp-kw1z: End-of-cycle inbox hygiene
+  Blocked by 1 open dependencies: [hq-wisp-q2yo]
+
+[● P2] hq-wisp-l13z: End-of-cycle inbox hygiene
+  Blocked by 1 open dependencies: [hq-wisp-07a8]
+
+[● P2] hq-wisp-l2dq: Maintain dog pool
+  Blocked by 1 open dependencies: [hq-wisp-lcrz]
+
+[● P2] hq-wisp-l42x: Maintain dog pool
+  Blocked by 1 open dependencies: [hq-wisp-zktp]
+
+[● P2] hq-wisp-l8ab: Rotate logs and prune state
+  Blocked by 1 open dependencies: [hq-wisp-3mvg]
+
+[● P2] hq-wisp-l8ds: Check for stuck dogs
+  Blocked by 1 open dependencies: [hq-wisp-jeli]
+
+[● P2] hq-wisp-l9hg: Aggregate daily costs [DISABLED]
+  Blocked by 1 open dependencies: [hq-wisp-eytb]
+
+[● P2] hq-wisp-l9km: Burn and respawn or loop
+  Blocked by 1 open dependencies: [hq-wisp-o6x3]
+
+[● P2] hq-wisp-la2v: Fire notifications
+  Blocked by 1 open dependencies: [hq-wisp-uijd]
+
+[● P2] hq-wisp-la8t: Detect abandoned work
+  Blocked by 1 open dependencies: [hq-wisp-e3ao]
+
+[● P2] hq-wisp-lbtn: Nudge newly spawned polecats
+  Blocked by 1 open dependencies: [hq-wisp-39n2]
+
+[● P2] hq-wisp-lcrz: Check Witness and Refinery health
+  Blocked by 3 open dependencies: [hq-wisp-gt93 hq-wisp-lixb hq-wisp-zu8m]
+
+[● P2] hq-wisp-lg6c: Check for stuck dogs
+  Blocked by 1 open dependencies: [hq-wisp-qqf2]
+
+[● P2] hq-wisp-lgsh: Check for stuck dogs
+  Blocked by 1 open dependencies: [hq-wisp-9qfp]
+
+[● P2] hq-wisp-lh7f: Evaluate pending async gates
+  Blocked by 1 open dependencies: [hq-wisp-1r5i]
+
+[● P2] hq-wisp-lh8n: Maintain dog pool
+  Blocked by 1 open dependencies: [hq-wisp-ybj5]
+
+[● P2] hq-wisp-lixb: Dispatch molecules with resolved gates
+  Blocked by 1 open dependencies: [hq-wisp-lz87]
+
+[● P2] hq-wisp-liy: Check for stuck dogs
+  Blocked by 1 open dependencies: [hq-wisp-tao]
+
+[● P2] hq-wisp-lksi: Rotate logs and prune state
+  Blocked by 1 open dependencies: [hq-wisp-sbpo]
+
+[● P2] hq-wisp-lp9m: Resolve external dependencies
+  Blocked by 1 open dependencies: [hq-wisp-5dyz]
+
+[● P2] hq-wisp-lyr0: Check convoy completion
+  Blocked by 1 open dependencies: [hq-wisp-1r5i]
+
+[● P2] hq-wisp-lz87: Evaluate pending async gates
+  Blocked by 1 open dependencies: [hq-wisp-winz]
+
+[● P2] hq-wisp-m75k: Dispatch molecules with resolved gates
+  Blocked by 1 open dependencies: [hq-wisp-wxa8]
+
+[● P2] hq-wisp-m7lo: End-of-cycle inbox hygiene
+  Blocked by 1 open dependencies: [hq-wisp-77ci]
+
+[● P2] hq-wisp-m8x: Detect cleanup needs
+  Blocked by 1 open dependencies: [hq-wisp-w24]
+
+[● P2] hq-wisp-mkwg: Check own context limit
+  Blocked by 1 open dependencies: [hq-wisp-shyr]
+
+[● P2] hq-wisp-mm9x: Check convoy completion
+  Blocked by 1 open dependencies: [hq-wisp-ju4g]
+
+[● P2] hq-wisp-mngh: Nudge newly spawned polecats
+  Blocked by 1 open dependencies: [hq-wisp-rd1q]
+
+[● P2] hq-wisp-moci: End-of-cycle inbox hygiene
+  Blocked by 1 open dependencies: [hq-wisp-7u64]
+
+[● P2] hq-wisp-mt7w: Maintain dog pool
+  Blocked by 1 open dependencies: [hq-wisp-hbgr]
+
+[● P2] hq-wisp-mtrk: Ensure refinery is alive
+  Blocked by 1 open dependencies: [hq-wisp-2mdm]
+
+[● P2] hq-wisp-myxl: Nudge newly spawned polecats
+  Blocked by 1 open dependencies: [hq-wisp-24aq]
+
+[● P2] hq-wisp-n1ut: Fire notifications
+  Blocked by 1 open dependencies: [hq-wisp-oc20]
+
+[● P2] hq-wisp-n2i: Check for stuck dogs
+  Blocked by 1 open dependencies: [hq-wisp-09c]
+
+[● P2] hq-wisp-n3rc: Clean up orphaned claude subagent processes
+  Blocked by 1 open dependencies: [hq-wisp-6w65]
+
+[● P2] hq-wisp-n6ks: Detect abandoned work
+  Blocked by 1 open dependencies: [hq-wisp-o28j]
+
+[● P2] hq-wisp-n8fa: Aggregate daily costs [DISABLED]
+  Blocked by 1 open dependencies: [hq-wisp-f5p0]
+
+[● P2] hq-wisp-ncy9: Aggregate daily patrol digests
+  Blocked by 1 open dependencies: [hq-wisp-1yph]
+
+[● P2] hq-wisp-ndcr: Detect zombie polecats (NO KILL AUTHORITY)
+  Blocked by 1 open dependencies: [hq-wisp-hbgr]
+
+[● P2] hq-wisp-net5: Detect abandoned work
+  Blocked by 1 open dependencies: [hq-wisp-ay7m]
+
+[● P2] hq-wisp-nezt: Check own context limit
+  Blocked by 1 open dependencies: [hq-wisp-m7lo]
+
+[● P2] hq-wisp-nfb6: Execute registered plugins
+  Blocked by 1 open dependencies: [hq-wisp-921b]
+
+[● P2] hq-wisp-nj4c: Maintain dog pool
+  Blocked by 1 open dependencies: [hq-wisp-1u90]
+
+[● P2] hq-wisp-nldc: Detect cleanup needs
+  Blocked by 1 open dependencies: [hq-wisp-8akg]
+
+[● P2] hq-wisp-nn1: Check convoy completion
+  Blocked by 1 open dependencies: [hq-wisp-3cq]
+
+[● P2] hq-wisp-np5i: Detect zombie polecats (NO KILL AUTHORITY)
+  Blocked by 1 open dependencies: [hq-wisp-5pic]
+
+[● P2] hq-wisp-nqbz: Aggregate daily patrol digests
+  Blocked by 1 open dependencies: [hq-wisp-p59z]
+
+[● P2] hq-wisp-nsza: Execute registered plugins
+  Blocked by 1 open dependencies: [hq-wisp-3sma]
+
+[● P2] hq-wisp-ntlv: Detect abandoned work
+  Blocked by 1 open dependencies: [hq-wisp-9f2z]
+
+[● P2] hq-wisp-nus: Detect zombie polecats (NO KILL AUTHORITY)
+  Blocked by 1 open dependencies: [hq-wisp-boq]
+
+[● P2] hq-wisp-nz8i: Detect cleanup needs
+  Blocked by 1 open dependencies: [hq-wisp-69x0]
+
+[● P2] hq-wisp-o0m: Clean up orphaned claude subagent processes
+  Blocked by 1 open dependencies: [hq-wisp-3cq]
+
+[● P2] hq-wisp-o28j: Check for stuck dogs
+  Blocked by 1 open dependencies: [hq-wisp-ro70]
+
+[● P2] hq-wisp-o6x3: Check own context limit
+  Blocked by 1 open dependencies: [hq-wisp-moci]
+
+[● P2] hq-wisp-o717: Burn and respawn or loop
+  Blocked by 1 open dependencies: [hq-wisp-nezt]
+
+[● P2] hq-wisp-oc20: Resolve external dependencies
+  Blocked by 1 open dependencies: [hq-wisp-qxu9]
+
+[● P2] hq-wisp-odgc: Check Witness and Refinery health
+  Blocked by 3 open dependencies: [hq-wisp-fu54 hq-wisp-myxl hq-wisp-tnaq]
+
+[● P2] hq-wisp-ofg1: Nudge newly spawned polecats
+  Blocked by 1 open dependencies: [hq-wisp-bydf]
+
+[● P2] hq-wisp-okd5: Check convoy completion
+  Blocked by 1 open dependencies: [hq-wisp-llh1]
+
+[● P2] hq-wisp-oneg: Detect zombie polecats (NO KILL AUTHORITY)
+  Blocked by 1 open dependencies: [hq-wisp-lcrz]
+
+[● P2] hq-wisp-oog5: Detect cleanup needs
+  Blocked by 1 open dependencies: [hq-wisp-pps2]
+
+[● P2] hq-wisp-orav: Maintain dog pool
+  Blocked by 1 open dependencies: [hq-wisp-pdix]
+
+[● P2] hq-wisp-orim: Resolve external dependencies
+  Blocked by 1 open dependencies: [hq-wisp-kcqi]
+
+[● P2] hq-wisp-ouay: Check convoy completion
+  Blocked by 1 open dependencies: [hq-wisp-uq2t]
+
+[● P2] hq-wisp-oxuz: Resolve external dependencies
+  Blocked by 1 open dependencies: [hq-wisp-cn6c]
+
+[● P2] hq-wisp-p2uq: Dispatch molecules with resolved gates
+  Blocked by 1 open dependencies: [hq-wisp-whdc]
+
+[● P2] hq-wisp-p4xn: Check Witness and Refinery health
+  Blocked by 3 open dependencies: [hq-wisp-6qr1 hq-wisp-911k hq-wisp-e1py]
+
+[● P2] hq-wisp-p59z: Aggregate daily costs [DISABLED]
+  Blocked by 1 open dependencies: [hq-wisp-vtli]
+
+[● P2] hq-wisp-p8bq: Check own context limit
+  Blocked by 1 open dependencies: [hq-wisp-25rp]
+
+[● P2] hq-wisp-pdix: Check Witness and Refinery health
+  Blocked by 3 open dependencies: [hq-wisp-4hdy hq-wisp-6mmt hq-wisp-lbtn]
+
+[● P2] hq-wisp-pfea: Burn and respawn or loop
+  Blocked by 1 open dependencies: [hq-wisp-p8bq]
+
+[● P2] hq-wisp-pkgx: Maintain dog pool
+  Blocked by 1 open dependencies: [hq-wisp-2m3k]
+
+[● P2] hq-wisp-pm8w: Evaluate pending async gates
+  Blocked by 1 open dependencies: [hq-wisp-oqd4]
+
+[● P2] hq-wisp-pmu: Dispatch molecules with resolved gates
+  Blocked by 1 open dependencies: [hq-wisp-12m]
+
+[● P2] hq-wisp-po4k: Dispatch molecules with resolved gates
+  Blocked by 1 open dependencies: [hq-wisp-hygb]
+
+[● P2] hq-wisp-ppry: Check own context limit
+  Blocked by 1 open dependencies: [hq-wisp-6ljz]
+
+[● P2] hq-wisp-pps2: Detect abandoned work
+  Blocked by 1 open dependencies: [hq-wisp-gmx6]
+
+[● P2] hq-wisp-ptbl: Maintain dog pool
+  Blocked by 1 open dependencies: [hq-wisp-j9os]
+
+[● P2] hq-wisp-pute: Detect abandoned work
+  Blocked by 1 open dependencies: [hq-wisp-atyo]
+
+[● P2] hq-wisp-pyl1: Detect abandoned work
+  Blocked by 1 open dependencies: [hq-wisp-ckqw]
+
+[● P2] hq-wisp-pz6: Detect zombie polecats (NO KILL AUTHORITY)
+  Blocked by 1 open dependencies: [hq-wisp-q2f]
+
+[● P2] hq-wisp-q2f: Check Witness and Refinery health
+  Blocked by 3 open dependencies: [hq-wisp-15c hq-wisp-bmu hq-wisp-e0o]
+
+[● P2] hq-wisp-q2yo: Rotate logs and prune state
+  Blocked by 1 open dependencies: [hq-wisp-csy0]
+
+[● P2] hq-wisp-q4ud: Execute registered plugins
+  Blocked by 1 open dependencies: [hq-wisp-f1fw]
+
+[● P2] hq-wisp-q5vw: Rotate logs and prune state
+  Blocked by 1 open dependencies: [hq-wisp-bjfy]
+
+[● P2] hq-wisp-q674: Execute registered plugins
+  Blocked by 1 open dependencies: [hq-wisp-f5yr]
+
+[● P2] hq-wisp-q9j0: Detect cleanup needs
+  Blocked by 1 open dependencies: [hq-wisp-pyl1]
+
+[● P2] hq-wisp-qj29: Check timer gates for expiration
+  Blocked by 1 open dependencies: [hq-wisp-d8j2]
+
+[● P2] hq-wisp-qpsf: Nudge newly spawned polecats
+  Blocked by 1 open dependencies: [hq-wisp-qpst]
+
+[● P2] hq-wisp-qpst: Clean up orphaned claude subagent processes
+  Blocked by 1 open dependencies: [hq-wisp-erlq]
+
+[● P2] hq-wisp-qqf2: Maintain dog pool
+  Blocked by 1 open dependencies: [hq-wisp-p4xn]
+
+[● P2] hq-wisp-qxu9: Check convoy completion
+  Blocked by 1 open dependencies: [hq-wisp-9mq4]
+
+[● P2] hq-wisp-qyiy: Aggregate daily patrol digests
+  Blocked by 1 open dependencies: [hq-wisp-6uwm]
+
+[● P2] hq-wisp-r38k: Detect zombie polecats (NO KILL AUTHORITY)
+  Blocked by 1 open dependencies: [hq-wisp-2m3k]
+
+[● P2] hq-wisp-rb9r: Resolve external dependencies
+  Blocked by 1 open dependencies: [hq-wisp-ws0n]
+
+[● P2] hq-wisp-rd1q: Clean up orphaned claude subagent processes
+  Blocked by 1 open dependencies: [hq-wisp-2u45]
+
+[● P2] hq-wisp-ro70: Maintain dog pool
+  Blocked by 1 open dependencies: [hq-wisp-h4t1]
+
+[● P2] hq-wisp-rpfh: Check own context limit
+  Blocked by 1 open dependencies: [hq-wisp-kw1z]
+
+[● P2] hq-wisp-rpw5: End-of-cycle inbox hygiene
+  Blocked by 1 open dependencies: [hq-wisp-yeu9]
+
+[● P2] hq-wisp-rtpv: Detect cleanup needs
+  Blocked by 1 open dependencies: [hq-wisp-la8t]
+
+[● P2] hq-wisp-rwxe: End-of-cycle inbox hygiene
+  Blocked by 1 open dependencies: [hq-wisp-2yi0]
+
+[● P2] hq-wisp-sbpo: Aggregate daily patrol digests
+  Blocked by 1 open dependencies: [hq-wisp-8vnf]
+
+[● P2] hq-wisp-shsm: Aggregate daily costs [DISABLED]
+  Blocked by 1 open dependencies: [hq-wisp-oog5]
+
+[● P2] hq-wisp-shyr: End-of-cycle inbox hygiene
+  Blocked by 1 open dependencies: [hq-wisp-zp68]
+
+[● P2] hq-wisp-si6l: Detect abandoned work
+  Blocked by 1 open dependencies: [hq-wisp-076t]
+
+[● P2] hq-wisp-spzo: Detect abandoned work
+  Blocked by 1 open dependencies: [hq-wisp-9b3z]
+
+[● P2] hq-wisp-swaf: Evaluate pending async gates
+  Blocked by 1 open dependencies: [hq-wisp-uln4]
+
+[● P2] hq-wisp-t0m7: Execute registered plugins
+  Blocked by 1 open dependencies: [hq-wisp-bu1o]
+
+[● P2] hq-wisp-t2v6: Aggregate daily costs [DISABLED]
+  Blocked by 1 open dependencies: [hq-wisp-6eii]
+
+[● P2] hq-wisp-t6f8: Check own context limit
+  Blocked by 1 open dependencies: [hq-wisp-juqv]
+
+[● P2] hq-wisp-t7nt: Rotate logs and prune state
+  Blocked by 1 open dependencies: [hq-wisp-10hb]
+
+[● P2] hq-wisp-t8qg: Maintain dog pool
+  Blocked by 1 open dependencies: [hq-wisp-jirz]
+
+[● P2] hq-wisp-t92k: Execute registered plugins
+  Blocked by 1 open dependencies: [hq-wisp-r38k]
+
+[● P2] hq-wisp-t9sa: Nudge newly spawned polecats
+  Blocked by 1 open dependencies: [hq-wisp-eif8]
+
+[● P2] hq-wisp-tai: Clean up orphaned claude subagent processes
+  Blocked by 1 open dependencies: [hq-wisp-q5m]
+
+[● P2] hq-wisp-tao: Maintain dog pool
+  Blocked by 1 open dependencies: [hq-wisp-boq]
+
+[● P2] hq-wisp-tdql: Check Witness and Refinery health
+  Blocked by 3 open dependencies: [hq-wisp-2cmm hq-wisp-5h2v hq-wisp-9w1y]
+
+[● P2] hq-wisp-tf3c: Execute registered plugins
+  Blocked by 1 open dependencies: [hq-wisp-djlo]
+
+[● P2] hq-wisp-tlhk: Burn and respawn or loop
+  Blocked by 1 open dependencies: [hq-wisp-ppry]
+
+[● P2] hq-wisp-tmbd: Check own context limit
+  Blocked by 1 open dependencies: [hq-wisp-45qa]
+
+[● P2] hq-wisp-tnaq: Dispatch molecules with resolved gates
+  Blocked by 1 open dependencies: [hq-wisp-6vyo]
+
+[● P2] hq-wisp-trlm: Clean up orphaned claude subagent processes
+  Blocked by 1 open dependencies: [hq-wisp-gnp5]
+
+[● P2] hq-wisp-tuub: Aggregate daily patrol digests
+  Blocked by 1 open dependencies: [hq-wisp-xwkh]
+
+[● P2] hq-wisp-twiw: Check own context limit
+  Blocked by 1 open dependencies: [hq-wisp-xx96]
+
+[● P2] hq-wisp-ty7: End-of-cycle inbox hygiene
+  Blocked by 1 open dependencies: [hq-wisp-x85]
+
+[● P2] hq-wisp-u0hh: Evaluate pending async gates
+  Blocked by 1 open dependencies: [hq-wisp-llh1]
+
+[● P2] hq-wisp-u0ue: Resolve external dependencies
+  Blocked by 1 open dependencies: [hq-wisp-mm9x]
+
+[● P2] hq-wisp-u1t0: Check own context limit
+  Blocked by 1 open dependencies: [hq-wisp-x2ev]
+
+[● P2] hq-wisp-u1wq: Aggregate daily patrol digests
+  Blocked by 1 open dependencies: [hq-wisp-untj]
+
+[● P2] hq-wisp-uijd: Resolve external dependencies
+  Blocked by 1 open dependencies: [hq-wisp-kiih]
+
+[● P2] hq-wisp-un09: Execute registered plugins
+  Blocked by 1 open dependencies: [hq-wisp-bddd]
+
+[● P2] hq-wisp-un9c: Resolve external dependencies
+  Blocked by 1 open dependencies: [hq-wisp-0t60]
+
+[● P2] hq-wisp-untj: Aggregate daily costs [DISABLED]
+  Blocked by 1 open dependencies: [hq-wisp-7wqu]
+
+[● P2] hq-wisp-uxoi: Check own context limit
+  Blocked by 1 open dependencies: [hq-wisp-fqub]
+
+[● P2] hq-wisp-uxzp: Aggregate daily patrol digests
+  Blocked by 1 open dependencies: [hq-wisp-0dj3]
+
+[● P2] hq-wisp-uyav: Detect cleanup needs
+  Blocked by 1 open dependencies: [hq-wisp-ntlv]
+
+[● P2] hq-wisp-v1fq: Resolve external dependencies
+  Blocked by 1 open dependencies: [hq-wisp-iofj]
+
+[● P2] hq-wisp-v1xl: Burn and respawn or loop
+  Blocked by 1 open dependencies: [hq-wisp-twiw]
+
+[● P2] hq-wisp-v7dg: Detect abandoned work
+  Blocked by 1 open dependencies: [hq-wisp-dhy8]
+
+[● P2] hq-wisp-v8hi: Aggregate daily costs [DISABLED]
+  Blocked by 1 open dependencies: [hq-wisp-algm]
+
+[● P2] hq-wisp-vclj: Burn and respawn or loop
+  Blocked by 1 open dependencies: [hq-wisp-fwy9]
+
+[● P2] hq-wisp-vdn3: Rotate logs and prune state
+  Blocked by 1 open dependencies: [hq-wisp-nqbz]
+
+[● P2] hq-wisp-vf6: Burn and respawn or loop
+  Blocked by 1 open dependencies: [hq-wisp-7vh]
+
+[● P2] hq-wisp-vgmz: Rotate logs and prune state
+  Blocked by 1 open dependencies: [hq-wisp-tuub]
+
+[● P2] hq-wisp-vj1o: Dispatch molecules with resolved gates
+  Blocked by 1 open dependencies: [hq-wisp-dsxf]
+
+[● P2] hq-wisp-vtli: Detect cleanup needs
+  Blocked by 1 open dependencies: [hq-wisp-ge30]
+
+[● P2] hq-wisp-vw2q: Detect abandoned work
+  Blocked by 1 open dependencies: [hq-wisp-cvue]
+
+[● P2] hq-wisp-vyax: Aggregate daily costs [DISABLED]
+  Blocked by 1 open dependencies: [hq-wisp-q9j0]
+
+[● P2] hq-wisp-w24: Detect abandoned work
+  Blocked by 1 open dependencies: [hq-wisp-liy]
+
+[● P2] hq-wisp-w85f: Burn and respawn or loop
+  Blocked by 1 open dependencies: [hq-wisp-8t4q]
+
+[● P2] hq-wisp-wcqk: Burn and respawn or loop
+  Blocked by 1 open dependencies: [hq-wisp-uxoi]
+
+[● P2] hq-wisp-wfz8: Fire notifications
+  Blocked by 1 open dependencies: [hq-wisp-brez]
+
+[● P2] hq-wisp-whdc: Evaluate pending async gates
+  Blocked by 1 open dependencies: [hq-wisp-bymi]
+
+[● P2] hq-wisp-wi9l: Dispatch molecules with resolved gates
+  Blocked by 1 open dependencies: [hq-wisp-fqem]
+
+[● P2] hq-wisp-wisp-19e: Detect cleanup needs
+  Blocked by 1 open dependencies: [hq-wisp-wisp-exj]
+
+[● P2] hq-wisp-wisp-1my: Dispatch molecules with resolved gates
+  Blocked by 1 open dependencies: [hq-wisp-wisp-f8c]
+
+[● P2] hq-wisp-wisp-3ag: Rotate logs and prune state
+  Blocked by 1 open dependencies: [hq-wisp-wisp-jhm]
+
+[● P2] hq-wisp-wisp-4kx: Detect zombie polecats (NO KILL AUTHORITY)
+  Blocked by 1 open dependencies: [hq-wisp-wisp-cdh]
+
+[● P2] hq-wisp-wisp-6nr: Check own context limit
+  Blocked by 1 open dependencies: [hq-wisp-wisp-dpg]
+
+[● P2] hq-wisp-wisp-6xf: Execute registered plugins
+  Blocked by 1 open dependencies: [hq-wisp-wisp-4kx]
+
+[● P2] hq-wisp-wisp-75g: Resolve external dependencies
+  Blocked by 1 open dependencies: [hq-wisp-wisp-e6u]
+
+[● P2] hq-wisp-wisp-7qd: Aggregate daily costs [DISABLED]
+  Blocked by 1 open dependencies: [hq-wisp-wisp-19e]
+
+[● P2] hq-wisp-wisp-9ys: Fire notifications
+  Blocked by 1 open dependencies: [hq-wisp-wisp-75g]
+
+[● P2] hq-wisp-wisp-b7t: Clean up orphaned claude subagent processes
+  Blocked by 1 open dependencies: [hq-wisp-wisp-8yf]
+
+[● P2] hq-wisp-wisp-cdh: Check Witness and Refinery health
+  Blocked by 3 open dependencies: [hq-wisp-wisp-1my hq-wisp-wisp-9ys hq-wisp-wisp-rcr]
+
+[● P2] hq-wisp-wisp-dpg: End-of-cycle inbox hygiene
+  Blocked by 1 open dependencies: [hq-wisp-wisp-3ag]
+
+[● P2] hq-wisp-wisp-dsb: Maintain dog pool
+  Blocked by 1 open dependencies: [hq-wisp-wisp-cdh]
+
+[● P2] hq-wisp-wisp-e6u: Check convoy completion
+  Blocked by 1 open dependencies: [hq-wisp-wisp-8yf]
+
+[● P2] hq-wisp-wisp-exj: Detect abandoned work
+  Blocked by 1 open dependencies: [hq-wisp-wisp-tzf]
+
+[● P2] hq-wisp-wisp-f8c: Evaluate pending async gates
+  Blocked by 1 open dependencies: [hq-wisp-wisp-8yf]
+
+[● P2] hq-wisp-wisp-f9w: Burn and respawn or loop
+  Blocked by 1 open dependencies: [hq-wisp-wisp-6nr]
+
+[● P2] hq-wisp-wisp-jhm: Aggregate daily patrol digests
+  Blocked by 1 open dependencies: [hq-wisp-wisp-7qd]
+
+[● P2] hq-wisp-wisp-rcr: Nudge newly spawned polecats
+  Blocked by 1 open dependencies: [hq-wisp-wisp-b7t]
+
+[● P2] hq-wisp-wisp-tzf: Check for stuck dogs
+  Blocked by 1 open dependencies: [hq-wisp-wisp-dsb]
+
+[● P2] hq-wisp-wmm6: Check Witness and Refinery health
+  Blocked by 3 open dependencies: [hq-wisp-bc4r hq-wisp-dkr3 hq-wisp-ilee]
+
+[● P2] hq-wisp-wn07: Execute registered plugins
+  Blocked by 1 open dependencies: [hq-wisp-7qjm]
+
+[● P2] hq-wisp-wnrp: Aggregate daily patrol digests
+  Blocked by 1 open dependencies: [hq-wisp-dbbi]
+
+[● P2] hq-wisp-wp0e: Check for stuck dogs
+  Blocked by 1 open dependencies: [hq-wisp-jfgv]
+
+[● P2] hq-wisp-ws0n: Check convoy completion
+  Blocked by 1 open dependencies: [hq-wisp-2ods]
+
+[● P2] hq-wisp-ww8x: Detect zombie polecats (NO KILL AUTHORITY)
+  Blocked by 1 open dependencies: [hq-wisp-p4xn]
+
+[● P2] hq-wisp-wwsd: Burn and respawn or loop
+  Blocked by 1 open dependencies: [hq-wisp-u1t0]
+
+[● P2] hq-wisp-wxa8: Evaluate pending async gates
+  Blocked by 1 open dependencies: [hq-wisp-2ods]
+
+[● P2] hq-wisp-x042: Rotate logs and prune state
+  Blocked by 1 open dependencies: [hq-wisp-eo32]
+
+[● P2] hq-wisp-x2ev: End-of-cycle inbox hygiene
+  Blocked by 1 open dependencies: [hq-wisp-0qbe]
+
+[● P2] hq-wisp-x374: Nudge newly spawned polecats
+  Blocked by 1 open dependencies: [hq-wisp-cbie]
+
+[● P2] hq-wisp-x5ze: Check own context limit
+  Blocked by 1 open dependencies: [hq-wisp-8xj5]
+
+[● P2] hq-wisp-x85: Rotate logs and prune state
+  Blocked by 1 open dependencies: [hq-wisp-z88]
+
+[● P2] hq-wisp-x9yg: Detect abandoned work
+  Blocked by 1 open dependencies: [hq-wisp-5flx]
+
+[● P2] hq-wisp-xjyk: End-of-cycle inbox hygiene
+  Blocked by 1 open dependencies: [hq-wisp-zcq5]
+
+[● P2] hq-wisp-xp2o: Detect zombie polecats (NO KILL AUTHORITY)
+  Blocked by 1 open dependencies: [hq-wisp-zktp]
+
+[● P2] hq-wisp-xsew: Execute registered plugins
+  Blocked by 1 open dependencies: [hq-wisp-oneg]
+
+[● P2] hq-wisp-xu1d: Loop or exit for respawn
+  Blocked by 1 open dependencies: [hq-wisp-jgsv]
+
+[● P2] hq-wisp-xwkh: Aggregate daily costs [DISABLED]
+  Blocked by 1 open dependencies: [hq-wisp-nldc]
+
+[● P2] hq-wisp-xx96: End-of-cycle inbox hygiene
+  Blocked by 1 open dependencies: [hq-wisp-d709]
+
+[● P2] hq-wisp-y0l6: Aggregate daily costs [DISABLED]
+  Blocked by 1 open dependencies: [hq-wisp-562n]
+
+[● P2] hq-wisp-y1pi: Detect cleanup needs
+  Blocked by 1 open dependencies: [hq-wisp-jo4w]
+
+[● P2] hq-wisp-y7x5: Check for stuck dogs
+  Blocked by 1 open dependencies: [hq-wisp-l42x]
+
+[● P2] hq-wisp-ybj5: Check Witness and Refinery health
+  Blocked by 3 open dependencies: [hq-wisp-94vp hq-wisp-p2uq hq-wisp-t9sa]
+
+[● P2] hq-wisp-ycjm: Check timer gates for expiration
+  Blocked by 1 open dependencies: [hq-wisp-99lp]
+
+[● P2] hq-wisp-yeu9: Ping Deacon for health check
+  Blocked by 1 open dependencies: [hq-wisp-a7ui]
+
+[● P2] hq-wisp-ygr: Evaluate pending async gates
+  Blocked by 1 open dependencies: [hq-wisp-d8k]
+
+[● P2] hq-wisp-ylj: Check convoy completion
+  Blocked by 1 open dependencies: [hq-wisp-d8k]
+
+[● P2] hq-wisp-yn9v: Evaluate pending async gates
+  Blocked by 1 open dependencies: [hq-wisp-uq2t]
+
+[● P2] hq-wisp-yob: Burn and respawn or loop
+  Blocked by 1 open dependencies: [hq-wisp-dfd]
+
+[● P2] hq-wisp-yu4p: Fire notifications
+  Blocked by 1 open dependencies: [hq-wisp-6xyz]
+
+[● P2] hq-wisp-yv2o: Check for stuck dogs
+  Blocked by 1 open dependencies: [hq-wisp-orav]
+
+[● P2] hq-wisp-z1u0: Execute registered plugins
+  Blocked by 1 open dependencies: [hq-wisp-t09b]
+
+[● P2] hq-wisp-z2if: Aggregate daily costs [DISABLED]
+  Blocked by 1 open dependencies: [hq-wisp-nz8i]
+
+[● P2] hq-wisp-z6vn: Fire notifications
+  Blocked by 1 open dependencies: [hq-wisp-jqov]
+
+[● P2] hq-wisp-z88: Aggregate daily patrol digests
+  Blocked by 1 open dependencies: [hq-wisp-ejz]
+
+[● P2] hq-wisp-zcq5: Rotate logs and prune state
+  Blocked by 1 open dependencies: [hq-wisp-uxzp]
+
+[● P2] hq-wisp-zijp: Resolve external dependencies
+  Blocked by 1 open dependencies: [hq-wisp-0rs3]
+
+[● P2] hq-wisp-zktp: Check Witness and Refinery health
+  Blocked by 3 open dependencies: [hq-wisp-50is hq-wisp-dm3o hq-wisp-qpsf]
+
+[● P2] hq-wisp-zp68: Rotate logs and prune state
+  Blocked by 1 open dependencies: [hq-wisp-1z49]
+
+[● P2] hq-wisp-zu8m: Fire notifications
+  Blocked by 1 open dependencies: [hq-wisp-0wo2]
+
+[● P2] hq-wisp-zycz: Detect cleanup needs
+  Blocked by 1 open dependencies: [hq-wisp-si6l]
+Shell cwd was reset to /home/gastown/gt/deacon

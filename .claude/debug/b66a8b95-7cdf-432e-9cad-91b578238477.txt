@@ -1,0 +1,64 @@
+2026-01-24T20:04:48.314Z [DEBUG] [init] configureGlobalMTLS starting
+2026-01-24T20:04:48.314Z [DEBUG] [init] configureGlobalMTLS complete
+2026-01-24T20:04:48.314Z [DEBUG] [init] configureGlobalAgents starting
+2026-01-24T20:04:48.315Z [DEBUG] [init] configureGlobalAgents complete
+2026-01-24T20:04:48.526Z [DEBUG] [STARTUP] Loading MCP configs...
+2026-01-24T20:04:48.561Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-24T20:04:48.563Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-24T20:04:48.563Z [DEBUG] [STARTUP] Running setup()...
+2026-01-24T20:04:48.564Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-01-24T20:04:48.567Z [DEBUG] Loading skills from: managed=/etc/claude-code/.claude/skills, user=/home/gastown/gt/.claude/skills, project=[]
+2026-01-24T20:04:48.570Z [ERROR] Error: Error: ENOENT: no such file or directory, scandir '/etc/claude-code/.claude/skills'
+    at Module.readdirSync (node:fs:1507:26)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:9:1766
+    at fX (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:34782)
+    at Object.readdirSync (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:9:1736)
+    at C01 (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:1537:369)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:1537:4279
+    at q (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:6807)
+    at Ih2 (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:4842:4362)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:4842:6961
+    at q (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:6807)
+2026-01-24T20:04:48.570Z [ERROR] Error: Error: ENOENT: no such file or directory, scandir '/home/gastown/gt/.claude/skills'
+    at Module.readdirSync (node:fs:1507:26)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:9:1766
+    at fX (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:34782)
+    at Object.readdirSync (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:9:1736)
+    at C01 (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:1537:369)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:1537:4322
+    at q (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:6807)
+    at Ih2 (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:4842:4362)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:4842:6961
+    at q (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:6807)
+2026-01-24T20:04:48.570Z [DEBUG] Error log sink initialized
+2026-01-24T20:04:48.624Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2026-01-24T20:04:48.624Z [DEBUG] Total plugin skills loaded: 0
+2026-01-24T20:04:48.624Z [DEBUG] Total plugin commands loaded: 0
+2026-01-24T20:04:48.624Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-01-24T20:04:48.629Z [DEBUG] [STARTUP] setup() completed in 66ms
+2026-01-24T20:04:48.629Z [DEBUG] [STARTUP] Loading commands and agents...
+2026-01-24T20:04:48.726Z [DEBUG] Total plugin agents loaded: 0
+2026-01-24T20:04:48.875Z [DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/usr/local/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/x64-linux/rg)
+2026-01-24T20:04:49.060Z [DEBUG] Watching for changes in skill/command directories: /home/gastown/gt/.claude/commands...
+2026-01-24T20:04:49.096Z [DEBUG] [Claude in Chrome] Extension not found in any browser
+2026-01-24T20:04:49.137Z [DEBUG] Loaded 1 unique skills (managed: 0, user: 0, project: 0, legacy commands: 1)
+2026-01-24T20:04:49.137Z [DEBUG] getSkills returning: 1 skill dir commands, 0 plugin skills, 0 bundled skills
+2026-01-24T20:04:49.158Z [DEBUG] [STARTUP] Commands and agents loaded in 529ms
+2026-01-24T20:04:49.179Z [DEBUG] [STARTUP] Running showSetupScreens()...
+2026-01-24T20:04:49.189Z [DEBUG] [render] initYoga starting
+2026-01-24T20:04:49.535Z [DEBUG] Git remote URL: null
+2026-01-24T20:04:49.535Z [DEBUG] No git remote URL found
+2026-01-24T20:04:49.535Z [DEBUG] Not in a GitHub repository, skipping path mapping update
+2026-01-24T20:04:49.548Z [DEBUG] Remote settings: No settings found (404)
+2026-01-24T20:04:49.548Z [DEBUG] Programmatic settings change notification for policySettings
+2026-01-24T20:04:49.548Z [DEBUG] Plugin hooks: reloading due to policySettings change
+2026-01-24T20:04:49.679Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-01-24T20:04:49.681Z [DEBUG] [Perfetto] initializePerfettoTracing called, env value: undefined
+2026-01-24T20:04:49.687Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-01-24T20:04:49.703Z [DEBUG] [render] initYoga complete
+2026-01-24T20:04:49.712Z [DEBUG] [render] first ink render: 6327ms since process start
+2026-01-24T20:04:49.732Z [DEBUG] [keybindings] KeybindingSetup initialized with 87 bindings, 0 warnings
+2026-01-24T20:04:50.170Z [DEBUG] [keybindings] Skipping file watcher - user customization disabled
+2026-01-24T20:05:54.563Z [DEBUG] Getting matching hook commands for SessionEnd with query: other
+2026-01-24T20:05:54.563Z [DEBUG] Found 0 hook matchers in settings
+2026-01-24T20:05:54.563Z [DEBUG] Matched 0 unique hooks for query "other" (0 before deduplication)

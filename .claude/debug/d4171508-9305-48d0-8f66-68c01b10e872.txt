@@ -1,0 +1,89 @@
+2026-01-24T21:49:33.964Z [DEBUG] [init] configureGlobalMTLS starting
+2026-01-24T21:49:33.964Z [DEBUG] [init] configureGlobalMTLS complete
+2026-01-24T21:49:33.964Z [DEBUG] [init] configureGlobalAgents starting
+2026-01-24T21:49:33.964Z [DEBUG] [init] configureGlobalAgents complete
+2026-01-24T21:49:34.019Z [DEBUG] [STARTUP] Loading MCP configs...
+2026-01-24T21:49:34.024Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-24T21:49:34.025Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-24T21:49:34.025Z [DEBUG] [STARTUP] Running setup()...
+2026-01-24T21:49:34.026Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-01-24T21:49:34.028Z [DEBUG] Loading skills from: managed=/etc/claude-code/.claude/skills, user=/home/gastown/gt/.claude/skills, project=[]
+2026-01-24T21:49:34.031Z [ERROR] Error: Error: ENOENT: no such file or directory, scandir '/etc/claude-code/.claude/skills'
+    at readdirSync (unknown)
+    at <anonymous> (/$bunfs/root/claude:12:1903)
+    at pJ (/$bunfs/root/claude:11:35427)
+    at readdirSync (/$bunfs/root/claude:12:1864)
+    at XY$ (/$bunfs/root/claude:2213:380)
+    at XY$ (/$bunfs/root/claude:2213:1350)
+    at <anonymous> (/$bunfs/root/claude:2213:4440)
+    at <anonymous> (/$bunfs/root/claude:2213:5171)
+    at A (/$bunfs/root/claude:11:7251)
+    at Z71 (/$bunfs/root/claude:4860:4342)
+2026-01-24T21:49:34.033Z [ERROR] Error: Error: ENOENT: no such file or directory, scandir '/home/gastown/gt/.claude/skills'
+    at readdirSync (unknown)
+    at <anonymous> (/$bunfs/root/claude:12:1903)
+    at pJ (/$bunfs/root/claude:11:35427)
+    at readdirSync (/$bunfs/root/claude:12:1864)
+    at XY$ (/$bunfs/root/claude:2213:380)
+    at XY$ (/$bunfs/root/claude:2213:1350)
+    at <anonymous> (/$bunfs/root/claude:2213:4483)
+    at <anonymous> (/$bunfs/root/claude:2213:5171)
+    at A (/$bunfs/root/claude:11:7251)
+    at Z71 (/$bunfs/root/claude:4860:4342)
+2026-01-24T21:49:34.033Z [DEBUG] Error log sink initialized
+2026-01-24T21:49:34.062Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2026-01-24T21:49:34.062Z [DEBUG] Total plugin skills loaded: 0
+2026-01-24T21:49:34.062Z [DEBUG] Total plugin commands loaded: 0
+2026-01-24T21:49:34.063Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-01-24T21:49:34.064Z [DEBUG] [STARTUP] setup() completed in 39ms
+2026-01-24T21:49:34.064Z [DEBUG] [STARTUP] Loading commands and agents...
+2026-01-24T21:49:34.070Z [DEBUG] Total plugin agents loaded: 0
+2026-01-24T21:49:34.138Z [DEBUG] Acquired PID lock for 2.1.19 (PID 2272)
+2026-01-24T21:49:34.139Z [DEBUG] Acquired PID lock on running version: /home/gastown/.local/share/claude/versions/2.1.19
+2026-01-24T21:49:34.264Z [DEBUG] Watching for changes in skill/command directories: /home/gastown/gt/.claude/commands...
+2026-01-24T21:49:34.317Z [DEBUG] Skipping duplicate file '/home/gastown/gt/.claude/commands/handoff.md' from projectSettings (same inode already loaded from userSettings)
+2026-01-24T21:49:34.317Z [DEBUG] Deduplicated 1 files in commands (same inode via symlinks or hard links)
+2026-01-24T21:49:34.319Z [DEBUG] Loaded 1 unique skills (managed: 0, user: 0, project: 0, legacy commands: 1)
+2026-01-24T21:49:34.319Z [DEBUG] getSkills returning: 1 skill dir commands, 0 plugin skills, 0 bundled skills
+2026-01-24T21:49:34.322Z [DEBUG] [STARTUP] Commands and agents loaded in 258ms
+2026-01-24T21:49:34.323Z [DEBUG] [STARTUP] Running showSetupScreens()...
+2026-01-24T21:49:34.324Z [DEBUG] [render] initYoga starting
+2026-01-24T21:49:34.327Z [DEBUG] [Claude in Chrome] Extension not found in any browser
+2026-01-24T21:49:34.340Z [DEBUG] [render] initYoga complete
+2026-01-24T21:49:34.346Z [DEBUG] [render] first ink render: 2388ms since process start
+2026-01-24T21:49:34.359Z [DEBUG] [keybindings] KeybindingSetup initialized with 99 bindings, 0 warnings
+2026-01-24T21:49:34.413Z [DEBUG] [STARTUP] showSetupScreens() completed in 90ms
+2026-01-24T21:49:34.413Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2026-01-24T21:49:34.413Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2026-01-24T21:49:34.413Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2026-01-24T21:49:34.416Z [DEBUG] Total LSP servers loaded: 0
+2026-01-24T21:49:34.416Z [DEBUG] [STARTUP] MCP configs loaded in 397ms
+2026-01-24T21:49:34.420Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-24T21:49:34.420Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-24T21:49:34.424Z [DEBUG] [Reconnection] computeInitialTeamContext: No teammate context set (not a teammate)
+2026-01-24T21:49:34.428Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/.claude.json.tmp.2272.1769291374428
+2026-01-24T21:49:34.428Z [DEBUG] Preserving file permissions: 100600
+2026-01-24T21:49:34.431Z [DEBUG] Temp file written successfully, size: 7739 bytes
+2026-01-24T21:49:34.431Z [DEBUG] Applied original permissions to temp file
+2026-01-24T21:49:34.431Z [DEBUG] Renaming /home/gastown/gt/.claude/.claude.json.tmp.2272.1769291374428 to /home/gastown/gt/.claude/.claude.json
+2026-01-24T21:49:34.431Z [DEBUG] File /home/gastown/gt/.claude/.claude.json written atomically
+2026-01-24T21:49:34.434Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2026-01-24T21:49:34.434Z [DEBUG] LSP manager initialized with 0 servers
+2026-01-24T21:49:34.435Z [DEBUG] Loaded 0 installed plugins from /home/gastown/gt/.claude/plugins/installed_plugins.json
+2026-01-24T21:49:34.436Z [DEBUG] Initialized versioned plugins system with 0 plugins
+2026-01-24T21:49:34.439Z [DEBUG] Getting matching hook commands for SessionStart with query: startup
+2026-01-24T21:49:34.439Z [DEBUG] Found 0 hook matchers in settings
+2026-01-24T21:49:34.439Z [DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+2026-01-24T21:49:34.439Z [DEBUG] LSP server manager initialized successfully
+2026-01-24T21:49:34.439Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2026-01-24T21:49:34.442Z [DEBUG] [render] initYoga starting
+2026-01-24T21:49:34.443Z [DEBUG] [render] initYoga complete
+2026-01-24T21:49:34.444Z [DEBUG] [render] first ink render: 2486ms since process start
+2026-01-24T21:49:34.517Z [DEBUG] [keybindings] Skipping file watcher - user customization disabled
+2026-01-24T21:49:34.550Z [DEBUG] Git remote URL: null
+2026-01-24T21:49:34.550Z [DEBUG] No git remote URL found
+2026-01-24T21:49:34.550Z [DEBUG] Not in a GitHub repository, skipping path mapping update
+2026-01-24T21:49:34.638Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-24T21:49:34.639Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-24T21:49:34.731Z [DEBUG] [keybindings] KeybindingSetup initialized with 99 bindings, 0 warnings
+2026-01-24T21:49:35.432Z [DEBUG] Slow render: 82.8ms, screen: 17x80, damage: 80x16 at (0,1), changes: 2810

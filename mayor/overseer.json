@@ -1,0 +1,8 @@
+{
+  "type": "overseer",
+  "version": 1,
+  "name": "Gastown Agent",
+  "email": "gastown@conducktor.local",
+  "username": "gastown",
+  "source": "git-config"
+}

@@ -1,0 +1,112 @@
+2026-01-24T20:53:24.126Z [DEBUG] Watching for changes in setting files /home/gastown/gt/mayor/.claude, /home/gastown/gt/mayor/.claude...
+2026-01-24T20:53:24.204Z [DEBUG] [init] configureGlobalMTLS starting
+2026-01-24T20:53:24.204Z [DEBUG] [init] configureGlobalMTLS complete
+2026-01-24T20:53:24.205Z [DEBUG] [init] configureGlobalAgents starting
+2026-01-24T20:53:24.205Z [DEBUG] [init] configureGlobalAgents complete
+2026-01-24T20:53:24.328Z [DEBUG] Applying permission update: Adding 1 allow rule(s) to destination 'localSettings': ["Bash(gt doctor:*)"]
+2026-01-24T20:53:24.328Z [DEBUG] [STARTUP] Loading MCP configs...
+2026-01-24T20:53:24.347Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-24T20:53:24.348Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-24T20:53:24.349Z [DEBUG] [STARTUP] Running setup()...
+2026-01-24T20:53:24.349Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-01-24T20:53:24.430Z [DEBUG] Loading skills from: managed=/etc/claude-code/.claude/skills, user=/home/gastown/gt/.claude/skills, project=[]
+2026-01-24T20:53:24.432Z [ERROR] Error: Error: ENOENT: no such file or directory, scandir '/etc/claude-code/.claude/skills'
+    at readdirSync (unknown)
+    at <anonymous> (/$bunfs/root/claude:12:1903)
+    at pJ (/$bunfs/root/claude:11:35427)
+    at readdirSync (/$bunfs/root/claude:12:1864)
+    at XY$ (/$bunfs/root/claude:2213:380)
+    at XY$ (/$bunfs/root/claude:2213:1350)
+    at <anonymous> (/$bunfs/root/claude:2213:4440)
+    at <anonymous> (/$bunfs/root/claude:2213:5171)
+    at A (/$bunfs/root/claude:11:7251)
+    at Z71 (/$bunfs/root/claude:4860:4342)
+2026-01-24T20:53:24.440Z [ERROR] Error: Error: ENOENT: no such file or directory, scandir '/home/gastown/gt/.claude/skills'
+    at readdirSync (unknown)
+    at <anonymous> (/$bunfs/root/claude:12:1903)
+    at pJ (/$bunfs/root/claude:11:35427)
+    at readdirSync (/$bunfs/root/claude:12:1864)
+    at XY$ (/$bunfs/root/claude:2213:380)
+    at XY$ (/$bunfs/root/claude:2213:1350)
+    at <anonymous> (/$bunfs/root/claude:2213:4483)
+    at <anonymous> (/$bunfs/root/claude:2213:5171)
+    at A (/$bunfs/root/claude:11:7251)
+    at Z71 (/$bunfs/root/claude:4860:4342)
+2026-01-24T20:53:24.440Z [DEBUG] Error log sink initialized
+2026-01-24T20:53:24.605Z [DEBUG] Plugin not available for MCP: beads@beads-marketplace - error type: plugin-not-found
+2026-01-24T20:53:24.606Z [DEBUG] Plugin loading errors: Plugin beads not found in marketplace beads-marketplace
+2026-01-24T20:53:24.606Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2026-01-24T20:53:24.606Z [DEBUG] Total plugin skills loaded: 0
+2026-01-24T20:53:24.606Z [DEBUG] Plugin loading errors: Plugin beads not found in marketplace beads-marketplace
+2026-01-24T20:53:24.606Z [DEBUG] Total plugin commands loaded: 0
+2026-01-24T20:53:24.606Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-01-24T20:53:24.610Z [DEBUG] [STARTUP] setup() completed in 261ms
+2026-01-24T20:53:24.610Z [DEBUG] [STARTUP] Loading commands and agents...
+2026-01-24T20:53:24.618Z [DEBUG] Plugin loading errors: Plugin beads not found in marketplace beads-marketplace
+2026-01-24T20:53:24.618Z [DEBUG] Total plugin agents loaded: 0
+2026-01-24T20:53:24.760Z [DEBUG] Cannot acquire lock for 2.1.19 - held by PID 60
+2026-01-24T20:53:24.761Z [ERROR] Error: Error: NON-FATAL: Lock acquisition failed for /home/gastown/.local/share/claude/versions/2.1.19 (expected in multi-process scenarios)
+    at $N$ (/$bunfs/root/claude:4001:2091)
+    at VjA (/$bunfs/root/claude:4001:1202)
+    at processTicksAndRejections (native:7:39)
+2026-01-24T20:53:24.908Z [DEBUG] Remote settings: No settings found (404)
+2026-01-24T20:53:24.909Z [DEBUG] Programmatic settings change notification for policySettings
+2026-01-24T20:53:24.909Z [DEBUG] Plugin hooks: reloading due to policySettings change
+2026-01-24T20:53:24.914Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-01-24T20:53:24.914Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-01-24T20:53:25.053Z [DEBUG] Watching for changes in skill/command directories: /home/gastown/gt/.claude/commands, /home/gastown/gt/mayor/.claude/commands...
+2026-01-24T20:53:25.451Z [DEBUG] [Claude in Chrome] Extension not found in any browser
+2026-01-24T20:53:25.452Z [DEBUG] Skipping duplicate file '/home/gastown/gt/.claude/commands/handoff.md' from projectSettings (same inode already loaded from userSettings)
+2026-01-24T20:53:25.452Z [DEBUG] Deduplicated 1 files in commands (same inode via symlinks or hard links)
+2026-01-24T20:53:25.520Z [DEBUG] Loaded 2 unique skills (managed: 0, user: 0, project: 0, legacy commands: 2)
+2026-01-24T20:53:25.521Z [DEBUG] getSkills returning: 2 skill dir commands, 0 plugin skills, 0 bundled skills
+2026-01-24T20:53:25.538Z [DEBUG] [STARTUP] Commands and agents loaded in 928ms
+2026-01-24T20:53:25.538Z [DEBUG] [STARTUP] Running showSetupScreens()...
+2026-01-24T20:53:25.544Z [DEBUG] [render] initYoga starting
+2026-01-24T20:53:25.711Z [DEBUG] [render] initYoga complete
+2026-01-24T20:53:25.725Z [DEBUG] [render] first ink render: 6481ms since process start
+2026-01-24T20:53:25.825Z [DEBUG] [keybindings] KeybindingSetup initialized with 99 bindings, 0 warnings
+2026-01-24T20:53:26.052Z [DEBUG] [Perfetto] initializePerfettoTracing called, env value: undefined
+2026-01-24T20:53:26.111Z [DEBUG] [STARTUP] showSetupScreens() completed in 572ms
+2026-01-24T20:53:26.111Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2026-01-24T20:53:26.111Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2026-01-24T20:53:26.111Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2026-01-24T20:53:26.116Z [DEBUG] Total LSP servers loaded: 0
+2026-01-24T20:53:26.116Z [DEBUG] [STARTUP] MCP configs loaded in 1788ms
+2026-01-24T20:53:26.129Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-24T20:53:26.129Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-24T20:53:26.144Z [DEBUG] Syncing installed_plugins.json with enabledPlugins from all settings.json files
+2026-01-24T20:53:26.152Z [DEBUG] Loaded 0 installed plugins from /home/gastown/gt/.claude/plugins/installed_plugins.json
+2026-01-24T20:53:26.154Z [DEBUG] [Reconnection] computeInitialTeamContext: No teammate context set (not a teammate)
+2026-01-24T20:53:26.209Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/.claude.json.tmp.439.1769288006209
+2026-01-24T20:53:26.209Z [DEBUG] Preserving file permissions: 100600
+2026-01-24T20:53:26.216Z [DEBUG] Temp file written successfully, size: 7716 bytes
+2026-01-24T20:53:26.216Z [DEBUG] Applied original permissions to temp file
+2026-01-24T20:53:26.216Z [DEBUG] Renaming /home/gastown/gt/.claude/.claude.json.tmp.439.1769288006209 to /home/gastown/gt/.claude/.claude.json
+2026-01-24T20:53:26.218Z [DEBUG] File /home/gastown/gt/.claude/.claude.json written atomically
+2026-01-24T20:53:26.242Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2026-01-24T20:53:26.246Z [DEBUG] LSP manager initialized with 0 servers
+2026-01-24T20:53:26.304Z [DEBUG] Getting matching hook commands for SessionStart with query: startup
+2026-01-24T20:53:26.304Z [DEBUG] Found 1 hook matchers in settings
+2026-01-24T20:53:26.305Z [DEBUG] Matched 1 unique hooks for query "startup" (1 before deduplication)
+2026-01-24T20:53:26.306Z [DEBUG] LSP server manager initialized successfully
+2026-01-24T20:53:26.306Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2026-01-24T20:53:26.306Z [DEBUG] Plugin beads@beads-marketplace not found in any marketplace, skipping
+2026-01-24T20:53:26.307Z [DEBUG] Initialized versioned plugins system with 0 plugins
+2026-01-24T20:53:26.533Z [DEBUG] [keybindings] Skipping file watcher - user customization disabled
+2026-01-24T20:53:26.646Z [DEBUG] Git remote URL: null
+2026-01-24T20:53:26.646Z [DEBUG] No git remote URL found
+2026-01-24T20:53:26.646Z [DEBUG] Not in a GitHub repository, skipping path mapping update
+2026-01-24T20:53:27.946Z [DEBUG] rg error (signal=undefined, code=ABORT_ERR, stderr: ), 0 results
+2026-01-24T20:53:27.950Z [ERROR] AbortError: AbortError: The operation was aborted.
+    at unknown
+    at abortChildProcess (node:child_process:935:42)
+    at onAbortListener2 (node:child_process:35:24)
+    at abort (unknown)
+    at <anonymous> (/$bunfs/root/claude:2804:209)
+2026-01-24T20:53:28.013Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-24T20:53:28.014Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-24T20:53:28.329Z [DEBUG] Skills and commands included in Skill tool: handoff, handoff
+2026-01-24T20:53:28.408Z [DEBUG] [API:request] Creating client, ANTHROPIC_CUSTOM_HEADERS present: false, has Authorization header: false
+2026-01-24T20:53:28.408Z [DEBUG] [API:auth] OAuth token check starting
+2026-01-24T20:53:28.408Z [DEBUG] [API:auth] OAuth token check complete

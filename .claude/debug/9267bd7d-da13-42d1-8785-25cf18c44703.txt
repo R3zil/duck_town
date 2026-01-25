@@ -1,0 +1,142 @@
+2026-01-23T06:12:42.293Z [DEBUG] [init] configureGlobalMTLS starting
+2026-01-23T06:12:42.294Z [DEBUG] [init] configureGlobalMTLS complete
+2026-01-23T06:12:42.294Z [DEBUG] [init] configureGlobalAgents starting
+2026-01-23T06:12:42.295Z [DEBUG] [init] configureGlobalAgents complete
+2026-01-23T06:12:42.368Z [DEBUG] Loading skills from: managed=/etc/claude-code/.claude/skills, user=/home/gastown/gt/.claude/skills, project=[]
+2026-01-23T06:12:42.373Z [ERROR] Error: Error: ENOENT: no such file or directory, scandir '/etc/claude-code/.claude/skills'
+    at Module.readdirSync (node:fs:1507:26)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:9:1766
+    at fX (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:34782)
+    at Object.readdirSync (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:9:1736)
+    at C01 (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:1537:369)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:1537:4279
+    at q (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:6807)
+    at Ih2 (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:4842:4362)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:4842:6961
+    at q (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:6807)
+2026-01-23T06:12:42.373Z [ERROR] Error: Error: ENOENT: no such file or directory, scandir '/home/gastown/gt/.claude/skills'
+    at Module.readdirSync (node:fs:1507:26)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:9:1766
+    at fX (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:34782)
+    at Object.readdirSync (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:9:1736)
+    at C01 (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:1537:369)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:1537:4322
+    at q (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:6807)
+    at Ih2 (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:4842:4362)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:4842:6961
+    at q (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:6807)
+2026-01-23T06:12:42.373Z [DEBUG] Error log sink initialized
+2026-01-23T06:12:42.451Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-01-23T06:12:42.475Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2026-01-23T06:12:42.475Z [DEBUG] Total plugin skills loaded: 0
+2026-01-23T06:12:42.475Z [DEBUG] Total plugin commands loaded: 0
+2026-01-23T06:12:42.475Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-01-23T06:12:42.482Z [DEBUG] [render] initYoga starting
+2026-01-23T06:12:42.543Z [DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/usr/local/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/x64-linux/rg)
+2026-01-23T06:12:42.562Z [DEBUG] [render] initYoga complete
+2026-01-23T06:12:42.568Z [DEBUG] [render] first ink render: 2759ms since process start
+2026-01-23T06:12:42.779Z [DEBUG] Slow render: 52.4ms, screen: 2x80, damage: 31x1 at (0,1), changes: 324
+2026-01-23T06:12:42.842Z [DEBUG] Install: Starting installation process (force=false, target=undefined)
+2026-01-23T06:12:42.843Z [DEBUG] Install: Calling installLatest(channelOrVersion=latest, forceReinstall=false)
+2026-01-23T06:12:42.849Z [DEBUG] Watching for changes in skill/command directories: /home/gastown/gt/.claude/commands, /home/gastown/.claude/commands...
+2026-01-23T06:12:42.920Z [DEBUG] [Claude in Chrome] Extension not found in any browser
+2026-01-23T06:12:42.924Z [DEBUG] Loaded 1 unique skills (managed: 0, user: 0, project: 0, legacy commands: 1)
+2026-01-23T06:12:42.925Z [DEBUG] getSkills returning: 1 skill dir commands, 0 plugin skills, 0 bundled skills
+2026-01-23T06:12:42.997Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/.claude.json.tmp.9333.1769148762997
+2026-01-23T06:12:42.997Z [DEBUG] Preserving file permissions: 100600
+2026-01-23T06:12:42.998Z [DEBUG] Temp file written successfully, size: 905 bytes
+2026-01-23T06:12:42.998Z [DEBUG] Applied original permissions to temp file
+2026-01-23T06:12:42.998Z [DEBUG] Renaming /home/gastown/gt/.claude/.claude.json.tmp.9333.1769148762997 to /home/gastown/gt/.claude/.claude.json
+2026-01-23T06:12:42.998Z [DEBUG] File /home/gastown/gt/.claude/.claude.json written atomically
+2026-01-23T06:12:43.038Z [DEBUG] Checking for native installer update to version 2.1.17
+2026-01-23T06:12:43.047Z [DEBUG] Downloading native installer version 2.1.17
+2026-01-23T06:12:49.094Z [DEBUG] Atomically installed binary to /home/gastown/.local/share/claude/versions/2.1.17
+2026-01-23T06:12:49.518Z [DEBUG] Could not remove empty directory at /home/gastown/.local/bin/claude: Error: ENOENT: no such file or directory, stat '/home/gastown/.local/bin/claude'
+2026-01-23T06:12:49.520Z [DEBUG] Created directory /home/gastown/.local/bin for symlink
+2026-01-23T06:12:49.521Z [DEBUG] Atomically updated symlink /home/gastown/.local/bin/claude -> /home/gastown/.local/share/claude/versions/2.1.17
+2026-01-23T06:12:49.521Z [DEBUG] Successfully updated to version 2.1.17
+2026-01-23T06:12:49.523Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/.claude.json.tmp.9333.1769148769523
+2026-01-23T06:12:49.523Z [DEBUG] Preserving file permissions: 100600
+2026-01-23T06:12:49.523Z [DEBUG] Temp file written successfully, size: 999 bytes
+2026-01-23T06:12:49.523Z [DEBUG] Applied original permissions to temp file
+2026-01-23T06:12:49.523Z [DEBUG] Renaming /home/gastown/gt/.claude/.claude.json.tmp.9333.1769148769523 to /home/gastown/gt/.claude/.claude.json
+2026-01-23T06:12:49.523Z [DEBUG] File /home/gastown/gt/.claude/.claude.json written atomically
+2026-01-23T06:12:49.524Z [DEBUG] Native installer: Set installMethod to "native" and disabled legacy auto-updater for protection
+2026-01-23T06:12:49.524Z [DEBUG] Install: installLatest returned version=2.1.17, wasUpdated=true, lockFailed=false
+2026-01-23T06:12:49.536Z [DEBUG] Install: Setup launcher completed with 1 messages
+2026-01-23T06:12:49.536Z [DEBUG] Install: Setup message: Native installation exists but ~/.local/bin is not in your PATH. Run:
+
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> your shell config file && source your shell config file
+2026-01-23T06:12:49.536Z [DEBUG] Install: Cleaning up npm installations after successful install
+2026-01-23T06:12:52.054Z [ERROR] Failed to uninstall global npm package @anthropic-ai/claude-code: npm ERR! code EACCES
+npm ERR! syscall rename
+npm ERR! path /usr/local/lib/node_modules/@anthropic-ai/claude-code
+npm ERR! dest /usr/local/lib/node_modules/@anthropic-ai/.claude-code-1devilah
+npm ERR! errno -13
+npm ERR! Error: EACCES: permission denied, rename '/usr/local/lib/node_modules/@anthropic-ai/claude-code' -> '/usr/local/lib/node_modules/@anthropic-ai/.claude-code-1devilah'
+npm ERR!     at async Object.rename (node:internal/fs/promises:782:10)
+npm ERR!     at async moveFile (/usr/lib/node_modules/npm/node_modules/@npmcli/fs/lib/move-file.js:30:5)
+npm ERR!     at async Promise.allSettled (index 0)
+npm ERR!     at async [reifyPackages] (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:251:11)
+npm ERR!     at async Arborist.reify (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:170:5)
+npm ERR!     at async Uninstall.exec (/usr/lib/node_modules/npm/lib/commands/uninstall.js:52:5)
+npm ERR!     at async module.exports (/usr/lib/node_modules/npm/lib/cli-entry.js:61:5)
+npm ERR!  Error: EACCES: permission denied, rename '/usr/local/lib/node_modules/@anthropic-ai/claude-code' -> '/usr/local/lib/node_modules/@anthropic-ai/.claude-code-1devilah'
+npm ERR!     at async Object.rename (node:internal/fs/promises:782:10)
+npm ERR!     at async moveFile (/usr/lib/node_modules/npm/node_modules/@npmcli/fs/lib/move-file.js:30:5)
+npm ERR!     at async Promise.allSettled (index 0)
+npm ERR!     at async [reifyPackages] (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:251:11)
+npm ERR!     at async Arborist.reify (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:170:5)
+npm ERR!     at async Uninstall.exec (/usr/lib/node_modules/npm/lib/commands/uninstall.js:52:5)
+npm ERR!     at async module.exports (/usr/lib/node_modules/npm/lib/cli-entry.js:61:5) {
+npm ERR!   errno: -13,
+npm ERR!   code: 'EACCES',
+npm ERR!   syscall: 'rename',
+npm ERR!   path: '/usr/local/lib/node_modules/@anthropic-ai/claude-code',
+npm ERR!   dest: '/usr/local/lib/node_modules/@anthropic-ai/.claude-code-1devilah'
+npm ERR! }
+npm ERR! 
+npm ERR! The operation was rejected by your operating system.
+npm ERR! It is likely you do not have the permissions to access this file as the current user
+npm ERR! 
+npm ERR! If you believe this might be a permissions issue, please double-check the
+npm ERR! permissions of the file and its containing directories, or try running
+npm ERR! the command again as root/Administrator.
+
+npm ERR! A complete log of this run can be found in: /home/gastown/.npm/_logs/2026-01-23T06_12_50_732Z-debug-0.log
+2026-01-23T06:12:52.055Z [DEBUG] Cleanup errors: Failed to remove global npm installation of @anthropic-ai/claude-code: npm ERR! code EACCES
+npm ERR! syscall rename
+npm ERR! path /usr/local/lib/node_modules/@anthropic-ai/claude-code
+npm ERR! dest /usr/local/lib/node_modules/@anthropic-ai/.claude-code-1devilah
+npm ERR! errno -13
+npm ERR! Error: EACCES: permission denied, rename '/usr/local/lib/node_modules/@anthropic-ai/claude-code' -> '/usr/local/lib/node_modules/@anthropic-ai/.claude-code-1devilah'
+npm ERR!     at async Object.rename (node:internal/fs/promises:782:10)
+npm ERR!     at async moveFile (/usr/lib/node_modules/npm/node_modules/@npmcli/fs/lib/move-file.js:30:5)
+npm ERR!     at async Promise.allSettled (index 0)
+npm ERR!     at async [reifyPackages] (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:251:11)
+npm ERR!     at async Arborist.reify (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:170:5)
+npm ERR!     at async Uninstall.exec (/usr/lib/node_modules/npm/lib/commands/uninstall.js:52:5)
+npm ERR!     at async module.exports (/usr/lib/node_modules/npm/lib/cli-entry.js:61:5)
+npm ERR!  Error: EACCES: permission denied, rename '/usr/local/lib/node_modules/@anthropic-ai/claude-code' -> '/usr/local/lib/node_modules/@anthropic-ai/.claude-code-1devilah'
+npm ERR!     at async Object.rename (node:internal/fs/promises:782:10)
+npm ERR!     at async moveFile (/usr/lib/node_modules/npm/node_modules/@npmcli/fs/lib/move-file.js:30:5)
+npm ERR!     at async Promise.allSettled (index 0)
+npm ERR!     at async [reifyPackages] (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:251:11)
+npm ERR!     at async Arborist.reify (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:170:5)
+npm ERR!     at async Uninstall.exec (/usr/lib/node_modules/npm/lib/commands/uninstall.js:52:5)
+npm ERR!     at async module.exports (/usr/lib/node_modules/npm/lib/cli-entry.js:61:5) {
+npm ERR!   errno: -13,
+npm ERR!   code: 'EACCES',
+npm ERR!   syscall: 'rename',
+npm ERR!   path: '/usr/local/lib/node_modules/@anthropic-ai/claude-code',
+npm ERR!   dest: '/usr/local/lib/node_modules/@anthropic-ai/.claude-code-1devilah'
+npm ERR! }
+npm ERR! 
+npm ERR! The operation was rejected by your operating system.
+npm ERR! It is likely you do not have the permissions to access this file as the current user
+npm ERR! 
+npm ERR! If you believe this might be a permissions issue, please double-check the
+npm ERR! permissions of the file and its containing directories, or try running
+npm ERR! the command again as root/Administrator.
+
+npm ERR! A complete log of this run can be found in: /home/gastown/.npm/_logs/2026-01-23T06_12_50_732Z-debug-0.log

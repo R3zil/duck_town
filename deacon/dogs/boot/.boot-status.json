@@ -1,0 +1,12 @@
+{
+  "timestamp": "2026-01-24T20:12:58+00:00",
+  "action": "NOTHING",
+  "observations": {
+    "deacon_alive": true,
+    "agent_state": "idle",
+    "last_activity_age_seconds": 12,
+    "pending_mail": 0,
+    "error_signals": false
+  },
+  "decision": "System healthy, no intervention needed"
+}

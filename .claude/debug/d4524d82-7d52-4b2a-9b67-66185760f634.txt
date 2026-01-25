@@ -1,0 +1,166 @@
+2026-01-23T05:50:22.265Z [ERROR] Failed to save config with lock: Error: ENOENT: no such file or directory, lstat '/home/gastown/gt/.claude/.claude.json'
+2026-01-23T05:50:22.269Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147422269
+2026-01-23T05:50:22.269Z [DEBUG] Setting permissions for new file: 600
+2026-01-23T05:50:22.270Z [DEBUG] Temp file written successfully, size: 82 bytes
+2026-01-23T05:50:22.270Z [DEBUG] Renaming /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147422269 to /home/gastown/gt/.claude/.claude.json
+2026-01-23T05:50:22.270Z [DEBUG] File /home/gastown/gt/.claude/.claude.json written atomically
+2026-01-23T05:50:22.280Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147422280
+2026-01-23T05:50:22.281Z [DEBUG] Preserving file permissions: 100600
+2026-01-23T05:50:22.281Z [DEBUG] Temp file written successfully, size: 130 bytes
+2026-01-23T05:50:22.281Z [DEBUG] Applied original permissions to temp file
+2026-01-23T05:50:22.281Z [DEBUG] Renaming /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147422280 to /home/gastown/gt/.claude/.claude.json
+2026-01-23T05:50:22.281Z [DEBUG] File /home/gastown/gt/.claude/.claude.json written atomically
+2026-01-23T05:50:22.282Z [DEBUG] [init] configureGlobalMTLS starting
+2026-01-23T05:50:22.282Z [DEBUG] [init] configureGlobalMTLS complete
+2026-01-23T05:50:22.282Z [DEBUG] [init] configureGlobalAgents starting
+2026-01-23T05:50:22.283Z [DEBUG] [init] configureGlobalAgents complete
+2026-01-23T05:50:22.288Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147422288
+2026-01-23T05:50:22.288Z [DEBUG] Preserving file permissions: 100600
+2026-01-23T05:50:22.288Z [DEBUG] Temp file written successfully, size: 167 bytes
+2026-01-23T05:50:22.288Z [DEBUG] Applied original permissions to temp file
+2026-01-23T05:50:22.288Z [DEBUG] Renaming /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147422288 to /home/gastown/gt/.claude/.claude.json
+2026-01-23T05:50:22.288Z [DEBUG] File /home/gastown/gt/.claude/.claude.json written atomically
+2026-01-23T05:50:22.290Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147422290
+2026-01-23T05:50:22.290Z [DEBUG] Preserving file permissions: 100600
+2026-01-23T05:50:22.290Z [DEBUG] Temp file written successfully, size: 202 bytes
+2026-01-23T05:50:22.290Z [DEBUG] Applied original permissions to temp file
+2026-01-23T05:50:22.290Z [DEBUG] Renaming /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147422290 to /home/gastown/gt/.claude/.claude.json
+2026-01-23T05:50:22.291Z [DEBUG] File /home/gastown/gt/.claude/.claude.json written atomically
+2026-01-23T05:50:22.293Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147422293
+2026-01-23T05:50:22.293Z [DEBUG] Preserving file permissions: 100600
+2026-01-23T05:50:22.293Z [DEBUG] Temp file written successfully, size: 238 bytes
+2026-01-23T05:50:22.293Z [DEBUG] Applied original permissions to temp file
+2026-01-23T05:50:22.293Z [DEBUG] Renaming /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147422293 to /home/gastown/gt/.claude/.claude.json
+2026-01-23T05:50:22.293Z [DEBUG] File /home/gastown/gt/.claude/.claude.json written atomically
+2026-01-23T05:50:22.296Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147422296
+2026-01-23T05:50:22.296Z [DEBUG] Preserving file permissions: 100600
+2026-01-23T05:50:22.297Z [DEBUG] Temp file written successfully, size: 275 bytes
+2026-01-23T05:50:22.297Z [DEBUG] Applied original permissions to temp file
+2026-01-23T05:50:22.297Z [DEBUG] Renaming /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147422296 to /home/gastown/gt/.claude/.claude.json
+2026-01-23T05:50:22.297Z [DEBUG] File /home/gastown/gt/.claude/.claude.json written atomically
+2026-01-23T05:50:22.330Z [DEBUG] [STARTUP] Loading MCP configs...
+2026-01-23T05:50:22.391Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-23T05:50:22.401Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-23T05:50:22.402Z [DEBUG] [STARTUP] Running setup()...
+2026-01-23T05:50:22.403Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-01-23T05:50:22.411Z [DEBUG] Loading skills from: managed=/etc/claude-code/.claude/skills, user=/home/gastown/gt/.claude/skills, project=[]
+2026-01-23T05:50:22.421Z [ERROR] Error: Error: ENOENT: no such file or directory, scandir '/etc/claude-code/.claude/skills'
+    at Module.readdirSync (node:fs:1507:26)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:9:1766
+    at fX (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:34782)
+    at Object.readdirSync (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:9:1736)
+    at C01 (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:1537:369)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:1537:4279
+    at q (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:6807)
+    at Ih2 (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:4842:4362)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:4842:6961
+    at q (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:6807)
+2026-01-23T05:50:22.422Z [ERROR] Error: Error: ENOENT: no such file or directory, scandir '/home/gastown/gt/.claude/skills'
+    at Module.readdirSync (node:fs:1507:26)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:9:1766
+    at fX (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:34782)
+    at Object.readdirSync (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:9:1736)
+    at C01 (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:1537:369)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:1537:4322
+    at q (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:6807)
+    at Ih2 (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:4842:4362)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:4842:6961
+    at q (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:6807)
+2026-01-23T05:50:22.422Z [DEBUG] Error log sink initialized
+2026-01-23T05:50:22.453Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2026-01-23T05:50:22.453Z [DEBUG] Total plugin skills loaded: 0
+2026-01-23T05:50:22.453Z [DEBUG] Total plugin commands loaded: 0
+2026-01-23T05:50:22.453Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-01-23T05:50:22.514Z [DEBUG] [STARTUP] setup() completed in 112ms
+2026-01-23T05:50:22.514Z [DEBUG] [STARTUP] Loading commands and agents...
+2026-01-23T05:50:22.549Z [DEBUG] Total plugin agents loaded: 0
+2026-01-23T05:50:22.612Z [DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/usr/local/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/x64-linux/rg)
+2026-01-23T05:50:22.815Z [DEBUG] Watching for changes in skill/command directories: /home/gastown/gt/.claude/commands, /home/gastown/.claude/commands...
+2026-01-23T05:50:22.934Z [DEBUG] [Claude in Chrome] Extension not found in any browser
+2026-01-23T05:50:22.938Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147422938
+2026-01-23T05:50:22.938Z [DEBUG] Preserving file permissions: 100600
+2026-01-23T05:50:22.938Z [DEBUG] Temp file written successfully, size: 318 bytes
+2026-01-23T05:50:22.938Z [DEBUG] Applied original permissions to temp file
+2026-01-23T05:50:22.939Z [DEBUG] Renaming /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147422938 to /home/gastown/gt/.claude/.claude.json
+2026-01-23T05:50:22.939Z [DEBUG] File /home/gastown/gt/.claude/.claude.json written atomically
+2026-01-23T05:50:22.993Z [DEBUG] Loaded 1 unique skills (managed: 0, user: 0, project: 0, legacy commands: 1)
+2026-01-23T05:50:22.993Z [DEBUG] getSkills returning: 1 skill dir commands, 0 plugin skills, 0 bundled skills
+2026-01-23T05:50:23.007Z [DEBUG] [STARTUP] Commands and agents loaded in 493ms
+2026-01-23T05:50:23.007Z [DEBUG] [STARTUP] Running showSetupScreens()...
+2026-01-23T05:50:23.011Z [DEBUG] [render] initYoga starting
+2026-01-23T05:50:23.052Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147423052
+2026-01-23T05:50:23.052Z [DEBUG] Preserving file permissions: 100600
+2026-01-23T05:50:23.052Z [DEBUG] Temp file written successfully, size: 494 bytes
+2026-01-23T05:50:23.052Z [DEBUG] Applied original permissions to temp file
+2026-01-23T05:50:23.052Z [DEBUG] Renaming /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147423052 to /home/gastown/gt/.claude/.claude.json
+2026-01-23T05:50:23.052Z [DEBUG] File /home/gastown/gt/.claude/.claude.json written atomically
+2026-01-23T05:50:23.055Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147423055
+2026-01-23T05:50:23.055Z [DEBUG] Preserving file permissions: 100600
+2026-01-23T05:50:23.055Z [DEBUG] Temp file written successfully, size: 530 bytes
+2026-01-23T05:50:23.055Z [DEBUG] Applied original permissions to temp file
+2026-01-23T05:50:23.055Z [DEBUG] Renaming /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147423055 to /home/gastown/gt/.claude/.claude.json
+2026-01-23T05:50:23.055Z [DEBUG] File /home/gastown/gt/.claude/.claude.json written atomically
+2026-01-23T05:50:23.061Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147423061
+2026-01-23T05:50:23.061Z [DEBUG] Preserving file permissions: 100600
+2026-01-23T05:50:23.062Z [DEBUG] Temp file written successfully, size: 558 bytes
+2026-01-23T05:50:23.062Z [DEBUG] Applied original permissions to temp file
+2026-01-23T05:50:23.062Z [DEBUG] Renaming /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147423061 to /home/gastown/gt/.claude/.claude.json
+2026-01-23T05:50:23.062Z [DEBUG] File /home/gastown/gt/.claude/.claude.json written atomically
+2026-01-23T05:50:23.066Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147423066
+2026-01-23T05:50:23.067Z [DEBUG] Preserving file permissions: 100600
+2026-01-23T05:50:23.067Z [DEBUG] Temp file written successfully, size: 591 bytes
+2026-01-23T05:50:23.067Z [DEBUG] Applied original permissions to temp file
+2026-01-23T05:50:23.067Z [DEBUG] Renaming /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147423066 to /home/gastown/gt/.claude/.claude.json
+2026-01-23T05:50:23.067Z [DEBUG] File /home/gastown/gt/.claude/.claude.json written atomically
+2026-01-23T05:50:23.069Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147423069
+2026-01-23T05:50:23.070Z [DEBUG] Preserving file permissions: 100600
+2026-01-23T05:50:23.070Z [DEBUG] Temp file written successfully, size: 643 bytes
+2026-01-23T05:50:23.070Z [DEBUG] Applied original permissions to temp file
+2026-01-23T05:50:23.070Z [DEBUG] Renaming /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147423069 to /home/gastown/gt/.claude/.claude.json
+2026-01-23T05:50:23.070Z [DEBUG] File /home/gastown/gt/.claude/.claude.json written atomically
+2026-01-23T05:50:23.076Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147423076
+2026-01-23T05:50:23.076Z [DEBUG] Preserving file permissions: 100600
+2026-01-23T05:50:23.076Z [DEBUG] Temp file written successfully, size: 682 bytes
+2026-01-23T05:50:23.076Z [DEBUG] Applied original permissions to temp file
+2026-01-23T05:50:23.076Z [DEBUG] Renaming /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147423076 to /home/gastown/gt/.claude/.claude.json
+2026-01-23T05:50:23.076Z [DEBUG] File /home/gastown/gt/.claude/.claude.json written atomically
+2026-01-23T05:50:23.080Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147423080
+2026-01-23T05:50:23.080Z [DEBUG] Preserving file permissions: 100600
+2026-01-23T05:50:23.081Z [DEBUG] Temp file written successfully, size: 712 bytes
+2026-01-23T05:50:23.081Z [DEBUG] Applied original permissions to temp file
+2026-01-23T05:50:23.081Z [DEBUG] Renaming /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147423080 to /home/gastown/gt/.claude/.claude.json
+2026-01-23T05:50:23.081Z [DEBUG] File /home/gastown/gt/.claude/.claude.json written atomically
+2026-01-23T05:50:23.083Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147423083
+2026-01-23T05:50:23.083Z [DEBUG] Preserving file permissions: 100600
+2026-01-23T05:50:23.084Z [DEBUG] Temp file written successfully, size: 751 bytes
+2026-01-23T05:50:23.084Z [DEBUG] Applied original permissions to temp file
+2026-01-23T05:50:23.084Z [DEBUG] Renaming /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147423083 to /home/gastown/gt/.claude/.claude.json
+2026-01-23T05:50:23.084Z [DEBUG] File /home/gastown/gt/.claude/.claude.json written atomically
+2026-01-23T05:50:23.086Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147423086
+2026-01-23T05:50:23.087Z [DEBUG] Preserving file permissions: 100600
+2026-01-23T05:50:23.087Z [DEBUG] Temp file written successfully, size: 789 bytes
+2026-01-23T05:50:23.087Z [DEBUG] Applied original permissions to temp file
+2026-01-23T05:50:23.087Z [DEBUG] Renaming /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147423086 to /home/gastown/gt/.claude/.claude.json
+2026-01-23T05:50:23.087Z [DEBUG] File /home/gastown/gt/.claude/.claude.json written atomically
+2026-01-23T05:50:23.089Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147423089
+2026-01-23T05:50:23.089Z [DEBUG] Preserving file permissions: 100600
+2026-01-23T05:50:23.089Z [DEBUG] Temp file written successfully, size: 834 bytes
+2026-01-23T05:50:23.089Z [DEBUG] Applied original permissions to temp file
+2026-01-23T05:50:23.089Z [DEBUG] Renaming /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147423089 to /home/gastown/gt/.claude/.claude.json
+2026-01-23T05:50:23.090Z [DEBUG] File /home/gastown/gt/.claude/.claude.json written atomically
+2026-01-23T05:50:23.093Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147423093
+2026-01-23T05:50:23.093Z [DEBUG] Preserving file permissions: 100600
+2026-01-23T05:50:23.093Z [DEBUG] Temp file written successfully, size: 864 bytes
+2026-01-23T05:50:23.093Z [DEBUG] Applied original permissions to temp file
+2026-01-23T05:50:23.093Z [DEBUG] Renaming /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147423093 to /home/gastown/gt/.claude/.claude.json
+2026-01-23T05:50:23.093Z [DEBUG] File /home/gastown/gt/.claude/.claude.json written atomically
+2026-01-23T05:50:23.188Z [DEBUG] [render] initYoga complete
+2026-01-23T05:50:23.222Z [DEBUG] [render] first ink render: 5575ms since process start
+2026-01-23T05:50:23.275Z [DEBUG] [keybindings] KeybindingSetup initialized with 87 bindings, 0 warnings
+2026-01-23T05:50:23.540Z [DEBUG] [keybindings] Skipping file watcher - user customization disabled
+2026-01-23T05:50:23.690Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147423690
+2026-01-23T05:50:23.690Z [DEBUG] Preserving file permissions: 100600
+2026-01-23T05:50:23.691Z [DEBUG] Temp file written successfully, size: 905 bytes
+2026-01-23T05:50:23.691Z [DEBUG] Applied original permissions to temp file
+2026-01-23T05:50:23.691Z [DEBUG] Renaming /home/gastown/gt/.claude/.claude.json.tmp.7307.1769147423690 to /home/gastown/gt/.claude/.claude.json
+2026-01-23T05:50:23.691Z [DEBUG] File /home/gastown/gt/.claude/.claude.json written atomically

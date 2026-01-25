@@ -1,0 +1,84 @@
+2026-01-24T20:08:32.058Z [DEBUG] [init] configureGlobalMTLS starting
+2026-01-24T20:08:32.059Z [DEBUG] [init] configureGlobalMTLS complete
+2026-01-24T20:08:32.059Z [DEBUG] [init] configureGlobalAgents starting
+2026-01-24T20:08:32.059Z [DEBUG] [init] configureGlobalAgents complete
+2026-01-24T20:08:32.224Z [DEBUG] [STARTUP] Loading MCP configs...
+2026-01-24T20:08:32.236Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-24T20:08:32.238Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-24T20:08:32.238Z [DEBUG] [STARTUP] Running setup()...
+2026-01-24T20:08:32.239Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-01-24T20:08:32.243Z [DEBUG] Loading skills from: managed=/etc/claude-code/.claude/skills, user=/home/gastown/gt/.claude/skills, project=[]
+2026-01-24T20:08:32.247Z [ERROR] Error: Error: ENOENT: no such file or directory, scandir '/etc/claude-code/.claude/skills'
+    at Module.readdirSync (node:fs:1507:26)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:9:1766
+    at fX (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:34782)
+    at Object.readdirSync (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:9:1736)
+    at C01 (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:1537:369)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:1537:4279
+    at q (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:6807)
+    at Ih2 (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:4842:4362)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:4842:6961
+    at q (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:6807)
+2026-01-24T20:08:32.247Z [ERROR] Error: Error: ENOENT: no such file or directory, scandir '/home/gastown/gt/.claude/skills'
+    at Module.readdirSync (node:fs:1507:26)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:9:1766
+    at fX (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:34782)
+    at Object.readdirSync (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:9:1736)
+    at C01 (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:1537:369)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:1537:4322
+    at q (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:6807)
+    at Ih2 (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:4842:4362)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:4842:6961
+    at q (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:6807)
+2026-01-24T20:08:32.247Z [DEBUG] Error log sink initialized
+2026-01-24T20:08:32.344Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2026-01-24T20:08:32.344Z [DEBUG] Total plugin skills loaded: 0
+2026-01-24T20:08:32.344Z [DEBUG] Total plugin commands loaded: 0
+2026-01-24T20:08:32.344Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-01-24T20:08:32.351Z [DEBUG] [STARTUP] setup() completed in 113ms
+2026-01-24T20:08:32.351Z [DEBUG] [STARTUP] Loading commands and agents...
+2026-01-24T20:08:32.409Z [DEBUG] Total plugin agents loaded: 0
+2026-01-24T20:08:32.443Z [DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/usr/local/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/x64-linux/rg)
+2026-01-24T20:08:32.485Z [DEBUG] Watching for changes in skill/command directories: /home/gastown/gt/.claude/commands...
+2026-01-24T20:08:32.589Z [DEBUG] [Claude in Chrome] Extension not found in any browser
+2026-01-24T20:08:32.609Z [DEBUG] Skipping duplicate file '/home/gastown/gt/.claude/commands/handoff.md' from projectSettings (same inode already loaded from userSettings)
+2026-01-24T20:08:32.609Z [DEBUG] Deduplicated 1 files in commands (same inode via symlinks or hard links)
+2026-01-24T20:08:32.612Z [DEBUG] Loaded 1 unique skills (managed: 0, user: 0, project: 0, legacy commands: 1)
+2026-01-24T20:08:32.612Z [DEBUG] getSkills returning: 1 skill dir commands, 0 plugin skills, 0 bundled skills
+2026-01-24T20:08:32.615Z [DEBUG] [STARTUP] Commands and agents loaded in 264ms
+2026-01-24T20:08:32.616Z [DEBUG] [STARTUP] Running showSetupScreens()...
+2026-01-24T20:08:32.623Z [DEBUG] [STARTUP] showSetupScreens() completed in 7ms
+2026-01-24T20:08:32.623Z [DEBUG] [LSP MANAGER] initializeLspServerManager() called
+2026-01-24T20:08:32.623Z [DEBUG] [LSP MANAGER] Created manager instance, state=pending
+2026-01-24T20:08:32.623Z [DEBUG] [LSP MANAGER] Starting async initialization (generation 1)
+2026-01-24T20:08:32.631Z [DEBUG] Total LSP servers loaded: 0
+2026-01-24T20:08:32.631Z [DEBUG] [STARTUP] MCP configs loaded in 407ms
+2026-01-24T20:08:32.631Z [DEBUG] [LSP SERVER MANAGER] getAllLspServers returned 0 server(s)
+2026-01-24T20:08:32.631Z [DEBUG] LSP manager initialized with 0 servers
+2026-01-24T20:08:32.631Z [DEBUG] LSP server manager initialized successfully
+2026-01-24T20:08:32.632Z [DEBUG] LSP notification handlers registered successfully for all 0 server(s)
+2026-01-24T20:08:32.638Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-24T20:08:32.638Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-24T20:08:32.649Z [DEBUG] [Reconnection] computeInitialTeamContext: No teammate context set (not a teammate)
+2026-01-24T20:08:32.662Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/.claude.json.tmp.706818.1769285312662
+2026-01-24T20:08:32.662Z [DEBUG] Preserving file permissions: 100600
+2026-01-24T20:08:32.662Z [DEBUG] Temp file written successfully, size: 7046 bytes
+2026-01-24T20:08:32.662Z [DEBUG] Applied original permissions to temp file
+2026-01-24T20:08:32.662Z [DEBUG] Renaming /home/gastown/gt/.claude/.claude.json.tmp.706818.1769285312662 to /home/gastown/gt/.claude/.claude.json
+2026-01-24T20:08:32.663Z [DEBUG] File /home/gastown/gt/.claude/.claude.json written atomically
+2026-01-24T20:08:32.671Z [DEBUG] Loaded 0 installed plugins from /home/gastown/gt/.claude/plugins/installed_plugins.json
+2026-01-24T20:08:32.671Z [DEBUG] Initialized versioned plugins system with 0 plugins
+2026-01-24T20:08:32.674Z [DEBUG] Getting matching hook commands for SessionStart with query: startup
+2026-01-24T20:08:32.674Z [DEBUG] Found 0 hook matchers in settings
+2026-01-24T20:08:32.674Z [DEBUG] Matched 0 unique hooks for query "startup" (0 before deduplication)
+2026-01-24T20:08:32.678Z [DEBUG] [render] initYoga starting
+2026-01-24T20:08:32.782Z [DEBUG] Git remote URL: https://github.com/R3zil/B2MPC-playground
+2026-01-24T20:08:32.783Z [DEBUG] Parsed repository: R3zil/B2MPC-playground from https://github.com/R3zil/B2MPC-playground
+2026-01-24T20:08:32.783Z [DEBUG] Parsed repository: R3zil/B2MPC-playground from URL: https://github.com/R3zil/B2MPC-playground
+2026-01-24T20:08:32.783Z [DEBUG] Path /home/gastown/gt/deacon/dogs/boot already tracked for repo r3zil/b2mpc-playground
+2026-01-24T20:08:32.915Z [DEBUG] Remote settings: No settings found (404)
+2026-01-24T20:08:32.916Z [DEBUG] Programmatic settings change notification for policySettings
+2026-01-24T20:08:32.916Z [DEBUG] Plugin hooks: reloading due to policySettings change
+2026-01-24T20:08:32.918Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-01-24T20:08:32.921Z [DEBUG] [Perfetto] initializePerfettoTracing called, env value: undefined
+2026-01-24T20:08:32.930Z [DEBUG] Registered 0 hooks from 0 plugins

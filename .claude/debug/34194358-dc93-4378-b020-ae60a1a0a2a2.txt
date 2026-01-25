@@ -1,0 +1,59 @@
+2026-01-23T16:30:25.365Z [DEBUG] [init] configureGlobalMTLS starting
+2026-01-23T16:30:25.410Z [DEBUG] [init] configureGlobalMTLS complete
+2026-01-23T16:30:25.410Z [DEBUG] [init] configureGlobalAgents starting
+2026-01-23T16:30:25.410Z [DEBUG] [init] configureGlobalAgents complete
+2026-01-23T16:30:25.569Z [DEBUG] [STARTUP] Loading MCP configs...
+2026-01-23T16:30:26.024Z [DEBUG] [ToolSearch:optimistic] mode=standard, ENABLE_TOOL_SEARCH=undefined, result=false
+2026-01-23T16:30:26.030Z [DEBUG] [STARTUP] Running setup()...
+2026-01-23T16:30:26.032Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-01-23T16:30:26.038Z [DEBUG] Loading skills from: managed=/etc/claude-code/.claude/skills, user=/home/gastown/gt/.claude/skills, project=[]
+2026-01-23T16:30:26.045Z [ERROR] Error: Error: ENOENT: no such file or directory, scandir '/etc/claude-code/.claude/skills'
+    at Module.readdirSync (node:fs:1507:26)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:9:1766
+    at fX (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:34782)
+    at Object.readdirSync (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:9:1736)
+    at C01 (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:1537:369)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:1537:4279
+    at q (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:6807)
+    at Ih2 (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:4842:4362)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:4842:6961
+    at q (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:6807)
+2026-01-23T16:30:26.046Z [ERROR] Error: Error: ENOENT: no such file or directory, scandir '/home/gastown/gt/.claude/skills'
+    at Module.readdirSync (node:fs:1507:26)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:9:1766
+    at fX (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:34782)
+    at Object.readdirSync (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:9:1736)
+    at C01 (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:1537:369)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:1537:4322
+    at q (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:6807)
+    at Ih2 (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:4842:4362)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:4842:6961
+    at q (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:6807)
+2026-01-23T16:30:26.046Z [DEBUG] Error log sink initialized
+2026-01-23T16:30:26.139Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2026-01-23T16:30:26.140Z [DEBUG] Total plugin skills loaded: 0
+2026-01-23T16:30:26.140Z [DEBUG] Total plugin commands loaded: 0
+2026-01-23T16:30:26.140Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-01-23T16:30:26.258Z [DEBUG] [STARTUP] setup() completed in 228ms
+2026-01-23T16:30:26.258Z [DEBUG] [STARTUP] Loading commands and agents...
+2026-01-23T16:30:26.261Z [DEBUG] Total plugin agents loaded: 0
+2026-01-23T16:30:26.413Z [DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/usr/local/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/x64-linux/rg)
+2026-01-23T16:30:26.716Z [DEBUG] Watching for changes in skill/command directories: /home/gastown/gt/.claude/commands...
+2026-01-23T16:30:27.266Z [DEBUG] [Claude in Chrome] Extension not found in any browser
+2026-01-23T16:30:27.270Z [DEBUG] Loaded 1 unique skills (managed: 0, user: 0, project: 0, legacy commands: 1)
+2026-01-23T16:30:27.310Z [DEBUG] getSkills returning: 1 skill dir commands, 0 plugin skills, 0 bundled skills
+2026-01-23T16:30:27.316Z [DEBUG] [STARTUP] Commands and agents loaded in 1058ms
+2026-01-23T16:30:27.316Z [DEBUG] [STARTUP] Running showSetupScreens()...
+2026-01-23T16:30:27.320Z [DEBUG] [render] initYoga starting
+2026-01-23T16:30:27.516Z [DEBUG] [render] initYoga complete
+2026-01-23T16:30:27.544Z [DEBUG] [render] first ink render: 10162ms since process start
+2026-01-23T16:30:27.670Z [DEBUG] [keybindings] KeybindingSetup initialized with 87 bindings, 0 warnings
+2026-01-23T16:30:27.935Z [DEBUG] [keybindings] Skipping file watcher - user customization disabled
+2026-01-23T16:30:27.966Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/.claude.json.tmp.64572.1769185827966
+2026-01-23T16:30:27.966Z [DEBUG] Preserving file permissions: 100600
+2026-01-23T16:30:27.966Z [DEBUG] Temp file written successfully, size: 999 bytes
+2026-01-23T16:30:27.966Z [DEBUG] Applied original permissions to temp file
+2026-01-23T16:30:27.966Z [DEBUG] Renaming /home/gastown/gt/.claude/.claude.json.tmp.64572.1769185827966 to /home/gastown/gt/.claude/.claude.json
+2026-01-23T16:30:27.966Z [DEBUG] File /home/gastown/gt/.claude/.claude.json written atomically
+2026-01-23T16:30:28.415Z [DEBUG] Slow render: 133.6ms, screen: 36x80, damage: 80x36 at (0,0), changes: 3094
+2026-01-23T16:33:02.456Z [DEBUG] Skipping SessionEnd:other hook execution - workspace trust not accepted

@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "rigs": {
+    "Conducktor_rig": {
+      "git_url": "https://github.com/R3zil/B2MPC-playground",
+      "added_at": "2026-01-24T18:46:46.689526893Z",
+      "beads": {
+        "repo": "",
+        "prefix": "hq"
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+2026-01-24T19:32:14.709Z [DEBUG] [init] configureGlobalMTLS starting
+2026-01-24T19:32:14.710Z [DEBUG] [init] configureGlobalMTLS complete
+2026-01-24T19:32:14.710Z [DEBUG] [init] configureGlobalAgents starting
+2026-01-24T19:32:14.711Z [DEBUG] [init] configureGlobalAgents complete
+2026-01-24T19:32:14.941Z [DEBUG] [STARTUP] Loading MCP configs...
+2026-01-24T19:32:14.962Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-24T19:32:14.965Z [DEBUG] [ToolSearch:optimistic] mode=tst-auto, ENABLE_TOOL_SEARCH=undefined, result=true
+2026-01-24T19:32:14.966Z [DEBUG] [STARTUP] Running setup()...
+2026-01-24T19:32:14.967Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-01-24T19:32:15.015Z [DEBUG] Loading skills from: managed=/etc/claude-code/.claude/skills, user=/home/gastown/gt/.claude/skills, project=[]
+2026-01-24T19:32:15.020Z [ERROR] Error: Error: ENOENT: no such file or directory, scandir '/etc/claude-code/.claude/skills'
+    at Module.readdirSync (node:fs:1507:26)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:9:1766
+    at fX (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:34782)
+    at Object.readdirSync (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:9:1736)
+    at C01 (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:1537:369)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:1537:4279
+    at q (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:6807)
+    at Ih2 (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:4842:4362)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:4842:6961
+    at q (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:6807)
+2026-01-24T19:32:15.021Z [ERROR] Error: Error: ENOENT: no such file or directory, scandir '/home/gastown/gt/.claude/skills'
+    at Module.readdirSync (node:fs:1507:26)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:9:1766
+    at fX (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:34782)
+    at Object.readdirSync (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:9:1736)
+    at C01 (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:1537:369)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:1537:4322
+    at q (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:6807)
+    at Ih2 (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:4842:4362)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:4842:6961
+    at q (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:6807)
+2026-01-24T19:32:15.021Z [DEBUG] Error log sink initialized
+2026-01-24T19:32:15.231Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2026-01-24T19:32:15.231Z [DEBUG] Total plugin skills loaded: 0
+2026-01-24T19:32:15.231Z [DEBUG] Total plugin commands loaded: 0
+2026-01-24T19:32:15.231Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-01-24T19:32:15.237Z [DEBUG] [STARTUP] setup() completed in 271ms
+2026-01-24T19:32:15.237Z [DEBUG] [STARTUP] Loading commands and agents...
+2026-01-24T19:32:15.329Z [DEBUG] Total plugin agents loaded: 0
+2026-01-24T19:32:15.444Z [DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/usr/local/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/x64-linux/rg)
+2026-01-24T19:32:15.723Z [DEBUG] Watching for changes in skill/command directories: /home/gastown/gt/.claude/commands...
+2026-01-24T19:32:15.951Z [DEBUG] [Claude in Chrome] Extension not found in any browser
+2026-01-24T19:32:15.954Z [DEBUG] Remote settings: No settings found (404)
+2026-01-24T19:32:15.955Z [DEBUG] Programmatic settings change notification for policySettings
+2026-01-24T19:32:15.955Z [DEBUG] Plugin hooks: reloading due to policySettings change
+2026-01-24T19:32:15.957Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-01-24T19:32:15.957Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-01-24T19:32:16.016Z [DEBUG] Skipping duplicate file '/home/gastown/gt/.claude/commands/handoff.md' from projectSettings (same inode already loaded from userSettings)
+2026-01-24T19:32:16.016Z [DEBUG] Deduplicated 1 files in commands (same inode via symlinks or hard links)
+2026-01-24T19:32:16.020Z [DEBUG] Loaded 1 unique skills (managed: 0, user: 0, project: 0, legacy commands: 1)
+2026-01-24T19:32:16.021Z [DEBUG] getSkills returning: 1 skill dir commands, 0 plugin skills, 0 bundled skills
+2026-01-24T19:32:16.031Z [DEBUG] [STARTUP] Commands and agents loaded in 794ms
+2026-01-24T19:32:16.031Z [DEBUG] [STARTUP] Running showSetupScreens()...
+2026-01-24T19:32:16.060Z [DEBUG] [render] initYoga starting
+2026-01-24T19:32:16.134Z [DEBUG] [Perfetto] initializePerfettoTracing called, env value: undefined
+2026-01-24T19:32:16.227Z [DEBUG] Git remote URL: https://github.com/R3zil/B2MPC-playground
+2026-01-24T19:32:16.228Z [DEBUG] Parsed repository: R3zil/B2MPC-playground from https://github.com/R3zil/B2MPC-playground
+2026-01-24T19:32:16.228Z [DEBUG] Parsed repository: R3zil/B2MPC-playground from URL: https://github.com/R3zil/B2MPC-playground
+2026-01-24T19:32:16.240Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/.claude.json.tmp.668443.1769283136240
+2026-01-24T19:32:16.240Z [DEBUG] Preserving file permissions: 100600
+2026-01-24T19:32:16.256Z [DEBUG] Temp file written successfully, size: 6892 bytes
+2026-01-24T19:32:16.257Z [DEBUG] Applied original permissions to temp file
+2026-01-24T19:32:16.257Z [DEBUG] Renaming /home/gastown/gt/.claude/.claude.json.tmp.668443.1769283136240 to /home/gastown/gt/.claude/.claude.json
+2026-01-24T19:32:16.257Z [DEBUG] File /home/gastown/gt/.claude/.claude.json written atomically
+2026-01-24T19:32:16.259Z [DEBUG] Added /home/gastown/gt/deacon/dogs/boot to tracked paths for repo r3zil/b2mpc-playground
+2026-01-24T19:32:16.325Z [DEBUG] [render] initYoga complete
+2026-01-24T19:32:16.334Z [DEBUG] [render] first ink render: 9476ms since process start
+2026-01-24T19:32:16.360Z [DEBUG] [keybindings] KeybindingSetup initialized with 87 bindings, 0 warnings
+2026-01-24T19:32:16.812Z [DEBUG] Slow render: 78.3ms, screen: 19x80, damage: 80x19 at (0,0), changes: 3104
+2026-01-24T19:32:16.958Z [DEBUG] [keybindings] Skipping file watcher - user customization disabled
+2026-01-24T19:53:13.800Z [DEBUG] Getting matching hook commands for SessionEnd with query: other
+2026-01-24T19:53:13.800Z [DEBUG] Found 0 hook matchers in settings
+2026-01-24T19:53:13.800Z [DEBUG] Matched 0 unique hooks for query "other" (0 before deduplication)

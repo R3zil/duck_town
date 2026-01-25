@@ -1,0 +1,74 @@
+2026-01-23T16:30:24.337Z [DEBUG] Watching for changes in setting files /home/gastown/deacon/.claude...
+2026-01-23T16:30:24.360Z [DEBUG] [init] configureGlobalMTLS starting
+2026-01-23T16:30:24.360Z [DEBUG] [init] configureGlobalMTLS complete
+2026-01-23T16:30:24.360Z [DEBUG] [init] configureGlobalAgents starting
+2026-01-23T16:30:24.361Z [DEBUG] [init] configureGlobalAgents complete
+2026-01-23T16:30:24.443Z [DEBUG] [STARTUP] Loading MCP configs...
+2026-01-23T16:30:24.727Z [DEBUG] [ToolSearch:optimistic] mode=standard, ENABLE_TOOL_SEARCH=undefined, result=false
+2026-01-23T16:30:24.744Z [DEBUG] [STARTUP] Running setup()...
+2026-01-23T16:30:24.745Z [DEBUG] Found 0 plugins (0 enabled, 0 disabled)
+2026-01-23T16:30:24.867Z [DEBUG] Loading skills from: managed=/etc/claude-code/.claude/skills, user=/home/gastown/gt/.claude/skills, project=[]
+2026-01-23T16:30:24.915Z [ERROR] Error: Error: ENOENT: no such file or directory, scandir '/etc/claude-code/.claude/skills'
+    at Module.readdirSync (node:fs:1507:26)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:9:1766
+    at fX (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:34782)
+    at Object.readdirSync (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:9:1736)
+    at C01 (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:1537:369)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:1537:4279
+    at q (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:6807)
+    at Ih2 (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:4842:4362)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:4842:6961
+    at q (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:6807)
+2026-01-23T16:30:24.916Z [ERROR] Error: Error: ENOENT: no such file or directory, scandir '/home/gastown/gt/.claude/skills'
+    at Module.readdirSync (node:fs:1507:26)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:9:1766
+    at fX (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:34782)
+    at Object.readdirSync (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:9:1736)
+    at C01 (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:1537:369)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:1537:4322
+    at q (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:6807)
+    at Ih2 (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:4842:4362)
+    at file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:4842:6961
+    at q (file:///usr/local/lib/node_modules/@anthropic-ai/claude-code/cli.js:8:6807)
+2026-01-23T16:30:24.916Z [DEBUG] Error log sink initialized
+2026-01-23T16:30:25.117Z [DEBUG] Plugin not available for MCP: beads@beads-marketplace - error type: plugin-not-found
+2026-01-23T16:30:25.117Z [DEBUG] Plugin loading errors: Plugin beads not found in marketplace beads-marketplace
+2026-01-23T16:30:25.117Z [DEBUG] getPluginSkills: Processing 0 enabled plugins
+2026-01-23T16:30:25.117Z [DEBUG] Total plugin skills loaded: 0
+2026-01-23T16:30:25.117Z [DEBUG] Plugin loading errors: Plugin beads not found in marketplace beads-marketplace
+2026-01-23T16:30:25.117Z [DEBUG] Total plugin commands loaded: 0
+2026-01-23T16:30:25.127Z [DEBUG] Registered 0 hooks from 0 plugins
+2026-01-23T16:30:25.811Z [DEBUG] [STARTUP] setup() completed in 1067ms
+2026-01-23T16:30:25.811Z [DEBUG] [STARTUP] Loading commands and agents...
+2026-01-23T16:30:25.816Z [DEBUG] Plugin loading errors: Plugin beads not found in marketplace beads-marketplace
+2026-01-23T16:30:25.816Z [DEBUG] Total plugin agents loaded: 0
+2026-01-23T16:30:25.963Z [DEBUG] Ripgrep first use test: PASSED (mode=builtin, path=/usr/local/lib/node_modules/@anthropic-ai/claude-code/vendor/ripgrep/x64-linux/rg)
+2026-01-23T16:30:26.225Z [DEBUG] Watching for changes in skill/command directories: /home/gastown/gt/.claude/commands...
+2026-01-23T16:30:26.367Z [DEBUG] [Claude in Chrome] Extension not found in any browser
+2026-01-23T16:30:26.529Z [DEBUG] Loaded 1 unique skills (managed: 0, user: 0, project: 0, legacy commands: 1)
+2026-01-23T16:30:26.530Z [DEBUG] getSkills returning: 1 skill dir commands, 0 plugin skills, 0 bundled skills
+2026-01-23T16:30:26.537Z [DEBUG] [STARTUP] Commands and agents loaded in 726ms
+2026-01-23T16:30:26.539Z [DEBUG] [STARTUP] Running showSetupScreens()...
+2026-01-23T16:30:26.543Z [DEBUG] [render] initYoga starting
+2026-01-23T16:30:26.710Z [DEBUG] [render] initYoga complete
+2026-01-23T16:30:26.719Z [DEBUG] [render] first ink render: 9904ms since process start
+2026-01-23T16:30:26.744Z [DEBUG] [keybindings] KeybindingSetup initialized with 87 bindings, 0 warnings
+2026-01-23T16:30:27.624Z [DEBUG] [keybindings] Skipping file watcher - user customization disabled
+2026-01-23T16:30:27.846Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/.claude.json.tmp.64487.1769185827846
+2026-01-23T16:30:27.846Z [DEBUG] Preserving file permissions: 100600
+2026-01-23T16:30:27.846Z [DEBUG] Temp file written successfully, size: 999 bytes
+2026-01-23T16:30:27.846Z [DEBUG] Applied original permissions to temp file
+2026-01-23T16:30:27.846Z [DEBUG] Renaming /home/gastown/gt/.claude/.claude.json.tmp.64487.1769185827846 to /home/gastown/gt/.claude/.claude.json
+2026-01-23T16:30:27.847Z [DEBUG] File /home/gastown/gt/.claude/.claude.json written atomically
+2026-01-23T16:30:28.309Z [DEBUG] Slow render: 85.0ms, screen: 36x80, damage: 80x36 at (0,0), changes: 3094
+2026-01-23T17:24:12.819Z [DEBUG] Writing to temp file: /home/gastown/gt/.claude/.claude.json.tmp.64487.1769189052819
+2026-01-23T17:24:12.819Z [DEBUG] Preserving file permissions: 100600
+2026-01-23T17:24:12.821Z [DEBUG] Temp file written successfully, size: 3617 bytes
+2026-01-23T17:24:12.821Z [DEBUG] Applied original permissions to temp file
+2026-01-23T17:24:12.821Z [DEBUG] Renaming /home/gastown/gt/.claude/.claude.json.tmp.64487.1769189052819 to /home/gastown/gt/.claude/.claude.json
+2026-01-23T17:24:12.821Z [DEBUG] File /home/gastown/gt/.claude/.claude.json written atomically
+2026-01-23T18:41:16.777Z [DEBUG] Full reset (shrink->below): prevHeight=29, nextHeight=17, viewport=24
+2026-01-23T19:38:34.708Z [DEBUG] Full reset (shrink->below): prevHeight=28, nextHeight=21, viewport=24
+2026-01-24T20:18:56.081Z [DEBUG] Getting matching hook commands for SessionEnd with query: other
+2026-01-24T20:18:56.082Z [DEBUG] Found 0 hook matchers in settings
+2026-01-24T20:18:56.082Z [DEBUG] Matched 0 unique hooks for query "other" (0 before deduplication)
