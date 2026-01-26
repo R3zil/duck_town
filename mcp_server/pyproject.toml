@@ -1,0 +1,15 @@
+[project]
+name = "simple-mcp-server"
+version = "0.1.0"
+description = "A simple MCP server with echo, add, and get_time tools"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=1.0.0",
+]
+
+[project.scripts]
+simple-mcp-server = "mcp_server.server:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
