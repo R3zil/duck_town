@@ -61,4 +61,4 @@ no-db: false
 # - github.org
 # - github.repo
 
-routing.mode: "auto"
+routing.mode: "explicit"

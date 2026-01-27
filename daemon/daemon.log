@@ -8083,3 +8083,172 @@ Or use daemon mode (auto-imports on every operation):
 2026/01/25 21:35:19 Warning: no wisp config for Conducktor_rig - parked state may have been lost
 2026/01/25 21:35:19 Refinery for Conducktor_rig already running, skipping spawn
 2026/01/25 21:35:22 Heartbeat complete (#22)
+2026/01/27 06:15:10 Loaded patrol config from /home/gastown/gt/mayor/daemon.json
+2026/01/27 06:15:10 Daemon starting (PID 20406)
+2026/01/27 06:17:14 Heartbeat starting (recovery-focused)
+2026/01/27 06:17:14 Spawning Boot for triage...
+2026/01/27 06:17:14 Boot spawned successfully
+2026/01/27 06:17:14 Deacon started recently (3m24s ago), skipping heartbeat check
+2026/01/27 06:17:14 Warning: no wisp config for Conducktor_rig - parked state may have been lost
+2026/01/27 06:17:20 Witness session for Conducktor_rig started successfully
+2026/01/27 06:17:20 Warning: no wisp config for Conducktor_rig - parked state may have been lost
+2026/01/27 06:17:26 Refinery session for Conducktor_rig started successfully
+2026/01/27 06:17:56 Heartbeat complete (#4)
+2026/01/27 06:20:56 Heartbeat starting (recovery-focused)
+2026/01/27 06:20:56 Boot already running, skipping spawn
+2026/01/27 06:20:56 Deacon heartbeat is stale (34h6m0s old), checking session...
+2026/01/27 06:20:56 Deacon stuck for 34h6m0s - restarting session
+2026/01/27 06:21:05 Deacon started successfully
+2026/01/27 06:21:05 Warning: no wisp config for Conducktor_rig - parked state may have been lost
+2026/01/27 06:21:05 Witness for Conducktor_rig already running, skipping spawn
+2026/01/27 06:21:05 Warning: no wisp config for Conducktor_rig - parked state may have been lost
+2026/01/27 06:21:05 Refinery for Conducktor_rig already running, skipping spawn
+2026/01/27 06:21:43 Heartbeat complete (#5)
+2026/01/27 06:24:50 Loaded patrol config from /home/gastown/gt/mayor/daemon.json
+2026/01/27 06:24:50 Daemon starting (PID 17)
+2026/01/27 06:24:50 Daemon running, recovery heartbeat interval 3m0s
+2026/01/27 06:24:50 Feed curator started
+2026/01/27 06:24:50 Convoy watcher started
+2026/01/27 06:24:50 Heartbeat starting (recovery-focused)
+2026/01/27 06:24:54 convoy watcher: bd activity error: exit status 1, restarting in 5s
+2026/01/27 06:24:55 Deacon started successfully
+2026/01/27 06:24:55 Spawning Boot for triage...
+2026/01/27 06:24:55 Boot spawned successfully
+2026/01/27 06:24:55 Deacon started recently (0s ago), skipping heartbeat check
+2026/01/27 06:24:55 Warning: no wisp config for Conducktor_rig - parked state may have been lost
+2026/01/27 06:25:01 convoy watcher: bd activity error: exit status 1, restarting in 5s
+2026/01/27 06:25:01 Witness session for Conducktor_rig started successfully
+2026/01/27 06:25:01 Warning: no wisp config for Conducktor_rig - parked state may have been lost
+2026/01/27 06:25:07 Refinery session for Conducktor_rig started successfully
+2026/01/27 06:25:09 convoy watcher: bd activity error: exit status 1, restarting in 5s
+2026/01/27 06:25:16 convoy watcher: bd activity error: exit status 1, restarting in 5s
+2026/01/27 06:25:18 Heartbeat complete (#1)
+2026/01/27 06:25:20 Received signal terminated, shutting down
+2026/01/27 06:25:20 Daemon shutting down
+2026/01/27 06:25:20 Feed curator stopped
+2026/01/27 06:25:20 Convoy watcher stopped
+2026/01/27 06:25:20 Daemon stopped
+2026/01/27 06:25:21 Loaded patrol config from /home/gastown/gt/mayor/daemon.json
+2026/01/27 06:25:21 Daemon starting (PID 1716)
+2026/01/27 06:25:21 Daemon running, recovery heartbeat interval 3m0s
+2026/01/27 06:25:21 Feed curator started
+2026/01/27 06:25:21 Convoy watcher started
+2026/01/27 06:25:21 Heartbeat starting (recovery-focused)
+2026/01/27 06:25:25 Loaded patrol config from /home/gastown/gt/mayor/daemon.json
+2026/01/27 06:25:25 Daemon starting (PID 1935)
+2026/01/27 06:25:27 Deacon started successfully
+2026/01/27 06:25:27 Boot already running, skipping spawn
+2026/01/27 06:25:27 Deacon started recently (0s ago), skipping heartbeat check
+2026/01/27 06:25:27 Warning: no wisp config for Conducktor_rig - parked state may have been lost
+2026/01/27 06:25:27 Witness for Conducktor_rig already running, skipping spawn
+2026/01/27 06:25:27 Warning: no wisp config for Conducktor_rig - parked state may have been lost
+2026/01/27 06:25:27 Refinery for Conducktor_rig already running, skipping spawn
+2026/01/27 06:25:28 Loaded patrol config from /home/gastown/gt/mayor/daemon.json
+2026/01/27 06:25:28 Daemon starting (PID 2135)
+2026/01/27 06:25:31 Heartbeat complete (#1)
+2026/01/27 06:28:21 Heartbeat starting (recovery-focused)
+2026/01/27 06:28:21 Spawning Boot for triage...
+2026/01/27 06:28:21 Boot spawned successfully
+2026/01/27 06:28:21 Deacon started recently (2m55s ago), skipping heartbeat check
+2026/01/27 06:28:21 Warning: no wisp config for Conducktor_rig - parked state may have been lost
+2026/01/27 06:28:27 Witness session for Conducktor_rig started successfully
+2026/01/27 06:28:27 Warning: no wisp config for Conducktor_rig - parked state may have been lost
+2026/01/27 06:28:33 Refinery session for Conducktor_rig started successfully
+2026/01/27 06:28:36 Heartbeat complete (#2)
+2026/01/27 06:31:36 Heartbeat starting (recovery-focused)
+2026/01/27 06:31:36 Boot already running, skipping spawn
+2026/01/27 06:31:36 Deacon heartbeat is stale (34h17m0s old), checking session...
+2026/01/27 06:31:36 Deacon stuck for 34h17m0s - restarting session
+2026/01/27 06:31:45 Deacon started successfully
+2026/01/27 06:31:45 Warning: no wisp config for Conducktor_rig - parked state may have been lost
+2026/01/27 06:31:45 Witness for Conducktor_rig already running, skipping spawn
+2026/01/27 06:31:45 Warning: no wisp config for Conducktor_rig - parked state may have been lost
+2026/01/27 06:31:45 Refinery for Conducktor_rig already running, skipping spawn
+2026/01/27 06:31:48 Heartbeat complete (#3)
+2026/01/27 06:34:48 Heartbeat starting (recovery-focused)
+2026/01/27 06:34:48 Boot already running, skipping spawn
+2026/01/27 06:34:48 Deacon started recently (3m4s ago), skipping heartbeat check
+2026/01/27 06:34:48 Warning: no wisp config for Conducktor_rig - parked state may have been lost
+2026/01/27 06:34:48 Witness for Conducktor_rig already running, skipping spawn
+2026/01/27 06:34:48 Warning: no wisp config for Conducktor_rig - parked state may have been lost
+2026/01/27 06:34:48 Refinery for Conducktor_rig already running, skipping spawn
+2026/01/27 06:34:52 Heartbeat complete (#4)
+2026/01/27 06:37:52 Heartbeat starting (recovery-focused)
+2026/01/27 06:37:52 Boot already running, skipping spawn
+2026/01/27 06:37:52 Deacon heartbeat is stale (34h23m0s old), checking session...
+2026/01/27 06:37:52 Deacon stuck for 34h23m0s - restarting session
+2026/01/27 06:38:01 Deacon started successfully
+2026/01/27 06:38:01 Warning: no wisp config for Conducktor_rig - parked state may have been lost
+2026/01/27 06:38:01 Witness for Conducktor_rig already running, skipping spawn
+2026/01/27 06:38:01 Warning: no wisp config for Conducktor_rig - parked state may have been lost
+2026/01/27 06:38:01 Refinery for Conducktor_rig already running, skipping spawn
+2026/01/27 06:38:03 Heartbeat complete (#5)
+2026/01/27 06:41:03 Heartbeat starting (recovery-focused)
+2026/01/27 06:41:03 Boot already running, skipping spawn
+2026/01/27 06:41:03 Deacon started recently (3m2s ago), skipping heartbeat check
+2026/01/27 06:41:03 Warning: no wisp config for Conducktor_rig - parked state may have been lost
+2026/01/27 06:41:03 Witness for Conducktor_rig already running, skipping spawn
+2026/01/27 06:41:03 Warning: no wisp config for Conducktor_rig - parked state may have been lost
+2026/01/27 06:41:03 Refinery for Conducktor_rig already running, skipping spawn
+2026/01/27 06:41:06 Heartbeat complete (#6)
+2026/01/27 15:43:08 Loaded patrol config from /home/gastown/gt/mayor/daemon.json
+2026/01/27 15:43:08 Daemon starting (PID 17)
+2026/01/27 15:43:08 Daemon running, recovery heartbeat interval 3m0s
+2026/01/27 15:43:08 Feed curator started
+2026/01/27 15:43:08 Convoy watcher started
+2026/01/27 15:43:08 Heartbeat starting (recovery-focused)
+2026/01/27 15:43:12 convoy watcher: bd activity error: exit status 1, restarting in 5s
+2026/01/27 15:43:13 Deacon started successfully
+2026/01/27 15:43:13 Spawning Boot for triage...
+2026/01/27 15:43:13 Boot spawned successfully
+2026/01/27 15:43:13 Deacon started recently (0s ago), skipping heartbeat check
+2026/01/27 15:43:13 Warning: no wisp config for Conducktor_rig - parked state may have been lost
+2026/01/27 15:43:19 convoy watcher: bd activity error: exit status 1, restarting in 5s
+2026/01/27 15:43:21 Witness session for Conducktor_rig started successfully
+2026/01/27 15:43:21 Warning: no wisp config for Conducktor_rig - parked state may have been lost
+2026/01/27 15:43:26 Refinery session for Conducktor_rig started successfully
+2026/01/27 15:43:26 convoy watcher: bd activity error: exit status 1, restarting in 5s
+2026/01/27 15:43:34 convoy watcher: bd activity error: exit status 1, restarting in 5s
+2026/01/27 15:43:36 Heartbeat complete (#1)
+2026/01/27 15:43:37 Received signal terminated, shutting down
+2026/01/27 15:43:37 Daemon shutting down
+2026/01/27 15:43:37 Feed curator stopped
+2026/01/27 15:43:37 Convoy watcher stopped
+2026/01/27 15:43:37 Daemon stopped
+2026/01/27 15:43:39 Loaded patrol config from /home/gastown/gt/mayor/daemon.json
+2026/01/27 15:43:39 Daemon starting (PID 1713)
+2026/01/27 15:43:39 Daemon running, recovery heartbeat interval 3m0s
+2026/01/27 15:43:39 Feed curator started
+2026/01/27 15:43:39 Convoy watcher started
+2026/01/27 15:43:39 Heartbeat starting (recovery-focused)
+2026/01/27 15:43:43 Loaded patrol config from /home/gastown/gt/mayor/daemon.json
+2026/01/27 15:43:43 Daemon starting (PID 1925)
+2026/01/27 15:43:44 Deacon started successfully
+2026/01/27 15:43:44 Boot already running, skipping spawn
+2026/01/27 15:43:44 Deacon started recently (0s ago), skipping heartbeat check
+2026/01/27 15:43:44 Warning: no wisp config for Conducktor_rig - parked state may have been lost
+2026/01/27 15:43:44 Witness for Conducktor_rig already running, skipping spawn
+2026/01/27 15:43:44 Warning: no wisp config for Conducktor_rig - parked state may have been lost
+2026/01/27 15:43:45 Refinery for Conducktor_rig already running, skipping spawn
+2026/01/27 15:43:45 Loaded patrol config from /home/gastown/gt/mayor/daemon.json
+2026/01/27 15:43:45 Daemon starting (PID 2100)
+2026/01/27 15:43:49 Heartbeat complete (#1)
+2026/01/27 15:46:39 Heartbeat starting (recovery-focused)
+2026/01/27 15:46:39 Spawning Boot for triage...
+2026/01/27 15:46:39 Boot spawned successfully
+2026/01/27 15:46:39 Deacon started recently (2m55s ago), skipping heartbeat check
+2026/01/27 15:46:39 Warning: no wisp config for Conducktor_rig - parked state may have been lost
+2026/01/27 15:46:46 Witness session for Conducktor_rig started successfully
+2026/01/27 15:46:46 Warning: no wisp config for Conducktor_rig - parked state may have been lost
+2026/01/27 15:46:51 Refinery session for Conducktor_rig started successfully
+2026/01/27 15:46:57 Heartbeat complete (#2)
+2026/01/27 15:49:57 Heartbeat starting (recovery-focused)
+2026/01/27 15:49:57 Boot already running, skipping spawn
+2026/01/27 15:49:57 Deacon heartbeat is stale (43h35m0s old), checking session...
+2026/01/27 15:49:57 Deacon stuck for 43h35m0s - restarting session
+2026/01/27 15:50:07 Deacon started successfully
+2026/01/27 15:50:07 Warning: no wisp config for Conducktor_rig - parked state may have been lost
+2026/01/27 15:50:07 Witness for Conducktor_rig already running, skipping spawn
+2026/01/27 15:50:07 Warning: no wisp config for Conducktor_rig - parked state may have been lost
+2026/01/27 15:50:07 Refinery for Conducktor_rig already running, skipping spawn
+2026/01/27 15:50:25 Heartbeat complete (#3)
